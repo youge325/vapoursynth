@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/freezeframes.rst:2
+msgid "FreezeFrames"
+msgstr "FreezeFrames（冻结帧）"
+
+#: ../../functions/video/freezeframes.rst:7
+msgid ""
+"FreezeFrames replaces all the frames in the [*first*,\\ *last*] range "
+"(inclusive) with *replacement*."
+msgstr ""
+"FreezeFrames 将指定范围 [*first*,\\ *last*]（包括边界）内的所有帧替换为 "
+"*replacement* 帧。"
+
+#: ../../functions/video/freezeframes.rst:10
+msgid "A single call to FreezeFrames can freeze any number of ranges::"
+msgstr "一次调用 FreezeFrames 可以冻结任意数量的范围::"
+
+#: ../../functions/video/freezeframes.rst:14
+msgid ""
+"This replaces [0,15] with 8, [100,112] with 50, and [231,300] with 2 (the"
+" original frame number 2, not frame number 2 after it was replaced with "
+"number 8 by the first range)."
+msgstr ""
+"这会将 [0,15] 替换为第 8 帧，[100,112] 替换为第 50 帧，[231,300] 替换为第 2 "
+"帧（原始的第 2 帧，而不是被第一个范围替换为第 8 帧后的第 2 帧）。"
+
+#: ../../functions/video/freezeframes.rst:18
+msgid "The frame ranges must not overlap."
+msgstr "帧范围不能重叠。"

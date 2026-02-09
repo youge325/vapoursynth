@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/audio/audiogain.rst:2
+msgid "AudioGain"
+msgstr "AudioGain"
+
+#: ../../functions/audio/audiogain.rst:7
+msgid ""
+"AudioGain can either change the volume of individual channels if a "
+"separate *gain* for each channel is given or if only a single *gain* "
+"value is supplied it's applied to all channels."
+msgstr ""
+"AudioGain 可以改变各个声道的音量，如果为每个声道分别提供 *gain* 值，或者如果只提供一个 *gain* 值，则应用到所有声道。"
+
+#: ../../functions/audio/audiogain.rst:11
+msgid ""
+"Negative *gain* values are allowed. Applying a too large gain will lead "
+"to clipping in integer formats."
+msgstr "允许使用负的 *gain* 值。在整数格式中应用过大的增益会导致削波失真。"
+
+#: ../../functions/audio/audiogain.rst:14 ../../functions/audio/audiomix.rst:24
+msgid ""
+"Will stop processing with an error if clipping is detected if "
+"*overflow_error* is set. If it's false a warning will be printed for the "
+"first audio block with clipping."
+msgstr "如果设置了 *overflow_error*，当检测到削波时会停止处理并抛出错误。如果为 false，则只会为第一个出现削波的音频块打印警告。"

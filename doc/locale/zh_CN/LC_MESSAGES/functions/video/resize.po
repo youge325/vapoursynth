@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/resize.rst:2
+msgid "Resize"
+msgstr "Resize（重新缩放）"
+
+#: ../../functions/video/resize.rst:14
+msgid ""
+"In VapourSynth the resizers have several functions. In addition to "
+"scaling, they also do colorspace conversions and conversions to and from "
+"the compat formats. Resize converts a clip of known or unknown format to "
+"another clip of known or unknown format, changing only the parameters "
+"specified by the user. The resize filters can handle varying size and "
+"format input clips and turn them into constant format clips."
+msgstr ""
+"在 VapourSynth 中，缩放器有多种功能。除了缩放外，它们还进行色彩空间转换和兼容格式的转换。Resize 将已知或未知格式的片段转换为另一个已知或未知格式的片段，只更改用户指定的参数。缩放滤镜可以处理不同尺寸和格式的输入片段，并将其转换为恒定格式的片段。"
+"在 VapourSynth 中，重新缩放器有多种功能。除了缩放外，它们还进行色彩空间转换"
+"以及与兼容格式之间的转换。Resize 将已知或未知格式的片段转换为另一个已知或"
+"未知格式的片段，只更改用户指定的参数。重新缩放过滤器可以处理不同大小和格式"
+"的输入片段，并将它们转换为常量格式片段。"
+
+#: ../../functions/video/resize.rst:21
+msgid ""
+"If you do not know which resizer to choose, then try Bicubic. It usually "
+"makes a good neutral default."
+msgstr "如果你不知道选择哪个重新缩放器，那么试试 Bicubic。它通常是一个很好的中性默认选择。"
+
+#: ../../functions/video/resize.rst:24
+msgid "*Bob* can be used as a rudimentary deinterlacer."
+msgstr "*Bob* 可以用作基本的去交错器。"
+
+#: ../../functions/video/resize.rst:26
+msgid ""
+"Arguments denoted as type *enum* may be specified by numerical index (see"
+" ITU-T H.273, Video Code Points) or by name. Enums specified by name have"
+" their argument name suffixed with \"_s\". For example, a destination "
+"matrix of BT 709 can be specified either with ``matrix=1`` or with "
+"``matrix_s=\"709\"``."
+msgstr ""
+"标记为 *enum* 类型的参数可以通过数值索引（参见 ITU-T H.273，视频编码点）"
+"或名称指定。按名称指定的枚举在其参数名称后缀有 \"_s\"。例如，"
+"BT 709 的目标矩阵可以用 ``matrix=1`` 或 ``matrix_s=\"709\"`` 指定。"
+
+#: ../../functions/video/resize.rst:31
+msgid ""
+"Note that *matrix* is not an optional argument when converting to YUV. "
+"Also note that if no matrix is specified in an input YUV frame's "
+"properties then *matrix_in* also needs to be set."
+msgstr ""
+"请注意，在转换为 YUV 时，*matrix* 不是可选参数。另外请注意，如果在输入 YUV 帧的属性中没有指定矩阵，那么也需要设置 *matrix_in*。"
+
+#: ../../functions/video/resize.rst:35
+msgid ""
+"The function will return an error if the subsampling restrictions aren't "
+"followed."
+msgstr ""
+"如果不遵循子采样限制，函数将返回错误。"
+
+#: ../../functions/video/resize.rst:38
+msgid "If you get an error like::"
+msgstr "如果你遇到类似的错误："
+
+#: ../../functions/video/resize.rst:43
+msgid ""
+"It usually means the matrix/transfer/primaries are unknown and you have "
+"to specify the input colorspace parameters yourself. Note: 2 means "
+"\"unspecified\" according to the ITU-T recommendation."
+msgstr ""
+"这通常意味着矩阵/传输/原色是未知的，您必须自己指定输入色彩空间参数。注意：根据 ITU-T 建议，2 表示"未指定"。"
+
+#: ../../functions/video/resize.rst:47
+msgid ""
+"Resizing is performed per-field for interlaced images, as indicated by "
+"the *_FieldBased* frame property. Source filters may sometimes mark "
+"progressive video as interlaced, which can result in sub-optimal "
+"resampling quality unless *_FieldBased* is cleared."
+msgstr ""
+"对于隔行图像，重新缩放按场进行，如 *_FieldBased* 帧属性所示。源滤镜有时可能将逐行视频标记为隔行，这可能导致次优的重采样质量，除非清除 *_FieldBased*。"
+
+#: ../../functions/video/resize.rst:52
+msgid "*clip*:"
+msgstr "*clip*："
+
+#: ../../functions/video/resize.rst:54
+msgid "Accepts all kinds of input."
+msgstr "接受所有类型的输入。"
+
+#: ../../functions/video/resize.rst:56
+msgid "*width*, *height*:"
+msgstr "*width*, *height*："
+
+#: ../../functions/video/resize.rst:58
+msgid "Output image dimensions."
+msgstr "输出图像尺寸。"
+
+#: ../../functions/video/resize.rst:60
+msgid "*filter*:"
+msgstr "*filter*："
+
+#: ../../functions/video/resize.rst:62
+msgid ""
+"Scaling method for deinterlacing. See *resample_filter_uv* for accepted "
+"values."
+msgstr ""
+"去交错的缩放方法。有关接受的值，请参见 *resample_filter_uv*。"
+
+#: ../../functions/video/resize.rst:64
+msgid "*tff*:"
+msgstr "*tff*："
+
+#: ../../functions/video/resize.rst:66
+msgid ""
+"Field order for deinterlacing. Used when the *_FieldBased* property is "
+"not set."
+msgstr ""
+"去交错的场顺序。当 *_FieldBased* 属性未设置时使用。"
+"去交错的场序。当 *_FieldBased* 属性未设置时使用。"
+
+#: ../../functions/video/resize.rst:68
+msgid "*format*:"
+msgstr "*format*："
+
+#: ../../functions/video/resize.rst:70
+msgid "Output format id."
+msgstr "输出格式 ID。"
+
+#: ../../functions/video/resize.rst:72
+msgid "*matrix*, *transfer*, *primaries*:"
+msgstr "*matrix*, *transfer*, *primaries*："
+
+#: ../../functions/video/resize.rst:74
+msgid ""
+"Output colorspace specification. If not provided, the corresponding "
+"attributes from the input clip will be selected, except for YCoCg and RGB"
+" color families, where the corresponding matrix is set by default."
+msgstr ""
+"输出色彩空间规范。如果未提供，将选择输入片段的相应属性，除了 YCoCg 和 RGB 色彩族，其相应矩阵默认设置。"
+
+#: ../../functions/video/resize.rst:78
+msgid "*range*:"
+msgstr "*range* （范围）："
+
+#: ../../functions/video/resize.rst:80
+msgid ""
+"Output pixel range. For integer formats, this allows selection of the "
+"legal code values. Even when set, out of range values (BTB/WTW) may be "
+"generated. If the input format is of a different color family, the "
+"default range is studio/limited for YUV and full-range for RGB."
+msgstr ""
+"输出像素范围。对于整数格式，这允许选择合法的代码值。即使设置了，也可能生成超出范围的值（BTB/WTW）。如果输入格式属于不同的色彩族，默认范围对于 YUV 是 studio/limited，对于 RGB 是全范围。"
+
+#: ../../functions/video/resize.rst:85
+msgid "*chromaloc*:"
+msgstr "*chromaloc* （色度位置）："
+
+#: ../../functions/video/resize.rst:87
+msgid ""
+"Output chroma location. For subsampled formats, specifies the chroma "
+"location. If the input format is 4:4:4 or RGB and the output is "
+"subsampled, the default location is left-aligned, as per MPEG. Possible "
+"chroma locations (ITU-T H.273 Figure 10): *left*, *center*, *top_left*, "
+"*top*, *bottom_left*, *bottom*"
+msgstr ""
+"输出色度位置。对于子采样格式，指定色度位置。如果输入格式是 4:4:4 或 RGB 且输出是子采样的，默认位置是左对齐的，按照 MPEG 标准。可能的色度位置（ITU-T H.273 图 10）：*left*、*center*、*top_left*、*top*、*bottom_left*、*bottom*"
+
+#: ../../functions/video/resize.rst:92
+msgid "*matrix_in*, *transfer_in*, *primaries_in*, *range_in*, *chromaloc_in*:"
+msgstr "*matrix_in*, *transfer_in*, *primaries_in*, *range_in*, *chromaloc_in* （输入参数）："
+
+#: ../../functions/video/resize.rst:94
+msgid ""
+"Input colorspace/format specification. If the corresponding frame "
+"property is set to a value other than unspecified, the frame property is "
+"used instead of this parameter. Default values are set for certain color "
+"families. See the equivalent output arguments for more information."
+msgstr ""
+"输入色彩空间/格式规格。如果相应的帧属性设置为非未指定值，则使用帧属性而不是此参数。为某些色彩族设置默认值。有关更多信息，请参见等效的输出参数。"
+
+#: ../../functions/video/resize.rst:99
+msgid "*filter_param_a*, *filter_param_b*:"
+msgstr "*filter_param_a*, *filter_param_b* （滤镜参数）："
+
+#: ../../functions/video/resize.rst:101
+msgid ""
+"Parameters for the scaler used for RGB and Y-channel. For the bicubic "
+"filter, filter_param_a/b represent the \"b\" and \"c\" parameters. For "
+"the lanczos filter, filter_param_a represents the number of taps."
+msgstr ""
+"用于 RGB 和 Y 通道的缩放器参数。对于双三次滤镜，filter_param_a/b 代表 \"b\" 和 \"c\" 参数。对于 lanczos 滤镜，filter_param_a 代表点数。"
+
+#: ../../functions/video/resize.rst:105
+msgid "*resample_filter_uv*:"
+msgstr "*resample_filter_uv* （UV 重采样滤镜）："
+
+#: ../../functions/video/resize.rst:107
+msgid ""
+"Scaling method for UV channels. It defaults to the same as for the "
+"Y-channel. The following values can be used with *resample_filter_uv*: "
+"*point*, *bilinear*, *bicubic*, *spline16*, *spline36*, *lanczos*."
+msgstr ""
+"UV 通道的缩放方法。默认与 Y 通道相同。*resample_filter_uv* 可以使用以下值：*point*、*bilinear*、*bicubic*、*spline16*、*spline36*、*lanczos*。"
+
+#: ../../functions/video/resize.rst:111
+msgid "*filter_param_a_uv*, *filter_param_b_uv*:"
+msgstr "*filter_param_a_uv*, *filter_param_b_uv* （UV滤镜参数）："
+
+#: ../../functions/video/resize.rst:113
+msgid "Parameters for the scaler used for UV channels."
+msgstr "用于 UV 通道的缩放器参数。"
+
+#: ../../functions/video/resize.rst:115
+msgid "*dither_type*:"
+msgstr "*dither_type* （抖动类型）："
+
+#: ../../functions/video/resize.rst:117
+msgid ""
+"Dithering method. Dithering is used only for conversions resulting in an "
+"integer format. The following dithering methods are available: *none*, "
+"*ordered*, *random*, *error_diffusion*."
+msgstr ""
+"抖动方法。抖动仅用于转换为整数格式的转换。以下抖动方法可用：*none*、*ordered*、*random*、*error_diffusion*。"
+
+#: ../../functions/video/resize.rst:121
+msgid "*cpu_type*:"
+msgstr "*cpu_type* （CPU类型）："
+
+#: ../../functions/video/resize.rst:123
+msgid "Only used for testing."
+msgstr "仅用于测试。"
+
+#: ../../functions/video/resize.rst:125
+msgid "*src_left*, *src_top*, *src_width*, *src_height*:"
+msgstr "*src_left*, *src_top*, *src_width*, *src_height*："
+
+#: ../../functions/video/resize.rst:127
+msgid ""
+"Used to select the source region of the input to use. Can also be used to"
+" shift the image. Defaults to the whole image."
+msgstr ""
+"用于选择要使用的输入源区域。也可用于移动图像。默认为整个图像。"
+
+#: ../../functions/video/resize.rst:130
+msgid "*nominal_luminance*:"
+msgstr "*nominal_luminance*："
+
+#: ../../functions/video/resize.rst:132
+msgid ""
+"Determines the physical brightness of the value 1.0. The unit is in "
+"cd/m^2."
+msgstr ""
+"确定值 1.0 的物理亮度。单位是 cd/m^2。"
+
+#: ../../functions/video/resize.rst:134
+msgid "*approximate_gamma*:"
+msgstr "*approximate_gamma*："
+
+#: ../../functions/video/resize.rst:136
+msgid "Use LUT to evaluate transfer functions. Defaults to True."
+msgstr "使用 LUT 评估传输函数。默认为 True。"
+
+#: ../../functions/video/resize.rst:138
+msgid "To convert to YV12::"
+msgstr "转换为 YV12::"
+
+#: ../../functions/video/resize.rst:142
+msgid ""
+"To resize and convert YUV with color information frame properties to "
+"planar RGB::"
+msgstr ""
+"调整大小并将具有颜色信息帧属性的 YUV 转换为平面 RGB::"
+
+#: ../../functions/video/resize.rst:146
+msgid ""
+"To resize and convert YUV without color information frame properties to "
+"planar RGB::"
+msgstr ""
+"调整大小并将不具有颜色信息帧属性的 YUV 转换为平面 RGB::"
+
+#: ../../functions/video/resize.rst:150
+msgid ""
+"The following tables list values of selected colorspace enumerations and "
+"their abbreviated names. (Numerical value in parentheses.) For all "
+"possible values, see ITU-T H.273."
+msgstr ""
+"以下表格列出了选定色彩空间枚举的值及其缩写名称。（数值在括号中。）有关所有可能的值，请参见 ITU-T H.273。"
+
+#: ../../functions/video/resize.rst:154
+msgid "Matrix coefficients (ITU-T H.273 Table 4)::"
+msgstr "矩阵系数（ITU-T H.273 表4）::"
+
+#: ../../functions/video/resize.rst:184
+msgid "Transfer characteristics (ITU-T H.273 Table 3)::"
+msgstr "传输特性（ITU-T H.273 表3）::"
+
+#: ../../functions/video/resize.rst:222
+msgid "Color primaries (ITU-T H.273 Table 2)::"
+msgstr "颜色原色（ITU-T H.273 表2）::"
+
+#: ../../functions/video/resize.rst:263
+msgid "Pixel range (ITU-T H.273 equations for matrix coefficients)::"
+msgstr "像素范围（ITU-T H.273 矩阵系数方程）：:"

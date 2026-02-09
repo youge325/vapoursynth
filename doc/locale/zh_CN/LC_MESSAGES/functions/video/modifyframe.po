@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/modifyframe.rst:2
+msgid "ModifyFrame"
+msgstr "ModifyFrame（修改帧）"
+
+#: ../../functions/video/modifyframe.rst:7
+msgid ""
+"The *selector* function is called for every single frame and can modify "
+"the properties of one of the frames gotten from *clips*. The additional "
+"*clips*' properties should only be read and not modified because only one"
+" modified frame can be returned."
+msgstr ""
+"每一帧都会调用 *selector* 函数，可以修改从 *clips* 获取的某帧的属性。附加的 *clips* 属性应该只读取而不修改，因为只能返回一个修改的帧。"
+
+#: ../../functions/video/modifyframe.rst:12
+msgid ""
+"You must first copy the input frame to make it modifiable. Any frame may "
+"be returned as long as it has the same format as the *clip*. Failure to "
+"do so will produce an error. If for conditional reasons you do not need "
+"to modify the current frame's properties, you can simply pass it through."
+" The selector function is passed *n*, the current frame number, and *f*, "
+"which is a frame or a list of frames if there is more than one clip "
+"specified."
+msgstr ""
+"您必须首先复制输入帧以使其可修改。只要具有与 *clip* 相同的格式，就可以返回任何帧。如果不这样做会产生错误。如果由于条件原因您不需要修改当前帧的属性，可以简单地通过它。选择器函数会传递 *n* （当前帧编号）和 *f* （如果指定了多个片段，则为帧或帧列表）。"
+
+#: ../../functions/video/modifyframe.rst:19
+msgid ""
+"If you do not need to modify frame properties but only read them, you "
+"should probably be using *FrameEval* instead."
+msgstr ""
+"如果你不需要修改帧属性而只需要读取它们，你应该使用 *FrameEval*。"
+
+#: ../../functions/video/modifyframe.rst:22
+msgid "How to set the property FrameNumber to the current frame number::"
+msgstr "如何将属性 FrameNumber 设置为当前帧号："
+
+#: ../../functions/video/modifyframe.rst:31
+msgid "How to remove a property::"
+msgstr "如何删除属性::"
+
+#: ../../functions/video/modifyframe.rst:40
+msgid ""
+"An example of how to copy certain properties from one clip to another "
+"(clip1 and clip2 have the same format)::"
+msgstr ""
+"如何将某些属性从一个片段复制到另一个片段的示例（clip1 和 clip2 具有相同格式）::"

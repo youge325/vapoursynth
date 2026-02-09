@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/pemverifier.rst:2
+msgid "PEMVerifier"
+msgstr "PEMVerifier（PEM验证器）"
+
+#: ../../functions/video/pemverifier.rst:7
+msgid ""
+"The *PEMVerifier* is used to check for out-of-bounds pixel values during "
+"filter development. It is a public function so badly coded filters won't "
+"go unnoticed."
+msgstr ""
+"*PEMVerifier* 用于在滤镜开发期间检查超出边界的像素值。它是一个公共函数，因此编码错误的滤镜不会被忽视。"
+
+#: ../../functions/video/pemverifier.rst:11
+msgid ""
+"If no values are set, then *upper* and *lower* default to the max and min"
+" values allowed in the current format. If an out of bounds value is "
+"encountered a frame error is set and the coordinates of the first bad "
+"pixel are included in the error message."
+msgstr ""
+"如果未设置值，则 *upper* 和 *lower* 默认为当前格式允许的最大值和最小值。如果遇到超出边界的值，会设置帧错误，错误消息中包含第一个错误像素的坐标。"
+"如果未设置值，则 *upper* 和 *lower* 默认为当前格式允许的最大值和最小值。如果"
+"遇到超出范围的值，会设置帧错误，并在错误消息中包含第一个坏像素的坐标。"

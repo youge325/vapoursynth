@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/planestats.rst:2
+msgid "PlaneStats"
+msgstr "PlaneStats（平面统计）"
+
+#: ../../functions/video/planestats.rst:7
+msgid ""
+"This function calculates the min, max and average normalized value of all"
+" the pixels in the specified *plane* and stores the values in the frame "
+"properties named *prop*\\ Min, *prop*\\ Max and *prop*\\ Average."
+msgstr ""
+"此函数计算指定 *plane* 中所有像素的最小值、最大值和平均归一化值，并将这些"
+"值存储在名为 *prop*\\ Min、*prop*\\ Max 和 *prop*\\ Average 的帧属性中。"
+
+#: ../../functions/video/planestats.rst:11
+msgid ""
+"If *clipb* is supplied, the absolute normalized difference between the "
+"two clips will be stored in *prop*\\ Diff as well."
+msgstr ""
+"如果提供了 *clipb*，两个片段之间的绝对归一化差值也将存储在 *prop*\\ Diff 中。"
+
+#: ../../functions/video/planestats.rst:14
+msgid ""
+"The normalization means that the average and the diff will always be "
+"floats between 0 and 1, no matter what the input format is."
+msgstr ""
+"归一化意味着无论输入格式如何，平均值和差值始终是 0 到 1 之间的浮点数。"
+"归一化意味着平均值和差值始终是 0 到 1 之间的浮点数，无论输入格式是什么。"

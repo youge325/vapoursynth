@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/setframeprop.rst:2
+msgid "SetFrameProp"
+msgstr "SetFrameProp（设置帧属性）"
+
+#: ../../functions/video/setframeprop.rst:7
+msgid "Adds a frame property to every frame in *clip*."
+msgstr "向 *clip* 中的每一帧添加帧属性。"
+
+#: ../../functions/video/setframeprop.rst:9
+msgid ""
+"If there is already a property with the name *prop* in the frames, it "
+"will be overwritten."
+msgstr ""
+"如果帧中已经存在名为 *prop* 的属性，它将被覆盖。"
+
+#: ../../functions/video/setframeprop.rst:12
+msgid ""
+"The type of the property added depends on which of the *intval*, "
+"*floatval*, or *data* parameters is used."
+msgstr ""
+"添加的属性类型取决于使用的是 *intval*、*floatval* 还是 *data* 参数。"
+
+#: ../../functions/video/setframeprop.rst:15

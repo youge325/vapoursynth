@@ -1,0 +1,537 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+
+#: ../../api/vsscript4.h.rst:5
+msgid "Table of contents"
+msgstr "目录"
+
+#: ../../api/vsscript4.h.rst:7
+msgid "Introduction_"
+msgstr "介绍_"
+
+#: ../../api/vsscript4.h.rst:16
+msgid "Functions_"
+msgstr "函数_"
+
+#: ../../api/vsscript4.h.rst:51
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../api/vsscript4.h.rst:205
+msgid "*name*"
+msgstr "*name*"
+
+#: ../../api/vsscript4.h.rst:153
+msgid "*buffer*"
+msgstr "*buffer*"
+
+#: ../../api/vsscript4.h.rst:89
+msgid "Functions"
+msgstr "函数"
+
+#: ../../api/vsscript4.h.rst:2
+msgid "VSScript4.h"
+msgstr "VSScript4.h"
+
+#: ../../api/vsscript4.h.rst:11
+msgid "VSScript_"
+msgstr "VSScript_"
+
+#: ../../api/vsscript4.h.rst:13
+msgid "VSScriptAPI_"
+msgstr "VSScriptAPI_"
+
+#: ../../api/vsscript4.h.rst:17
+msgid "getVSScriptAPI_"
+msgstr "getVSScriptAPI_"
+
+#: ../../api/vsscript4.h.rst:19
+msgid "getApiVersion_"
+msgstr "getApiVersion_"
+
+#: ../../api/vsscript4.h.rst:21
+msgid "getVSAPI_"
+msgstr "getVSAPI_"
+
+#: ../../api/vsscript4.h.rst:23
+msgid "createScript_"
+msgstr "createScript_"
+
+#: ../../api/vsscript4.h.rst:25
+msgid "getCore_"
+msgstr "getCore_"
+
+#: ../../api/vsscript4.h.rst:27
+msgid "evaluateBuffer_"
+msgstr "evaluateBuffer_"
+
+#: ../../api/vsscript4.h.rst:29
+msgid "evaluateFile_"
+msgstr "evaluateFile_"
+
+#: ../../api/vsscript4.h.rst:31
+msgid "getError_"
+msgstr "getError_"
+
+#: ../../api/vsscript4.h.rst:33
+msgid "getExitCode_"
+msgstr "getExitCode_"
+
+#: ../../api/vsscript4.h.rst:35
+msgid "getVariable_"
+msgstr "getVariable_"
+
+#: ../../api/vsscript4.h.rst:37
+msgid "setVariables_"
+msgstr "setVariables_"
+
+#: ../../api/vsscript4.h.rst:39
+msgid "getOutputNode_"
+msgstr "getOutputNode_"
+
+#: ../../api/vsscript4.h.rst:41
+msgid "getOutputAlphaNode_"
+msgstr "getOutputAlphaNode_"
+
+#: ../../api/vsscript4.h.rst:43
+msgid "getAltOutputMode_"
+msgstr "getAltOutputMode_"
+
+#: ../../api/vsscript4.h.rst:45
+msgid "freeScript_"
+msgstr "freeScript_"
+
+#: ../../api/vsscript4.h.rst:47
+msgid "evalSetWorkingDir_"
+msgstr "evalSetWorkingDir_"
+
+#: ../../api/vsscript4.h.rst:53
+msgid ""
+"VSScript provides a convenient wrapper for VapourSynth's scripting "
+"interface(s), allowing the evaluation of VapourSynth scripts and "
+"retrieval of output clips."
+msgstr ""
+"VSScript 为 VapourSynth 的脚本接口提供了一个便利的包装器，"
+"允许评估 VapourSynth 脚本并检索输出剪辑。"
+
+#: ../../api/vsscript4.h.rst:55
+msgid ""
+"For reasons unknown, the VSScript library is called ``VSScript`` in "
+"Windows and ``vapoursynth-script`` everywhere else."
+msgstr ""
+"由于未知原因，VSScript 库在 Windows 中称为 ``VSScript``，"
+"在其他地方称为 ``vapoursynth-script``。"
+
+#: ../../api/vsscript4.h.rst:57
+msgid ""
+"At this time, VapourSynth scripts can be written only in Python (version "
+"3)."
+msgstr ""
+"目前，VapourSynth 脚本只能用 Python（版本 3）编写。"
+
+#: ../../api/vsscript4.h.rst:59
+msgid "Here are a few users of the VSScript library:"
+msgstr "以下是 VSScript 库的一些用户："
+
+#: ../../api/vsscript4.h.rst:61
+msgid ""
+"`vspipe "
+"<https://github.com/vapoursynth/vapoursynth/blob/master/src/vspipe/vspipe.cpp>`_"
+msgstr ""
+"`vspipe "
+"<https://github.com/vapoursynth/vapoursynth/blob/master/src/vspipe/vspipe.cpp>`_"
+
+#: ../../api/vsscript4.h.rst:63
+msgid ""
+"`vsvfw "
+"<https://github.com/vapoursynth/vapoursynth/blob/master/src/vfw/vsvfw.cpp>`_"
+msgstr ""
+"`vsvfw "
+"<https://github.com/vapoursynth/vapoursynth/blob/master/src/vfw/vsvfw.cpp>`_"
+
+#: ../../api/vsscript4.h.rst:65
+msgid ""
+"`an example program "
+"<https://github.com/vapoursynth/vapoursynth/blob/master/sdk/vsscript_example.c>`_"
+msgstr ""
+"`示例程序 "
+"<https://github.com/vapoursynth/vapoursynth/blob/master/sdk/vsscript_example.c>`_"
+
+#: ../../api/vsscript4.h.rst:67
+msgid ""
+"the video player `mpv <https://github.com/mpv-"
+"player/mpv/blob/master/video/filter/vf_vapoursynth.c>`_"
+msgstr ""
+"视频播放器 `mpv <https://github.com/mpv-"
+"player/mpv/blob/master/video/filter/vf_vapoursynth.c>`_"
+
+#: ../../api/vsscript4.h.rst:70
+msgid ""
+"If libvapoursynth-script is loaded with dlopen(), the RTLD_GLOBAL flag "
+"must be used. If not, Python won't be able to import binary modules. This"
+" is due to Python's design."
+msgstr ""
+"如果使用 dlopen() 加载 libvapoursynth-script，必须使用 RTLD_GLOBAL 标志。否则，Python 将无法导入二进制模块。这是由于 Python 的设计造成的。"
+
+#: ../../api/vsscript4.h.rst:77
+msgid "VSScript"
+msgstr "VSScript"
+
+#: ../../api/vsscript4.h.rst:79
+msgid ""
+"A script environment. All evaluation and communication with evaluated "
+"scripts happens through a VSScript object."
+msgstr ""
+"一个脚本环境。所有的评估和与已评估脚本的通信都通过 VSScript 对象进行。"
+
+#: ../../api/vsscript4.h.rst:83
+msgid "VSScriptAPI"
+msgstr "VSScriptAPI"
+
+#: ../../api/vsscript4.h.rst:85
+msgid "This struct is the way to access VSScript's public API."
+msgstr "此结构体是访问 VSScript 公共 API 的方法。"
+
+#: ../../api/vsscript4.h.rst:92
+msgid "getVSScriptAPI"
+msgstr "getVSScriptAPI"
+
+#: ../../api/vsscript4.h.rst:96
+msgid ""
+"Returns a struct containing function pointer for the api. Will return "
+"NULL is the specified *version* isn't supported."
+msgstr "返回包含 API 函数指针的结构体。如果指定的 *version* 不受支持，将返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:98
+msgid "It is recommended to always pass *VSSCRIPT_API_VERSION*."
+msgstr "建议始终传递 *VSSCRIPT_API_VERSION*。"
+
+#: ../../api/vsscript4.h.rst:102
+msgid "getApiVersion"
+msgstr "getApiVersion"
+
+#: ../../api/vsscript4.h.rst:106
+msgid "Returns the api version provided by vsscript."
+msgstr "返回 vsscript 提供的 API 版本。"
+
+#: ../../api/vsscript4.h.rst:110
+msgid "getVSAPI"
+msgstr "getVSAPI"
+
+#: ../../api/vsscript4.h.rst:114
+msgid ""
+"Retrieves the VSAPI struct. Exists mostly as a convenience so the "
+"vapoursynth module doesn't have to be explicitly loaded."
+msgstr "检索 VSAPI 结构体。主要作为便利功能存在，这样就不必显式加载 vapoursynth 模块。"
+
+#: ../../api/vsscript4.h.rst:116
+msgid ""
+"This could return NULL if the VapourSynth library doesn't provide the "
+"requested version."
+msgstr "如果 VapourSynth 库不提供请求的版本，这可能返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:120
+msgid "createScript"
+msgstr "createScript"
+
+#: ../../api/vsscript4.h.rst:124
+msgid ""
+"Creates an empty script environment that can be used to evaluate scripts."
+" Passing a pre-created *core* can be usful to have custom core creation "
+"flags, log callbacks or plugins pre-loaded. Passing NULL will "
+"automatically create a new core with default settings."
+msgstr "创建一个可用于评估脚本的空脚本环境。传递预创建的 *core* 对于使用自定义核心创建标志、日志回调或预加载插件很有用。传递 NULL 将自动创建具有默认设置的新核心。"
+
+#: ../../api/vsscript4.h.rst:126
+msgid ""
+"Takes over ownership of the *core* regardless of success or failure. "
+"Returns NULL on error."
+msgstr "无论成功还是失败，都会接管 *core* 的所有权。出错时返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:130
+msgid "getCore"
+msgstr "getCore"
+
+#: ../../api/vsscript4.h.rst:134
+msgid ""
+"Retrieves the VapourSynth core that was created in the script "
+"environment. If a VapourSynth core has not been created yet, it will be "
+"created now, with the default options (see the "
+":doc:`../pythonreference`)."
+msgstr "检索在脚本环境中创建的 VapourSynth 核心。如果尚未创建 VapourSynth 核心，将使用默认选项立即创建（参见 :doc:`../pythonreference`）。"
+
+#: ../../api/vsscript4.h.rst:136
+msgid "VSScript retains ownership of the returned core object."
+msgstr "VSScript 保留返回的核心对象的所有权。"
+
+#: ../../api/vsscript4.h.rst:138
+msgid "Returns NULL on error."
+msgstr "出错时返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:144
+msgid "evaluateBuffer"
+msgstr "evaluateBuffer"
+
+#: ../../api/vsscript4.h.rst:148
+msgid ""
+"Evaluates a script contained in a C string. Can be called multiple times "
+"on the same script environment to successively add more processing."
+msgstr "评估包含在 C 字符串中的脚本。可以在同一脚本环境上多次调用，以连续添加更多处理。"
+
+#: ../../api/vsscript4.h.rst:151
+msgid "Pointer to a script environment."
+msgstr "指向脚本环境的指针。"
+
+#: ../../api/vsscript4.h.rst:154
+msgid "The entire script to evaluate, as a C string."
+msgstr "要评估的完整脚本，作为 C 字符串。"
+
+#: ../../api/vsscript4.h.rst:156
+msgid "*scriptFilename*"
+msgstr "*scriptFilename*"
+
+#: ../../api/vsscript4.h.rst:157
+msgid ""
+"A name for the script, which will be displayed in error messages. If this"
+" is NULL, the name \"<string>\" will be used."
+msgstr "脚本的名称，将在错误消息中显示。如果为 NULL，将使用名称 \"<string>\"。"
+
+#: ../../api/vsscript4.h.rst:159
+msgid ""
+"The special ``__file__`` variable will be set to *scriptFilename*'s "
+"absolute path if this is not NULL."
+msgstr ""
+
+#: ../../api/vsscript4.h.rst:161
+msgid ""
+"Returns non-zero in case of errors. The error message can be retrieved "
+"with getError_\\ (). If the script calls *sys.exit(code)* the exit code "
+"can be retrieved with getExitCode_\\ (). The working directory behavior "
+"can be changed by calling evalSetWorkingDir_\\ () before this function."
+msgstr ""
+
+#: ../../api/vsscript4.h.rst:165
+msgid "evaluateFile"
+msgstr "evaluateFile"
+
+#: ../../api/vsscript4.h.rst:169
+msgid ""
+"Evaluates a script contained in a file. This is a convenience function "
+"which reads the script from a file for you. It will only read the first "
+"16 MiB which should be enough for everyone."
+msgstr ""
+
+#: ../../api/vsscript4.h.rst:171
+msgid "Behaves the same as evaluateBuffer\\ ()."
+msgstr "行为与 evaluateBuffer\\ () 相同。"
+
+#: ../../api/vsscript4.h.rst:175
+msgid "getError"
+msgstr "getError"
+
+#: ../../api/vsscript4.h.rst:179
+msgid ""
+"Returns the error message from a script environment, or NULL, if there is"
+" no error."
+msgstr ""
+"从脚本环境返回错误消息，如果没有错误则返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:181 ../../api/vsscript4.h.rst:193
+msgid "It is okay to pass NULL."
+msgstr "传递 NULL 是可以的。"
+
+#: ../../api/vsscript4.h.rst:183
+msgid ""
+"VSScript retains ownership of the pointer and it is only guaranteed to be"
+" valid until the next vsscript operation on the *handle*."
+msgstr ""
+"VSScript 保留指针的所有权，仅保证在对 *handle* 进行下一次 vsscript 操作之前有效。"
+
+#: ../../api/vsscript4.h.rst:187
+msgid "getExitCode"
+msgstr "getExitCode"
+
+#: ../../api/vsscript4.h.rst:191
+msgid ""
+"Returns the exit code if the script calls *sys.exit(code)*, or 0, if the "
+"script fails for other reasons or calls *sys.exit(0)*."
+msgstr ""
+"如果脚本调用 *sys.exit(code)* 则返回退出代码，如果脚本因其他原因失败"
+"或调用 *sys.exit(0)* 则返回 0。"
+
+#: ../../api/vsscript4.h.rst:197
+msgid "getVariable"
+msgstr "getVariable"
+
+#: ../../api/vsscript4.h.rst:201
+msgid "Retrieves a variable from the script environment."
+msgstr "从脚本环境中检索变量。"
+
+#: ../../api/vsscript4.h.rst:203 ../../api/vsscript4.h.rst:223
+msgid ""
+"If a VapourSynth core has not been created yet in the script environment,"
+" one will be created now, with the default options (see the "
+":doc:`../pythonreference`)."
+msgstr "如果脚本环境中尚未创建 VapourSynth 核心，将使用默认选项立即创建（参见 :doc:`../pythonreference`）。"
+
+#: ../../api/vsscript4.h.rst:206
+msgid "Name of the variable to retrieve."
+msgstr "要检索的变量名。"
+
+#: ../../api/vsscript4.h.rst:208
+msgid "*dst*"
+msgstr "*dst*"
+
+#: ../../api/vsscript4.h.rst:209
+msgid "Map where the variable's value will be placed, with the key *name*."
+msgstr "变量值将放置的映射，使用键 *name*。"
+
+#: ../../api/vsscript4.h.rst:211 ../../api/vsscript4.h.rst:228
+msgid "Returns non-zero on error."
+msgstr "错误时返回非零值。"
+
+#: ../../api/vsscript4.h.rst:215
+msgid "setVariables"
+msgstr "setVariables"
+
+#: ../../api/vsscript4.h.rst:219
+msgid "Sets variables in the script environment."
+msgstr "在脚本环境中设置变量。"
+
+#: ../../api/vsscript4.h.rst:221
+msgid "The variables are now available to the script."
+msgstr "变量现在可供脚本使用。"
+
+#: ../../api/vsscript4.h.rst:225
+msgid "*vars*"
+msgstr "*vars*"
+
+#: ../../api/vsscript4.h.rst:226
+msgid "Map containing the variables to set."
+msgstr "包含要设置的变量的映射。"
+
+#: ../../api/vsscript4.h.rst:232
+msgid "getOutputNode"
+msgstr "getOutputNode"
+
+#: ../../api/vsscript4.h.rst:236
+msgid ""
+"Retrieves a node from the script environment. A node in the script must "
+"have been marked for output with the requested *index*."
+msgstr ""
+"从脚本环境中检索节点。脚本中的节点必须已使用请求的 *index* 标记为输出。"
+
+#: ../../api/vsscript4.h.rst:238 ../../api/vsscript4.h.rst:250
+msgid "The returned node has its reference count incremented by one."
+msgstr "返回的节点的引用计数递增一。"
+
+#: ../../api/vsscript4.h.rst:240
+msgid "Returns NULL if there is no node at the requested index."
+msgstr "如果请求的索引处没有节点，则返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:244
+msgid "getOutputAlphaNode"
+msgstr "getOutputAlphaNode"
+
+#: ../../api/vsscript4.h.rst:248
+msgid ""
+"Retrieves an alpha node from the script environment. A node with "
+"associated alpha in the script must have been marked for output with the "
+"requested *index*."
+msgstr ""
+"从脚本环境中检索 alpha 节点。脚本中具有关联 alpha 的节点必须已使用"
+"请求的 *index* 标记为输出。"
+
+#: ../../api/vsscript4.h.rst:252
+msgid "Returns NULL if there is no alpha node at the requested index."
+msgstr "如果请求的索引处没有 alpha 节点，则返回 NULL。"
+
+#: ../../api/vsscript4.h.rst:256
+msgid "getAltOutputMode"
+msgstr "getAltOutputMode"
+
+#: ../../api/vsscript4.h.rst:260
+msgid ""
+"Retrieves the alternative output mode settings from the script. This "
+"value has no fixed meaning but in vspipe and vsvfw it indicates that "
+"alternate output formats should be used when multiple ones are available."
+" It is up to the client application to define the exact meaning or simply"
+" disregard it completely."
+msgstr ""
+"从脚本中检索替代输出模式设置。此值没有固定含义，但在 vspipe 和 vsvfw 中，"
+"它表示当有多种格式可用时应使用替代输出格式。由客户端应用程序来定义确切含义"
+"或完全忽略它。"
+
+#: ../../api/vsscript4.h.rst:263
+msgid "Returns 0 if there is no alt output mode set."
+msgstr "如果没有设置替代输出模式，则返回 0。"
+
+#: ../../api/vsscript4.h.rst:267
+msgid "freeScript"
+msgstr "freeScript"
+
+#: ../../api/vsscript4.h.rst:271
+msgid "Frees a script environment. *handle* is no longer usable."
+msgstr "释放脚本环境。*handle* 不再可用。"
+
+#: ../../api/vsscript4.h.rst:273
+msgid "Cancels any clips set for output in the script environment."
+msgstr "取消在脚本环境中设置为输出的任何剪辑。"
+
+#: ../../api/vsscript4.h.rst:275
+msgid "Clears any variables set in the script environment."
+msgstr "清除在脚本环境中设置的任何变量。"
+
+#: ../../api/vsscript4.h.rst:277
+msgid "Clears the error message from the script environment, if there is one."
+msgstr "清除脚本环境中的错误消息（如果有的话）。"
+
+#: ../../api/vsscript4.h.rst:279
+msgid ""
+"Frees the VapourSynth core used in the script environment, if there is "
+"one."
+msgstr ""
+"释放脚本环境中使用的 VapourSynth 核心（如果有的话）。"
+
+#: ../../api/vsscript4.h.rst:281
+msgid ""
+"Since this function frees the VapourSynth core, it must be called only "
+"after all frame requests are finished and all objects obtained from the "
+"script have been freed (frames, nodes, etc)."
+msgstr ""
+"由于此函数释放 VapourSynth 核心，必须只在所有帧请求完成且从脚本获得的"
+"所有对象都已释放（帧、节点等）后调用。"
+
+#: ../../api/vsscript4.h.rst:287
+msgid "evalSetWorkingDir"
+msgstr "evalSetWorkingDir"
+
+#: ../../api/vsscript4.h.rst:291
+msgid ""
+"Set whether or not the working directory is temporarily changed to the "
+"same location as the script file when evaluateFile is called. Off by "
+"default."
+msgstr ""
+"设置在调用 evaluateFile 时是否临时将工作目录更改为脚本文件的相同位置。"
+"默认为关闭。"
+

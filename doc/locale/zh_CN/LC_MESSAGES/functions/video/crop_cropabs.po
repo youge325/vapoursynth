@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/crop_cropabs.rst:2
+msgid "Crop/CropAbs"
+msgstr "Crop/CropAbs（裁剪/绝对裁剪）"
+
+#: ../../functions/video/crop_cropabs.rst:8
+msgid "Crops the frames in a clip."
+msgstr "裁剪片段中的帧。"
+
+#: ../../functions/video/crop_cropabs.rst:10
+msgid ""
+"Crop is the simplest to use of the two. The arguments specify how many "
+"pixels to crop from each side. This function used to be called CropRel "
+"which is still an alias for it."
+msgstr ""
+"Crop 是两者中最简单易用的。参数指定从每一边裁剪多少像素。此函数以前叫做 CropRel，这个名称仍然是它的别名。"
+
+#: ../../functions/video/crop_cropabs.rst:14
+msgid ""
+"CropAbs, on the other hand, is special, because it can accept clips with "
+"variable frame sizes and crop out a fixed size area, thus making it a "
+"fixed size clip."
+msgstr ""
+"另一方面，CropAbs 很特殊，因为它可以接受具有可变帧大小的片段，并裁剪出固定大小的区域，从而生成固定大小的片段。"
+
+#: ../../functions/video/crop_cropabs.rst:18
+msgid ""
+"Both functions return an error if the whole picture is cropped away, if "
+"the cropped area extends beyond the input or if the subsampling "
+"restrictions aren't met."
+msgstr ""
+"如果整个图片被裁剪掉、裁剪区域超出输入范围或未满足子采样限制，两个函数都会返回错误。"

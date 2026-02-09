@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/trim.rst:2
+msgid "Trim"
+msgstr "Trim（修剪）"
+
+#: ../../functions/video/trim.rst:7
+msgid ""
+"Trim returns a clip with only the frames between the arguments *first* "
+"and *last*, or a clip of *length* frames, starting at *first*. Trim is "
+"inclusive so Trim(clip, first=3, last=3) will return one frame. If "
+"neither *last* nor *length* is specified, no frames are removed from the "
+"end of the clip."
+msgstr ""
+"Trim 返回一个片段，只包含参数 *first* 和 *last* 之间的帧，或者从 *first* 开始的 *length* 帧的片段。Trim 是包含性的，所以 Trim(clip, first=3, last=3) 会返回一帧。如果既未指定 *last* 也未指定 *length*，则不会从片段末尾移除任何帧。"
+
+#: ../../functions/video/trim.rst:13
+msgid ""
+"Specifying both *last* and *length* is considered to be an error. "
+"Likewise is calling Trim in a way that returns no frames, as 0 frame "
+"clips are not allowed in VapourSynth."
+msgstr ""
+"同时指定 *last* 和 *length* 被认为是错误。同样，以返回无帧的方式调用 Trim 也是错误的，因为在 VapourSynth 中不允许 0 帧片段。"
+
+#: ../../functions/video/trim.rst:17
+msgid ""
+"In Python, std.Trim can also be invoked by :ref:`slicing a clip "
+"<pythonreference>`."
+msgstr ""
+"在 Python 中，std.Trim 也可以通过 :ref:`片段切片 <pythonreference>` 调用。"
