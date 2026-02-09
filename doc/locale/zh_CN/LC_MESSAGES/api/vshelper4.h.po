@@ -1,0 +1,387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+
+#: ../../api/vshelper4.h.rst:2
+msgid "VSHelper4.h"
+msgstr "VSHelper4.h"
+
+#: ../../api/vshelper4.h.rst:11
+msgid "VSH_STD_PLUGIN_ID_"
+msgstr "VSH_STD_PLUGIN_ID_"
+
+#: ../../api/vshelper4.h.rst:13
+msgid "VSH_RESIZE_PLUGIN_ID_"
+msgstr "VSH_RESIZE_PLUGIN_ID_"
+
+#: ../../api/vshelper4.h.rst:15
+msgid "VSH_TEXT_PLUGIN_ID_"
+msgstr "VSH_TEXT_PLUGIN_ID_"
+
+#: ../../api/vshelper4.h.rst:17
+msgid "VS_RESTRICT_"
+msgstr "VS_RESTRICT_"
+
+#: ../../api/vshelper4.h.rst:19
+msgid "`VSH_ALIGNED_MALLOC <VSH_ALIGNED_MALLOC_c_>`_"
+msgstr "`VSH_ALIGNED_MALLOC <VSH_ALIGNED_MALLOC_c_>`_"
+
+#: ../../api/vshelper4.h.rst:21
+msgid "`VSH_ALIGNED_FREE <VSH_ALIGNED_FREE_c_>`_"
+msgstr "`VSH_ALIGNED_FREE <VSH_ALIGNED_FREE_c_>`_"
+
+#: ../../api/vshelper4.h.rst:23
+msgid "VSMIN_"
+msgstr "VSMIN_"
+
+#: ../../api/vshelper4.h.rst:25
+msgid "VSMAX_"
+msgstr "VSMAX_"
+
+#: ../../api/vshelper4.h.rst:29
+msgid "`vsh_aligned_malloc <vsh_aligned_malloc_cpp_>`_"
+msgstr "`vsh_aligned_malloc <vsh_aligned_malloc_cpp_>`_"
+
+#: ../../api/vshelper4.h.rst:31
+msgid "`vsh_aligned_free <vsh_aligned_free_cpp_>`_"
+msgstr "`vsh_aligned_free <vsh_aligned_free_cpp_>`_"
+
+#: ../../api/vshelper4.h.rst:33
+msgid "isConstantVideoFormat_"
+msgstr "isConstantVideoFormat_"
+
+#: ../../api/vshelper4.h.rst:35
+msgid "isSameVideoFormat_"
+msgstr "isSameVideoFormat_"
+
+#: ../../api/vshelper4.h.rst:37
+msgid "isSameVideoPresetFormat_"
+msgstr "isSameVideoPresetFormat_"
+
+#: ../../api/vshelper4.h.rst:39
+msgid "isSameVideoInfo_"
+msgstr "isSameVideoInfo_"
+
+#: ../../api/vshelper4.h.rst:41
+msgid "isSameAudioFormat_"
+msgstr "isSameAudioFormat_"
+
+#: ../../api/vshelper4.h.rst:43
+msgid "isSameAudioInfo_"
+msgstr "isSameAudioInfo_"
+
+#: ../../api/vshelper4.h.rst:45
+msgid "muldivRational_"
+msgstr "muldivRational_"
+
+#: ../../api/vshelper4.h.rst:47
+msgid "addRational_"
+msgstr "addRational_"
+
+#: ../../api/vshelper4.h.rst:49
+msgid "reduceRational_"
+msgstr "reduceRational_"
+
+#: ../../api/vshelper4.h.rst:51
+msgid "int64ToIntS_"
+msgstr "int64ToIntS_"
+
+#: ../../api/vshelper4.h.rst:53
+msgid "doubleToFloatS_"
+msgstr "doubleToFloatS_"
+
+#: ../../api/vshelper4.h.rst:55
+msgid "bitblt_"
+msgstr "bitblt_"
+
+#: ../../api/vshelper4.h.rst:57
+msgid "areValidDimensions_"
+msgstr "areValidDimensions_"
+
+#: ../../api/vshelper4.h.rst:63
+msgid ""
+"This is a collection of helpful macros and functions. Note that all "
+"functions (not macros) are either prefixed with `vsh_` in C mode or "
+"placed in the `vsh` namespace for C++. This documentation will use the "
+"C++ names for these function."
+msgstr ""
+"这是一个有用的宏和函数集合。注意所有函数（非宏）在 C 模式下都以 `vsh_` "
+"为前缀，或在 C++ 中放置在 `vsh` 命名空间中。本文档将使用这些函数的 C++ 名称。"
+"这是一系列有用的宏和函数的集合。请注意，所有函数（非宏）在 C 模式下都以 `vsh_` "
+"为前缀，或在 C++ 中放置在 `vsh` 命名空间中。本文档将使用这些函数的 C++ 名称。"
+
+#: ../../api/vshelper4.h.rst:72
+msgid "VSH_STD_PLUGIN_ID"
+msgstr "VSH_STD_PLUGIN_ID"
+
+#: ../../api/vshelper4.h.rst:73 ../../api/vshelper4.h.rst:83
+msgid "Macro defined to the internal std plugin id provided for convenience."
+msgstr "为方便起见，定义为内部标准插件 ID 的宏。"
+
+#: ../../api/vshelper4.h.rst:77
+msgid "VSH_RESIZE_PLUGIN_ID"
+msgstr "VSH_RESIZE_PLUGIN_ID"
+
+#: ../../api/vshelper4.h.rst:78
+msgid "Macro defined to the internal resizer plugin id provided for convenience."
+msgstr "为方便起见，定义为内部调整大小插件 ID 的宏。"
+
+#: ../../api/vshelper4.h.rst:82
+msgid "VSH_TEXT_PLUGIN_ID"
+msgstr "VSH_TEXT_PLUGIN_ID"
+
+#: ../../api/vshelper4.h.rst:87
+msgid "VS_RESTRICT"
+msgstr "VS_RESTRICT"
+
+#: ../../api/vshelper4.h.rst:89
+msgid ""
+"Attempts to provide a portable definition of the C99 ``restrict`` "
+"keyword, or its C++ counterpart."
+msgstr "尝试提供 C99 ``restrict`` 关键字或其 C++ 对应项的可移植定义。"
+
+#: ../../api/vshelper4.h.rst:96
+msgid "VSH_ALIGNED_MALLOC"
+msgstr "VSH_ALIGNED_MALLOC"
+
+#: ../../api/vshelper4.h.rst:98
+msgid "VSH_ALIGNED_MALLOC(pptr, size, alignment)"
+msgstr "VSH_ALIGNED_MALLOC(pptr, size, alignment)"
+
+#: ../../api/vshelper4.h.rst:100
+msgid ""
+"Expands to _aligned_malloc() in Windows, and posix_memalign() elsewhere. "
+"Note that the arguments are in the style of posix_memalign()."
+msgstr ""
+"在 Windows 中展开为 _aligned_malloc()，在其他地方展开为 posix_memalign()。"
+"注意参数采用 posix_memalign() 的样式。"
+
+#: ../../api/vshelper4.h.rst:103
+msgid "*pptr* is a pointer to a pointer."
+msgstr "*pptr* 是指向指针的指针。"
+
+#: ../../api/vshelper4.h.rst:109
+msgid "VSH_ALIGNED_FREE"
+msgstr "VSH_ALIGNED_FREE"
+
+#: ../../api/vshelper4.h.rst:111
+msgid "VSH_ALIGNED_FREE(ptr)"
+msgstr "VSH_ALIGNED_FREE(ptr)"
+
+#: ../../api/vshelper4.h.rst:113
+msgid "Expands to _aligned_free() in Windows, and free() elsewhere."
+msgstr "在 Windows 中展开为 _aligned_free()，在其他地方展开为 free()。"
+
+#: ../../api/vshelper4.h.rst:115
+msgid "*ptr* is a pointer."
+msgstr "*ptr* 是一个指针。"
+
+#: ../../api/vshelper4.h.rst:119
+msgid "VSMIN"
+msgstr "VSMIN"
+
+#: ../../api/vshelper4.h.rst:121
+msgid "VSMIN(a, b)"
+msgstr "VSMIN(a, b)"
+
+#: ../../api/vshelper4.h.rst:123
+msgid "Returns the minimum of the two numbers."
+msgstr "返回两个数字中的最小值。"
+
+#: ../../api/vshelper4.h.rst:127
+msgid "VSMAX"
+msgstr "VSMAX"
+
+#: ../../api/vshelper4.h.rst:129
+msgid "VSMAX(a, b)"
+msgstr "VSMAX(a, b)"
+
+#: ../../api/vshelper4.h.rst:131
+msgid "Returns the maximum of the two numbers."
+msgstr "返回两个数字中的最大值。"
+
+#: ../../api/vshelper4.h.rst:140
+msgid "vsh_aligned_malloc"
+msgstr "vsh_aligned_malloc"
+
+#: ../../api/vshelper4.h.rst:144
+msgid ""
+"A templated aligned malloc for C++. It uses the same functions as the "
+"`VSH_ALIGNED_MALLOC <VSH_ALIGNED_MALLOC_c_>`_ macro but is easier to use."
+msgstr ""
+"C++ 的模板化对齐内存分配函数。它使用与 `VSH_ALIGNED_MALLOC "
+"<VSH_ALIGNED_MALLOC_c_>`_ 宏相同的函数，但更易于使用。"
+
+#: ../../api/vshelper4.h.rst:151
+msgid "vsh_aligned_free"
+msgstr "vsh_aligned_free"
+
+#: ../../api/vshelper4.h.rst:155
+msgid "This simply uses the `VSH_ALIGNED_FREE <VSH_ALIGNED_FREE_c_>`_ macro."
+msgstr "这只是简单地使用 `VSH_ALIGNED_FREE <VSH_ALIGNED_FREE_c_>`_ 宏。"
+
+#: ../../api/vshelper4.h.rst:159
+msgid "isConstantVideoFormat"
+msgstr "isConstantVideoFormat"
+
+#: ../../api/vshelper4.h.rst:163
+msgid ""
+"Checks if a clip's format and dimensions are known (and therefore "
+"constant)."
+msgstr ""
+"检查剪辑的格式和尺寸是否已知（因此是恒定的）。"
+
+#: ../../api/vshelper4.h.rst:167
+msgid "isSameVideoFormat"
+msgstr "isSameVideoFormat"
+
+#: ../../api/vshelper4.h.rst:171
+msgid ""
+"Checks if two clips have the same video format. If the format is unknown "
+"in both, it will be considered the same."
+msgstr ""
+"检查两个剪辑是否具有相同的视频格式。如果两者的格式都未知，"
+"将被认为是相同的。"
+
+#: ../../api/vshelper4.h.rst:176
+msgid "isSameVideoPresetFormat"
+msgstr "isSameVideoPresetFormat"
+
+#: ../../api/vshelper4.h.rst:180
+msgid "Checks if a clip has the same video format as the preset."
+msgstr "检查剪辑是否与预设具有相同的视频格式。"
+
+#: ../../api/vshelper4.h.rst:184
+msgid "isSameVideoInfo"
+msgstr "isSameVideoInfo"
+
+#: ../../api/vshelper4.h.rst:188
+msgid ""
+"Checks if two clips have the same video format and dimensions. If the "
+"format is unknown in both, it will be considered the same. This is also "
+"true for the dimensions. Framerate is not taken into consideration when "
+"comparing."
+msgstr ""
+"检查两个剪辑是否具有相同的视频格式和尺寸。如果两者的格式都未知，"
+"将被认为是相同的。对于尺寸也是如此。比较时不考虑帧率。"
+
+#: ../../api/vshelper4.h.rst:195
+msgid "isSameAudioFormat"
+msgstr "isSameAudioFormat"
+
+#: ../../api/vshelper4.h.rst:199
+msgid "Checks if two clips have the same audio format."
+msgstr "检查两个剪辑是否具有相同的音频格式。"
+
+#: ../../api/vshelper4.h.rst:203
+msgid "isSameAudioInfo"
+msgstr "isSameAudioInfo"
+
+#: ../../api/vshelper4.h.rst:207
+msgid "Checks if two clips have the same audio format and samplerate."
+msgstr "检查两个剪辑是否具有相同的音频格式和采样率。"
+
+#: ../../api/vshelper4.h.rst:211
+msgid "muldivRational"
+msgstr "muldivRational"
+
+#: ../../api/vshelper4.h.rst:215
+msgid ""
+"Multiplies two rational numbers and reduces the result, i.e. *num*\\ /\\ "
+"*den* \\* *mul*\\ /\\ *div*. The result is stored in *num* and *den*."
+msgstr ""
+"将两个有理数相乘并约简结果，即 *num*\\ /\\ *den* \\* *mul*\\ /\\ *div*。"
+"结果存储在 *num* 和 *den* 中。"
+
+#: ../../api/vshelper4.h.rst:218
+msgid "The caller must ensure that *div* is not 0."
+msgstr "调用者必须确保 *div* 不为 0。"
+
+#: ../../api/vshelper4.h.rst:222
+msgid "reduceRational"
+msgstr "reduceRational"
+
+#: ../../api/vshelper4.h.rst:226
+msgid "Reduces a rational number."
+msgstr "约简有理数。"
+
+#: ../../api/vshelper4.h.rst:230
+msgid "addRational"
+msgstr "addRational"
+
+#: ../../api/vshelper4.h.rst:234
+msgid ""
+"Adds two rational numbers and reduces the result, i.e. *num*\\ /\\ *den* "
+"+ *addnum*\\ /\\ *addden*. The result is stored in *num* and *den*."
+msgstr ""
+"将两个有理数相加并约简结果，即 *num*\\ /\\ *den* + *addnum*\\ /\\ *addden*。"
+"结果存储在 *num* 和 *den* 中。"
+
+#: ../../api/vshelper4.h.rst:239
+msgid "int64ToIntS"
+msgstr "int64ToIntS"
+
+#: ../../api/vshelper4.h.rst:243
+msgid ""
+"Converts an int64_t to int with signed saturation. It's useful to silence"
+" warnings when reading integer properties from a VSMap and to avoid "
+"unexpected behavior on int overflow."
+msgstr ""
+"将 int64_t 转换为带有有符号饱和的 int。这在从 VSMap 读取整数属性时"
+"很有用，可以抑制警告并避免 int 溢出时的意外行为。"
+
+#: ../../api/vshelper4.h.rst:248
+msgid "doubleToFloatS"
+msgstr "doubleToFloatS"
+
+#: ../../api/vshelper4.h.rst:252
+msgid ""
+"Converts a double to float. It's useful to silence warnings when reading "
+"double properties from a VSMap and mostly exists to mirror "
+"`int64ToIntS`_."
+msgstr ""
+"将 double 转换为 float。这在从 VSMap 读取 double 属性时很有用，"
+"可以抑制警告，主要存在是为了镜像 `int64ToIntS`_。"
+
+#: ../../api/vshelper4.h.rst:257
+msgid "bitblt"
+msgstr "bitblt"
+
+#: ../../api/vshelper4.h.rst:261
+msgid "Copies bytes from one plane to another. Basically, it is memcpy in a loop."
+msgstr "将字节从一个平面复制到另一个平面。基本上，它是循环中的 memcpy。"
+
+#: ../../api/vshelper4.h.rst:263
+msgid "*row_size* is in bytes."
+msgstr "*row_size* 以字节为单位。"
+
+#: ../../api/vshelper4.h.rst:267
+msgid "areValidDimensions"
+msgstr "areValidDimensions"
+
+#: ../../api/vshelper4.h.rst:271
+msgid ""
+"Checks if the given dimensions are valid for a particular format, with "
+"regards to chroma subsampling."
+msgstr ""
+"检查给定的尺寸对于特定格式是否有效，考虑色度子采样。"
+

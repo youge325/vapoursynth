@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/general/setmaxcpu.rst:2
+msgid "SetMaxCPU"
+msgstr "SetMaxCPU"
+
+#: ../../functions/general/setmaxcpu.rst:7
+msgid ""
+"This function is only intended for testing and debugging purposes and "
+"sets the maximum used instruction set for optimized functions."
+msgstr ""
+"此函数仅用于测试和调试目的，设置优化函数使用的最大指令集。"
+
+#: ../../functions/general/setmaxcpu.rst:10
+msgid "Possible values for x86: \"avx2\", \"sse2\", \"none\""
+msgstr "x86 的可能值："avx2"、"sse2"、"none""
+
+#: ../../functions/general/setmaxcpu.rst:12
+msgid "Other platforms: \"none\""
+msgstr "其他平台："none""
+
+#: ../../functions/general/setmaxcpu.rst:14
+msgid "By default all supported cpu features are used."
+msgstr "默认情况下使用所有支持的 CPU 功能。"

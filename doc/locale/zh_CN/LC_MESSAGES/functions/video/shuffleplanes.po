@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/shuffleplanes.rst:31
+msgid "Below are some examples of useful operations."
+msgstr "以下是一些有用操作的示例。"
+
+#: ../../functions/video/shuffleplanes.rst:2
+msgid "ShufflePlanes"
+msgstr "ShufflePlanes（平面混排）"
+
+#: ../../functions/video/shuffleplanes.rst:7
+msgid ""
+"ShufflePlanes can extract and combine planes from different clips in the "
+"most general way possible. This is both good and bad, as there are almost"
+" no error checks."
+msgstr ""
+"ShufflePlanes 可以以最通用的方式从不同片段中提取和组合平面。这既是优点也是缺点，因为几乎没有错误检查。"
+
+#: ../../functions/video/shuffleplanes.rst:11
+msgid ""
+"Most of the returned clip's properties are implicitly determined from the"
+" first clip given to *clips* but can also be changed by using *prop_src*."
+msgstr ""
+"返回片段的大部分属性隐式地从给定给 *clips* 的第一个片段确定，但也可以通过使用 *prop_src* 来更改。"
+
+#: ../../functions/video/shuffleplanes.rst:14
+msgid ""
+"The *clips* parameter takes between one and three clips for color "
+"families with three planes. In this case clips=[A] is equivalent to "
+"clips=[A, A, A] and clips=[A, B] is equivalent to clips=[A, B, B]. For "
+"the GRAY color family, which has one plane, it takes exactly one clip."
+msgstr ""
+"对于具有三个平面的色彩族，*clips* 参数接受一到三个片段。在这种情况下 clips=[A] 等价于 clips=[A, A, A]，clips=[A, B] 等价于 clips=[A, B, B]。对于只有一个平面的 GRAY 色彩族，它只接受一个片段。"
+
+#: ../../functions/video/shuffleplanes.rst:19
+msgid ""
+"The argument *planes* controls which of the input clips' planes to use. "
+"Zero indexed. The first number refers to the first input clip, the second"
+" number to the second clip, the third number to the third clip."
+msgstr ""
+"参数 *planes* 控制要使用输入片段的哪些平面。零索引。第一个数字指第一个输入片段，第二个数字指第二个片段，第三个数字指第三个片段。"
+
+#: ../../functions/video/shuffleplanes.rst:23
+msgid ""
+"The only thing that needs to be specified is *colorfamily*, which "
+"controls which color family (YUV, RGB, GRAY) the output clip will be. "
+"Properties such as subsampling are determined from the relative size of "
+"the given planes to combine."
+msgstr ""
+"唯一需要指定的是 *colorfamily*，它控制输出片段的色彩族（YUV、RGB、GRAY）。诸如子采样等属性从要组合的给定平面的相对大小确定。"
+
+#: ../../functions/video/shuffleplanes.rst:28
+msgid ""
+"ShufflePlanes accepts clips with variable format and dimensions only when"
+" extracting a single plane."
+msgstr ""
+"ShufflePlanes 只有在提取单个平面时才接受具有可变格式和尺寸的片段。"
+
+#: ../../functions/video/shuffleplanes.rst:33
+msgid ""
+"Extract plane with index X. X=0 will mean luma in a YUV clip and R in an "
+"RGB clip. Likewise 1 will return the U and G channels, respectively::"
+msgstr ""
+"提取索引为 X 的平面。X=0 在 YUV 片段中表示亮度，在 RGB 片段中表示 R。同样，1 分别返回 U 和 G 通道::"
+
+#: ../../functions/video/shuffleplanes.rst:38
+msgid "Swap U and V in a YUV clip::"
+msgstr "在 YUV 片段中交换 U 和 V::"
+
+#: ../../functions/video/shuffleplanes.rst:42
+msgid "Merge 3 grayscale clips into a YUV clip::"
+msgstr "将 3 个灰度片段合并为 YUV 片段::"
+
+#: ../../functions/video/shuffleplanes.rst:46
+msgid "Cast a YUV clip to RGB::"
+msgstr "将 YUV 片段转换为 RGB：:"

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../introduction.rst:2
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../introduction.rst:4
+msgid ""
+"VapourSynth is an application for video manipulation. Or a plugin. Or a "
+"library. It's hard to tell because it has a core library written in C++ "
+"and a Python module to allow video scripts to be created. It came to be "
+"when I started thinking about alternative designs for Avisynth and most "
+"of it was written over a 3 month period."
+msgstr ""
+"VapourSynth 是一个用于视频处理的应用程序。或者说是一个插件。或者是一个库。"
+"很难说清楚，因为它有一个用 C++ 编写的核心库和一个 Python 模块，允许创建视频脚本。"
+"当我开始思考 Avisynth 的替代设计时，它就诞生了，大部分代码是在 3 个月内完成的。"
+
+#: ../../introduction.rst:10
+msgid ""
+"The software has been heavily inspired by `Avisynth "
+"<http://www.avisynth.nl>`_ and aims to be a 21st century rewrite, taking "
+"advantage of the advancements computers have made since the late 90s. The"
+" main features compared to Avisynth are:"
+msgstr ""
+"这个软件深受 `Avisynth <http://www.avisynth.nl>`_ 的启发，旨在成为 21 世纪的重写版本，"
+"充分利用自 90 年代末以来计算机的进步。与 Avisynth 相比的主要特性有："
+
+#: ../../introduction.rst:15
+msgid "Multithreaded - Frame level multithreading that scales well"
+msgstr "多线程 - 可良好扩展的帧级多线程"
+
+#: ../../introduction.rst:16
+msgid "Generalized Colorspaces - New colorspaces can be specified at runtime"
+msgstr "通用色彩空间 - 可在运行时指定新的色彩空间"
+
+#: ../../introduction.rst:17
+msgid "Per Frame Properties - Additional metadata can be attached to frames"
+msgstr "每帧属性 - 可以为帧附加额外的元数据"
+
+#: ../../introduction.rst:18
+msgid ""
+"Python Based - The scripting part is implemented as a Python module so "
+"you don't have to learn a special language"
+msgstr "基于 Python - 脚本部分作为 Python 模块实现，所以你不需要学习特殊语言"
+
+#: ../../introduction.rst:20
+msgid ""
+"Support for video with format changes - Some video just can't stick to "
+"one format or frame size. VapourSynth can handle any kind of change"
+msgstr ""
+"支持格式变化的视频 - 有些视频无法保持一种格式或帧大小。VapourSynth 可以处理任何类型的变化"
+
+#: ../../introduction.rst:22
+msgid "Compatible with a large number of already existing Avisynth plugins"
+msgstr "与大量现有的 Avisynth 插件兼容"
+
+#: ../../introduction.rst:25
+msgid "About the author"
+msgstr "关于作者"
+
+#: ../../introduction.rst:27
+msgid ""
+"Fredrik Mellbin majored in electrical engineering with a focus on image "
+"analysis and processing with medical applications. He has previously "
+"worked with digital electronics and likes to plan his own software "
+"projects in his spare time. When he one day found himself out of work he "
+"needed something to do between sending out job applications and waiting "
+"for a reply. The natural choice for the author was to try to improve "
+"Avisynth, the software that once made him interested in video editing. "
+"VapourSynth is the result of all that time waiting."
+msgstr ""
+"Fredrik Mellbin 主修电气工程，专注于医疗应用中的图像分析和处理。他之前从事数字电子工作，"
+"喜欢在业余时间规划自己的软件项目。当他某天发现自己失业时，他需要在投递求职申请和等待回复"
+"之间做点什么。对作者来说，自然的选择就是尝试改进 Avisynth —— 这个曾经让他对视频编辑"
+"产生兴趣的软件。VapourSynth 就是所有那些等待时间的结果。"
+
+#: ../../introduction.rst:35
+msgid ""
+"Feel free to contact me at fredrik.mellbin that round thingy with an a "
+"gmail.com if you need help to port a filter or want to sponsor the "
+"development."
+msgstr ""
+"如果你需要帮助移植过滤器或想要赞助开发，请随时通过 fredrik.mellbin 那个圆圆的东西加个 a "
+"gmail.com 联系我。"
+"如果你需要帮助移植过滤器或想赞助开发，请随时联系我：fredrik.mellbin 那个圆圆的东西"
+"带个a gmail.com"
+

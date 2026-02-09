@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/audio/audioloop.rst:2
+msgid "AudioLoop"
+msgstr "AudioLoop"
+
+#: ../../functions/audio/audioloop.rst:7 ../../functions/video/loop.rst:7
+msgid ""
+"Returns a clip with the frames or samples repeated over and over again. "
+"If *times* is less than 1 the clip will be repeated until the maximum "
+"clip length is reached, otherwise it will be repeated *times* times."
+msgstr "返回一个片段，其中帧或样本会一遍又一遍地重复。如果 *times* 小于 1，片段会重复直到达到最大片段长度，否则会重复 *times* 次。"
+
+#: ../../functions/audio/audioloop.rst:11
+msgid ""
+"In Python, std.AudioLoop can also be invoked :ref:`using the "
+"multiplication operator <pythonreference>`."
+msgstr "在 Python 中，std.AudioLoop 也可以通过 :ref:`乘法运算符 <pythonreference>` 调用。"

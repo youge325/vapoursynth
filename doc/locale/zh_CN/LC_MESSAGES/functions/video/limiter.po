@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/limiter.rst:2
+msgid "Limiter"
+msgstr "Limiter（限制器）"
+
+#: ../../functions/video/limiter.rst:7
+msgid "Limits the pixel values to the range [*min*, *max*]."
+msgstr "将像素值限制在 [*min*, *max*] 范围内。"
+
+#: ../../functions/video/limiter.rst:15
+msgid "*min*"
+msgstr "*min* （最小值）"
+
+#: ../../functions/video/limiter.rst:16
+msgid ""
+"Lower bound. Defaults to the lowest allowed value for the input. Can be "
+"specified for each plane individually."
+msgstr ""
+"下界。默认为输入允许的最低值。可以为每个平面单独指定。"
+
+#: ../../functions/video/limiter.rst:18
+msgid "*max*"
+msgstr "*max* （最大值）"
+
+#: ../../functions/video/limiter.rst:19
+msgid ""
+"Upper bound. Defaults to the highest allowed value for the input. Can be "
+"specified for each plane individually."
+msgstr ""
+"上界。默认为输入允许的最高值。可以为每个平面单独指定。"

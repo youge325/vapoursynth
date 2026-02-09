@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/selectevery.rst:10
+#: ../../functions/video/selectevery.rst:2
+msgid "SelectEvery"
+msgstr "SelectEvery（选择每个）"
+
+#: ../../functions/video/selectevery.rst:7
+msgid ""
+"Returns a clip with only some of the frames in every *cycle* selected. "
+"The *offsets* given must be between 0 and *cycle* - 1."
+msgstr ""
+"返回一个片段，只选择每个 *cycle* 周期中的某些帧。给定的 *offsets* 必须在 0 和 *cycle* - 1 之间。"
+
+#: ../../functions/video/selectevery.rst:12
+msgid "Return even numbered frames, starting with 0::"
+msgstr "返回偶数帧，从 0 开始："
+
+#: ../../functions/video/selectevery.rst:16
+msgid "Return odd numbered frames, starting with 1::"
+msgstr "返回奇数帧，从 1 开始："
+
+#: ../../functions/video/selectevery.rst:20
+msgid "Fixed pattern 1 in 5 decimation, first frame in every cycle removed::"
+msgstr "固定模式 1/5 抽取，每个周期中的第一帧被移除："
+
+#: ../../functions/video/selectevery.rst:24
+msgid "Duplicate every fourth frame::"
+msgstr "复制每第四帧::"
+
+#: ../../functions/video/selectevery.rst:28
+msgid ""
+"In Python, std.SelectEvery can also be invoked by :ref:`slicing a clip "
+"<pythonreference>`."
+msgstr ""
+"在 Python 中，std.SelectEvery 也可以通过 :ref:`片段切片 "
+"<pythonreference>` 调用。"
+
+#: ../../functions/video/selectevery.rst:30
+msgid ""
+"If *modify_duration* is set the clip's frame rate is multiplied by the "
+"number of offsets and divided by *cycle*. The frame durations are "
+"adjusted in the same manner."
+msgstr ""
+"如果设置了 *modify_duration*，片段的帧率会乘以偏移数量并除以 *cycle*。帧"
+"持续时间以同样方式调整。"

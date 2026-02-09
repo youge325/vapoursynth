@@ -253,4 +253,4 @@ texinfo_documents = [
 #texinfo_show_urls = 'footnote'
 
 locale_dirs = ['locale/']
-gettext_compact = True
+gettext_compact = False

@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/prewitt_sobel.rst:14
+msgid "*clip*"
+msgstr "*clip* （片段）"
+
+#: ../../functions/video/prewitt_sobel.rst:15
+msgid ""
+"Clip to process. It must have integer sample type and bit depth between 8"
+" and 16, or float sample type and bit depth of 32. If there are any "
+"frames with other formats, an error will be returned."
+msgstr ""
+"要处理的片段。必须具有整数采样类型且位深在 8 到 16 之间，或浮点采样类型且位深为 32。如果有任何其他格式的帧，将返回错误。"
+
+#: ../../functions/video/prewitt_sobel.rst:20
+msgid "*planes*"
+msgstr "*planes* （平面）"
+
+#: ../../functions/video/prewitt_sobel.rst:21
+msgid ""
+"Specifies which planes will be processed. Any unprocessed planes will be "
+"simply copied."
+msgstr ""
+"指定要处理的平面。任何未处理的平面将被简单复制。"
+
+#: ../../functions/video/prewitt_sobel.rst:2
+msgid "Prewitt/Sobel"
+msgstr "Prewitt/Sobel（普瑞维特/索贝尔边缘检测）"
+
+#: ../../functions/video/prewitt_sobel.rst:7
+msgid "Creates an edge mask using the Prewitt operator."
+msgstr "使用普瑞维特算子创建边缘遮罩。"
+
+#: ../../functions/video/prewitt_sobel.rst:12
+msgid "Creates an edge mask using the Sobel operator."
+msgstr "使用索贝尔算子创建边缘遮罩。"
+
+#: ../../functions/video/prewitt_sobel.rst:24
+msgid "*scale*"
+msgstr "*scale* （缩放）"
+
+#: ../../functions/video/prewitt_sobel.rst:25
+msgid ""
+"Multiply all pixels by scale before outputting. This can be used to "
+"increase or decrease the intensity of edges in the output."
+msgstr ""
+"在输出前将所有像素乘以缩放系数。这可以用于增加或减少输出中边缘的强度。"

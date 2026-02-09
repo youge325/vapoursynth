@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/doubleweave.rst:2
+msgid "DoubleWeave"
+msgstr "DoubleWeave（双重交错）"
+
+#: ../../functions/video/doubleweave.rst:7
+msgid "Weaves the fields back together from a clip with interleaved fields."
+msgstr "将交错场的片段重新交织在一起。"
+
+#: ../../functions/video/doubleweave.rst:9
+msgid ""
+"Since VapourSynth only has a weak notion of field order internally, *tff*"
+" may have to be set. Setting *tff* to true means top fields first and "
+"false means bottom fields first. Note that the ``_Field`` frame property,"
+" if present and in a valid combination, takes precedence over *tff*."
+msgstr ""
+"由于 VapourSynth 内部对场顺序只有弱概念，可能需要设置 *tff*。将 *tff* 设为 true 表示顶场优先，false 表示底场优先。注意 ``_Field`` 帧属性（如果存在且在有效组合中）优先于 *tff*。"
+"由于 VapourSynth 内部对场序的概念很弱，可能需要设置 *tff*。将 *tff* 设置"
+"为 true 表示上场优先，false 表示下场优先。注意，``_Field`` 帧属性（如果存在"
+"且处于有效组合中）优先于 *tff*。"
+
+#: ../../functions/video/doubleweave.rst:14
+msgid ""
+"DoubleWeave's output has the same number of frames as the input. One must"
+" use DoubleWeave together with SelectEvery to undo the effect of "
+"SeparateFields::"
+msgstr ""
+"DoubleWeave 的输出帧数与输入相同。必须将 DoubleWeave 与 SelectEvery 一起使用来撤销 SeparateFields 的效果::"
+"DoubleWeave 的输出与输入具有相同的帧数。必须将 DoubleWeave 与 SelectEvery "
+"一起使用来撤销 SeparateFields 的效果::"
+
+#: ../../functions/video/doubleweave.rst:23
+msgid ""
+"The ``_Field`` frame property is deleted and ``_FieldBased`` is set "
+"accordingly."
+msgstr ""
+"删除 ``_Field`` 帧属性，并相应设置 ``_FieldBased``。"

@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/expr.rst:2
+msgid "Expr"
+msgstr "Expr（表达式计算）"
+
+#: ../../functions/video/expr.rst:7
+msgid ""
+"Expr evaluates an expression per pixel for up to 26 input *clips*. The "
+"expression, *expr*, is written using reverse polish notation and can be "
+"specified for each plane individually. The expression given for the "
+"previous plane is used if the *expr* array contains fewer expressions "
+"than the input clip has planes. In practice this means that a single "
+"expression will be applied to all planes by default."
+msgstr ""
+"Expr 对最多 26 个输入 *clips* 的每个像素计算表达式。表达式 *expr* 使用逆波兰记号法编写，可以为每个平面单独指定。如果 *expr* 数组包含的表达式少于输入片段的平面数，则使用前一个平面的表达式。实际上，这意味着默认情况下单个表达式将应用于所有平面。"
+
+#: ../../functions/video/expr.rst:15
+msgid ""
+"Specifying an empty string as the expression enables a fast plane copy "
+"from the first specified clip, when possible. If it is not possible due "
+"to the output *format* being incompatible, the plane contents will be "
+"undefined."
+msgstr ""
+"将空字符串指定为表达式时，可以从第一个指定片段快速复制平面（如果可能）。如果由于输出 *format* 不兼容而无法实现，平面内容将是未定义的。"
+
+#: ../../functions/video/expr.rst:19
+msgid ""
+"Since the expression is evaluated at runtime, there are a few pitfalls. "
+"In order to keep speed up, the input ranges are not normalized to the "
+"usual floating point ranges. Instead they are left as is, meaning that an"
+" 8 bit clip will have values in the 0-255 range and a 10 bit clip will "
+"have values in the 0-1023 range. Note that floating point clips are even "
+"more difficult, as most channels are stored in the 0-1 range with the "
+"exception of U, V, Co and Cg planes, which are in the -0.5-0.5 range. If "
+"you mix clips with different input formats this must be taken into "
+"consideration."
+msgstr ""
+"由于表达式是在运行时求值的，存在一些陷阱。为了保持高速度，输入范围不会标准化为常见的浮点数范围。相反，它们保持原样，这意味着8位片段的值在0-255范围内，10位片段的值在0-1023范围内。注意浮点片段更加复杂，因为大多数通道存储在0-1范围内，但U、V、Co和Cg平面是在-0.5-0.5范围内。如果您混合使用不同输入格式的片段，必须考虑这一点。"
+
+#: ../../functions/video/expr.rst:30
+msgid ""
+"When the output format uses integer samples, the result of the expression"
+" is clamped to the [0, 2**bits_per_sample-1] range. When the output "
+"format uses float samples, the result of the expression is stored without"
+" any clamping."
+msgstr ""
+"当输出格式使用整数采样时，表达式的结果被限制在[0, 2**bits_per_sample-1]范围内。当输出格式使用浮点采样时，表达式的结果存储时不进行任何限制。"
+
+#: ../../functions/video/expr.rst:35
+msgid ""
+"By default the output *format* is the same as the first input clip's "
+"format. You can override it by setting *format*. The only restriction is "
+"that the output *format* must have the same subsampling as the input "
+"*clips* and be 8..16 bit integer or 32 bit float. 16 bit float is also "
+"supported on cpus with the f16c instructions."
+msgstr ""
+"默认情况下，输出 *format* 与第一个输入片段的格式相同。您可以通过设置 *format* 来覆盖它。唯一的限制是输出 *format* 必须与输入 *clips* 具有相同的子采样，并且是8..16位整数或32位浮点数。在具有f16c指令的CPU上也支持16位浮点数。"
+
+#: ../../functions/video/expr.rst:41
+msgid ""
+"Logical operators are also a bit special, since everything is done in "
+"floating point arithmetic. All values greater than 0 are considered true "
+"for the purpose of comparisons. Logical operators return 0.0 for false "
+"and 1.0 for true in their operations."
+msgstr ""
+"逻辑运算符也有些特殊，因为所有操作都是在浮点算术中完成的。在比较中，所有大于0的值都被认为是真。逻辑运算符在操作中返回0.0表示假，返回1.0表示真。"
+
+#: ../../functions/video/expr.rst:46
+msgid ""
+"Since the expression is being evaluated at runtime, there are also the "
+"stack manipulation operators, *swap* and *dup*. The former swaps the "
+"topmost and second topmost values, and the latter duplicates the topmost "
+"stack value."
+msgstr ""
+"由于表达式是在运行时求值的，还有栈操作运算符 *swap* 和 *dup*。前者交换栈顶和次栈顶的值，后者复制栈顶值。"
+
+#: ../../functions/video/expr.rst:50
+msgid ""
+"These operators also have *swapN* and *dupN* forms that allow a value N "
+"steps up in the stack to be swapped or duplicated. The top value of the "
+"stack has index zero meaning that *dup* is equivalent to *dup0* and "
+"*swap* is equivalent to *swap1*. This is because *swapN* always swaps "
+"with the topmost value at index 0."
+msgstr ""
+"这些运算符还有 *swapN* 和 *dupN* 形式，允许交换或复制栈中向上N步的值。栈顶值的索引为零，这意味着 *dup* 等同于 *dup0*， *swap* 等同于 *swap1*。这是因为 *swapN* 总是与索引0处的栈顶值交换。"
+
+#: ../../functions/video/expr.rst:56
+msgid ""
+"Expressions are converted to byte-code or machine-code by an optimizing "
+"compiler and are not guaranteed to evaluate in the order originally "
+"written. The compiler assumes that all input values are finite (i.e "
+"neither NaN nor INF) and that no operator will produce a non-finite "
+"value. Such expressions are invalid. This is especially important for the"
+" transcendental operators:"
+msgstr ""
+"表达式由优化编译器转换为字节码或机器码，不保证按原始书写顺序求值。编译器假设所有输入值都是有限的（即既不是NaN也不是INF），并且没有运算符会产生非有限值。此类表达式无效。这对于超越运算符特别重要："
+
+#: ../../functions/video/expr.rst:62
+msgid "exp - expression must not overflow (i.e. x <= 88)"
+msgstr "exp - 表达式不能溢出（即 x <= 88）"
+
+#: ../../functions/video/expr.rst:63
+msgid "log - input must be finite and non-negative (i.e. x >= 0 && x <= 3e+38)"
+msgstr "log - 输入必须是有限的且非负数（即 x >= 0 && x <= 3e+38）"
+
+#: ../../functions/video/expr.rst:64
+msgid ""
+"pow - base must be finite and non-negative. Result must not overflow "
+"(i.e. x >= 0 && x <= 3e+38; 1e-38 <= result <= 3e+38)"
+msgstr ""
+"pow - 底数必须是有限的且非负数。结果不能溢出（即 x >= 0 && x <= 3e+38；1e-38 <= 结果 <= 3e+38）"
+
+#: ../../functions/video/expr.rst:66
+msgid "Clip load operators::"
+msgstr "片段加载运算符::"
+
+#: ../../functions/video/expr.rst:70
+msgid "The operators taking one argument are::"
+msgstr "接受一个参数的运算符::"
+
+#: ../../functions/video/expr.rst:74
+msgid "The operators taking two arguments are::"
+msgstr "接受两个参数的运算符::"
+
+#: ../../functions/video/expr.rst:78
+msgid "The operators taking three arguments are::"
+msgstr "接受三个参数的运算符::"
+
+#: ../../functions/video/expr.rst:82
+msgid "For example these operations::"
+msgstr "例如这些操作::"
+
+#: ../../functions/video/expr.rst:90
+msgid "Are equivalent to these operations in C::"
+msgstr "等价于C中的这些操作::"
+
+#: ../../functions/video/expr.rst:98
+msgid ""
+"The sin/cos operators are approximated to within 2e-6 absolute error for "
+"inputs with magnitude up to 1e5, and there is no accuracy guarantees for "
+"inputs whose magnitude is larger than 2e5."
+msgstr ""
+"sin/cos 运算符对于大小不超过1e5的输入，近似在2e-6绝对误差内，对于大小超过2e5的输入不保证准确性。"
+
+#: ../../functions/video/expr.rst:102
+msgid ""
+"How to average the Y planes of 3 YUV clips and pass through the UV planes"
+" unchanged (assuming same format)::"
+msgstr ""
+"如何平均3个YUV片段的Y平面并保持UV平面不变（假设格式相同）::"
+
+#: ../../functions/video/expr.rst:107
+msgid ""
+"How to average the Y planes of 3 YUV clips and pass through the UV planes"
+" unchanged (different formats)::"
+msgstr ""
+"如何平均3个YUV片段的Y平面并保持UV平面不变（不同格式）::"
+
+#: ../../functions/video/expr.rst:113
+msgid ""
+"Setting the output format because the resulting values are illegal in a "
+"10 bit clip (note that the U and V planes will contain junk since direct "
+"copy isn't possible)::"
+msgstr ""
+"设置输出格式，因为结果值在 10 位片段中是非法的（注意 U 和 V 平面将包含垃圾数据，因为无法直接复制）::"

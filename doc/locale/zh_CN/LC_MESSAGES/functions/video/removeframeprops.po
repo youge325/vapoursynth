@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/removeframeprops.rst:2
+msgid "RemoveFrameProps"
+msgstr "RemoveFrameProps（移除帧属性）"
+
+#: ../../functions/video/removeframeprops.rst:7
+msgid ""
+"Returns *clip* but with all the frame properties named in *props* "
+"removed. If *props* is unset them all frame properties are removed."
+msgstr ""
+"返回 *clip*，但移除了 *props* 中指定名称的所有帧属性。如果未设置 *props*，"
+"则移除所有帧属性。"
+
+#: ../../functions/video/removeframeprops.rst:11
+msgid ""
+"Note that *props* accepts wildcards (* and ?) which can be very useful if"
+" you for example only want to clear properties set by a single filter "
+"since they're usually prefixed such as VFM\\* or _\\* can be used as a "
+"shorthand to conveniently clear only the internally reserved properties "
+"(colorimetry, time, field structure)."
+msgstr ""
+"注意 *props* 接受通配符（* 和 ?），这在您只想清除单个滤镜设置的属性时非常"
+"有用，因为它们通常有前缀，例如 VFM\\* 或 _\\* 可以用作简写，方便地只清除"
+"内部保留属性（色彩学、时间、场结构）。"

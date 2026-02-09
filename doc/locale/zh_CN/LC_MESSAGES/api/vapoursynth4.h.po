@@ -1,0 +1,4631 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+
+#: ../../api/vapoursynth4.h.rst:2
+msgid "VapourSynth4.h"
+msgstr "VapourSynth4.h"
+
+#: ../../api/vapoursynth4.h.rst:5 ../../api/vshelper4.h.rst:5
+
+#: ../../api/vapoursynth4.h.rst:7 ../../api/vshelper4.h.rst:7
+
+#: ../../api/vapoursynth4.h.rst:10 ../../api/vshelper4.h.rst:10
+msgid "Macros_"
+msgstr "宏_"
+
+#: ../../api/vapoursynth4.h.rst:11
+msgid "VS_CC_"
+msgstr "VS_CC_"
+
+#: ../../api/vapoursynth4.h.rst:13
+msgid "VS_EXTERNAL_API_"
+msgstr "VS_EXTERNAL_API_"
+
+#: ../../api/vapoursynth4.h.rst:15
+msgid "VAPOURSYNTH_API_MAJOR_"
+msgstr "VAPOURSYNTH_API_MAJOR_"
+
+#: ../../api/vapoursynth4.h.rst:17
+msgid "VAPOURSYNTH_API_MINOR_"
+msgstr "VAPOURSYNTH_API_MINOR_"
+
+#: ../../api/vapoursynth4.h.rst:19
+msgid "VAPOURSYNTH_API_VERSION_"
+msgstr "VAPOURSYNTH_API_VERSION_"
+
+#: ../../api/vapoursynth4.h.rst:21
+msgid "VS_AUDIO_FRAME_SAMPLES_"
+msgstr "VS_AUDIO_FRAME_SAMPLES_"
+
+#: ../../api/vapoursynth4.h.rst:23
+msgid "VS_MAKE_VERSION_"
+msgstr "VS_MAKE_VERSION_"
+
+#: ../../api/vapoursynth4.h.rst:26
+msgid "Enums_"
+msgstr "枚举_"
+
+#: ../../api/vapoursynth4.h.rst:27
+msgid "VSColorFamily_"
+msgstr "VSColorFamily_"
+
+#: ../../api/vapoursynth4.h.rst:29
+msgid "VSSampleType_"
+msgstr "VSSampleType_"
+
+#: ../../api/vapoursynth4.h.rst:31
+msgid "VSPresetVideoFormat_"
+msgstr "VSPresetVideoFormat_"
+
+#: ../../api/vapoursynth4.h.rst:33
+msgid "VSFilterMode_"
+msgstr "VSFilterMode_"
+
+#: ../../api/vapoursynth4.h.rst:35
+msgid "VSMediaType_"
+msgstr "VSMediaType_"
+
+#: ../../api/vapoursynth4.h.rst:37
+msgid "VSAudioChannels_"
+msgstr "VSAudioChannels_"
+
+#: ../../api/vapoursynth4.h.rst:39
+msgid "VSPropertyType_"
+msgstr "VSPropertyType_"
+
+#: ../../api/vapoursynth4.h.rst:41
+msgid "VSMapPropertyError_"
+msgstr "VSMapPropertyError_"
+
+#: ../../api/vapoursynth4.h.rst:43
+msgid "VSMapAppendMode_"
+msgstr "VSMapAppendMode_"
+
+#: ../../api/vapoursynth4.h.rst:45
+msgid "VSActivationReason_"
+msgstr "VSActivationReason_"
+
+#: ../../api/vapoursynth4.h.rst:47
+msgid "VSMessageType_"
+msgstr "VSMessageType_"
+
+#: ../../api/vapoursynth4.h.rst:49
+msgid "VSCoreCreationFlags_"
+msgstr "VSCoreCreationFlags_"
+
+#: ../../api/vapoursynth4.h.rst:51
+msgid "VSPluginConfigFlags_"
+msgstr "VSPluginConfigFlags_"
+
+#: ../../api/vapoursynth4.h.rst:53
+msgid "VSDataTypeHint_"
+msgstr "VSDataTypeHint_"
+
+#: ../../api/vapoursynth4.h.rst:55
+msgid "VSRequestPattern_"
+msgstr "VSRequestPattern_"
+
+#: ../../api/vapoursynth4.h.rst:57
+msgid "VSCacheMode_"
+msgstr "VSCacheMode_"
+
+#: ../../api/vapoursynth4.h.rst:60 ../../api/vsscript4.h.rst:10
+msgid "Structs_"
+msgstr "结构体_"
+
+#: ../../api/vapoursynth4.h.rst:61
+msgid "VSFrame_"
+msgstr "VSFrame_"
+
+#: ../../api/vapoursynth4.h.rst:63
+msgid "VSNode_"
+msgstr "VSNode_"
+
+#: ../../api/vapoursynth4.h.rst:65
+msgid "VSCore_"
+msgstr "VSCore_"
+
+#: ../../api/vapoursynth4.h.rst:67
+msgid "VSPlugin_"
+msgstr "VSPlugin_"
+
+#: ../../api/vapoursynth4.h.rst:69
+msgid "VSPluginFunction_"
+msgstr "VSPluginFunction_"
+
+#: ../../api/vapoursynth4.h.rst:71
+msgid "VSFunction_"
+msgstr "VSFunction_"
+
+#: ../../api/vapoursynth4.h.rst:73
+msgid "VSMap_"
+msgstr "VSMap_"
+
+#: ../../api/vapoursynth4.h.rst:75
+msgid "VSLogHandle_"
+msgstr "VSLogHandle_"
+
+#: ../../api/vapoursynth4.h.rst:77
+msgid "VSFrameContext_"
+msgstr "VSFrameContext_"
+
+#: ../../api/vapoursynth4.h.rst:79
+msgid "VSVideoFormat_"
+msgstr "VSVideoFormat_"
+
+#: ../../api/vapoursynth4.h.rst:81
+msgid "VSVideoInfo_"
+msgstr "VSVideoInfo_"
+
+#: ../../api/vapoursynth4.h.rst:83
+msgid "VSAudioFormat_"
+msgstr "VSAudioFormat_"
+
+#: ../../api/vapoursynth4.h.rst:85
+msgid "VSAudioInfo_"
+msgstr "VSAudioInfo_"
+
+#: ../../api/vapoursynth4.h.rst:87
+msgid "VSCoreInfo_"
+msgstr "VSCoreInfo_"
+
+#: ../../api/vapoursynth4.h.rst:89
+msgid "VSFilterDependency_"
+msgstr "VSFilterDependency_"
+
+#: ../../api/vapoursynth4.h.rst:91
+msgid "VSPLUGINAPI_"
+msgstr "VSPLUGINAPI_"
+
+#: ../../api/vapoursynth4.h.rst:93
+msgid "VSAPI_"
+msgstr "VSAPI_"
+
+#: ../../api/vapoursynth4.h.rst:95
+msgid "Functions that deal with the core:"
+msgstr "处理核心的函数："
+
+#: ../../api/vapoursynth4.h.rst:97
+msgid "createCore_"
+msgstr "createCore_"
+
+#: ../../api/vapoursynth4.h.rst:99
+msgid "freeCore_"
+msgstr "freeCore_"
+
+#: ../../api/vapoursynth4.h.rst:101
+msgid "setMaxCacheSize_"
+msgstr "setMaxCacheSize_"
+
+#: ../../api/vapoursynth4.h.rst:103
+msgid "setThreadCount_"
+msgstr "setThreadCount_"
+
+#: ../../api/vapoursynth4.h.rst:105
+msgid "getCoreInfo_"
+msgstr "getCoreInfo_"
+
+#: ../../api/vapoursynth4.h.rst:107
+msgid "getAPIVersion_"
+msgstr "getAPIVersion_"
+
+#: ../../api/vapoursynth4.h.rst:109
+msgid "Functions that deal with logging"
+msgstr "处理日志记录的函数"
+
+#: ../../api/vapoursynth4.h.rst:111
+msgid "addLogHandler_"
+msgstr "addLogHandler_"
+
+#: ../../api/vapoursynth4.h.rst:113
+msgid "removeLogHandler_"
+msgstr "removeLogHandler_"
+
+#: ../../api/vapoursynth4.h.rst:115
+msgid "logMessage_"
+msgstr "logMessage_"
+
+#: ../../api/vapoursynth4.h.rst:117
+msgid "Functions that deal with frames:"
+msgstr "处理帧的函数："
+
+#: ../../api/vapoursynth4.h.rst:119
+msgid "newVideoFrame_"
+msgstr "newVideoFrame_"
+
+#: ../../api/vapoursynth4.h.rst:121
+msgid "newVideoFrame2_"
+msgstr "newVideoFrame2_"
+
+#: ../../api/vapoursynth4.h.rst:123
+msgid "newAudioFrame_"
+msgstr "newAudioFrame_"
+
+#: ../../api/vapoursynth4.h.rst:125
+msgid "newAudioFrame2_"
+msgstr "newAudioFrame2_"
+
+#: ../../api/vapoursynth4.h.rst:127
+msgid "freeFrame_"
+msgstr "freeFrame_"
+
+#: ../../api/vapoursynth4.h.rst:129
+msgid "addFrameRef_"
+msgstr "addFrameRef_"
+
+#: ../../api/vapoursynth4.h.rst:131
+msgid "copyFrame_"
+msgstr "copyFrame_"
+
+#: ../../api/vapoursynth4.h.rst:133
+msgid "getFramePropertiesRO_"
+msgstr "getFramePropertiesRO_"
+
+#: ../../api/vapoursynth4.h.rst:135
+msgid "getFramePropertiesRW_"
+msgstr "getFramePropertiesRW_"
+
+#: ../../api/vapoursynth4.h.rst:137
+msgid "getStride_"
+msgstr "getStride_"
+
+#: ../../api/vapoursynth4.h.rst:139
+msgid "getReadPtr_"
+msgstr "getReadPtr_"
+
+#: ../../api/vapoursynth4.h.rst:141
+msgid "getWritePtr_"
+msgstr "getWritePtr_"
+
+#: ../../api/vapoursynth4.h.rst:143
+msgid "getVideoFrameFormat_"
+msgstr "getVideoFrameFormat_"
+
+#: ../../api/vapoursynth4.h.rst:145
+msgid "getAudioFrameFormat_"
+msgstr "getAudioFrameFormat_"
+
+#: ../../api/vapoursynth4.h.rst:147
+msgid "getFrameType_"
+msgstr "getFrameType_"
+
+#: ../../api/vapoursynth4.h.rst:149
+msgid "getFrameWidth_"
+msgstr "getFrameWidth_"
+
+#: ../../api/vapoursynth4.h.rst:151
+msgid "getFrameHeight_"
+msgstr "getFrameHeight_"
+
+#: ../../api/vapoursynth4.h.rst:153
+msgid "getFrameLength_"
+msgstr "getFrameLength_"
+
+#: ../../api/vapoursynth4.h.rst:155
+msgid "Functions that deal with filters and nodes:"
+msgstr "处理滤镜和节点的函数："
+
+#: ../../api/vapoursynth4.h.rst:157
+msgid "createVideoFilter_"
+msgstr "createVideoFilter_"
+
+#: ../../api/vapoursynth4.h.rst:159
+msgid "createVideoFilter2_"
+msgstr "createVideoFilter2_"
+
+#: ../../api/vapoursynth4.h.rst:161
+msgid "createAudioFilter_"
+msgstr "createAudioFilter_"
+
+#: ../../api/vapoursynth4.h.rst:163
+msgid "createAudioFilter2_"
+msgstr "createAudioFilter2_"
+
+#: ../../api/vapoursynth4.h.rst:165
+msgid "setLinearFilter_"
+msgstr "setLinearFilter_"
+
+#: ../../api/vapoursynth4.h.rst:167
+msgid "setCacheMode_"
+msgstr "setCacheMode_"
+
+#: ../../api/vapoursynth4.h.rst:169
+msgid "setCacheOptions_"
+msgstr "setCacheOptions_"
+
+#: ../../api/vapoursynth4.h.rst:171
+msgid "freeNode_"
+msgstr "freeNode_"
+
+#: ../../api/vapoursynth4.h.rst:173
+msgid "addNodeRef_"
+msgstr "addNodeRef_"
+
+#: ../../api/vapoursynth4.h.rst:175
+msgid "getNodeType_"
+msgstr "getNodeType_"
+
+#: ../../api/vapoursynth4.h.rst:177
+msgid "getVideoInfo_"
+msgstr "getVideoInfo_"
+
+#: ../../api/vapoursynth4.h.rst:179
+msgid "getAudioInfo_"
+msgstr "getAudioInfo_"
+
+#: ../../api/vapoursynth4.h.rst:181
+msgid "Functions that deal with formats:"
+msgstr "处理格式的函数："
+
+#: ../../api/vapoursynth4.h.rst:183
+msgid "getVideoFormatName_"
+msgstr "getVideoFormatName_"
+
+#: ../../api/vapoursynth4.h.rst:185
+msgid "getAudioFormatName_"
+msgstr "getAudioFormatName_"
+
+#: ../../api/vapoursynth4.h.rst:187
+msgid "queryVideoFormat_"
+msgstr "queryVideoFormat_"
+
+#: ../../api/vapoursynth4.h.rst:189
+msgid "queryAudioFormat_"
+msgstr "queryAudioFormat_"
+
+#: ../../api/vapoursynth4.h.rst:191
+msgid "queryVideoFormatID_"
+msgstr "queryVideoFormatID_"
+
+#: ../../api/vapoursynth4.h.rst:193
+msgid "getVideoFormatByID_"
+msgstr "getVideoFormatByID_"
+
+#: ../../api/vapoursynth4.h.rst:195
+msgid "Functions that deal with maps:"
+msgstr "处理映射的函数："
+
+#: ../../api/vapoursynth4.h.rst:197
+msgid "createMap_"
+msgstr "createMap_"
+
+#: ../../api/vapoursynth4.h.rst:199
+msgid "freeMap_"
+msgstr "freeMap_"
+
+#: ../../api/vapoursynth4.h.rst:201
+msgid "clearMap_"
+msgstr "clearMap_"
+
+#: ../../api/vapoursynth4.h.rst:203
+msgid "mapGetError_"
+msgstr "mapGetError_"
+
+#: ../../api/vapoursynth4.h.rst:205
+msgid "mapSetError_"
+msgstr "mapSetError_"
+
+#: ../../api/vapoursynth4.h.rst:207
+msgid "mapNumKeys_"
+msgstr "mapNumKeys_"
+
+#: ../../api/vapoursynth4.h.rst:209
+msgid "mapGetKey_"
+msgstr "mapGetKey_"
+
+#: ../../api/vapoursynth4.h.rst:211
+msgid "mapDeleteKey_"
+msgstr "mapDeleteKey_"
+
+#: ../../api/vapoursynth4.h.rst:213
+msgid "mapNumElements_"
+msgstr "mapNumElements_"
+
+#: ../../api/vapoursynth4.h.rst:215
+msgid "mapGetType_"
+msgstr "mapGetType_"
+
+#: ../../api/vapoursynth4.h.rst:217
+msgid "mapSetEmpty_"
+msgstr "mapSetEmpty_"
+
+#: ../../api/vapoursynth4.h.rst:219
+msgid "mapGetInt_"
+msgstr "mapGetInt_"
+
+#: ../../api/vapoursynth4.h.rst:221
+msgid "mapGetIntSaturated_"
+msgstr "mapGetIntSaturated_"
+
+#: ../../api/vapoursynth4.h.rst:223
+msgid "mapGetIntArray_"
+msgstr "mapGetIntArray_"
+
+#: ../../api/vapoursynth4.h.rst:225
+msgid "mapSetInt_"
+msgstr "mapSetInt_"
+
+#: ../../api/vapoursynth4.h.rst:227
+msgid "mapSetIntArray_"
+msgstr "mapSetIntArray_"
+
+#: ../../api/vapoursynth4.h.rst:229
+msgid "mapGetFloat_"
+msgstr "mapGetFloat_"
+
+#: ../../api/vapoursynth4.h.rst:231
+msgid "mapGetFloatSaturated_"
+msgstr "mapGetFloatSaturated_"
+
+#: ../../api/vapoursynth4.h.rst:233
+msgid "mapGetFloatArray_"
+msgstr "mapGetFloatArray_"
+
+#: ../../api/vapoursynth4.h.rst:235
+msgid "mapSetFloat_"
+msgstr "mapSetFloat_"
+
+#: ../../api/vapoursynth4.h.rst:237
+msgid "mapSetFloatArray_"
+msgstr "mapSetFloatArray_"
+
+#: ../../api/vapoursynth4.h.rst:239
+msgid "mapGetData_"
+msgstr "mapGetData_"
+
+#: ../../api/vapoursynth4.h.rst:241
+msgid "mapGetDataSize_"
+msgstr "mapGetDataSize_"
+
+#: ../../api/vapoursynth4.h.rst:243
+msgid "mapGetDataTypeHint_"
+msgstr "mapGetDataTypeHint_"
+
+#: ../../api/vapoursynth4.h.rst:245
+msgid "mapSetData_"
+msgstr "mapSetData_"
+
+#: ../../api/vapoursynth4.h.rst:247
+msgid "mapGetNode_"
+msgstr "mapGetNode_"
+
+#: ../../api/vapoursynth4.h.rst:249
+msgid "mapSetNode_"
+msgstr "mapSetNode_"
+
+#: ../../api/vapoursynth4.h.rst:251
+msgid "mapConsumeNode_"
+msgstr "mapConsumeNode_"
+
+#: ../../api/vapoursynth4.h.rst:253
+msgid "mapGetFrame_"
+msgstr "mapGetFrame_"
+
+#: ../../api/vapoursynth4.h.rst:255
+msgid "mapSetFrame_"
+msgstr "mapSetFrame_"
+
+#: ../../api/vapoursynth4.h.rst:257
+msgid "mapConsumeFrame_"
+msgstr "mapConsumeFrame_"
+
+#: ../../api/vapoursynth4.h.rst:259
+msgid "mapGetFunction_"
+msgstr "mapGetFunction_"
+
+#: ../../api/vapoursynth4.h.rst:261
+msgid "mapSetFunction_"
+msgstr "mapSetFunction_"
+
+#: ../../api/vapoursynth4.h.rst:263
+msgid "mapConsumeFunction_"
+msgstr "mapConsumeFunction_"
+
+#: ../../api/vapoursynth4.h.rst:265
+msgid "Functions that deal with plugins and plugin functions:"
+msgstr "处理插件和插件函数的函数："
+
+#: ../../api/vapoursynth4.h.rst:267
+msgid "registerFunction_"
+msgstr "registerFunction_"
+
+#: ../../api/vapoursynth4.h.rst:269
+msgid "getPluginByID_"
+msgstr "getPluginByID_"
+
+#: ../../api/vapoursynth4.h.rst:271
+msgid "getPluginByNamespace_"
+msgstr "getPluginByNamespace_"
+
+#: ../../api/vapoursynth4.h.rst:273
+msgid "getNextPlugin_"
+msgstr "getNextPlugin_"
+
+#: ../../api/vapoursynth4.h.rst:275
+msgid "getPluginName_"
+msgstr "getPluginName_"
+
+#: ../../api/vapoursynth4.h.rst:277
+msgid "getPluginID_"
+msgstr "getPluginID_"
+
+#: ../../api/vapoursynth4.h.rst:279
+msgid "getPluginNamespace_"
+msgstr "getPluginNamespace_"
+
+#: ../../api/vapoursynth4.h.rst:281
+msgid "getNextPluginFunction_"
+msgstr "getNextPluginFunction_"
+
+#: ../../api/vapoursynth4.h.rst:283
+msgid "getPluginFunctionByName_"
+msgstr "getPluginFunctionByName_"
+
+#: ../../api/vapoursynth4.h.rst:285
+msgid "getPluginFunctionName_"
+msgstr "getPluginFunctionName_"
+
+#: ../../api/vapoursynth4.h.rst:287
+msgid "getPluginFunctionArguments_"
+msgstr "getPluginFunctionArguments_"
+
+#: ../../api/vapoursynth4.h.rst:289
+msgid "getPluginFunctionReturnType_"
+msgstr "getPluginFunctionReturnType_"
+
+#: ../../api/vapoursynth4.h.rst:291
+msgid "getPluginPath_"
+msgstr "getPluginPath_"
+
+#: ../../api/vapoursynth4.h.rst:293
+msgid "getPluginVersion_"
+msgstr "getPluginVersion_"
+
+#: ../../api/vapoursynth4.h.rst:295
+msgid "invoke_"
+msgstr "invoke_"
+
+#: ../../api/vapoursynth4.h.rst:297
+msgid "Functions that deal with wrapped external functions:"
+msgstr "处理包装外部函数的函数："
+
+#: ../../api/vapoursynth4.h.rst:299
+msgid "createFunction_"
+msgstr "createFunction_"
+
+#: ../../api/vapoursynth4.h.rst:301
+msgid "freeFunction_"
+msgstr "freeFunction_"
+
+#: ../../api/vapoursynth4.h.rst:303
+msgid "addFunctionRef_"
+msgstr "addFunctionRef_"
+
+#: ../../api/vapoursynth4.h.rst:305
+msgid "callFunction_"
+msgstr "callFunction_"
+
+#: ../../api/vapoursynth4.h.rst:307
+msgid "Functions that are used to fetch frames and inside filters:"
+msgstr "用于获取帧和在滤镜内部使用的函数："
+
+#: ../../api/vapoursynth4.h.rst:309
+msgid "getFrame_"
+msgstr "getFrame_"
+
+#: ../../api/vapoursynth4.h.rst:311
+msgid "getFrameAsync_"
+msgstr "getFrameAsync_"
+
+#: ../../api/vapoursynth4.h.rst:313
+msgid "getFrameFilter_"
+msgstr "getFrameFilter_"
+
+#: ../../api/vapoursynth4.h.rst:315
+msgid "requestFrameFilter_"
+msgstr "requestFrameFilter_"
+
+#: ../../api/vapoursynth4.h.rst:317
+msgid "releaseFrameEarly_"
+msgstr "releaseFrameEarly_"
+
+#: ../../api/vapoursynth4.h.rst:319
+msgid "cacheFrame_"
+msgstr "cacheFrame_"
+
+#: ../../api/vapoursynth4.h.rst:321
+msgid "setFilterError_"
+msgstr "setFilterError_"
+
+#: ../../api/vapoursynth4.h.rst:324 ../../api/vshelper4.h.rst:28
+
+#: ../../api/vapoursynth4.h.rst:325
+msgid "getVapourSynthAPI_"
+msgstr "getVapourSynthAPI_"
+
+#: ../../api/vapoursynth4.h.rst:328
+msgid "`Writing plugins`_"
+msgstr "`编写插件`_"
+
+#: ../../api/vapoursynth4.h.rst:329
+msgid "VSInitPlugin_"
+msgstr "VSInitPlugin_"
+
+#: ../../api/vapoursynth4.h.rst:331
+msgid "VSFilterGetFrame_"
+msgstr "VSFilterGetFrame_"
+
+#: ../../api/vapoursynth4.h.rst:333
+msgid "VSFilterFree_"
+msgstr "VSFilterFree_"
+
+#: ../../api/vapoursynth4.h.rst:337 ../../api/vshelper4.h.rst:61
+
+#: ../../api/vapoursynth4.h.rst:339
+msgid ""
+"This is VapourSynth's main header file. Plugins and applications that use"
+" the library must include it."
+msgstr "这是VapourSynth的主头文件。使用该库的插件和应用程序必须包含它。"
+
+#: ../../api/vapoursynth4.h.rst:342
+msgid "VapourSynth's public API is all C."
+msgstr "VapourSynth的公共API全部是C语言。"
+
+#: ../../api/vapoursynth4.h.rst:346 ../../api/vshelper4.h.rst:69
+msgid "Macros"
+msgstr "宏"
+
+#: ../../api/vapoursynth4.h.rst:348
+msgid ""
+"VapourSynth4.h defines some preprocessor macros that make the "
+"programmer's life easier. The relevant ones are described below."
+msgstr ""
+"VapourSynth4.h 定义了一些预处理器宏，使程序员的工作更轻松。"
+"相关的宏描述如下。"
+
+#: ../../api/vapoursynth4.h.rst:352
+msgid "VS_CC"
+msgstr "VS_CC"
+
+#: ../../api/vapoursynth4.h.rst:354
+msgid ""
+"The ``VS_CC`` macro expands to the calling convention used by "
+"VapourSynth. All functions meant to be called by VapourSynth must use "
+"this macro (a filter's \"init\", \"getframe\", \"free\" functions, etc)."
+msgstr ""
+"``VS_CC`` 宏展开为 VapourSynth 使用的调用约定。"
+"所有要被 VapourSynth 调用的函数都必须使用此宏"
+"（滤镜的"init"、"getframe"、"free"函数等）。"
+
+#: ../../api/vapoursynth4.h.rst:358
+msgid "Example:"
+msgstr "示例："
+
+#: ../../api/vapoursynth4.h.rst:366
+msgid "VS_EXTERNAL_API"
+msgstr "VS_EXTERNAL_API"
+
+#: ../../api/vapoursynth4.h.rst:368
+msgid ""
+"The ``VS_EXTERNAL_API`` macro expands to the platform-specific magic "
+"required for functions exported by shared libraries. It also takes care "
+"of adding ``extern \"C\"`` when needed, and ``VS_CC``."
+msgstr ""
+"``VS_EXTERNAL_API`` 宏展开为共享库导出函数所需的"
+"平台特定魔法。它还负责在需要时添加 ``extern \"C\"`` 和 ``VS_CC``。"
+
+#: ../../api/vapoursynth4.h.rst:372
+msgid "This macro must be used for a plugin's entry point, like so:"
+msgstr "此宏必须用于插件的入口点，如下所示："
+
+#: ../../api/vapoursynth4.h.rst:380
+msgid "VAPOURSYNTH_API_MAJOR"
+msgstr "VAPOURSYNTH_API_MAJOR"
+
+#: ../../api/vapoursynth4.h.rst:382
+msgid "Major API version."
+msgstr "主要API版本。"
+
+#: ../../api/vapoursynth4.h.rst:386
+msgid "VAPOURSYNTH_API_MINOR"
+msgstr "VAPOURSYNTH_API_MINOR"
+
+#: ../../api/vapoursynth4.h.rst:388
+msgid ""
+"Minor API version. It is bumped when new functions are added to VSAPI_ or"
+" core behavior is noticeably changed."
+msgstr ""
+"次要API版本。当向 VSAPI_ 添加新函数或核心行为发生明显变化时会递增。"
+
+#: ../../api/vapoursynth4.h.rst:392
+msgid "VAPOURSYNTH_API_VERSION"
+msgstr "VAPOURSYNTH_API_VERSION"
+
+#: ../../api/vapoursynth4.h.rst:394
+msgid ""
+"API version. The high 16 bits are VAPOURSYNTH_API_MAJOR_, the low 16 bits"
+" are VAPOURSYNTH_API_MINOR_."
+msgstr ""
+"API版本。高16位是 VAPOURSYNTH_API_MAJOR_，低16位是 VAPOURSYNTH_API_MINOR_。"
+
+#: ../../api/vapoursynth4.h.rst:399
+msgid "VS_AUDIO_FRAME_SAMPLES"
+msgstr "VS_AUDIO_FRAME_SAMPLES"
+
+#: ../../api/vapoursynth4.h.rst:401
+msgid ""
+"The number of audio samples in an audio frame. It is a static number to "
+"make it possible to calculate which audio frames are needed to retrieve "
+"specific samples."
+msgstr ""
+"音频帧中的音频样本数。这是一个静态数字，"
+"用于计算检索特定样本所需的音频帧。"
+
+#: ../../api/vapoursynth4.h.rst:405
+msgid "VS_MAKE_VERSION"
+msgstr "VS_MAKE_VERSION"
+
+#: ../../api/vapoursynth4.h.rst:407
+msgid ""
+"Used to create version numbers. The first argument is the major version "
+"and second is the minor."
+msgstr "用于创建版本号。第一个参数是主版本，第二个是次版本。"
+
+#: ../../api/vapoursynth4.h.rst:411
+msgid "Enums"
+msgstr "枚举"
+
+#: ../../api/vapoursynth4.h.rst:416
+msgid "enum VSColorFamily"
+msgstr "enum VSColorFamily"
+
+#: ../../api/vapoursynth4.h.rst:418
+msgid "cfUndefined"
+msgstr "cfUndefined"
+
+#: ../../api/vapoursynth4.h.rst:420
+msgid "cfGray"
+msgstr "cfGray"
+
+#: ../../api/vapoursynth4.h.rst:422
+msgid "cfRGB"
+msgstr "cfRGB"
+
+#: ../../api/vapoursynth4.h.rst:424
+msgid "cfYUV"
+msgstr "cfYUV"
+
+#: ../../api/vapoursynth4.h.rst:430
+msgid "enum VSSampleType"
+msgstr "enum VSSampleType"
+
+#: ../../api/vapoursynth4.h.rst:432
+msgid "stInteger"
+msgstr "stInteger"
+
+#: ../../api/vapoursynth4.h.rst:434
+msgid "stFloat"
+msgstr "stFloat"
+
+#: ../../api/vapoursynth4.h.rst:440
+msgid "enum VSPresetVideoFormat"
+msgstr "enum VSPresetVideoFormat"
+
+#: ../../api/vapoursynth4.h.rst:442
+msgid ""
+"The presets suffixed with H and S have floating point sample type. The H "
+"and S suffixes stand for half precision and single precision, "
+"respectively. All formats are planar. See the header for all currently "
+"defined video format presets."
+msgstr ""
+"带有 H 和 S 后缀的预设具有浮点样本类型。H 和 S 后缀分别代表半精度和单精度。"
+"所有格式都是平面的。有关当前定义的所有视频格式预设，请参见头文件。"
+"后缀为H和S的预设具有浮点样本类型。H和S后缀分别代表半精度和单精度。"
+"所有格式都是平面的。请参阅头文件中当前定义的所有视频格式预设。"
+
+#: ../../api/vapoursynth4.h.rst:447
+msgid "pf\\*"
+msgstr "pf\\*"
+
+#: ../../api/vapoursynth4.h.rst:453
+msgid "enum VSFilterMode"
+msgstr "enum VSFilterMode"
+
+#: ../../api/vapoursynth4.h.rst:455
+msgid "Controls how a filter will be multithreaded, if at all."
+msgstr "控制滤镜如何进行多线程处理（如果有的话）。"
+
+#: ../../api/vapoursynth4.h.rst:457
+msgid "fmParallel"
+msgstr "fmParallel"
+
+#: ../../api/vapoursynth4.h.rst:459
+msgid ""
+"Completely parallel execution. Multiple threads will call a filter's "
+"\"getframe\" function, to fetch several frames in parallel."
+msgstr ""
+"完全并行执行。多个线程将调用滤镜的"getframe"函数，"
+"以并行获取多个帧。"
+
+#: ../../api/vapoursynth4.h.rst:463
+msgid "fmParallelRequests"
+msgstr "fmParallelRequests"
+
+#: ../../api/vapoursynth4.h.rst:465
+msgid ""
+"For filters that are serial in nature but can request in advance one or "
+"more frames they need. A filter's \"getframe\" function will be called "
+"from multiple threads at a time with activation reason arInitial, but "
+"only one thread will call it with activation reason arAllFramesReady at a"
+" time."
+msgstr ""
+"用于本质上是串行的但可以提前请求一个或多个所需帧的滤镜。"
+"滤镜的"getframe"函数将以激活原因arInitial从多个线程同时调用，"
+"但一次只有一个线程以激活原因arAllFramesReady调用它。"
+
+#: ../../api/vapoursynth4.h.rst:471
+msgid "fmUnordered"
+msgstr "fmUnordered"
+
+#: ../../api/vapoursynth4.h.rst:473
+msgid ""
+"Only one thread can call the filter's \"getframe\" function at a time. "
+"Useful for filters that modify or examine their internal state to "
+"determine which frames to request."
+msgstr ""
+"一次只有一个线程可以调用滤镜的"getframe"函数。"
+"对于修改或检查其内部状态以确定请求哪些帧的滤镜很有用。"
+
+#: ../../api/vapoursynth4.h.rst:477
+msgid ""
+"While the \"getframe\" function will only run in one thread at a time, "
+"the calls can happen in any order. For example, it can be called with "
+"reason arInitial for frame 0, then again with reason arInitial for frame "
+"1, then with reason arAllFramesReady for frame 0."
+msgstr ""
+"虽然"getframe"函数一次只能在一个线程中运行，"
+"但调用可以以任何顺序发生。例如，可以以原因arInitial调用帧0，"
+"然后再以原因arInitial调用帧1，然后以原因arAllFramesReady调用帧0。"
+
+#: ../../api/vapoursynth4.h.rst:483
+msgid "fmFrameState"
+msgstr "fmFrameState"
+
+#: ../../api/vapoursynth4.h.rst:485
+msgid ""
+"For compatibility with other filtering architectures. DO NOT USE IN NEW "
+"FILTERS. The filter's \"getframe\" function only ever gets called from "
+"one thread at a time. Unlike fmUnordered, only one frame is processed at "
+"a time."
+msgstr ""
+"用于与其他过滤架构兼容。请勿在新滤镜中使用。"
+"滤镜的"getframe"函数一次只能从一个线程调用。"
+"与fmUnordered不同，一次只处理一帧。"
+
+#: ../../api/vapoursynth4.h.rst:493
+msgid "enum VSMediaType"
+msgstr "enum VSMediaType"
+
+#: ../../api/vapoursynth4.h.rst:495
+msgid "Used to indicate the type of a `VSFrame` or `VSNode` object."
+msgstr "用于指示 `VSFrame` 或 `VSNode` 对象的类型。"
+
+#: ../../api/vapoursynth4.h.rst:497
+msgid "mtVideo"
+msgstr "mtVideo"
+
+#: ../../api/vapoursynth4.h.rst:499
+msgid "mtAudio"
+msgstr "mtAudio"
+
+#: ../../api/vapoursynth4.h.rst:505
+msgid "enum VSAudioChannels"
+msgstr "enum VSAudioChannels"
+
+#: ../../api/vapoursynth4.h.rst:507
+msgid ""
+"Audio channel positions as an enum. Mirrors the FFmpeg audio channel "
+"constants in older api versions. See the header for all available values."
+msgstr ""
+"音频通道位置枚举。在旧API版本中镜像FFmpeg音频通道常量。"
+"请参阅头文件中的所有可用值。"
+
+#: ../../api/vapoursynth4.h.rst:509
+msgid "ac\\*"
+msgstr "ac\\*"
+
+#: ../../api/vapoursynth4.h.rst:515
+msgid "enum VSPropertyType"
+msgstr "enum VSPropertyType"
+
+#: ../../api/vapoursynth4.h.rst:517
+msgid "Types of properties that can be stored in a VSMap."
+msgstr "可以存储在VSMap中的属性类型。"
+
+#: ../../api/vapoursynth4.h.rst:519
+msgid "ptUnset"
+msgstr "ptUnset"
+
+#: ../../api/vapoursynth4.h.rst:521
+msgid "ptInt"
+msgstr "ptInt"
+
+#: ../../api/vapoursynth4.h.rst:523
+msgid "ptFloat"
+msgstr "ptFloat"
+
+#: ../../api/vapoursynth4.h.rst:525
+msgid "ptData"
+msgstr "ptData"
+
+#: ../../api/vapoursynth4.h.rst:527
+msgid "ptFunction"
+msgstr "ptFunction"
+
+#: ../../api/vapoursynth4.h.rst:529
+msgid "ptVideoNode"
+msgstr "ptVideoNode"
+
+#: ../../api/vapoursynth4.h.rst:531
+msgid "ptAudioNode"
+msgstr "ptAudioNode"
+
+#: ../../api/vapoursynth4.h.rst:533
+msgid "ptVideoFrame"
+msgstr "ptVideoFrame"
+
+#: ../../api/vapoursynth4.h.rst:535
+msgid "ptAudioFrame"
+msgstr "ptAudioFrame"
+
+#: ../../api/vapoursynth4.h.rst:541
+msgid "enum VSMapPropertyError"
+msgstr "枚举 VSMapPropertyError"
+
+#: ../../api/vapoursynth4.h.rst:543
+msgid ""
+"When a mapGet* function fails, it returns one of these in the *err* "
+"parameter."
+msgstr "当 mapGet* 函数失败时，它会在 *err* 参数中返回以下值之一。"
+
+#: ../../api/vapoursynth4.h.rst:546
+msgid "All errors are non-zero."
+msgstr "所有错误值都不为零。"
+
+#: ../../api/vapoursynth4.h.rst:548
+msgid "peSuccess"
+msgstr "peSuccess"
+
+#: ../../api/vapoursynth4.h.rst:550
+msgid "peUnset"
+msgstr "peUnset"
+
+#: ../../api/vapoursynth4.h.rst:552
+msgid "The requested key was not found in the map."
+msgstr "在映射中找不到请求的键。"
+
+#: ../../api/vapoursynth4.h.rst:554
+msgid "peType"
+msgstr "peType"
+
+#: ../../api/vapoursynth4.h.rst:556
+msgid ""
+"The wrong function was used to retrieve the property. E.g. mapGetInt_\\ "
+"() was used on a property of type ptFloat."
+msgstr ""
+"使用了错误的函数来检索属性。例如，在 ptFloat 类型的属性上使用了 mapGetInt_\\ ()。"
+
+#: ../../api/vapoursynth4.h.rst:559
+msgid "peIndex"
+msgstr "peIndex"
+
+#: ../../api/vapoursynth4.h.rst:561
+msgid "The requested index was out of bounds."
+msgstr "请求的索引超出范围。"
+
+#: ../../api/vapoursynth4.h.rst:563
+msgid "peError"
+msgstr "peError"
+
+#: ../../api/vapoursynth4.h.rst:565
+msgid "The map has the error state set."
+msgstr "映射已设置错误状态。"
+
+#: ../../api/vapoursynth4.h.rst:571
+msgid "enum VSMapAppendMode"
+msgstr "枚举 VSMapAppendMode"
+
+#: ../../api/vapoursynth4.h.rst:573
+msgid "Controls the behaviour of mapSetInt_\\ () and friends."
+msgstr "控制 mapSetInt_\\ () 及相关函数的行为。"
+
+#: ../../api/vapoursynth4.h.rst:575
+msgid "maReplace"
+msgstr "maReplace"
+
+#: ../../api/vapoursynth4.h.rst:577
+msgid ""
+"All existing values associated with the key will be replaced with the new"
+" value."
+msgstr ""
+"与键关联的所有现有值将被新值替换。"
+
+#: ../../api/vapoursynth4.h.rst:580
+msgid "maAppend"
+msgstr "maAppend"
+
+#: ../../api/vapoursynth4.h.rst:582
+msgid ""
+"The new value will be appended to the list of existing values associated "
+"with the key."
+msgstr ""
+"新值将被附加到与键关联的现有值列表中。"
+
+#: ../../api/vapoursynth4.h.rst:589
+msgid "enum VSActivationReason"
+msgstr "枚举 VSActivationReason"
+
+#: ../../api/vapoursynth4.h.rst:591
+msgid "See VSFilterGetFrame_."
+msgstr "参见 VSFilterGetFrame_。"
+
+#: ../../api/vapoursynth4.h.rst:593
+msgid "arInitial"
+msgstr "arInitial"
+
+#: ../../api/vapoursynth4.h.rst:595
+msgid "arAllFramesReady"
+msgstr "arAllFramesReady"
+
+#: ../../api/vapoursynth4.h.rst:597
+msgid "arError"
+msgstr "arError"
+
+#: ../../api/vapoursynth4.h.rst:603
+msgid "enum VSMessageType"
+msgstr "枚举 VSMessageType"
+
+#: ../../api/vapoursynth4.h.rst:605
+msgid "See addLogHandler_\\ ()."
+msgstr "参见 addLogHandler_\\ ()。"
+
+#: ../../api/vapoursynth4.h.rst:607
+msgid "mtDebug"
+msgstr "mtDebug"
+
+#: ../../api/vapoursynth4.h.rst:609
+msgid "mtInformation"
+msgstr "mtInformation"
+
+#: ../../api/vapoursynth4.h.rst:611
+msgid "mtWarning"
+msgstr "mtWarning"
+
+#: ../../api/vapoursynth4.h.rst:613
+msgid "mtCritical"
+msgstr "mtCritical"
+
+#: ../../api/vapoursynth4.h.rst:615
+msgid "mtFatal"
+msgstr "mtFatal"
+
+#: ../../api/vapoursynth4.h.rst:621
+msgid "enum VSCoreCreationFlags"
+msgstr "枚举 VSCoreCreationFlags"
+
+#: ../../api/vapoursynth4.h.rst:623
+msgid "Options when creating a core."
+msgstr "创建核心时的选项。"
+
+#: ../../api/vapoursynth4.h.rst:625
+msgid "ccfEnableGraphInspection"
+msgstr "ccfEnableGraphInspection"
+
+#: ../../api/vapoursynth4.h.rst:627
+msgid ""
+"Required to use the graph inspection api functions. Increases memory "
+"usage due to the extra information stored."
+msgstr ""
+"使用图形检查API函数所必需的。由于存储额外信息而增加内存使用量。"
+
+#: ../../api/vapoursynth4.h.rst:629
+msgid "ccfDisableAutoLoading"
+msgstr "ccfDisableAutoLoading"
+
+#: ../../api/vapoursynth4.h.rst:631
+msgid "Don't autoload any user plugins. Core plugins are always loaded."
+msgstr "不自动加载任何用户插件。核心插件总是被加载。"
+
+#: ../../api/vapoursynth4.h.rst:633
+msgid "ccfDisableLibraryUnloading"
+msgstr "ccfDisableLibraryUnloading"
+
+#: ../../api/vapoursynth4.h.rst:635
+msgid ""
+"Don't unload plugin libraries when the core is destroyed. Due to a small "
+"amount of memory leaking every load and unload (windows feature, not my "
+"fault) of a library this may help in applications with extreme amount of "
+"script reloading."
+msgstr ""
+"当核心被销毁时不卸载插件库。由于每次加载和卸载库时都会有少量内存泄漏（Windows功能，"
+"不是我的错误），这可能对大量脚本重新加载的应用程序有帮助。"
+
+#: ../../api/vapoursynth4.h.rst:642
+msgid "enum VSPluginConfigFlags"
+msgstr "枚举 VSPluginConfigFlags"
+
+#: ../../api/vapoursynth4.h.rst:644
+msgid "Options when loading a plugin."
+msgstr "加载插件时的选项。"
+
+#: ../../api/vapoursynth4.h.rst:646
+msgid "pcModifiable"
+msgstr "pcModifiable"
+
+#: ../../api/vapoursynth4.h.rst:648
+msgid ""
+"Allow functions to be added to the plugin object after the plugin loading"
+" phase. Mostly useful for Avisynth compatibility and other foreign plugin"
+" loaders."
+msgstr ""
+"允许在插件加载阶段后向插件对象添加函数。主要用于Avisynth兼容性和其他外部插件加载器。"
+
+#: ../../api/vapoursynth4.h.rst:655
+msgid "enum VSDataTypeHint"
+msgstr "枚举 VSDataTypeHint"
+
+#: ../../api/vapoursynth4.h.rst:657
+msgid ""
+"Since the data type can contain both pure binary data and printable "
+"strings the type also contains a hint for whether or not it is human "
+"readable. Generally the unknown type should be very rare and is almost "
+"only created as an artifact of API3 compatibility."
+msgstr ""
+"由于数据类型可以包含纯二进制数据和可打印字符串，该类型还包含是否人类可读的提示。"
+"通常未知类型应该非常罕见，几乎只作为API3兼容性的产物而创建。"
+
+#: ../../api/vapoursynth4.h.rst:661
+msgid "dtUnknown"
+msgstr "dtUnknown"
+
+#: ../../api/vapoursynth4.h.rst:663
+msgid "dtBinary"
+msgstr "dtBinary"
+
+#: ../../api/vapoursynth4.h.rst:665
+msgid "dtUtf8"
+msgstr "dtUtf8"
+
+#: ../../api/vapoursynth4.h.rst:671
+msgid "enum VSRequestPattern"
+msgstr "枚举 VSRequestPattern"
+
+#: ../../api/vapoursynth4.h.rst:673
+msgid "Describes the upstream frame request pattern of a filter."
+msgstr "描述过滤器的上游帧请求模式。"
+
+#: ../../api/vapoursynth4.h.rst:675
+msgid "rpGeneral"
+msgstr "rpGeneral"
+
+#: ../../api/vapoursynth4.h.rst:677
+msgid ""
+"Anything goes. Note that filters that may be requesting beyond the end of"
+" a VSNode length in frames (repeating the last frame) should use "
+"*rpGeneral* and not any of the other modes."
+msgstr ""
+"任何情况都可以。注意，可能请求超出 VSNode 帧长度末尾的过滤器（重复最后一帧）应使用 "
+"*rpGeneral* 而不是其他模式。"
+
+#: ../../api/vapoursynth4.h.rst:679
+msgid "rpNoFrameReuse"
+msgstr "rpNoFrameReuse"
+
+#: ../../api/vapoursynth4.h.rst:681
+msgid ""
+"Will only request an input frame at most once if all output frames are "
+"requested exactly one time. This includes filters such as Trim, Reverse, "
+"SelectEvery."
+msgstr ""
+"如果所有输出帧都恰好被请求一次，则最多只会请求一次输入帧。这包括 Trim、Reverse、"
+"SelectEvery 等过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:683
+msgid "rpStrictSpatial"
+msgstr "rpStrictSpatial"
+
+#: ../../api/vapoursynth4.h.rst:685
+msgid ""
+"Only requests frame N to output frame N. The main difference to "
+"*rpNoFrameReuse* is that the requested frame is always fixed and known "
+"ahead of time. Filter examples Lut, Expr (conditionally, see *rpGeneral* "
+"note) and similar."
+msgstr ""
+"只请求帧 N 来输出帧 N。与 *rpNoFrameReuse* 的主要区别是请求的帧总是固定且提前知道的。"
+"过滤器示例包括 Lut、Expr（有条件的，参见 *rpGeneral* 注释）等类似过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:687
+msgid "rpFrameReuseLastOnly"
+msgstr "rpFrameReuseLastOnly"
+
+#: ../../api/vapoursynth4.h.rst:689
+msgid ""
+"Similar to *rpNoFrameReuse* but the last frame is cached in case it's "
+"requested multiple times."
+msgstr ""
+"类似于 *rpNoFrameReuse*，但最后一帧会被缓存，以防被多次请求。"
+
+#: ../../api/vapoursynth4.h.rst:695
+msgid "enum VSCacheMode"
+msgstr "enum VSCacheMode"
+
+#: ../../api/vapoursynth4.h.rst:697
+msgid "Describes how the output of a node is cached."
+msgstr "描述节点输出的缓存方式。"
+
+#: ../../api/vapoursynth4.h.rst:699
+msgid "cmAuto"
+msgstr "cmAuto"
+
+#: ../../api/vapoursynth4.h.rst:701
+msgid ""
+"Cache is enabled or disabled based on the reported request patterns and "
+"number of consumers."
+msgstr ""
+"根据报告的请求模式和消费者数量来启用或禁用缓存。"
+
+#: ../../api/vapoursynth4.h.rst:703
+msgid "cmForceDisable"
+msgstr "cmForceDisable"
+
+#: ../../api/vapoursynth4.h.rst:705
+msgid "Never cache anything."
+msgstr "永不缓存。"
+
+#: ../../api/vapoursynth4.h.rst:707
+msgid "cmForceEnable"
+msgstr "cmForceEnable"
+
+#: ../../api/vapoursynth4.h.rst:709
+msgid "Always use the cache."
+msgstr "始终使用缓存。"
+
+#: ../../api/vapoursynth4.h.rst:713 ../../api/vsscript4.h.rst:74
+msgid "Structs"
+msgstr "结构体"
+
+#: ../../api/vapoursynth4.h.rst:715
+msgid ""
+"Most structs are opaque and their contents can only be accessed using "
+"functions in the API."
+msgstr ""
+"大多数结构体是不透明的，其内容只能通过 API 中的函数访问。"
+
+#: ../../api/vapoursynth4.h.rst:721
+msgid "struct VSFrame"
+msgstr "结构体 VSFrame"
+
+#: ../../api/vapoursynth4.h.rst:723
+msgid "A frame that can hold audio or video data."
+msgstr "可以容纳音频或视频数据的帧。"
+
+#: ../../api/vapoursynth4.h.rst:725
+msgid ""
+"Each row of pixels in a frame is guaranteed to have an alignment of at "
+"least 32 bytes. Two frames with the same width and bytes per sample are "
+"guaranteed to have the same stride."
+msgstr ""
+"帧中每行像素都保证至少有 32 字节的对齐。具有相同宽度和每样本字节数的两个帧保证具有相同的"
+"步长。"
+
+#: ../../api/vapoursynth4.h.rst:728
+msgid "Audio data is also guaranteed to be at least 32 byte aligned."
+msgstr "音频数据也保证至少 32 字节对齐。"
+
+#: ../../api/vapoursynth4.h.rst:730
+msgid "Any data can be attached to a frame, using a VSMap_."
+msgstr "可以使用 VSMap_ 将任何数据附加到帧。"
+
+#: ../../api/vapoursynth4.h.rst:736
+msgid "struct VSNode"
+msgstr "结构体 VSNode"
+
+#: ../../api/vapoursynth4.h.rst:738
+msgid ""
+"A reference to a node in the constructed filter graph. Its primary use is"
+" as an argument to other filter or to request frames from."
+msgstr ""
+"对构建的过滤器图中节点的引用。其主要用途是作为其他过滤器的参数或从中请求帧。"
+
+#: ../../api/vapoursynth4.h.rst:745
+msgid "struct VSCore"
+msgstr "结构体 VSCore"
+
+#: ../../api/vapoursynth4.h.rst:747
+msgid ""
+"The core represents one instance of VapourSynth. Every core individually "
+"loads plugins and keeps track of memory."
+msgstr ""
+"核心代表 VapourSynth 的一个实例。每个核心都单独加载插件并跟踪内存。"
+
+#: ../../api/vapoursynth4.h.rst:754
+msgid "struct VSPlugin"
+msgstr "结构体 VSPlugin"
+
+#: ../../api/vapoursynth4.h.rst:756
+msgid ""
+"A VapourSynth plugin. There are a few of these built into the core, and "
+"therefore available at all times: the basic filters (identifier "
+"``com.vapoursynth.std``, namespace ``std``), the resizers (identifier "
+"``com.vapoursynth.resize``, namespace ``resize``), and the Avisynth "
+"compatibility module, if running in Windows (identifier "
+"``com.vapoursynth.avisynth``, namespace ``avs``)."
+msgstr ""
+"VapourSynth 插件。有一些内置在核心中，因此始终可用：基本过滤器（标识符 "
+"``com.vapoursynth.std``，命名空间 ``std``）、调整大小器（标识符 "
+"``com.vapoursynth.resize``，命名空间 ``resize``），以及 Avisynth "
+"兼容模块（如果在 Windows 中运行，标识符 ``com.vapoursynth.avisynth``，命名空间 ``avs``）。"
+
+#: ../../api/vapoursynth4.h.rst:763
+msgid ""
+"The Function Reference describes how to load VapourSynth and Avisynth "
+"plugins."
+msgstr ""
+"函数参考描述了如何加载 VapourSynth 和 Avisynth 插件。"
+
+#: ../../api/vapoursynth4.h.rst:766
+msgid ""
+"A VSPlugin instance is constructed by the core when loading a plugin (.so"
+" / .dylib / .dll), and the pointer is passed to the plugin's "
+"VapourSynthPluginInit2() function."
+msgstr ""
+"核心在加载插件（.so / .dylib / .dll）时构造 VSPlugin 实例，并将指针传递给插件的 "
+"VapourSynthPluginInit2() 函数。"
+
+#: ../../api/vapoursynth4.h.rst:770
+msgid "A VapourSynth plugin can export any number of filters."
+msgstr "VapourSynth 插件可以导出任意数量的过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:772
+msgid "Plugins have a few attributes:"
+msgstr "插件有几个属性："
+
+#: ../../api/vapoursynth4.h.rst:774
+msgid ""
+"An identifier, which must be unique among all VapourSynth plugins in "
+"existence, because this is what the core uses to make sure a plugin only "
+"gets loaded once."
+msgstr ""
+"标识符，在所有存在的VapourSynth插件中必须唯一，因为这是核心用来确保插件只加载一次的依据。"
+
+#: ../../api/vapoursynth4.h.rst:778
+msgid ""
+"A namespace, also unique. The filters exported by a plugin end up in the "
+"plugin's namespace."
+msgstr ""
+"命名空间，也是唯一的。插件导出的过滤器最终出现在插件的命名空间中。"
+
+#: ../../api/vapoursynth4.h.rst:781
+msgid "A full name, which is used by the core in a few error messages."
+msgstr "完整名称，核心在一些错误消息中使用。"
+
+#: ../../api/vapoursynth4.h.rst:783
+msgid "The version of the plugin."
+msgstr "插件的版本。"
+
+#: ../../api/vapoursynth4.h.rst:785
+msgid "The VapourSynth API version the plugin requires."
+msgstr "插件所需的 VapourSynth API 版本。"
+
+#: ../../api/vapoursynth4.h.rst:787
+msgid "A file name."
+msgstr "文件名。"
+
+#: ../../api/vapoursynth4.h.rst:789
+msgid "Things you can do with a VSPlugin:"
+msgstr "使用 VSPlugin 可以做的事情："
+
+#: ../../api/vapoursynth4.h.rst:791
+msgid "Enumerate all the filters it exports, using getNextPluginFunction_\\ ()."
+msgstr "使用 getNextPluginFunction_\\ () 枚举它导出的所有过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:793
+msgid "Invoke one of its filters, using invoke_\\ ()."
+msgstr "使用 invoke_\\ () 调用其中一个过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:795
+msgid "Get its location in the file system, using getPluginPath_\\ ()."
+msgstr "使用 getPluginPath_\\ () 获取其在文件系统中的位置。"
+
+#: ../../api/vapoursynth4.h.rst:797
+msgid ""
+"All loaded plugins (including built-in) can be enumerated with "
+"getNextPlugin_\\ ()."
+msgstr ""
+"所有已加载的插件（包括内置插件）都可以通过 getNextPlugin_\\ () 枚举。"
+
+#: ../../api/vapoursynth4.h.rst:800
+msgid ""
+"Once loaded, a plugin only gets unloaded when the VapourSynth core is "
+"freed."
+msgstr ""
+"一旦加载，插件只有在 VapourSynth 核心释放时才会被卸载。"
+
+#: ../../api/vapoursynth4.h.rst:806
+msgid "struct VSPluginFunction"
+msgstr "结构体 VSPluginFunction"
+
+#: ../../api/vapoursynth4.h.rst:808
+msgid ""
+"A function belonging to a Vapoursynth plugin. This object primarily "
+"exists so a plugin's name, argument list and return type can be queried "
+"by editors."
+msgstr ""
+"属于 VapourSynth 插件的函数。此对象主要存在，以便编辑器可以查询插件的名称、参数列表和"
+"返回类型。"
+
+#: ../../api/vapoursynth4.h.rst:811
+msgid ""
+"One peculiarity is that plugin functions cannot be invoked using a "
+"`VSPluginFunction` pointer but is instead done using invoke_\\ () which "
+"takes a `VSPlugin` and the function name as a string."
+msgstr ""
+"一个特殊之处是，插件函数不能使用 `VSPluginFunction` 指针调用，而是使用 invoke_\\ () "
+"来完成，它接受一个 `VSPlugin` 和函数名作为字符串。"
+
+#: ../../api/vapoursynth4.h.rst:819
+msgid "struct VSFunction"
+msgstr "结构体 VSFunction"
+
+#: ../../api/vapoursynth4.h.rst:821
+msgid ""
+"Holds a reference to a function that may be called. This type primarily "
+"exists so functions can be shared between the scripting layer and plugins"
+" in the core."
+msgstr ""
+"保存对可能被调用的函数的引用。此类型主要存在，以便在脚本层和核心中的插件之间共享函数。"
+
+#: ../../api/vapoursynth4.h.rst:828
+msgid "struct VSMap"
+msgstr "结构体 VSMap"
+
+#: ../../api/vapoursynth4.h.rst:830
+msgid ""
+"VSMap is a container that stores (key,value) pairs. The keys are strings "
+"and the values can be (arrays of) integers, floating point numbers, "
+"arrays of bytes, VSNode_, VSFrame_, or VSFunction_."
+msgstr ""
+"VSMap是一个存储（键，值）对的容器。键是字符串，值可以是整数、浮点数、字节数组、"
+"VSNode_、VSFrame_ 或VSFunction_ 的（数组）。"
+
+#: ../../api/vapoursynth4.h.rst:834
+msgid "The pairs in a VSMap are sorted by key."
+msgstr "VSMap 中的键值对按键排序。"
+
+#: ../../api/vapoursynth4.h.rst:836
+msgid "In VapourSynth, VSMaps have several uses:"
+msgstr "在 VapourSynth 中，VSMap 有多种用途："
+
+#: ../../api/vapoursynth4.h.rst:837
+msgid "storing filters' arguments and return values"
+msgstr "存储过滤器的参数和返回值"
+
+#: ../../api/vapoursynth4.h.rst:839
+msgid "storing user-defined functions' arguments and return values"
+msgstr "存储用户定义函数的参数和返回值"
+
+#: ../../api/vapoursynth4.h.rst:841
+msgid "storing the properties attached to frames"
+msgstr "存储附加到帧的属性"
+
+#: ../../api/vapoursynth4.h.rst:843
+msgid "Only alphanumeric characters and the underscore may be used in keys."
+msgstr "键中只能使用字母数字字符和下划线。"
+
+#: ../../api/vapoursynth4.h.rst:845
+msgid ""
+"Creating and destroying a map can be done with createMap_\\ () and "
+"freeMap_\\ (), respectively."
+msgstr ""
+"创建和销毁映射可以分别通过 createMap_\\ () 和 freeMap_\\ () 完成。"
+
+#: ../../api/vapoursynth4.h.rst:848
+msgid ""
+"A map's contents can be retrieved and modified using a number of "
+"functions, all prefixed with \"map\"."
+msgstr ""
+"映射的内容可以使用多个函数检索和修改，所有这些函数都以"map"为前缀。"
+
+#: ../../api/vapoursynth4.h.rst:851
+msgid "A map's contents can be erased with clearMap_\\ ()."
+msgstr "可以使用 clearMap_\\ () 清除映射的内容。"
+
+#: ../../api/vapoursynth4.h.rst:857
+msgid "struct VSLogHandle"
+msgstr "结构体 VSLogHandle"
+
+#: ../../api/vapoursynth4.h.rst:859
+msgid "Opaque type representing a registered logger."
+msgstr "表示已注册记录器的不透明类型。"
+
+#: ../../api/vapoursynth4.h.rst:865
+msgid "struct VSFrameContext"
+msgstr "结构体 VSFrameContext"
+
+#: ../../api/vapoursynth4.h.rst:867
+msgid "Opaque type representing the current frame request in a filter."
+msgstr "表示过滤器中当前帧请求的不透明类型。"
+
+#: ../../api/vapoursynth4.h.rst:873
+msgid "struct VSVideoFormat"
+msgstr "结构体 VSVideoFormat"
+
+#: ../../api/vapoursynth4.h.rst:875 ../../api/vapoursynth4.h.rst:951
+msgid "Describes the format of a clip."
+msgstr "描述剪辑的格式。"
+
+#: ../../api/vapoursynth4.h.rst:877
+msgid ""
+"Use queryVideoFormat_\\ () to fill it in with proper error checking. "
+"Manually filling out the struct is allowed but discouraged since illegal "
+"combinations of values will cause undefined behavior."
+msgstr ""
+"使用 queryVideoFormat_\\ () 以适当的错误检查填充它。允许手动填写结构体，"
+"但不建议这样做，因为非法的值组合会导致未定义的行为。"
+
+#: ../../api/vapoursynth4.h.rst:882
+msgid "See VSColorFamily_."
+msgstr "参见 VSColorFamily_。"
+
+#: ../../api/vapoursynth4.h.rst:886 ../../api/vapoursynth4.h.rst:958
+msgid "See VSSampleType_."
+msgstr "参见 VSSampleType_。"
+
+#: ../../api/vapoursynth4.h.rst:890 ../../api/vapoursynth4.h.rst:962
+msgid "Number of significant bits."
+msgstr "有效位数。"
+
+#: ../../api/vapoursynth4.h.rst:894 ../../api/vapoursynth4.h.rst:966
+msgid ""
+"Number of bytes needed for a sample. This is always a power of 2 and the "
+"smallest possible that can fit the number of bits used per sample."
+msgstr ""
+"样本所需的字节数。这总是2的幂，并且是能够容纳每个样本使用的位数的最小可能值。"
+
+#: ../../api/vapoursynth4.h.rst:900
+msgid ""
+"log2 subsampling factor, applied to second and third plane. Convenient "
+"numbers that can be used like so:"
+msgstr ""
+"log2子采样因子，应用于第二和第三平面。可以这样使用的便利数字："
+
+#: ../../api/vapoursynth4.h.rst:909
+msgid "Number of planes."
+msgstr "平面数量。"
+
+#: ../../api/vapoursynth4.h.rst:915
+msgid "struct VSVideoInfo"
+msgstr "结构体 VSVideoInfo"
+
+#: ../../api/vapoursynth4.h.rst:917 ../../api/vapoursynth4.h.rst:983
+msgid "Contains information about a clip."
+msgstr "包含有关剪辑的信息。"
+
+#: ../../api/vapoursynth4.h.rst:921
+msgid ""
+"Format of the clip. Will have *colorFamily* set to *cfUndefined* if the "
+"format can vary."
+msgstr ""
+"剪辑的格式。如果格式可变，则 *colorFamily* 将设置为 *cfUndefined*。"
+
+#: ../../api/vapoursynth4.h.rst:925
+msgid ""
+"Numerator part of the clip's frame rate. It will be 0 if the frame rate "
+"can vary. Should always be a reduced fraction."
+msgstr ""
+"剪辑帧率的分子部分。如果帧率可变，则为0。应始终是简化分数。"
+
+#: ../../api/vapoursynth4.h.rst:930
+msgid ""
+"Denominator part of the clip's frame rate. It will be 0 if the frame rate"
+" can vary. Should always be a reduced fraction."
+msgstr ""
+"剪辑帧率的分母部分。如果帧率可变，则为0。应始终是简化分数。"
+
+#: ../../api/vapoursynth4.h.rst:935
+msgid ""
+"Width of the clip. Both width and height will be 0 if the clip's "
+"dimensions can vary."
+msgstr ""
+"剪辑的宽度。如果剪辑的尺寸可变，则宽度和高度都将为0。"
+
+#: ../../api/vapoursynth4.h.rst:939
+msgid ""
+"Height of the clip. Both width and height will be 0 if the clip's "
+"dimensions can vary."
+msgstr ""
+"剪辑的高度。如果剪辑的尺寸可变，则宽度和高度都将为0。"
+
+#: ../../api/vapoursynth4.h.rst:943
+msgid "Length of the clip."
+msgstr "剪辑长度。"
+
+#: ../../api/vapoursynth4.h.rst:949
+msgid "struct VSAudioFormat"
+msgstr "结构体 VSAudioFormat"
+
+#: ../../api/vapoursynth4.h.rst:953
+msgid ""
+"Use queryAudioFormat_\\ () to fill it in with proper error checking. "
+"Manually filling out the struct is allowed but discouraged since illegal "
+"combinations of values will cause undefined behavior."
+msgstr ""
+"使用 queryAudioFormat_\\() 并进行适当的错误检查来填充它。"
+"允许手动填充结构体，但不建议这样做，因为非法的值组合会导致未定义行为。"
+
+#: ../../api/vapoursynth4.h.rst:971
+msgid "Number of audio channels."
+msgstr "音频通道数。"
+
+#: ../../api/vapoursynth4.h.rst:975
+msgid ""
+"A bitmask representing the channels present using the constants in 1 left"
+" shifted by the constants in VSAudioChannels_."
+msgstr ""
+"使用 VSAudioChannels_ 中的常量进行左移 1 位来表示存在通道的位掩码。"
+
+#: ../../api/vapoursynth4.h.rst:981
+msgid "struct VSAudioInfo"
+msgstr "结构体 VSAudioInfo"
+
+#: ../../api/vapoursynth4.h.rst:987
+msgid "Format of the clip. Unlike video the audio format can never change."
+msgstr "剪辑的格式。与视频不同，音频格式永远不能改变。"
+
+#: ../../api/vapoursynth4.h.rst:991
+msgid "Sample rate."
+msgstr "采样率。"
+
+#: ../../api/vapoursynth4.h.rst:995
+msgid "Length of the clip in audio samples."
+msgstr "剪辑的音频采样长度。"
+
+#: ../../api/vapoursynth4.h.rst:999
+msgid "Length of the clip in audio frames."
+msgstr "剪辑的音频帧长度。"
+
+#: ../../api/vapoursynth4.h.rst:1005
+msgid "struct VSCoreInfo"
+msgstr "结构体 VSCoreInfo"
+
+#: ../../api/vapoursynth4.h.rst:1007 ../../api/vapoursynth4.h.rst:1040
+msgid "Contains information about a VSCore_ instance."
+msgstr "包含有关 VSCore_ 实例的信息。"
+
+#: ../../api/vapoursynth4.h.rst:1011
+msgid ""
+"Printable string containing the name of the library, copyright notice, "
+"core and API versions."
+msgstr ""
+"包含库名称、版权声明、核心和 API 版本的可打印字符串。"
+
+#: ../../api/vapoursynth4.h.rst:1016
+msgid "Version of the core."
+msgstr "核心的版本。"
+
+#: ../../api/vapoursynth4.h.rst:1020
+msgid "Version of the API."
+msgstr "API 版本。"
+
+#: ../../api/vapoursynth4.h.rst:1024
+msgid "Number of worker threads."
+msgstr "工作线程数。"
+
+#: ../../api/vapoursynth4.h.rst:1028
+msgid ""
+"The framebuffer cache will be allowed to grow up to this size (bytes) "
+"before memory is aggressively reclaimed."
+msgstr ""
+"帧缓冲区缓存将被允许增长到此大小（字节），之后内存将被积极回收。"
+
+#: ../../api/vapoursynth4.h.rst:1032
+msgid "Current size of the framebuffer cache, in bytes."
+msgstr "帧缓冲区缓存的当前大小（以字节为单位）。"
+
+#: ../../api/vapoursynth4.h.rst:1038
+msgid "struct VSFilterDependency"
+msgstr "结构体 VSFilterDependency"
+
+#: ../../api/vapoursynth4.h.rst:1044
+msgid "The node frames are requested from."
+msgstr "请求帧的节点。"
+
+#: ../../api/vapoursynth4.h.rst:1048
+msgid "A value from VSRequestPattern_."
+msgstr "来自 VSRequestPattern_ 的值。"
+
+#: ../../api/vapoursynth4.h.rst:1054
+msgid "struct VSPLUGINAPI"
+msgstr "结构体 VSPLUGINAPI"
+
+#: ../../api/vapoursynth4.h.rst:1056
+msgid ""
+"This struct is used to access VapourSynth's API when a plugin is "
+"initially loaded."
+msgstr ""
+"此结构体用于在插件初始加载时访问 VapourSynth 的 API。"
+
+#: ../../api/vapoursynth4.h.rst:1060 ../../api/vapoursynth4.h.rst:1143
+msgid "int getAPIVersion()"
+msgstr "int getAPIVersion()"
+
+#: ../../api/vapoursynth4.h.rst:1062
+msgid "See getAPIVersion_\\ () in the struct VSAPI_."
+msgstr "参见结构体 VSAPI_ 中的 getAPIVersion_\\ ()。"
+
+#: ../../api/vapoursynth4.h.rst:1068
+msgid ""
+"int configPlugin(const char \\*identifier, const char \\*pluginNamespace,"
+" const char \\*name, int pluginVersion, int apiVersion, int flags, "
+"VSPlugin \\*plugin)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1070
+msgid ""
+"Used to provide information about a plugin when loaded. Must be called "
+"exactly once from the *VapourSynthPluginInit2* entry point. It is "
+"recommended to use the VS_MAKE_VERSION_ macro when providing the "
+"*pluginVersion*. If you don't know the specific *apiVersion* you actually"
+" require simply pass VAPOURSYNTH_API_VERSION_ to match the header version"
+" you're compiling against. The *flags* consist of values from "
+"VSPluginConfigFlags_ ORed together but should for most plugins typically "
+"be 0."
+msgstr ""
+"用于在加载时提供插件信息。必须从 *VapourSynthPluginInit2* 入口点精确调用一次。"
+"建议在提供 *pluginVersion* 时使用 VS_MAKE_VERSION_ 宏。如果你不知道实际需要的"
+"特定 *apiVersion*，只需传递 VAPOURSYNTH_API_VERSION_ 来匹配你正在编译的头文件版本。"
+"*flags* 由 VSPluginConfigFlags_ 中的值进行 OR 运算组成，但对于大多数插件通常应为 0。"
+
+#: ../../api/vapoursynth4.h.rst:1075 ../../api/vapoursynth4.h.rst:1690
+
+#: ../../api/vapoursynth4.h.rst:1707 ../../api/vapoursynth4.h.rst:1741
+
+#: ../../api/vapoursynth4.h.rst:1766
+msgid "Returns non-zero on success."
+msgstr "成功时返回非零值。"
+
+#: ../../api/vapoursynth4.h.rst:1079
+msgid ""
+"int registerFunction(const char \\*name, const char \\*args, const char "
+"\\*returnType, VSPublicFunction argsFunc, void \\*functionData, VSPlugin "
+"\\*plugin)"
+msgstr ""
+"int registerFunction(const char \\*name, const char \\*args, const char "
+"\\*returnType, VSPublicFunction argsFunc, void \\*functionData, VSPlugin "
+"\\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:1081
+msgid "See registerFunction_\\ () in the struct VSAPI_."
+msgstr "参见结构体 VSAPI_ 中的 registerFunction_\\ ()。"
+
+#: ../../api/vapoursynth4.h.rst:1087
+msgid "struct VSAPI"
+msgstr "结构体 VSAPI"
+
+#: ../../api/vapoursynth4.h.rst:1089
+msgid "This giant struct is the way to access VapourSynth's public API."
+msgstr "这个庞大的结构体是访问 VapourSynth 公共 API 的方式。"
+
+#: ../../api/vapoursynth4.h.rst:1095
+msgid "VSCore_ \\*createCore(int flags)"
+msgstr "VSCore_ \\*createCore(int flags)"
+
+#: ../../api/vapoursynth4.h.rst:1097
+msgid ""
+"Creates the VapourSynth processing core and returns a pointer to it. It "
+"is possible to create multiple cores but in most cases it shouldn't be "
+"needed."
+msgstr ""
+"创建 VapourSynth 处理核心并返回指向它的指针。可以创建多个核心，"
+"但在大多数情况下不需要。"
+
+#: ../../api/vapoursynth4.h.rst:1100
+msgid "*flags*"
+msgstr "*flags*"
+
+#: ../../api/vapoursynth4.h.rst:1101
+msgid ""
+"`VSCoreCreationFlags` ORed together if desired. Pass 0 for sane defaults "
+"that should suit most uses."
+msgstr ""
+"如果需要可以将 `VSCoreCreationFlags` 进行 OR 运算组合。传递 0 使用适合"
+"大多数用途的合理默认值。"
+
+#: ../../api/vapoursynth4.h.rst:1108
+msgid "void freeCore(VSCore_ \\*core)"
+msgstr "void freeCore(VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1110
+msgid ""
+"Frees a core. Should only be done after all frame requests have completed"
+" and all objects belonging to the core have been released."
+msgstr ""
+"释放核心。应该只在所有帧请求完成且属于核心的所有对象都已释放后执行。"
+
+#: ../../api/vapoursynth4.h.rst:1117
+msgid "int64_t setMaxCacheSize(int64_t bytes, VSCore_ \\*core)"
+msgstr "int64_t setMaxCacheSize(int64_t bytes, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1119
+msgid ""
+"Sets the maximum size of the framebuffer cache. Returns the new maximum "
+"size."
+msgstr ""
+"设置帧缓冲区缓存的最大大小。返回新的最大大小。"
+
+#: ../../api/vapoursynth4.h.rst:1126
+msgid "int setThreadCount(int threads, VSCore_ \\*core)"
+msgstr "int setThreadCount(int threads, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1128
+msgid ""
+"Sets the number of threads used for processing. Pass 0 to automatically "
+"detect. Returns the number of threads that will be used for processing."
+msgstr ""
+"设置用于处理的线程数量。传递 0 自动检测。返回将用于处理的线程数量。"
+
+#: ../../api/vapoursynth4.h.rst:1135
+msgid "void getCoreInfo(VSCore_ \\*core, VSCoreInfo_ \\*info)"
+msgstr "void getCoreInfo(VSCore_ \\*core, VSCoreInfo_ \\*info)"
+
+#: ../../api/vapoursynth4.h.rst:1137
+msgid "Returns information about the VapourSynth core."
+msgstr "返回有关 VapourSynth 核心的信息。"
+
+#: ../../api/vapoursynth4.h.rst:1145
+msgid "Returns the highest VAPOURSYNTH_API_VERSION_ the library support."
+msgstr "返回库支持的最高 VAPOURSYNTH_API_VERSION_。"
+
+#: ../../api/vapoursynth4.h.rst:1151
+msgid "void logMessage(int msgType, const char \\*msg, VSCore \\*core)"
+msgstr "void logMessage(int msgType, const char \\*msg, VSCore \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1153
+msgid ""
+"Send a message through VapourSynth's logging framework. See "
+"addLogHandler_."
+msgstr ""
+"通过 VapourSynth 的日志框架发送消息。参见 addLogHandler_。"
+
+#: ../../api/vapoursynth4.h.rst:1156 ../../api/vapoursynth4.h.rst:1184
+msgid "*msgType*"
+msgstr "*msgType*"
+
+#: ../../api/vapoursynth4.h.rst:1157 ../../api/vapoursynth4.h.rst:1185
+msgid "The type of message. One of VSMessageType_."
+msgstr "消息的类型。VSMessageType_ 之一。"
+
+#: ../../api/vapoursynth4.h.rst:1159
+msgid ""
+"If *msgType* is mtFatal, VapourSynth will call abort() after delivering "
+"the message."
+msgstr ""
+"如果 *msgType* 是 mtFatal，VapourSynth 将在传递消息后调用 abort()。"
+
+#: ../../api/vapoursynth4.h.rst:1162 ../../api/vapoursynth4.h.rst:1190
+msgid "*msg*"
+msgstr "*msg*"
+
+#: ../../api/vapoursynth4.h.rst:1163 ../../api/vapoursynth4.h.rst:1191
+msgid "The message."
+msgstr "消息。"
+
+#: ../../api/vapoursynth4.h.rst:1169
+msgid ""
+"VSLogHandle \\*addLogHandler(VSLogHandler handler, VSLogHandlerFree free,"
+" void \\*userData, VSCore_ \\*core)"
+msgstr ""
+"VSLogHandle \\*addLogHandler(VSLogHandler handler, VSLogHandlerFree free,"
+" void \\*userData, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1171
+msgid ""
+"Installs a custom handler for the various error messages VapourSynth "
+"emits. The message handler is per VSCore_ instance. Returns a unique "
+"handle."
+msgstr ""
+"为 VapourSynth 发出的各种错误消息安装自定义处理器。消息处理器是针对每个"
+"VSCore_ 实例的。返回一个唯一句柄。"
+
+#: ../../api/vapoursynth4.h.rst:1174
+msgid ""
+"If no log handler is installed up to a few hundred messages are cached "
+"and will be delivered as soon as a log handler is attached. This behavior"
+" exists mostly so that warnings when auto-loading plugins (default "
+"behavior) won't disappear-"
+msgstr ""
+"如果没有安装日志处理器，将缓存多达数百条消息，并在日志处理器附加后立即传递。"
+"这种行为主要是为了防止自动加载插件（默认行为）时的警告消失。"
+
+#: ../../api/vapoursynth4.h.rst:1178
+msgid "*handler*"
+msgstr "*handler*"
+
+#: ../../api/vapoursynth4.h.rst:1179
+msgid ""
+"typedef void (VS_CC \\*VSLogHandler)(int msgType, const char \\*msg, void"
+" \\*userdata)"
+msgstr ""
+"typedef void (VS_CC \\*VSLogHandler)(int msgType, const char \\*msg, void"
+" \\*userdata)"
+
+#: ../../api/vapoursynth4.h.rst:1181
+msgid ""
+"Custom message handler. If this is NULL, the default message handler will"
+" be restored."
+msgstr ""
+"自定义消息处理器。如果为 NULL，将恢复默认消息处理器。"
+
+#: ../../api/vapoursynth4.h.rst:1187
+msgid ""
+"If *msgType* is mtFatal, VapourSynth will call abort() after the message "
+"handler returns."
+msgstr ""
+"如果 *msgType* 是 mtFatal，VapourSynth 将在消息处理器返回后调用 abort()。"
+
+#: ../../api/vapoursynth4.h.rst:1193 ../../api/vapoursynth4.h.rst:1501
+
+#: ../../api/vapoursynth4.h.rst:1552 ../../api/vapoursynth4.h.rst:2472
+msgid "*free*"
+msgstr "*free*"
+
+#: ../../api/vapoursynth4.h.rst:1194
+msgid "typedef void (VS_CC \\*VSLogHandlerFree)(void \\*userData)"
+msgstr "typedef void (VS_CC \\*VSLogHandlerFree)(void \\*userData)"
+
+#: ../../api/vapoursynth4.h.rst:1196
+msgid "Called when a handler is removed."
+msgstr "删除处理程序时调用。"
+
+#: ../../api/vapoursynth4.h.rst:1198 ../../api/vapoursynth4.h.rst:2469
+
+#: ../../api/vapoursynth4.h.rst:2581 ../../api/vapoursynth4.h.rst:2599
+
+#: ../../api/vapoursynth4.h.rst:2790
+msgid "*userData*"
+msgstr "*userData*"
+
+#: ../../api/vapoursynth4.h.rst:1199
+msgid "Pointer that gets passed to the message handler."
+msgstr "传递给消息处理程序的指针。"
+
+#: ../../api/vapoursynth4.h.rst:1205
+msgid "int removeLogHandler(VSLogHandle \\*handle, VSCore \\*core)"
+msgstr "int removeLogHandler(VSLogHandle \\*handle, VSCore \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1207
+msgid ""
+"Removes a custom handler. Return non-zero on success and zero if the "
+"handle is invalid."
+msgstr ""
+"移除自定义处理器。成功时返回非零值，句柄无效时返回零。"
+
+#: ../../api/vapoursynth4.h.rst:1210 ../../api/vsscript4.h.rst:150
+msgid "*handle*"
+msgstr "*handle*"
+
+#: ../../api/vapoursynth4.h.rst:1211
+msgid "Handle obtained from addLogHandler_\\ ()."
+msgstr "从 addLogHandler_\\() 获得的句柄。"
+
+#: ../../api/vapoursynth4.h.rst:1217
+msgid ""
+"VSFrame_ \\*newVideoFrame(const VSVideoFormat_ \\*format, int width, int "
+"height, const VSFrame_ \\*propSrc, VSCore_ \\*core)"
+msgstr ""
+"VSFrame_ \\*newVideoFrame(const VSVideoFormat_ \\*format, int width, int "
+"height, const VSFrame_ \\*propSrc, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1219
+msgid ""
+"Creates a new video frame, optionally copying the properties attached to "
+"another frame. It is a fatal error to pass invalid arguments to this "
+"function."
+msgstr "创建一个新的视频帧，可选择性地复制附加到另一个帧的属性。向此函数传递无效参数是致命错误。"
+
+#: ../../api/vapoursynth4.h.rst:1222 ../../api/vapoursynth4.h.rst:1294
+
+#: ../../api/vapoursynth4.h.rst:1319
+msgid "The new frame contains uninitialised memory."
+msgstr "新帧包含未初始化的内存。"
+
+#: ../../api/vapoursynth4.h.rst:1224 ../../api/vapoursynth4.h.rst:1249
+
+#: ../../api/vapoursynth4.h.rst:1296 ../../api/vapoursynth4.h.rst:1321
+
+#: ../../api/vapoursynth4.h.rst:1683 ../../api/vapoursynth4.h.rst:1700
+
+#: ../../api/vapoursynth4.h.rst:1717 ../../api/vapoursynth4.h.rst:1751
+
+#: ../../api/vapoursynth4.h.rst:1809
+msgid "*format*"
+msgstr "*format*"
+
+#: ../../api/vapoursynth4.h.rst:1225 ../../api/vapoursynth4.h.rst:1250
+msgid "The desired colorspace format. Must not be NULL."
+msgstr "所需的颜色空间格式。不能为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1227 ../../api/vapoursynth4.h.rst:1252
+msgid "*width*"
+msgstr "*width*"
+
+#: ../../api/vapoursynth4.h.rst:1229 ../../api/vapoursynth4.h.rst:1254
+msgid "*height*"
+msgstr "*height*"
+
+#: ../../api/vapoursynth4.h.rst:1230 ../../api/vapoursynth4.h.rst:1255
+msgid ""
+"The desired dimensions of the frame, in pixels. Must be greater than 0 "
+"and have a suitable multiple for the subsampling in format."
+msgstr ""
+"帧的期望尺寸，以像素为单位。必须大于0并且具有适合格式中子采样的合适倍数。"
+
+#: ../../api/vapoursynth4.h.rst:1232 ../../api/vapoursynth4.h.rst:1266
+
+#: ../../api/vapoursynth4.h.rst:1302 ../../api/vapoursynth4.h.rst:1337
+msgid "*propSrc*"
+msgstr "*propSrc*"
+
+#: ../../api/vapoursynth4.h.rst:1233 ../../api/vapoursynth4.h.rst:1267
+
+#: ../../api/vapoursynth4.h.rst:1303 ../../api/vapoursynth4.h.rst:1338
+msgid "A frame from which properties will be copied. Can be NULL."
+msgstr "将从中复制属性的帧。可以为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1235 ../../api/vapoursynth4.h.rst:1269
+
+#: ../../api/vapoursynth4.h.rst:1305 ../../api/vapoursynth4.h.rst:1340
+msgid ""
+"Returns a pointer to the created frame. Ownership of the new frame is "
+"transferred to the caller."
+msgstr ""
+"返回指向已创建帧的指针。新帧的所有权转移给调用者。"
+
+#: ../../api/vapoursynth4.h.rst:1238 ../../api/vapoursynth4.h.rst:1343
+msgid "See also newVideoFrame2_\\ ()."
+msgstr "另请参见 newVideoFrame2_\\ ()。"
+
+#: ../../api/vapoursynth4.h.rst:1244
+msgid ""
+"VSFrame_ \\*newVideoFrame2(const VSVideoFormat_ \\*format, int width, int"
+" height, const VSFrame_ \\**planeSrc, const int \\*planes, const VSFrame_"
+" \\*propSrc, VSCore_ \\*core)"
+msgstr ""
+"VSFrame_ \\*newVideoFrame2(const VSVideoFormat_ \\*format, int width, int"
+" height, const VSFrame_ \\**planeSrc, const int \\*planes, const VSFrame_"
+" \\*propSrc, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1246
+msgid ""
+"Creates a new video frame from the planes of existing frames, optionally "
+"copying the properties attached to another frame. It is a fatal error to "
+"pass invalid arguments to this function."
+msgstr ""
+"从现有帧的平面创建新的视频帧，可选择性地复制附加到另一个帧的属性。"
+"向此函数传递无效参数是致命错误。"
+"从现有帧的平面创建新的视频帧，可选择性地复制附加到另一帧的属性。"
+"向此函数传递无效参数是致命错误。"
+
+#: ../../api/vapoursynth4.h.rst:1257
+msgid "*planeSrc*"
+msgstr "*planeSrc*"
+
+#: ../../api/vapoursynth4.h.rst:1258
+msgid ""
+"Array of frames from which planes will be copied. If any elements of the "
+"array are NULL, the corresponding planes in the new frame will contain "
+"uninitialised memory."
+msgstr ""
+"将从中复制平面的帧数组。如果数组的任何元素为 NULL，"
+"新帧中的相应平面将包含未初始化的内存。"
+
+#: ../../api/vapoursynth4.h.rst:1262
+msgid "*planes*"
+msgstr "*planes*"
+
+#: ../../api/vapoursynth4.h.rst:1263
+msgid ""
+"Array of plane numbers indicating which plane to copy from the "
+"corresponding source frame."
+msgstr ""
+"平面编号数组，指示从相应的源帧复制哪个平面。"
+
+#: ../../api/vapoursynth4.h.rst:1272
+msgid "Example (assume *frameA*, *frameB*, *frameC* are existing frames):"
+msgstr "示例（假设 *frameA*、*frameB*、*frameC* 是现有帧）："
+
+#: ../../api/vapoursynth4.h.rst:1280
+msgid ""
+"The newFrame's first plane is now a copy of *frameA*'s second plane, the "
+"second plane is a copy of *frameB*'s first plane, the third plane is a "
+"copy of *frameC*'s third plane and the properties have been copied from "
+"*frameB*."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1289
+msgid ""
+"VSFrame_ \\*newAudioFrame(const VSAudioFormat \\*format, int numSamples, "
+"const VSFrame \\*propSrc, VSCore \\*core)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1291 ../../api/vapoursynth4.h.rst:1316
+msgid ""
+"Creates a new audio frame, optionally copying the properties attached to "
+"another frame. It is a fatal error to pass invalid arguments to this "
+"function."
+msgstr ""
+"创建新的音频帧，可选择性地复制附加到另一帧的属性。"
+"向此函数传递无效参数是致命错误。"
+
+#: ../../api/vapoursynth4.h.rst:1297 ../../api/vapoursynth4.h.rst:1322
+msgid "The desired audio format. Must not be NULL."
+msgstr "所需的音频格式。不能为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1299 ../../api/vapoursynth4.h.rst:1324
+msgid "*numSamples*"
+msgstr "*numSamples*"
+
+#: ../../api/vapoursynth4.h.rst:1300 ../../api/vapoursynth4.h.rst:1325
+msgid ""
+"The number of samples in the frame. All audio frames apart from the last "
+"one returned by a filter must have VS_AUDIO_FRAME_SAMPLES_."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1308
+msgid "See also newAudioFrame2_\\ ()."
+msgstr "另请参见 newAudioFrame2_\\ ()。"
+
+#: ../../api/vapoursynth4.h.rst:1314
+msgid ""
+"VSFrame_ \\*newAudioFrame2(const VSAudioFormat_ \\*format, int "
+"numSamples, const VSFrame_ \\*\\*channelSrc, const int \\*channels, const"
+" VSFrame_ \\*propSrc, VSCore \\*core)"
+msgstr ""
+"VSFrame_ \\*newAudioFrame2(const VSAudioFormat_ \\*format, int "
+"numSamples, const VSFrame_ \\*\\*channelSrc, const int \\*channels, const"
+" VSFrame_ \\*propSrc, VSCore \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1327
+msgid "*channelSrc*"
+msgstr "*channelSrc*"
+
+#: ../../api/vapoursynth4.h.rst:1328
+msgid ""
+"Array of frames from which channels will be copied. If any elements of "
+"the array are NULL, the corresponding planes in the new frame will "
+"contain uninitialised memory."
+msgstr ""
+"将从中复制通道的帧数组。如果数组的任何元素为 NULL，"
+"新帧中的相应平面将包含未初始化的内存。"
+
+#: ../../api/vapoursynth4.h.rst:1332
+msgid "*channels*"
+msgstr "*channels*"
+
+#: ../../api/vapoursynth4.h.rst:1333
+msgid ""
+"Array of channel numbers indicating which channel to copy from the "
+"corresponding source frame. Note that the number refers to the nth "
+"channel and not a channel name constant."
+msgstr ""
+"通道号数组，指示从相应的源帧复制哪个通道。注意数字指的是第 n 个通道，"
+"而不是通道名称常量。"
+
+#: ../../api/vapoursynth4.h.rst:1349
+msgid "void freeFrame(const VSFrame_ \\*f)"
+msgstr "void freeFrame(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1351
+msgid ""
+"Decrements the reference count of a frame and deletes it when it reaches "
+"0."
+msgstr ""
+"递减帧的引用计数，当计数达到 0 时删除帧。"
+
+#: ../../api/vapoursynth4.h.rst:1353 ../../api/vapoursynth4.h.rst:1637
+
+#: ../../api/vapoursynth4.h.rst:2485 ../../api/vsscript4.h.rst:283
+msgid "It is safe to pass NULL."
+msgstr "传递 NULL 是安全的。"
+
+#: ../../api/vapoursynth4.h.rst:1359
+msgid "const VSFrame_ \\*addFrameRef(const VSFrame_ \\*f)"
+msgstr "const VSFrame_ \\*addFrameRef(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1361
+msgid "Increments the reference count of a frame. Returns *f* as a convenience."
+msgstr "增加帧的引用计数。为了方便起见返回 *f*。"
+
+#: ../../api/vapoursynth4.h.rst:1367
+msgid "VSFrame_ \\*copyFrame(const VSFrame_ \\*f, VSCore_ \\*core)"
+msgstr "VSFrame_ \\*copyFrame(const VSFrame_ \\*f, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1369
+msgid ""
+"Duplicates the frame (not just the reference). As the frame buffer is "
+"shared in a copy-on-write fashion, the frame content is not really "
+"duplicated until a write operation occurs. This is transparent for the "
+"user."
+msgstr "复制帧（不仅仅是引用）。由于帧缓冲区以写时复制的方式共享，在写操作发生之前，帧内容实际上并不会被复制。这对用户来说是透明的。"
+
+#: ../../api/vapoursynth4.h.rst:1373
+msgid ""
+"Returns a pointer to the new frame. Ownership is transferred to the "
+"caller."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1379
+msgid "const VSMap_ \\*getFramePropertiesRO(const VSFrame_ \\*f)"
+msgstr "const VSMap_ \\*getFramePropertiesRO(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1381
+msgid ""
+"Returns a read-only pointer to a frame's properties. The pointer is valid"
+" as long as the frame lives."
+msgstr "返回指向帧属性的只读指针。只要帧存在，指针就有效。"
+
+#: ../../api/vapoursynth4.h.rst:1388
+msgid "VSMap_ \\*getFramePropertiesRW(VSFrame_ \\*f)"
+msgstr "VSMap_ \\*getFramePropertiesRW(VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1390
+msgid ""
+"Returns a read/write pointer to a frame's properties. The pointer is "
+"valid as long as the frame lives."
+msgstr "返回指向帧属性的读/写指针。只要帧存在，指针就有效。"
+
+#: ../../api/vapoursynth4.h.rst:1397
+msgid "ptrdiff_t getStride(const VSFrame_ \\*f, int plane)"
+msgstr "ptrdiff_t getStride(const VSFrame_ \\*f, int plane)"
+
+#: ../../api/vapoursynth4.h.rst:1399
+msgid ""
+"Returns the distance in bytes between two consecutive lines of a plane of"
+" a video frame. The stride is always positive. Returns 0 if the requested"
+" *plane* doesn't exist or if it isn't a video frame."
+msgstr "返回视频帧的通道中两行连续像素行之间的字节距离。步幅总是正值。如果请求的 *plane* 不存在或不是视频帧，则返回 0。"
+
+#: ../../api/vapoursynth4.h.rst:1407
+msgid "const uint8_t \\*getReadPtr(const VSFrame_ \\*f, int plane)"
+msgstr "const uint8_t \\*getReadPtr(const VSFrame_ \\*f, int plane)"
+
+#: ../../api/vapoursynth4.h.rst:1409
+msgid ""
+"Returns a read-only pointer to a *plane* or channel of a frame. Returns "
+"NULL if an invalid *plane* or channel number is passed."
+msgstr "返回指向帧的 *plane* 或通道的只读指针。如果传递了无效的 *plane* 或通道号，则返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1413 ../../api/vapoursynth4.h.rst:1426
+msgid ""
+"Don't assume all three planes of a frame are allocated in one contiguous "
+"chunk (they're not)."
+msgstr ""
+"不要假设帧的所有三个平面都分配在一个连续的块中（它们不是）。"
+
+#: ../../api/vapoursynth4.h.rst:1420
+msgid "uint8_t \\*getWritePtr(VSFrame_ \\*f, int plane)"
+msgstr "uint8_t \\*getWritePtr(VSFrame_ \\*f, int plane)"
+
+#: ../../api/vapoursynth4.h.rst:1422
+msgid ""
+"Returns a read-write pointer to a *plane* or channel of a frame. Returns "
+"NULL if an invalid *plane* or channel number is passed."
+msgstr "返回指向帧的 *plane* 或通道的读写指针。如果传递了无效的 *plane* 或通道号，则返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1433
+msgid "const VSVideoFormat_ \\*getVideoFrameFormat(const VSFrame_ \\*f)"
+msgstr "const VSVideoFormat_ \\*getVideoFrameFormat(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1435
+msgid "Retrieves the format of a video frame."
+msgstr "检索视频帧的格式。"
+
+#: ../../api/vapoursynth4.h.rst:1441
+msgid "const VSAudioFormat_ \\*getAudioFrameFormat(const VSFrame_ \\*f)"
+msgstr "const VSAudioFormat_ \\*getAudioFrameFormat(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1443
+msgid "Retrieves the format of an audio frame."
+msgstr "检索音频帧的格式。"
+
+#: ../../api/vapoursynth4.h.rst:1449
+msgid "int getFrameType(const VSFrame_ \\*f)"
+msgstr "int getFrameType(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1451
+msgid "Returns a value from VSMediaType_ to distinguish audio and video frames."
+msgstr "从 VSMediaType_ 返回一个值以区分音频和视频帧。"
+
+#: ../../api/vapoursynth4.h.rst:1457
+msgid "int getFrameWidth(const VSFrame_ \\*f, int plane)"
+msgstr "int getFrameWidth(const VSFrame_ \\*f, int plane)"
+
+#: ../../api/vapoursynth4.h.rst:1459
+msgid ""
+"Returns the width of a *plane* of a given video frame, in pixels. The "
+"width depends on the plane number because of the possible chroma "
+"subsampling. Returns 0 for audio frames."
+msgstr ""
+"返回给定视频帧的 *plane* 的宽度，以像素为单位。由于可能的色度子采样，"
+"宽度取决于平面编号。对于音频帧返回 0。"
+
+#: ../../api/vapoursynth4.h.rst:1467
+msgid "int getFrameHeight(const VSFrame_ \\*f, int plane)"
+msgstr "int getFrameHeight(const VSFrame_ \\*f, int plane)"
+
+#: ../../api/vapoursynth4.h.rst:1469
+msgid ""
+"Returns the height of a *plane* of a given video frame, in pixels. The "
+"height depends on the plane number because of the possible chroma "
+"subsampling. Returns 0 for audio frames."
+msgstr ""
+"返回给定视频帧的 *plane* 的高度，以像素为单位。由于可能的色度子采样，"
+"高度取决于平面编号。对于音频帧返回 0。"
+
+#: ../../api/vapoursynth4.h.rst:1477
+msgid "int getFrameLength(const VSFrame_ \\*f)"
+msgstr "int getFrameLength(const VSFrame_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:1479
+msgid ""
+"Returns the number of audio samples in a frame. Always returns 1 for "
+"video frames."
+msgstr ""
+"返回帧中的音频样本数。对于视频帧始终返回 1。"
+
+#: ../../api/vapoursynth4.h.rst:1485
+msgid ""
+"void createVideoFilter(VSMap_ \\*out, const char \\*name, const "
+"VSVideoInfo_ \\*vi, VSFilterGetFrame_ getFrame, VSFilterFree_ free, int "
+"filterMode, const VSFilterDependency_ \\*dependencies, int numDeps, void "
+"\\*instanceData, VSCore_ \\*core)"
+msgstr ""
+"void createVideoFilter(VSMap_ \\*out, const char \\*name, const "
+"VSVideoInfo_ \\*vi, VSFilterGetFrame_ getFrame, VSFilterFree_ free, int "
+"filterMode, const VSFilterDependency_ \\*dependencies, int numDeps, void "
+"\\*instanceData, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1487 ../../api/vapoursynth4.h.rst:1538
+msgid "Creates a new video filter node."
+msgstr "创建一个新的视频过滤器节点。"
+
+#: ../../api/vapoursynth4.h.rst:1489 ../../api/vapoursynth4.h.rst:1540
+
+#: ../../api/vapoursynth4.h.rst:2509 ../../api/vapoursynth4.h.rst:2785
+msgid "*out*"
+msgstr "*out*"
+
+#: ../../api/vapoursynth4.h.rst:1490 ../../api/vapoursynth4.h.rst:1541
+msgid "Output map for the filter node."
+msgstr "过滤器节点的输出映射。"
+
+#: ../../api/vapoursynth4.h.rst:1492 ../../api/vapoursynth4.h.rst:1543
+
+#: ../../api/vapoursynth4.h.rst:2444 ../../api/vapoursynth4.h.rst:2695
+
+#: ../../api/vapoursynth4.h.rst:1493 ../../api/vapoursynth4.h.rst:1544
+msgid ""
+"Instance name. Please make it the same as the filter's name for easy "
+"identification."
+msgstr ""
+"实例名称。请使其与过滤器的名称相同以便于识别。"
+
+#: ../../api/vapoursynth4.h.rst:1495
+msgid "*vi*"
+msgstr "*vi*"
+
+#: ../../api/vapoursynth4.h.rst:1496 ../../api/vapoursynth4.h.rst:1547
+msgid "The output format of the filter."
+msgstr "过滤器的输出格式。"
+
+#: ../../api/vapoursynth4.h.rst:1498 ../../api/vapoursynth4.h.rst:1549
+msgid "*getFrame*"
+msgstr "*getFrame*"
+
+#: ../../api/vapoursynth4.h.rst:1499 ../../api/vapoursynth4.h.rst:1550
+msgid "The filter's \"getframe\" function. Must not be NULL."
+msgstr "过滤器的 \"getframe\" 函数。不能为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1502 ../../api/vapoursynth4.h.rst:1553
+msgid "The filter's \"free\" function. Can be NULL."
+msgstr "过滤器的 \"free\" 函数。可以为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1504 ../../api/vapoursynth4.h.rst:1555
+msgid "*filterMode*"
+msgstr "*filterMode*"
+
+#: ../../api/vapoursynth4.h.rst:1505 ../../api/vapoursynth4.h.rst:1556
+msgid ""
+"One of VSFilterMode_. Indicates the level of parallelism supported by the"
+" filter."
+msgstr ""
+"VSFilterMode_ 之一。指示过滤器支持的并行度级别。"
+
+#: ../../api/vapoursynth4.h.rst:1508 ../../api/vapoursynth4.h.rst:1559
+msgid "*dependencies*"
+msgstr "*dependencies*"
+
+#: ../../api/vapoursynth4.h.rst:1509 ../../api/vapoursynth4.h.rst:1560
+msgid ""
+"An array of nodes the filter requests frames from and the access pattern."
+" Used to more efficiently configure caches."
+msgstr ""
+"过滤器请求帧的节点数组和访问模式。用于更高效地配置缓存。"
+
+#: ../../api/vapoursynth4.h.rst:1512 ../../api/vapoursynth4.h.rst:1563
+msgid "*numDeps*"
+msgstr "*numDeps*"
+
+#: ../../api/vapoursynth4.h.rst:1513 ../../api/vapoursynth4.h.rst:1564
+msgid "Length of the *dependencies* array."
+msgstr "*dependencies* 数组的长度。"
+
+#: ../../api/vapoursynth4.h.rst:1515 ../../api/vapoursynth4.h.rst:1566
+
+#: ../../api/vapoursynth4.h.rst:2915 ../../api/vapoursynth4.h.rst:2940
+msgid "*instanceData*"
+msgstr "*instanceData*"
+
+#: ../../api/vapoursynth4.h.rst:1516 ../../api/vapoursynth4.h.rst:1567
+msgid ""
+"A pointer to the private filter data. This pointer will be passed to the "
+"*getFrame* and *free* functions. It should be freed by the *free* "
+"function."
+msgstr ""
+"指向私有过滤器数据的指针。此指针将传递给 *getFrame* 和 *free* 函数。"
+"它应该由 *free* 函数释放。"
+
+#: ../../api/vapoursynth4.h.rst:1520 ../../api/vapoursynth4.h.rst:1571
+msgid ""
+"After this function returns, *out* will contain the new node appended to "
+"the \"clip\" property, or an error, if something went wrong."
+msgstr ""
+"此函数返回后，*out* 将包含附加到 \"clip\" 属性的新节点，"
+"或者如果出现问题则包含错误。"
+
+#: ../../api/vapoursynth4.h.rst:1527
+msgid ""
+"VSNode_ \\*createVideoFilter2(const char \\*name, const VSVideoInfo_ "
+"\\*vi, VSFilterGetFrame_ getFrame, VSFilterFree_ free, int filterMode, "
+"const VSFilterDependency_ \\*dependencies, int numDeps, void "
+"\\*instanceData, VSCore_ \\*core)"
+msgstr ""
+"VSNode_ \\*createVideoFilter2(const char \\*name, const VSVideoInfo_ "
+"\\*vi, VSFilterGetFrame_ getFrame, VSFilterFree_ free, int filterMode, "
+"const VSFilterDependency_ \\*dependencies, int numDeps, void "
+"\\*instanceData, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1529
+msgid ""
+"Identical to createVideoFilter_ except that the new node is returned "
+"instead of appended to the *out* map. Returns NULL on error."
+msgstr ""
+"与 createVideoFilter_ 相同，但是新节点被返回而不是追加到 *out* 映射中。"
+"错误时返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1536
+msgid ""
+"void createAudioFilter(VSMap \\*out, const char \\*name, const "
+"VSAudioInfo \\*ai, VSFilterGetFrame getFrame, VSFilterFree free, int "
+"filterMode, const VSFilterDependency_ \\*dependencies, int numDeps, void "
+"\\*instanceData, VSCore \\*core)"
+msgstr ""
+"void createAudioFilter(VSMap \\*out, const char \\*name, const "
+"VSAudioInfo \\*ai, VSFilterGetFrame getFrame, VSFilterFree free, int "
+"filterMode, const VSFilterDependency_ \\*dependencies, int numDeps, void "
+"\\*instanceData, VSCore \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1546
+msgid "*ai*"
+msgstr "*ai*"
+
+#: ../../api/vapoursynth4.h.rst:1578
+msgid ""
+"VSNode \\*createAudioFilter2(const char \\*name, const VSAudioInfo \\*ai,"
+" VSFilterGetFrame getFrame, VSFilterFree free, int filterMode, const "
+"VSFilterDependency_ \\*dependencies, int numDeps, void \\*instanceData, "
+"VSCore \\*core)"
+msgstr ""
+"VSNode \\*createAudioFilter2(const char \\*name, const VSAudioInfo \\*ai,"
+" VSFilterGetFrame getFrame, VSFilterFree free, int filterMode, const "
+"VSFilterDependency_ \\*dependencies, int numDeps, void \\*instanceData, "
+"VSCore \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1580
+msgid ""
+"Identical to createAudioFilter_ except that the new node is returned "
+"instead of appended to the *out* map. Returns NULL on error."
+msgstr ""
+"与 createAudioFilter_ 相同，但是新节点被返回而不是追加到 *out* 映射中。"
+"错误时返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:1587
+msgid "int setLinearFilter(VSNode_ \\*node)"
+msgstr "int setLinearFilter(VSNode_ \\*node)"
+
+#: ../../api/vapoursynth4.h.rst:1589
+msgid ""
+"Must be called immediately after audio or video filter creation. Returns "
+"the upper bound of how many additional frames it is reasonable to pass to"
+" cacheFrame_ when trying to make a request more linear."
+msgstr ""
+"必须在音频或视频过滤器创建后立即调用。返回在尝试使请求更线性时，"
+"传递给 cacheFrame_ 的额外帧数的合理上限。"
+
+#: ../../api/vapoursynth4.h.rst:1598
+msgid "void setCacheMode(VSNode_ \\*node, int mode)"
+msgstr "void setCacheMode(VSNode_ \\*node, int mode)"
+
+#: ../../api/vapoursynth4.h.rst:1600
+msgid ""
+"Determines the strategy for frame caching. Pass a VSCacheMode_ constant. "
+"Mostly useful for cache debugging since the auto mode should work well in"
+" just about all cases. Calls to this function may also be silently "
+"ignored."
+msgstr ""
+"确定帧缓存策略。传递一个 VSCacheMode_ 常量。主要用于缓存调试，"
+"因为自动模式在几乎所有情况下都应该工作良好。对此函数的调用也可能被静默忽略。"
+
+#: ../../api/vapoursynth4.h.rst:1604
+msgid ""
+"Resets the cache to default options when called, discarding "
+"setCacheOptions_ changes."
+msgstr ""
+"调用时将缓存重置为默认选项，丢弃 setCacheOptions_ 的更改。"
+
+#: ../../api/vapoursynth4.h.rst:1611
+msgid ""
+"void setCacheOptions(VSNode_ \\*node, int fixedSize, int maxSize, int "
+"maxHistorySize)"
+msgstr ""
+"void setCacheOptions(VSNode_ \\*node, int fixedSize, int maxSize, int "
+"maxHistorySize)"
+
+#: ../../api/vapoursynth4.h.rst:1613
+msgid ""
+"Call after setCacheMode_ or the changes will be discarded. Sets internal "
+"details of a node's associated cache. Calls to this function may also be "
+"silently ignored."
+msgstr ""
+"在 setCacheMode_ 之后调用，否则更改将被丢弃。设置与节点关联的缓存的内部细节。"
+"对此函数的调用也可能被静默忽略。"
+
+#: ../../api/vapoursynth4.h.rst:1617
+msgid "*fixedSize*"
+msgstr "*fixedSize*"
+
+#: ../../api/vapoursynth4.h.rst:1618
+msgid "Set to non-zero to make the cache always hold *maxSize* frames."
+msgstr "设置为非零值以使缓存始终保持 *maxSize* 帧。"
+
+#: ../../api/vapoursynth4.h.rst:1620
+msgid "*maxSize*"
+msgstr "*maxSize*"
+
+#: ../../api/vapoursynth4.h.rst:1621
+msgid ""
+"The maximum number of frames to cache. Note that this value is "
+"automatically adjusted using an internal algorithm unless *fixedSize* is "
+"set."
+msgstr ""
+"要缓存的最大帧数。注意，除非设置了 *fixedSize*，"
+"否则此值会使用内部算法自动调整。"
+
+#: ../../api/vapoursynth4.h.rst:1624
+msgid "*maxHistorySize*"
+msgstr "*maxHistorySize*"
+
+#: ../../api/vapoursynth4.h.rst:1625
+msgid ""
+"How many frames that have been recently evicted from the cache to keep "
+"track off. Used to determine if growing or shrinking the cache is "
+"beneficial. Has no effect when *fixedSize* is set."
+msgstr ""
+"跟踪多少个最近从缓存中逐出的帧。用于确定增长或收缩缓存是否有益。"
+"当设置了 *fixedSize* 时无效果。"
+
+#: ../../api/vapoursynth4.h.rst:1633
+msgid "void freeNode(VSNode_ \\*node)"
+msgstr "void freeNode(VSNode_ \\*node)"
+
+#: ../../api/vapoursynth4.h.rst:1635
+msgid "Decreases the reference count of a node and destroys it once it reaches 0."
+msgstr "减少节点的引用计数，当计数达到 0 时销毁它。"
+
+#: ../../api/vapoursynth4.h.rst:1643
+msgid "VSNode_ \\*addNodeRef(VSNode_ \\*node)"
+msgstr "VSNode_ \\*addNodeRef(VSNode_ \\*node)"
+
+#: ../../api/vapoursynth4.h.rst:1645
+msgid ""
+"Increment the reference count of a node. Returns the same *node* for "
+"convenience."
+msgstr "增加节点的引用计数。为了方便起见返回相同的 *node*。"
+
+#: ../../api/vapoursynth4.h.rst:1651
+msgid "int getNodeType(VSNode_ \\*node)"
+msgstr "int getNodeType(VSNode_ \\*node)"
+
+#: ../../api/vapoursynth4.h.rst:1653
+msgid ""
+"Returns VSMediaType_. Used to determine if a node is of audio or video "
+"type."
+msgstr "返回 VSMediaType_。用于确定节点是音频还是视频类型。"
+
+#: ../../api/vapoursynth4.h.rst:1659
+msgid "const VSVideoInfo_ \\*getVideoInfo(VSNode_ \\*node)"
+msgstr "const VSVideoInfo_ \\*getVideoInfo(VSNode_ \\*node)"
+
+#: ../../api/vapoursynth4.h.rst:1661
+msgid ""
+"Returns a pointer to the video info associated with a node. The pointer "
+"is valid as long as the node lives. It is undefined behavior to pass a "
+"non-video node."
+msgstr ""
+"返回指向与节点关联的视频信息的指针。指针在节点存在期间有效。"
+"传递非视频节点是未定义的行为。"
+
+#: ../../api/vapoursynth4.h.rst:1669
+msgid "const VSAudioInfo_ \\*getAudioInfo(VSNode_ \\*node)"
+msgstr "const VSAudioInfo_ \\*getAudioInfo(VSNode_ \\*node)"
+
+#: ../../api/vapoursynth4.h.rst:1671
+msgid ""
+"Returns a pointer to the audio info associated with a node. The pointer "
+"is valid as long as the node lives. It is undefined behavior to pass a "
+"non-audio node."
+msgstr ""
+"返回指向与节点关联的音频信息的指针。指针在节点存在期间有效。"
+"传递非音频节点是未定义的行为。"
+
+#: ../../api/vapoursynth4.h.rst:1679
+msgid "int getVideoFormatName(const VSVideoFormat \\*format, char \\*buffer)"
+msgstr "int getVideoFormatName(const VSVideoFormat \\*format, char \\*buffer)"
+
+#: ../../api/vapoursynth4.h.rst:1681
+msgid "Tries to output a fairly human-readable name of a video format."
+msgstr "尝试输出视频格式的人类可读名称。"
+
+#: ../../api/vapoursynth4.h.rst:1684
+msgid "The input video format."
+msgstr "输入的视频格式。"
+
+#: ../../api/vapoursynth4.h.rst:1686 ../../api/vapoursynth4.h.rst:1703
+
+#: ../../api/vapoursynth4.h.rst:1687 ../../api/vapoursynth4.h.rst:1704
+msgid ""
+"Destination buffer. At most 32 bytes including terminating NULL will be "
+"written."
+msgstr ""
+"目标缓冲区。最多写入 32 字节（包括终止的 NULL）。"
+
+#: ../../api/vapoursynth4.h.rst:1696
+msgid "int getAudioFormatName(const VSAudioFormat \\*format, char \\*buffer)"
+msgstr "int getAudioFormatName(const VSAudioFormat \\*format, char \\*buffer)"
+
+#: ../../api/vapoursynth4.h.rst:1698
+msgid "Tries to output a fairly human-readable name of an audio format."
+msgstr "尝试输出音频格式的人类可读名称。"
+
+#: ../../api/vapoursynth4.h.rst:1701
+msgid "The input audio format."
+msgstr "输入的音频格式。"
+
+#: ../../api/vapoursynth4.h.rst:1713
+msgid ""
+"int queryVideoFormat(VSVideoFormat_ \\*format, int colorFamily, int "
+"sampleType, int bitsPerSample, int subSamplingW, int subSamplingH, "
+"VSCore_ \\*core)"
+msgstr ""
+"int queryVideoFormat(VSVideoFormat_ \\*format, int colorFamily, int "
+"sampleType, int bitsPerSample, int subSamplingW, int subSamplingH, "
+"VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1715
+msgid ""
+"Fills out a VSVideoInfo_ struct based on the provided arguments. "
+"Validates the arguments before filling out *format*."
+msgstr ""
+"根据提供的参数填充 VSVideoInfo_ 结构体。在填充 *format* 之前验证参数。"
+
+#: ../../api/vapoursynth4.h.rst:1718 ../../api/vapoursynth4.h.rst:1752
+
+#: ../../api/vapoursynth4.h.rst:1810
+msgid "The struct to fill out."
+msgstr "要填充的结构体。"
+
+#: ../../api/vapoursynth4.h.rst:1720 ../../api/vapoursynth4.h.rst:1777
+msgid "*colorFamily*"
+msgstr "*colorFamily*"
+
+#: ../../api/vapoursynth4.h.rst:1721 ../../api/vapoursynth4.h.rst:1778
+msgid "One of VSColorFamily_."
+msgstr "VSColorFamily_ 之一。"
+
+#: ../../api/vapoursynth4.h.rst:1723 ../../api/vapoursynth4.h.rst:1754
+
+#: ../../api/vapoursynth4.h.rst:1780
+msgid "*sampleType*"
+msgstr "*sampleType*"
+
+#: ../../api/vapoursynth4.h.rst:1724 ../../api/vapoursynth4.h.rst:1755
+
+#: ../../api/vapoursynth4.h.rst:1781
+msgid "One of VSSampleType_."
+msgstr "VSSampleType_ 之一。"
+
+#: ../../api/vapoursynth4.h.rst:1726 ../../api/vapoursynth4.h.rst:1757
+
+#: ../../api/vapoursynth4.h.rst:1783
+msgid "*bitsPerSample*"
+msgstr "*bitsPerSample*"
+
+#: ../../api/vapoursynth4.h.rst:1727 ../../api/vapoursynth4.h.rst:1758
+
+#: ../../api/vapoursynth4.h.rst:1784
+msgid "Number of meaningful bits for a single component. The valid range is 8-32."
+msgstr "单个组件的有效位数。有效范围是 8-32。"
+
+#: ../../api/vapoursynth4.h.rst:1730
+msgid "For floating point formats only 16 or 32 bits are allowed."
+msgstr "对于浮点格式，只允许 16 或 32 位。"
+
+#: ../../api/vapoursynth4.h.rst:1732 ../../api/vapoursynth4.h.rst:1789
+msgid "*subSamplingW*"
+msgstr "*subSamplingW*"
+
+#: ../../api/vapoursynth4.h.rst:1733 ../../api/vapoursynth4.h.rst:1790
+msgid ""
+"log2 of the horizontal chroma subsampling. 0 == no subsampling. The valid"
+" range is 0-4."
+msgstr ""
+"水平色度子采样的 log2。0 == 无子采样。有效范围是 0-4。"
+
+#: ../../api/vapoursynth4.h.rst:1735 ../../api/vapoursynth4.h.rst:1792
+msgid "*subSamplingH*"
+msgstr "*subSamplingH*"
+
+#: ../../api/vapoursynth4.h.rst:1736 ../../api/vapoursynth4.h.rst:1793
+msgid ""
+"log2 of the vertical chroma subsampling. 0 == no subsampling. The valid "
+"range is 0-4."
+msgstr ""
+"垂直色度子采样的 log2。0 == 无子采样。有效范围是 0-4。"
+
+#: ../../api/vapoursynth4.h.rst:1739 ../../api/vapoursynth4.h.rst:1796
+msgid "RGB formats are not allowed to be subsampled in VapourSynth."
+msgstr "在 VapourSynth 中不允许对 RGB 格式进行子采样。"
+
+#: ../../api/vapoursynth4.h.rst:1747
+msgid ""
+"int queryAudioFormat(VSAudioFormat_ \\*format, int sampleType, int "
+"bitsPerSample, uint64_t channelLayout, VSCore_ \\*core)"
+msgstr ""
+"int queryAudioFormat(VSAudioFormat_ \\*format, int sampleType, int "
+"bitsPerSample, uint64_t channelLayout, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1749
+msgid ""
+"Fills out a VSAudioFormat_ struct based on the provided arguments. "
+"Validates the arguments before filling out *format*."
+msgstr ""
+"根据提供的参数填充 VSAudioFormat_ 结构体。在填充 *format* 之前验证参数。"
+
+#: ../../api/vapoursynth4.h.rst:1761
+msgid "For floating point formats only 32 bits are allowed."
+msgstr "对于浮点格式，只允许 32 位。"
+
+#: ../../api/vapoursynth4.h.rst:1763
+msgid "*channelLayout*"
+msgstr "*channelLayout*"
+
+#: ../../api/vapoursynth4.h.rst:1764
+msgid ""
+"A bitmask constructed from bitshifted constants in VSAudioChannels_. For "
+"example stereo is expressed as (1 << acFrontLeft) | (1 << acFrontRight)."
+msgstr ""
+"由 VSAudioChannels_ 中位移常量构成的位掩码。"
+"例如立体声表示为 (1 << acFrontLeft) | (1 << acFrontRight)。"
+
+#: ../../api/vapoursynth4.h.rst:1772
+msgid ""
+"uint32_t queryVideoFormatID(int colorFamily, int sampleType, int "
+"bitsPerSample, int subSamplingW, int subSamplingH, VSCore_ \\*core)"
+msgstr ""
+"uint32_t queryVideoFormatID(int colorFamily, int sampleType, int "
+"bitsPerSample, int subSamplingW, int subSamplingH, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1774
+msgid ""
+"Get the id associated with a video format. Similar to queryVideoFormat_\\"
+" () except that it returns a format id instead of filling out a "
+"VSVideoInfo_ struct."
+msgstr ""
+"获取与视频格式关联的 ID。类似于 queryVideoFormat_\\() 但返回格式 ID "
+"而不是填充 VSVideoInfo_ 结构体。"
+
+#: ../../api/vapoursynth4.h.rst:1787
+msgid "For floating point formats, only 16 or 32 bits are allowed."
+msgstr "对于浮点格式，只允许 16 或 32 位。"
+
+#: ../../api/vapoursynth4.h.rst:1798
+msgid ""
+"Returns a valid format id if the provided arguments are valid, on error 0"
+" is returned."
+msgstr ""
+"如果提供的参数有效则返回有效的格式 ID，出错时返回 0。"
+
+#: ../../api/vapoursynth4.h.rst:1805
+msgid ""
+"int getVideoFormatByID(VSVideoFormat_ \\*format, uint32_t id, VSCore_ "
+"\\*core)"
+msgstr ""
+"int getVideoFormatByID(VSVideoFormat_ \\*format, uint32_t id, VSCore_ "
+"\\*core)"
+
+#: ../../api/vapoursynth4.h.rst:1807
+msgid "Fills out the VSVideoFormat_ struct passed to *format* based"
+msgstr "根据传递的 *id* 填充传递给 *format* 的 VSVideoFormat_ 结构体"
+
+#: ../../api/vapoursynth4.h.rst:1812
+msgid "*id*"
+msgstr "*id*"
+
+#: ../../api/vapoursynth4.h.rst:1813
+msgid ""
+"The format identifier: one of VSPresetVideoFormat_ or a value gotten from"
+" queryVideoFormatID_."
+msgstr ""
+"格式标识符：VSPresetVideoFormat_ 之一或从 queryVideoFormatID_ 获得的值。"
+
+#: ../../api/vapoursynth4.h.rst:1815
+msgid "Returns 0 on failure and non-zero on success."
+msgstr "失败时返回 0，成功时返回非零值。"
+
+#: ../../api/vapoursynth4.h.rst:1821
+msgid "VSMap_ \\*createMap(void)"
+msgstr "VSMap_ \\*createMap(void)"
+
+#: ../../api/vapoursynth4.h.rst:1823
+msgid ""
+"Creates a new property map. It must be deallocated later with freeMap_\\ "
+"()."
+msgstr ""
+"创建一个新的属性映射。必须稍后使用 freeMap_\\() 释放。"
+
+#: ../../api/vapoursynth4.h.rst:1830
+msgid "void freeMap(VSMap_ \\*map)"
+msgstr "void freeMap(VSMap_ \\*map)"
+
+#: ../../api/vapoursynth4.h.rst:1832
+msgid "Frees a map and all the objects it contains."
+msgstr "释放映射及其包含的所有对象。"
+
+#: ../../api/vapoursynth4.h.rst:1838
+msgid "void clearMap(VSMap_ \\*map)"
+msgstr "void clearMap(VSMap_ \\*map)"
+
+#: ../../api/vapoursynth4.h.rst:1840
+msgid ""
+"Deletes all the keys and their associated values from the map, leaving it"
+" empty."
+msgstr ""
+"删除映射中的所有键及其关联值，使其变为空。"
+
+#: ../../api/vapoursynth4.h.rst:1847
+msgid "const char \\*mapGetError(const VSMap_ \\*map)"
+msgstr "const char \\*mapGetError(const VSMap_ \\*map)"
+
+#: ../../api/vapoursynth4.h.rst:1849
+msgid ""
+"Returns a pointer to the error message contained in the map, or NULL if "
+"there is no error set. The pointer is valid until the next modifying "
+"operation on the map."
+msgstr ""
+"返回指向映射中包含的错误消息的指针，如果没有设置错误则返回 NULL。"
+"指针在映射的下次修改操作之前有效。"
+
+#: ../../api/vapoursynth4.h.rst:1857
+msgid "void mapSetError(VSMap_ \\*map, const char \\*errorMessage)"
+msgstr "void mapSetError(VSMap_ \\*map, const char \\*errorMessage)"
+
+#: ../../api/vapoursynth4.h.rst:1859
+msgid ""
+"Adds an error message to a map. The map is cleared first. The error "
+"message is copied. In this state the map may only be freed, cleared or "
+"queried for the error message."
+msgstr ""
+"向映射添加错误消息。首先清除映射。错误消息被复制。在此状态下，"
+"映射只能被释放、清除或查询错误消息。"
+
+#: ../../api/vapoursynth4.h.rst:1863
+msgid ""
+"For errors encountered in a filter's \"getframe\" function, use "
+"setFilterError_."
+msgstr ""
+"对于在过滤器的 \"getframe\" 函数中遇到的错误，使用 setFilterError_。"
+
+#: ../../api/vapoursynth4.h.rst:1870
+msgid "int mapNumKeys(const VSMap_ \\*map)"
+msgstr "int mapNumKeys(const VSMap_ \\*map)"
+
+#: ../../api/vapoursynth4.h.rst:1872
+msgid "Returns the number of keys contained in a property map."
+msgstr "返回属性映射中包含的键数量。"
+
+#: ../../api/vapoursynth4.h.rst:1878
+msgid "const char \\*mapGetKey(const VSMap_ \\*map, int index)"
+msgstr "const char \\*mapGetKey(const VSMap_ \\*map, int index)"
+
+#: ../../api/vapoursynth4.h.rst:1880
+msgid "Returns the nth key from a property map."
+msgstr "从属性映射中返回第 n 个键。"
+
+#: ../../api/vapoursynth4.h.rst:1882
+msgid "Passing an invalid *index* will cause a fatal error."
+msgstr "传递无效的 *index* 将导致致命错误。"
+
+#: ../../api/vapoursynth4.h.rst:1884
+msgid "The pointer is valid as long as the key exists in the map."
+msgstr "只要键在映射中存在，指针就有效。"
+
+#: ../../api/vapoursynth4.h.rst:1890
+msgid "int mapDeleteKey(VSMap_ \\*map, const char \\*key)"
+msgstr "int mapDeleteKey(VSMap_ \\*map, const char \\*key)"
+
+#: ../../api/vapoursynth4.h.rst:1892
+msgid ""
+"Removes the property with the given key. All values associated with the "
+"key are lost."
+msgstr ""
+"移除具有给定键的属性。与该键关联的所有值都将丢失。"
+
+#: ../../api/vapoursynth4.h.rst:1895
+msgid "Returns 0 if the key isn't in the map. Otherwise it returns 1."
+msgstr "如果键不在映射中则返回 0。否则返回 1。"
+
+#: ../../api/vapoursynth4.h.rst:1901
+msgid "int mapNumElements(const VSMap_ \\*map, const char \\*key)"
+msgstr "int mapNumElements(const VSMap_ \\*map, const char \\*key)"
+
+#: ../../api/vapoursynth4.h.rst:1903
+msgid ""
+"Returns the number of elements associated with a key in a property map. "
+"Returns -1 if there is no such key in the map."
+msgstr ""
+"返回属性映射中与键关联的元素数量。如果映射中没有此键则返回 -1。"
+
+#: ../../api/vapoursynth4.h.rst:1910
+msgid "int mapGetType(const VSMap_ \\*map, const char \\*key)"
+msgstr "int mapGetType(const VSMap_ \\*map, const char \\*key)"
+
+#: ../../api/vapoursynth4.h.rst:1912
+msgid ""
+"Returns a value from VSPropertyType_ representing type of elements in the"
+" given key. If there is no such key in the map, the returned value is "
+"ptUnset. Note that also empty arrays created with mapSetEmpty_ are typed."
+msgstr ""
+"返回一个 VSPropertyType_ 值，表示给定键中元素的类型。如果映射中没有此键，"
+"返回值为 ptUnset。注意，使用 mapSetEmpty_ 创建的空数组也有类型。"
+
+#: ../../api/vapoursynth4.h.rst:1921
+msgid "int mapSetEmpty(const VSMap_ \\*map, const char \\*key, int type)"
+msgstr "int mapSetEmpty(const VSMap_ \\*map, const char \\*key, int type)"
+
+#: ../../api/vapoursynth4.h.rst:1923
+msgid ""
+"Creates an empty array of *type* in *key*. Returns non-zero value on "
+"failure due to *key* already existing or having an invalid name."
+msgstr ""
+"在 *key* 中创建指定 *type* 的空数组。如果 *key* 已存在或名称无效则失败并返回非零值。"
+"在 *key* 中创建 *type* 的空数组。由于 *key* 已存在或名称无效而失败时返回非零值。"
+
+#: ../../api/vapoursynth4.h.rst:1931
+msgid ""
+"int64_t mapGetInt(const VSMap_ \\*map, const char \\*key, int index, int "
+"\\*error)"
+msgstr ""
+"int64_t mapGetInt(const VSMap_ \\*map, const char \\*key, int index, int "
+"\\*error)"
+
+#: ../../api/vapoursynth4.h.rst:1933
+msgid "Retrieves an integer from a specified *key* in a *map*."
+msgstr "从 *map* 中的指定 *key* 检索整数。"
+
+#: ../../api/vapoursynth4.h.rst:1935 ../../api/vapoursynth4.h.rst:2037
+msgid "Returns the number on success, or 0 in case of error."
+msgstr "成功时返回数字，出错时返回 0。"
+
+#: ../../api/vapoursynth4.h.rst:1937
+msgid ""
+"If the map has an error set (i.e. if mapGetError_\\ () returns non-NULL),"
+" VapourSynth will die with a fatal error."
+msgstr ""
+"如果映射设置了错误（即如果 mapGetError_\\() 返回非 NULL），"
+"VapourSynth 将因致命错误而终止。"
+
+#: ../../api/vapoursynth4.h.rst:1940
+msgid "*index*"
+msgstr "*index*"
+
+#: ../../api/vapoursynth4.h.rst:1941
+msgid "Zero-based index of the element."
+msgstr "元素的从零开始的索引。"
+
+#: ../../api/vapoursynth4.h.rst:1943
+msgid ""
+"Use mapNumElements_\\ () to know the total number of elements associated "
+"with a key."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1946
+msgid "*error*"
+msgstr "*error*"
+
+#: ../../api/vapoursynth4.h.rst:1947
+msgid "One of VSMapPropertyError_, peSuccess on success."
+msgstr "VSMapPropertyError_ 之一，成功时为 peSuccess。"
+
+#: ../../api/vapoursynth4.h.rst:1949
+msgid ""
+"You may pass NULL here, but then any problems encountered while "
+"retrieving the property will cause VapourSynth to die with a fatal error."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1957
+msgid ""
+"int mapGetIntSaturated(const VSMap_ \\*map, const char \\*key, int index,"
+" int \\*error)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1959
+msgid ""
+"Works just like mapGetInt_\\ () except that the value returned is also "
+"converted to an integer using saturation."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1966
+msgid ""
+"const int64_t \\*mapGetIntArray(const VSMap_ \\*map, const char \\*key, "
+"int \\*error)"
+msgstr ""
+"const int64_t \\*mapGetIntArray(const VSMap_ \\*map, const char \\*key, "
+"int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:1968
+msgid ""
+"Retrieves an array of integers from a map. Use this function if there are"
+" a lot of numbers associated with a key, because it is faster than "
+"calling mapGetInt_\\ () in a loop."
+msgstr ""
+"从映射中检索整数数组。如果有大量与键关联的数字，请使用此函数，"
+"因为它比在循环中调用 mapGetInt_\\() 更快。"
+
+#: ../../api/vapoursynth4.h.rst:1972 ../../api/vapoursynth4.h.rst:2060
+msgid ""
+"Returns a pointer to the first element of the array on success, or NULL "
+"in case of error. Use mapNumElements_\\ () to know the total number of "
+"elements associated with a key."
+msgstr ""
+"成功时返回指向数组第一个元素的指针，出错时返回 NULL。"
+"使用 mapNumElements_\\() 了解与键关联的元素总数。"
+
+#: ../../api/vapoursynth4.h.rst:1976 ../../api/vapoursynth4.h.rst:2039
+
+#: ../../api/vapoursynth4.h.rst:2064 ../../api/vapoursynth4.h.rst:2121
+
+#: ../../api/vapoursynth4.h.rst:2133 ../../api/vapoursynth4.h.rst:2145
+
+#: ../../api/vapoursynth4.h.rst:2195 ../../api/vapoursynth4.h.rst:2230
+
+#: ../../api/vapoursynth4.h.rst:2265
+msgid ""
+"See mapGetInt_\\ () for a complete description of the arguments and "
+"general behavior."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:1982
+msgid "int mapSetInt(VSMap_ \\*map, const char \\*key, int64_t i, int append)"
+msgstr "int mapSetInt(VSMap_ \\*map, const char \\*key, int64_t i, int append)"
+
+#: ../../api/vapoursynth4.h.rst:1984
+msgid "Sets an integer to the specified key in a map."
+msgstr "在映射中设置指定键的整数值。"
+
+#: ../../api/vapoursynth4.h.rst:1986 ../../api/vapoursynth4.h.rst:2155
+msgid ""
+"Multiple values can be associated with one key, but they must all be the "
+"same type."
+msgstr ""
+"多个值可以与一个键关联，但它们必须都是相同类型。"
+
+#: ../../api/vapoursynth4.h.rst:1989 ../../api/vapoursynth4.h.rst:2015
+
+#: ../../api/vapoursynth4.h.rst:2089 ../../api/vapoursynth4.h.rst:2158
+msgid "*key*"
+msgstr "*key*"
+
+#: ../../api/vapoursynth4.h.rst:1990 ../../api/vapoursynth4.h.rst:2016
+
+#: ../../api/vapoursynth4.h.rst:2090
+msgid "Name of the property. Alphanumeric characters and underscore may be used."
+msgstr "属性的名称。可以使用字母数字字符和下划线。"
+
+#: ../../api/vapoursynth4.h.rst:1993 ../../api/vapoursynth4.h.rst:2019
+msgid "*i*"
+msgstr "*i*"
+
+#: ../../api/vapoursynth4.h.rst:1994 ../../api/vapoursynth4.h.rst:2163
+msgid "Value to store."
+msgstr "要存储的值。"
+
+#: ../../api/vapoursynth4.h.rst:1996 ../../api/vapoursynth4.h.rst:2176
+msgid "*append*"
+msgstr "*append*"
+
+#: ../../api/vapoursynth4.h.rst:1997 ../../api/vapoursynth4.h.rst:2177
+msgid "One of VSMapAppendMode_."
+msgstr "VSMapAppendMode_ 之一。"
+
+#: ../../api/vapoursynth4.h.rst:1999
+msgid ""
+"Returns 0 on success, or 1 if trying to append to a property with the "
+"wrong type to an existing key."
+msgstr ""
+"成功时返回 0，如果尝试向现有键附加错误类型的属性则返回 1。"
+
+#: ../../api/vapoursynth4.h.rst:2006
+msgid ""
+"int mapSetIntArray(VSMap_ \\*map, const char \\*key, const int64_t \\*i, "
+"int size)"
+msgstr ""
+"int mapSetIntArray(VSMap_ \\*map, const char \\*key, const int64_t \\*i, "
+"int size)"
+
+#: ../../api/vapoursynth4.h.rst:2008
+msgid ""
+"Adds an array of integers to a map. Use this function if there are a lot "
+"of numbers to add, because it is faster than calling mapSetInt_\\ () in a"
+" loop."
+msgstr ""
+"向映射添加整数数组。如果有大量数字要添加，请使用此函数，"
+"因为它比在循环中调用 mapSetInt_\\() 更快。"
+
+#: ../../api/vapoursynth4.h.rst:2012 ../../api/vapoursynth4.h.rst:2086
+msgid ""
+"If *map* already contains a property with this *key*, that property will "
+"be overwritten and all old values will be lost."
+msgstr ""
+"如果 *map* 已包含具有此 *key* 的属性，该属性将被覆盖，所有旧值将丢失。"
+
+#: ../../api/vapoursynth4.h.rst:2020 ../../api/vapoursynth4.h.rst:2094
+msgid "Pointer to the first element of the array to store."
+msgstr "指向要存储的数组第一个元素的指针。"
+
+#: ../../api/vapoursynth4.h.rst:2022 ../../api/vapoursynth4.h.rst:2096
+
+#: ../../api/vapoursynth4.h.rst:2169
+msgid "*size*"
+msgstr "*size*"
+
+#: ../../api/vapoursynth4.h.rst:2023
+msgid ""
+"Number of integers to read from the array. It can be 0, in which case no "
+"integers are read from the array, and the property will be created empty."
+msgstr ""
+"从数组中读取的整数数量。它可以是 0，在这种情况下不从数组中读取整数，"
+"属性将被创建为空。"
+
+#: ../../api/vapoursynth4.h.rst:2027 ../../api/vapoursynth4.h.rst:2101
+msgid "Returns 0 on success, or 1 if *size* is negative."
+msgstr "成功时返回 0，如果 *size* 为负则返回 1。"
+
+#: ../../api/vapoursynth4.h.rst:2033
+msgid ""
+"double mapGetFloat(const VSMap_ \\*map, const char \\*key, int index, int"
+" \\*error)"
+msgstr ""
+"double mapGetFloat(const VSMap_ \\*map, const char \\*key, int index, int"
+" \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2035
+msgid "Retrieves a floating point number from a map."
+msgstr "从映射中检索浮点数。"
+
+#: ../../api/vapoursynth4.h.rst:2045
+msgid ""
+"float mapGetFloatSaturated(const VSMap_ \\*map, const char \\*key, int "
+"index, int \\*error)"
+msgstr ""
+"float mapGetFloatSaturated(const VSMap_ \\*map, const char \\*key, int "
+"index, int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2047
+msgid ""
+"Works just like mapGetFloat_\\ () except that the value returned is also "
+"converted to a float."
+msgstr ""
+"与 mapGetFloat_\\() 工作方式相同，但返回的值也会转换为 float。"
+
+#: ../../api/vapoursynth4.h.rst:2054
+msgid ""
+"const double \\*mapGetFloatArray(const VSMap_ \\*map, const char \\*key, "
+"int \\*error)"
+msgstr ""
+"const double \\*mapGetFloatArray(const VSMap_ \\*map, const char \\*key, "
+"int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2056
+msgid ""
+"Retrieves an array of floating point numbers from a map. Use this "
+"function if there are a lot of numbers associated with a key, because it "
+"is faster than calling mapGetFloat_\\ () in a loop."
+msgstr ""
+"从映射中检索浮点数数组。如果有大量与键关联的数字，请使用此函数，"
+"因为它比在循环中调用 mapGetFloat_\\() 更快。"
+
+#: ../../api/vapoursynth4.h.rst:2070
+msgid "int mapSetFloat(VSMap_ \\*map, const char \\*key, double d, int append)"
+msgstr "int mapSetFloat(VSMap_ \\*map, const char \\*key, double d, int append)"
+
+#: ../../api/vapoursynth4.h.rst:2072
+msgid "Sets a float to the specified key in a map."
+msgstr "在映射中设置指定键的浮点值。"
+
+#: ../../api/vapoursynth4.h.rst:2074 ../../api/vapoursynth4.h.rst:2205
+
+#: ../../api/vapoursynth4.h.rst:2215 ../../api/vapoursynth4.h.rst:2240
+
+#: ../../api/vapoursynth4.h.rst:2250 ../../api/vapoursynth4.h.rst:2275
+
+#: ../../api/vapoursynth4.h.rst:2285
+msgid ""
+"See mapSetInt_\\ () for a complete description of the arguments and "
+"general behavior."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2080
+msgid ""
+"int mapSetFloatArray(VSMap_ \\*map, const char \\*key, const double \\*d,"
+" int size)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2082
+msgid ""
+"Adds an array of floating point numbers to a map. Use this function if "
+"there are a lot of numbers to add, because it is faster than calling "
+"mapSetFloat_\\ () in a loop."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2093
+msgid "*d*"
+msgstr "*d*"
+
+#: ../../api/vapoursynth4.h.rst:2097
+msgid ""
+"Number of floating point numbers to read from the array. It can be 0, in "
+"which case no numbers are read from the array, and the property will be "
+"created empty."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2107
+msgid ""
+"const char \\*mapGetData(const VSMap_ \\*map, const char \\*key, int "
+"index, int \\*error)"
+msgstr ""
+"const char \\*mapGetData(const VSMap_ \\*map, const char \\*key, int "
+"index, int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2109
+msgid ""
+"Retrieves arbitrary binary data from a map. Checking "
+"mapGetDataTypeHint_\\ () may provide a hint about whether or not the data"
+" is human readable."
+msgstr ""
+"从映射中检索任意二进制数据。检查 mapGetDataTypeHint_\\() "
+"可能会提示数据是否为人类可读。"
+
+#: ../../api/vapoursynth4.h.rst:2112
+msgid "Returns a pointer to the data on success, or NULL in case of error."
+msgstr "成功时返回指向数据的指针，出错时返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2114
+msgid ""
+"The array returned is guaranteed to be NULL-terminated. The NULL byte is "
+"not considered to be part of the array (mapGetDataSize_ doesn't count "
+"it)."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2118
+msgid ""
+"The pointer is valid until the map is destroyed, or until the "
+"corresponding key is removed from the map or altered."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2127
+msgid ""
+"int mapGetDataSize(const VSMap_ \\*map, const char \\*key, int index, int"
+" \\*error)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2129 ../../api/vapoursynth4.h.rst:2141
+msgid ""
+"Returns the size in bytes of a property of type ptData (see "
+"VSPropertyType_), or 0 in case of error. The terminating NULL byte added "
+"by mapSetData_\\ () is not counted."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2139
+msgid ""
+"int mapGetDataTypeHint(const VSMap_ \\*map, const char \\*key, int index,"
+" int \\*error)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2151
+msgid ""
+"int mapSetData(VSMap \\*map, const char \\*key, const char \\*data, int "
+"size, int type, int append)"
+msgstr ""
+"int mapSetData(VSMap \\*map, const char \\*key, const char \\*data, int "
+"size, int type, int append)"
+
+#: ../../api/vapoursynth4.h.rst:2153
+msgid "Sets binary data to the specified key in a map."
+msgstr "在映射中设置指定键的二进制数据。"
+
+#: ../../api/vapoursynth4.h.rst:2159
+msgid ""
+"Name of the property. Alphanumeric characters and the underscore may be "
+"used."
+msgstr ""
+"属性的名称。可以使用字母数字字符和下划线。"
+
+#: ../../api/vapoursynth4.h.rst:2162
+msgid "*data*"
+msgstr "*data*"
+
+#: ../../api/vapoursynth4.h.rst:2165
+msgid ""
+"This function copies the data, so the pointer should be freed when no "
+"longer needed. A terminating NULL is always added to the copied data but "
+"not included in the total size to make string handling easier."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2170
+msgid ""
+"The number of bytes to copy. If this is negative, everything up to the "
+"first NULL byte will be copied."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2173
+msgid "*type*"
+msgstr "*type*"
+
+#: ../../api/vapoursynth4.h.rst:2174
+msgid "One of VSDataTypeHint_ to hint whether or not it is human readable data."
+msgstr "VSDataTypeHint_ 之一，用于提示是否为人类可读数据。"
+
+#: ../../api/vapoursynth4.h.rst:2179
+msgid ""
+"Returns 0 on success, or 1 if trying to append to a property with the "
+"wrong type."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2186
+msgid ""
+"VSNode_ \\*mapGetNode(const VSMap_ \\*map, const char \\*key, int index, "
+"int \\*error)"
+msgstr ""
+"VSNode_ \\*mapGetNode(const VSMap_ \\*map, const char \\*key, int index, "
+"int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2188
+msgid "Retrieves a node from a map."
+msgstr "从映射中检索节点。"
+
+#: ../../api/vapoursynth4.h.rst:2190
+msgid "Returns a pointer to the node on success, or NULL in case of error."
+msgstr "成功时返回指向节点的指针，出错时返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2192
+msgid ""
+"This function increases the node's reference count, so freeNode_\\ () "
+"must be used when the node is no longer needed."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2201
+msgid ""
+"int mapSetNode(VSMap_ \\*map, const char \\*key, VSNode_ \\*node, int "
+"append)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2203
+msgid "Sets a node to the specified key in a map."
+msgstr "将节点设置到映射中的指定键。"
+
+#: ../../api/vapoursynth4.h.rst:2211
+msgid ""
+"int mapConsumeNode(VSMap_ \\*map, const char \\*key, VSNode_ \\*node, int"
+" append)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2213
+msgid ""
+"Sets a node to the specified key in a map and decreases the reference "
+"count."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2221
+msgid ""
+"const VSFrame_ \\*mapGetFrame(const VSMap_ \\*map, const char \\*key, int"
+" index, int \\*error)"
+msgstr ""
+"const VSFrame_ \\*mapGetFrame(const VSMap_ \\*map, const char \\*key, int"
+" index, int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2223
+msgid "Retrieves a frame from a map."
+msgstr "从映射中检索帧。"
+
+#: ../../api/vapoursynth4.h.rst:2225
+msgid "Returns a pointer to the frame on success, or NULL in case of error."
+msgstr "成功时返回指向帧的指针，出错时返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2227
+msgid ""
+"This function increases the frame's reference count, so freeFrame_\\ () "
+"must be used when the frame is no longer needed."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2236
+msgid ""
+"int mapSetFrame(VSMap_ \\*map, const char \\*key, const VSFrame_ \\*f, "
+"int append)"
+msgstr ""
+"int mapSetFrame(VSMap_ \\*map, const char \\*key, const VSFrame_ \\*f, "
+"int append)"
+
+#: ../../api/vapoursynth4.h.rst:2238
+msgid "Sets a frame to the specified key in a map."
+msgstr "在映射中设置指定键的帧。"
+
+#: ../../api/vapoursynth4.h.rst:2246
+msgid ""
+"int mapConsumeFrame(VSMap_ \\*map, const char \\*key, const VSFrame_ "
+"\\*f, int append)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2248
+msgid ""
+"Sets a frame to the specified key in a map and decreases the reference "
+"count."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2256
+msgid ""
+"VSFunctionRef \\*mapGetFunction(const VSMap_ \\*map, const char \\*key, "
+"int index, int \\*error)"
+msgstr ""
+"VSFunctionRef \\*mapGetFunction(const VSMap_ \\*map, const char \\*key, "
+"int index, int \\*error)"
+
+#: ../../api/vapoursynth4.h.rst:2258
+msgid "Retrieves a function from a map."
+msgstr "从映射中检索函数。"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2260
+msgid "Returns a pointer to the function on success, or NULL in case of error."
+msgstr "成功时返回指向函数的指针，出错时返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2262
+msgid ""
+"This function increases the function's reference count, so "
+"freeFunction_\\ () must be used when the function is no longer needed."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2271
+msgid ""
+"int mapSetFunction(VSMap_ \\*map, const char \\*key, VSFunction \\*func, "
+"int append)"
+msgstr ""
+"int mapSetFunction(VSMap_ \\*map, const char \\*key, VSFunction \\*func, "
+"int append)"
+
+#: ../../api/vapoursynth4.h.rst:2273
+msgid "Sets a function object to the specified key in a map."
+msgstr "在映射中设置指定键的函数对象。"
+
+#: ../../api/vapoursynth4.h.rst:2281
+msgid ""
+"int mapConsumeFunction(VSMap_ \\*map, const char \\*key, VSFunction "
+"\\*func, int append)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2283
+msgid ""
+"Sets a function object to the specified key in a map and decreases the "
+"reference count."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2291
+msgid "VSPlugin_ \\*getPluginByID(const char \\*identifier, VSCore_ \\*core)"
+msgstr "VSPlugin_ \\*getPluginByID(const char \\*identifier, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:2293
+msgid ""
+"Returns a pointer to the plugin with the given identifier, or NULL if not"
+" found."
+msgstr ""
+"返回具有给定标识符的插件的指针，如果未找到则返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2296
+msgid "*identifier*"
+msgstr "*identifier*"
+
+#: ../../api/vapoursynth4.h.rst:2297
+msgid "Reverse URL that uniquely identifies the plugin."
+msgstr "唯一标识插件的反向 URL。"
+
+#: ../../api/vapoursynth4.h.rst:2303
+msgid "VSPlugin_ \\*getPluginByNamespace(const char \\*ns, VSCore_ \\*core)"
+msgstr "VSPlugin_ \\*getPluginByNamespace(const char \\*ns, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:2305
+msgid ""
+"Returns a pointer to the plugin with the given namespace, or NULL if not "
+"found."
+msgstr ""
+"返回具有给定命名空间的插件的指针，如果未找到则返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2308
+msgid "getPluginByID_ is generally a better option."
+msgstr "getPluginByID_ 通常是更好的选择。"
+
+#: ../../api/vapoursynth4.h.rst:2310
+msgid "*ns*"
+msgstr "*ns*"
+
+#: ../../api/vapoursynth4.h.rst:2311
+msgid "Namespace."
+msgstr "命名空间。"
+
+#: ../../api/vapoursynth4.h.rst:2317
+msgid "VSPlugin_ \\*getNextPlugin(VSPlugin_ \\*plugin, VSCore_ \\*core)"
+msgstr "VSPlugin_ \\*getNextPlugin(VSPlugin_ \\*plugin, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:2319
+msgid ""
+"Used to enumerate over all currently loaded plugins. The order is fixed "
+"but provides no other guarantees."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2322 ../../api/vapoursynth4.h.rst:2364
+
+#: ../../api/vapoursynth4.h.rst:2439 ../../api/vapoursynth4.h.rst:2798
+
+#: ../../api/vapoursynth4.h.rst:2872
+msgid "*plugin*"
+msgstr "*plugin*"
+
+#: ../../api/vapoursynth4.h.rst:2323
+msgid "Current plugin. Pass NULL to get the first plugin."
+msgstr "当前插件。传递 NULL 以获取第一个插件。"
+
+#: ../../api/vapoursynth4.h.rst:2325
+msgid ""
+"Returns a pointer to the next plugin in order or NULL if the final plugin"
+" has been reached."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2332
+msgid "const char \\*getPluginName(VSPlugin_ \\*plugin)"
+msgstr "const char \\*getPluginName(VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2334
+msgid "Returns the name of the plugin that was passed to configPlugin_."
+msgstr "返回传递给 configPlugin_ 的插件名称。"
+
+#: ../../api/vapoursynth4.h.rst:2340
+msgid "const char \\*getPluginID(VSPlugin_ \\*plugin)"
+msgstr "const char \\*getPluginID(VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2342
+msgid "Returns the identifier of the plugin that was passed to configPlugin_."
+msgstr "返回传递给 configPlugin_ 的插件标识符。"
+
+#: ../../api/vapoursynth4.h.rst:2348
+msgid "const char \\*getPluginNamespace(VSPlugin_ \\*plugin)"
+msgstr "const char \\*getPluginNamespace(VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2350
+msgid "Returns the namespace the plugin currently is loaded in."
+msgstr "返回插件当前加载的命名空间。"
+
+#: ../../api/vapoursynth4.h.rst:2356
+msgid ""
+"VSPluginFunction_ \\*getNextPluginFunction(VSPluginFunction_ \\*func, "
+"VSPlugin \\*plugin)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2358
+msgid ""
+"Used to enumerate over all functions in a plugin. The order is fixed but "
+"provides no other guarantees."
+msgstr ""
+"用于枚举插件中的所有函数。顺序是固定的，但不提供其他保证。"
+
+#: ../../api/vapoursynth4.h.rst:2361 ../../api/vapoursynth4.h.rst:2464
+
+#: ../../api/vapoursynth4.h.rst:2503
+msgid "*func*"
+msgstr "*func*"
+
+#: ../../api/vapoursynth4.h.rst:2362
+msgid "Current function. Pass NULL to get the first function."
+msgstr "当前函数。传递 NULL 以获取第一个函数。"
+
+#: ../../api/vapoursynth4.h.rst:2365
+msgid "The plugin to enumerate functions in."
+msgstr "要枚举函数的插件。"
+
+#: ../../api/vapoursynth4.h.rst:2367
+msgid ""
+"Returns a pointer to the next function in order or NULL if the final "
+"function has been reached."
+msgstr ""
+"按顺序返回指向下一个函数的指针，如果已到达最终函数则返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2374
+msgid ""
+"VSPluginFunction_ \\*getPluginFunctionByName(const char \\*name, "
+"VSPlugin_ \\*plugin)"
+msgstr ""
+"VSPluginFunction_ \\*getPluginFunctionByName(const char \\*name, "
+"VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2376
+msgid "Get a function belonging to a plugin by its name."
+msgstr "根据名称获取属于插件的函数。"
+
+#: ../../api/vapoursynth4.h.rst:2382
+msgid "const char \\*getPluginFunctionName(VSPluginFunction_ \\*func)"
+msgstr "const char \\*getPluginFunctionName(VSPluginFunction_ \\*func)"
+
+#: ../../api/vapoursynth4.h.rst:2384
+msgid "Returns the name of the function that was passed to registerFunction_."
+msgstr "返回传递给 registerFunction_ 的函数名称。"
+
+#: ../../api/vapoursynth4.h.rst:2390
+msgid "const char \\*getPluginFunctionArguments(VSPluginFunction_ \\*func)"
+msgstr "const char \\*getPluginFunctionArguments(VSPluginFunction_ \\*func)"
+
+#: ../../api/vapoursynth4.h.rst:2392
+msgid ""
+"Returns the argument string of the function that was passed to "
+"registerFunction_."
+msgstr ""
+"返回传递给 registerFunction_ 的函数的参数字符串。"
+
+#: ../../api/vapoursynth4.h.rst:2398
+msgid "const char \\*getPluginFunctionReturnType(VSPluginFunction_ \\*func)"
+msgstr "const char \\*getPluginFunctionReturnType(VSPluginFunction_ \\*func)"
+
+#: ../../api/vapoursynth4.h.rst:2400
+msgid ""
+"Returns the return type string of the function that was passed to "
+"registerFunction_."
+msgstr ""
+"返回传递给 registerFunction_ 的函数的返回类型字符串。"
+
+#: ../../api/vapoursynth4.h.rst:2406
+msgid "const char \\*getPluginPath(const VSPlugin_ \\*plugin)"
+msgstr "const char \\*getPluginPath(const VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2408
+msgid ""
+"Returns the absolute path to the plugin, including the plugin's file "
+"name. This is the real location of the plugin, i.e. there are no symbolic"
+" links in the path."
+msgstr ""
+"返回插件的绝对路径，包括插件的文件名。这是插件的真实位置，"
+"即路径中没有符号链接。"
+
+#: ../../api/vapoursynth4.h.rst:2412
+msgid "Path elements are always delimited with forward slashes."
+msgstr "路径元素始终用正斜杠分隔。"
+
+#: ../../api/vapoursynth4.h.rst:2414
+msgid "VapourSynth retains ownership of the returned pointer."
+msgstr "VapourSynth 保留返回指针的所有权。"
+
+#: ../../api/vapoursynth4.h.rst:2420
+msgid "int getPluginVersion(const VSPlugin_ \\*plugin)"
+msgstr "int getPluginVersion(const VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2422
+msgid ""
+"Returns the version of the plugin. This is the same as the version number"
+" passed to configPlugin_."
+msgstr ""
+"返回插件的版本。这与传递给 configPlugin_ 的版本号相同。"
+
+#: ../../api/vapoursynth4.h.rst:2428
+msgid ""
+"VSMap_ \\*invoke(VSPlugin_ \\*plugin, const char \\*name, const VSMap_ "
+"\\*args)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2430
+msgid "Invokes a filter."
+msgstr "调用过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:2432
+msgid ""
+"invoke() checks that the *args* passed to the filter are consistent with "
+"the argument list registered by the plugin that contains the filter, "
+"calls the filter's \"create\" function, and checks that the filter "
+"returns the declared types. If everything goes smoothly, the filter will "
+"be ready to generate frames after invoke() returns."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2440
+msgid "A pointer to the plugin where the filter is located. Must not be NULL."
+msgstr "指向过滤器所在插件的指针。不能为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2442
+msgid "See getPluginByID_\\ ()."
+msgstr "参见 getPluginByID_\\()。"
+
+#: ../../api/vapoursynth4.h.rst:2445
+msgid "Name of the filter to invoke."
+msgstr "要调用的过滤器名称。"
+
+#: ../../api/vapoursynth4.h.rst:2447 ../../api/vapoursynth4.h.rst:2702
+msgid "*args*"
+msgstr "*args*"
+
+#: ../../api/vapoursynth4.h.rst:2448
+msgid "Arguments for the filter."
+msgstr "过滤器的参数。"
+
+#: ../../api/vapoursynth4.h.rst:2450
+msgid ""
+"Returns a map containing the filter's return value(s). The caller takes "
+"ownership of the map. Use mapGetError_\\ () to check if the filter was "
+"invoked successfully."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2454
+msgid ""
+"Most filters will either set an error, or one or more clips with the key "
+"\"clip\". The exception to this are functions, for example LoadPlugin, "
+"which doesn't return any clips for obvious reasons."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2462
+msgid ""
+"VSFunction_ \\*createFunction(VSPublicFunction func, void \\*userData, "
+"VSFreeFunctionData free, VSCore_ \\*core)"
+msgstr ""
+"VSFunction_ \\*createFunction(VSPublicFunction func, void \\*userData, "
+"VSFreeFunctionData free, VSCore_ \\*core)"
+
+#: ../../api/vapoursynth4.h.rst:2465 ../../api/vapoursynth4.h.rst:2761
+msgid ""
+"typedef void (VS_CC \\*VSPublicFunction)(const VSMap_ \\*in, VSMap_ "
+"\\*out, void \\*userData, VSCore_ \\*core, const VSAPI_ \\*vsapi)"
+msgstr ""
+"typedef void (VS_CC \\*VSPublicFunction)(const VSMap_ \\*in, VSMap_ "
+"\\*out, void \\*userData, VSCore_ \\*core, const VSAPI_ \\*vsapi)"
+
+#: ../../api/vapoursynth4.h.rst:2467
+msgid "User-defined function that may be called in any context."
+msgstr "可以在任何上下文中调用的用户定义函数。"
+
+#: ../../api/vapoursynth4.h.rst:2470
+msgid "Pointer passed to *func*."
+msgstr "传递给 *func* 的指针。"
+
+#: ../../api/vapoursynth4.h.rst:2473
+msgid "typedef void (VS_CC \\*VSFreeFunctionData)(void \\*userData)"
+msgstr "typedef void (VS_CC \\*VSFreeFunctionData)(void \\*userData)"
+
+#: ../../api/vapoursynth4.h.rst:2475
+msgid "Callback tasked with freeing *userData*. Can be NULL."
+msgstr "负责释放 *userData* 的回调函数。可以为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2481
+msgid "void freeFunction(VSFunction_ \\*f)"
+msgstr "void freeFunction(VSFunction_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:2483
+msgid ""
+"Decrements the reference count of a function and deletes it when it "
+"reaches 0."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2491
+msgid "VSFunction_ \\*addFunctionRef(VSFunction_ \\*f)"
+msgstr "VSFunction_ \\*addFunctionRef(VSFunction_ \\*f)"
+
+#: ../../api/vapoursynth4.h.rst:2493
+msgid ""
+"Increments the reference count of a function. Returns *f* as a "
+"convenience."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2499
+msgid "void callFunction(VSFunction_ \\*func, const VSMap_ \\*in, VSMap_ \\*out)"
+msgstr "void callFunction(VSFunction_ \\*func, const VSMap_ \\*in, VSMap_ \\*out)"
+
+#: ../../api/vapoursynth4.h.rst:2501
+msgid "Calls a function. If the call fails *out* will have an error set."
+msgstr "调用函数。如果调用失败，*out* 将设置错误。"
+
+#: ../../api/vapoursynth4.h.rst:2504
+msgid "Function to be called."
+msgstr "要调用的函数。"
+
+#: ../../api/vapoursynth4.h.rst:2506 ../../api/vapoursynth4.h.rst:2775
+msgid "*in*"
+msgstr "*in*"
+
+#: ../../api/vapoursynth4.h.rst:2507
+msgid "Arguments passed to *func*."
+msgstr "传递给 *func* 的参数。"
+
+#: ../../api/vapoursynth4.h.rst:2510
+msgid "Returned values from *func*."
+msgstr "从 *func* 返回的值。"
+
+#: ../../api/vapoursynth4.h.rst:2516
+msgid ""
+"const VSFrame_ \\*getFrame(int n, VSNode_ \\*node, char \\*errorMsg, int "
+"bufSize)"
+msgstr "const VSFrame_ \\*getFrame(int n, VSNode_ \\*node, char \\*errorMsg, int bufSize)"
+
+#: ../../api/vapoursynth4.h.rst:2518
+msgid ""
+"Fetches a frame synchronously. The frame is available when the function "
+"returns."
+msgstr "同步获取帧。函数返回时帧可用。"
+
+#: ../../api/vapoursynth4.h.rst:2521
+msgid ""
+"This function is meant for external applications using the core as a "
+"library, or if frame requests are necessary during a filter's "
+"initialization."
+msgstr "此函数适用于使用核心作为库的外部应用程序，或在过滤器初始化期间需要帧请求时使用。"
+
+#: ../../api/vapoursynth4.h.rst:2525 ../../api/vapoursynth4.h.rst:2559
+msgid "Thread-safe."
+msgstr "线程安全。"
+
+#: ../../api/vapoursynth4.h.rst:2527 ../../api/vapoursynth4.h.rst:2561
+
+#: ../../api/vapoursynth4.h.rst:2589 ../../api/vapoursynth4.h.rst:2622
+
+#: ../../api/vapoursynth4.h.rst:2652 ../../api/vapoursynth4.h.rst:2679
+
+#: ../../api/vapoursynth4.h.rst:2899
+msgid "*n*"
+msgstr "*n*"
+
+#: ../../api/vapoursynth4.h.rst:2528 ../../api/vapoursynth4.h.rst:2653
+msgid "The frame number. Negative values will cause an error."
+msgstr "帧号。负值将导致错误。"
+
+#: ../../api/vapoursynth4.h.rst:2530 ../../api/vapoursynth4.h.rst:2564
+
+#: ../../api/vapoursynth4.h.rst:2592 ../../api/vapoursynth4.h.rst:2625
+
+#: ../../api/vapoursynth4.h.rst:2655 ../../api/vapoursynth4.h.rst:2676
+msgid "*node*"
+msgstr "*node*"
+
+#: ../../api/vapoursynth4.h.rst:2531 ../../api/vapoursynth4.h.rst:2565
+
+#: ../../api/vapoursynth4.h.rst:2656
+msgid "The node from which the frame is requested."
+msgstr "请求帧的源节点。"
+
+#: ../../api/vapoursynth4.h.rst:2533 ../../api/vapoursynth4.h.rst:2595
+msgid "*errorMsg*"
+msgstr "*errorMsg*"
+
+#: ../../api/vapoursynth4.h.rst:2534
+msgid ""
+"Pointer to a buffer of *bufSize* bytes to store a possible error message."
+" Can be NULL if no error message is wanted."
+msgstr "指向 *bufSize* 字节缓冲区的指针，用于存储可能的错误消息。如果不需要错误消息，可以为 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2537
+msgid "*bufSize*"
+msgstr "*bufSize*"
+
+#: ../../api/vapoursynth4.h.rst:2538
+msgid ""
+"Maximum length for the error message, in bytes (including the trailing "
+"'\\0'). Can be 0 if no error message is wanted."
+msgstr "错误消息的最大长度，以字节为单位（包括尾随的 '\\0'）。如果不需要错误消息，可以为 0。"
+
+#: ../../api/vapoursynth4.h.rst:2541
+msgid ""
+"Returns a reference to the generated frame, or NULL in case of failure. "
+"The ownership of the frame is transferred to the caller."
+msgstr "返回生成帧的引用，失败时返回 NULL。帧的所有权转移到调用者。"
+
+#: ../../api/vapoursynth4.h.rst:2545 ../../api/vapoursynth4.h.rst:2603
+msgid "Never use inside a filter's \"getframe\" function."
+msgstr "切勿在过滤器的 \"getframe\" 函数内使用。"
+
+#: ../../api/vapoursynth4.h.rst:2551
+msgid ""
+"void getFrameAsync(int n, VSNode_ \\*node, VSFrameDoneCallback callback, "
+"void \\*userData)"
+msgstr "void getFrameAsync(int n, VSNode_ \\*node, VSFrameDoneCallback callback, void \\*userData)"
+
+#: ../../api/vapoursynth4.h.rst:2553
+msgid ""
+"Requests the generation of a frame. When the frame is ready, a user-"
+"provided function is called. Note that the completion *callback* will "
+"only be called from a single thread at a time."
+msgstr "请求生成帧。帧准备就绪时，调用用户提供的函数。注意完成 *callback* 一次只会从单个线程调用。"
+
+#: ../../api/vapoursynth4.h.rst:2557
+msgid "This function is meant for applications using VapourSynth as a library."
+msgstr "此函数适用于使用 VapourSynth 作为库的应用程序。"
+
+#: ../../api/vapoursynth4.h.rst:2562
+msgid "Frame number. Negative values will cause an error."
+msgstr "帧号。负值将导致错误。"
+
+#: ../../api/vapoursynth4.h.rst:2567
+msgid "*callback*"
+msgstr "*callback*"
+
+#: ../../api/vapoursynth4.h.rst:2568
+msgid ""
+"typedef void (VS_CC \\*VSFrameDoneCallback)(void \\*userData, const "
+"VSFrame_ \\*f, int n, VSNode_ \\*node, const char \\*errorMsg)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2570
+msgid ""
+"Function of the client application called by the core when a requested "
+"frame is ready, after a call to getFrameAsync()."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2573
+msgid ""
+"If multiple frames were requested, they can be returned in any order. "
+"Client applications must take care of reordering them."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2576
+msgid "This function is only ever called from one thread at a time."
+msgstr "此函数一次只从一个线程调用。"
+
+#: ../../api/vapoursynth4.h.rst:2578
+msgid "getFrameAsync() may be called from this function to request more frames."
+msgstr "可以在此函数中调用 getFrameAsync() 来请求更多帧。"
+
+#: ../../api/vapoursynth4.h.rst:2582
+msgid ""
+"Pointer to private data from the client application, as passed previously"
+" to getFrameAsync()."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2585
+msgid "*f*"
+msgstr "*f*"
+
+#: ../../api/vapoursynth4.h.rst:2586
+msgid ""
+"Contains a reference to the generated frame, or NULL in case of failure. "
+"The ownership of the frame is transferred to the caller."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2590 ../../api/vapoursynth4.h.rst:2623
+msgid "The frame number."
+msgstr "帧号。"
+
+#: ../../api/vapoursynth4.h.rst:2593
+msgid "Node the frame belongs to."
+msgstr "帧所属的节点。"
+
+#: ../../api/vapoursynth4.h.rst:2596
+msgid ""
+"String that usually contains an error message if the frame generation "
+"failed. NULL if there is no error."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2600
+msgid "Pointer passed to the callback."
+msgstr "传递给回调函数的指针。"
+
+#: ../../api/vapoursynth4.h.rst:2609
+msgid ""
+"const VSFrame_ \\*getFrameFilter(int n, VSNode_ \\*node, VSFrameContext_ "
+"\\*frameCtx)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2611
+msgid ""
+"Retrieves a frame that was previously requested with "
+"requestFrameFilter_\\ ()."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2614 ../../api/vapoursynth4.h.rst:2643
+
+#: ../../api/vapoursynth4.h.rst:2674 ../../api/vapoursynth4.h.rst:2813
+msgid "Only use inside a filter's \"getframe\" function."
+msgstr "仅在过滤器的 \"getframe\" 函数内使用。"
+
+#: ../../api/vapoursynth4.h.rst:2616
+msgid ""
+"A filter usually calls this function when its activation reason is "
+"arAllFramesReady or arFrameReady. See VSActivationReason_."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2619
+msgid ""
+"It is safe to retrieve a frame more than once, but each reference needs "
+"to be freed."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2626
+msgid "The node from which the frame is retrieved."
+msgstr "检索帧的源节点。"
+
+#: ../../api/vapoursynth4.h.rst:2628 ../../api/vapoursynth4.h.rst:2658
+
+#: ../../api/vapoursynth4.h.rst:2682
+msgid "*frameCtx*"
+msgstr "*frameCtx*"
+
+#: ../../api/vapoursynth4.h.rst:2629 ../../api/vapoursynth4.h.rst:2659
+
+#: ../../api/vapoursynth4.h.rst:2683
+msgid "The context passed to the filter's \"getframe\" function."
+msgstr "传递给滤镜"getframe"函数的上下文。"
+
+#: ../../api/vapoursynth4.h.rst:2631
+msgid ""
+"Returns a pointer to the requested frame, or NULL if the requested frame "
+"is not available for any reason. The ownership of the frame is "
+"transferred to the caller."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2639
+msgid ""
+"void requestFrameFilter(int n, VSNode_ \\*node, VSFrameContext_ "
+"\\*frameCtx)"
+msgstr "void requestFrameFilter(int n, VSNode_ \\*node, VSFrameContext_ \\*frameCtx)"
+
+#: ../../api/vapoursynth4.h.rst:2641
+msgid "Requests a frame from a node and returns immediately."
+msgstr "从节点请求帧并立即返回。"
+
+#: ../../api/vapoursynth4.h.rst:2645
+msgid ""
+"A filter usually calls this function when its activation reason is "
+"arInitial. The requested frame can then be retrieved using "
+"getFrameFilter_\\ (), when the filter's activation reason is "
+"arAllFramesReady. See VSActivationReason_."
+msgstr "过滤器通常在其激活原因为 arInitial 时调用此函数。然后可以在过滤器的激活原因为 arAllFramesReady 时使用 getFrameFilter_\\() 检索请求的帧。请参阅 VSActivationReason_。"
+
+#: ../../api/vapoursynth4.h.rst:2650
+msgid "It is best to request frames in ascending order, i.e. n, n+1, n+2, etc."
+msgstr "最好按升序请求帧，即 n, n+1, n+2 等。"
+
+#: ../../api/vapoursynth4.h.rst:2665
+msgid ""
+"void releaseFrameEarly(VSNode_ \\*node, int n, VSFrameContext_ "
+"\\*frameCtx)"
+msgstr "void releaseFrameEarly(VSNode_ \\*node, int n, VSFrameContext_ \\*frameCtx)"
+
+#: ../../api/vapoursynth4.h.rst:2667
+msgid ""
+"By default all requested frames are referenced until a filter's frame "
+"request is done. In extreme cases where a filter needs to reduce 20+ "
+"frames into a single output frame it may be beneficial to request these "
+"in batches and incrementally process the data instead."
+msgstr "默认情况下，所有请求的帧都会被引用，直到过滤器的帧请求完成。在极端情况下，过滤器需要将 20+ 个帧合并为单个输出帧时，分批请求这些帧并增量处理数据可能是有益的。"
+
+#: ../../api/vapoursynth4.h.rst:2672
+msgid "Should rarely be needed."
+msgstr "应该很少需要。"
+
+#: ../../api/vapoursynth4.h.rst:2677
+msgid "The node from which the frame was requested."
+msgstr "请求帧的源节点。"
+
+#: ../../api/vapoursynth4.h.rst:2680
+msgid ""
+"The frame number. Invalid frame numbers (not cached or negative) will "
+"simply be ignored."
+msgstr "帧号。无效的帧号（未缓存或负数）将被直接忽略。"
+
+#: ../../api/vapoursynth4.h.rst:2689
+msgid ""
+"int registerFunction(const char \\*name, const char \\*args, const char "
+"\\*returnType, VSPublicFunction argsFunc, void \\*functionData, VSPlugin_"
+" \\*plugin)"
+msgstr "int registerFunction(const char \\*name, const char \\*args, const char \\*returnType, VSPublicFunction argsFunc, void \\*functionData, VSPlugin_ \\*plugin)"
+
+#: ../../api/vapoursynth4.h.rst:2691
+msgid ""
+"Function that registers a filter exported by the plugin. A plugin can "
+"export any number of filters. This function may only be called during the"
+" plugin loading phase unless the pcModifiable flag was set by "
+"configPlugin_."
+msgstr "注册插件导出的过滤器的函数。插件可以导出任意数量的过滤器。除非通过 configPlugin_ 设置了 pcModifiable 标志，否则此函数只能在插件加载阶段调用。"
+
+#: ../../api/vapoursynth4.h.rst:2696
+msgid ""
+"Filter name. The characters allowed are letters, numbers, and the "
+"underscore. The first character must be a letter. In other words: "
+"``^[a-zA-Z][a-zA-Z0-9_]*$``"
+msgstr "过滤器名称。允许的字符是字母、数字和下划线。第一个字符必须是字母。换句话说：``^[a-zA-Z][a-zA-Z0-9_]*$``"
+
+#: ../../api/vapoursynth4.h.rst:2700
+msgid "Filter names *should be* PascalCase."
+msgstr "过滤器名称 *应该* 使用帕斯卡命名法。"
+
+#: ../../api/vapoursynth4.h.rst:2703
+msgid "String containing the filter's list of arguments."
+msgstr "包含过滤器参数列表的字符串。"
+
+#: ../../api/vapoursynth4.h.rst:2705
+msgid ""
+"Arguments are separated by a semicolon. Each argument is made of several "
+"fields separated by a colon. Don't insert additional whitespace "
+"characters, or VapourSynth will die."
+msgstr "参数由分号分隔。每个参数由冒号分隔的几个字段组成。不要插入额外的空格字符，否则 VapourSynth 会崩溃。"
+
+#: ../../api/vapoursynth4.h.rst:2709
+msgid "Fields:"
+msgstr "字段："
+
+#: ../../api/vapoursynth4.h.rst:2710
+msgid "The argument name."
+msgstr "参数名称。"
+
+#: ../../api/vapoursynth4.h.rst:2711
+msgid ""
+"The same characters are allowed as for the filter's name. Argument names "
+"*should be* all lowercase and use only letters and the underscore."
+msgstr "允许的字符与过滤器名称相同。参数名称 *应该* 全部小写，仅使用字母和下划线。"
+
+#: ../../api/vapoursynth4.h.rst:2715
+msgid "The type."
+msgstr "类型。"
+
+#: ../../api/vapoursynth4.h.rst:2716
+msgid "\"int\": int64_t"
+msgstr "\"int\": int64_t"
+
+#: ../../api/vapoursynth4.h.rst:2718
+msgid "\"float\": double"
+msgstr "\"float\": double"
+
+#: ../../api/vapoursynth4.h.rst:2720
+msgid "\"data\": const char*"
+msgstr "\"data\": const char*"
+
+#: ../../api/vapoursynth4.h.rst:2722
+msgid "\"anode\": const VSNode_\\ * (audio type)"
+msgstr "\"anode\": const VSNode_\\ * (音频类型)"
+
+#: ../../api/vapoursynth4.h.rst:2724
+msgid "\"vnode\": const VSNode_\\ * (video type)"
+msgstr "\"vnode\": const VSNode_\\ * (视频类型)"
+
+#: ../../api/vapoursynth4.h.rst:2726
+msgid "\"aframe\": const VSFrame_\\ * (audio type)"
+msgstr "\"aframe\": const VSFrame_\\ * (音频类型)"
+
+#: ../../api/vapoursynth4.h.rst:2728
+msgid "\"vframe\": const VSFrame_\\ * (video type)"
+msgstr "\"vframe\": const VSFrame_\\ * (视频类型)"
+
+#: ../../api/vapoursynth4.h.rst:2730
+msgid "\"func\": const VSFunctionRef\\ *"
+msgstr "\"func\": const VSFunctionRef\\ *"
+
+#: ../../api/vapoursynth4.h.rst:2732
+msgid "It is possible to declare an array by appending \"[]\" to the type."
+msgstr "可以通过在类型后附加 \"[]\" 来声明数组。"
+
+#: ../../api/vapoursynth4.h.rst:2734
+msgid "\"opt\""
+msgstr "\"opt\""
+
+#: ../../api/vapoursynth4.h.rst:2735
+msgid "If the parameter is optional."
+msgstr "如果参数是可选的。"
+
+#: ../../api/vapoursynth4.h.rst:2737
+msgid "\"empty\""
+msgstr "\"empty\""
+
+#: ../../api/vapoursynth4.h.rst:2738
+msgid "For arrays that are allowed to be empty."
+msgstr "对于允许为空的数组。"
+
+#: ../../api/vapoursynth4.h.rst:2740
+msgid "\"any\""
+msgstr "\"any\""
+
+#: ../../api/vapoursynth4.h.rst:2741
+msgid ""
+"Can only be placed last without a semicolon after. Indicates that all "
+"remaining arguments that don't match should also be passed through."
+msgstr "只能放在最后，后面不加分号。表示所有不匹配的剩余参数也应该传递。"
+
+#: ../../api/vapoursynth4.h.rst:2744
+msgid ""
+"The following example declares the arguments \"blah\", \"moo\", and "
+"\"asdf\"::"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2748
+msgid ""
+"The following example declares the arguments \"blah\" and accepts all "
+"other arguments no matter the type::"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2752
+msgid "*returnType*"
+msgstr "*returnType*"
+
+#: ../../api/vapoursynth4.h.rst:2753
+msgid ""
+"Specifies works similarly to *args* but instead specifies which keys and "
+"what type will be returned. Typically this will be::"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2757
+msgid ""
+"for video filters. It is important to not simply specify \"any\" for all "
+"filters since this information is used for better auto-completion in many"
+" editors."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2760
+msgid "*argsFunc*"
+msgstr "*argsFunc*"
+
+#: ../../api/vapoursynth4.h.rst:2763
+msgid ""
+"User-defined function called by the core to create an instance of the "
+"filter. This function is often named ``fooCreate``."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2766
+msgid ""
+"In this function, the filter's input parameters should be retrieved and "
+"validated, the filter's private instance data should be initialised, and "
+"createAudioFilter_\\ () or createVideoFilter_\\ () should be called. This"
+" is where the filter should perform any other initialisation it requires."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2771
+msgid ""
+"If for some reason you cannot create the filter, you have to free any "
+"created node references using freeNode_\\ (), call mapSetError_\\ () on "
+"*out*, and return."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2776
+msgid "Input parameter list."
+msgstr "输入参数列表。"
+
+#: ../../api/vapoursynth4.h.rst:2778
+msgid "Use mapGetInt_\\ () and friends to retrieve a parameter value."
+msgstr "使用 mapGetInt_\\ () 及相关函数来检索参数值。"
+
+#: ../../api/vapoursynth4.h.rst:2780
+msgid ""
+"The map is guaranteed to exist only until the filter's \"init\" function "
+"returns. In other words, pointers returned by mapGetData_\\ () will not "
+"be usable in the filter's \"getframe\" and \"free\" functions."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2786
+msgid ""
+"Output parameter list. createAudioFilter_\\ () or createVideoFilter_\\ ()"
+" will add the output node(s) with the key named \"clip\", or an error, if"
+" something went wrong."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2791
+msgid "Pointer that was passed to registerFunction_\\ ()."
+msgstr "传递给 registerFunction_\\ () 的指针。"
+
+#: ../../api/vapoursynth4.h.rst:2793
+msgid "*functionData*"
+msgstr "*functionData*"
+
+#: ../../api/vapoursynth4.h.rst:2794
+msgid ""
+"Pointer to user data that gets passed to *argsFunc* when creating a "
+"filter. Useful to register multiple filters using a single *argsFunc* "
+"function."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2799
+msgid ""
+"Pointer to the plugin object in the core, as passed to "
+"VapourSynthPluginInit2()."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2806
+msgid ""
+"void cacheFrame(const VSFrame_ \\*frame, int n, VSFrameContext_ "
+"\\*frameCtx)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2808
+msgid ""
+"Pushes a not requested frame into the cache. This is useful for (source) "
+"filters that greatly benefit from completely linear access and producing "
+"all output in linear order."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2811
+msgid ""
+"This function may only be used in filters that were created with "
+"setLinearFilter_."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2819
+msgid ""
+"void setFilterError(const char \\*errorMessage, VSFrameContext_ "
+"\\*frameCtx)"
+msgstr ""
+"void setFilterError(const char \\*errorMessage, VSFrameContext_ "
+"\\*frameCtx)"
+
+#: ../../api/vapoursynth4.h.rst:2821
+msgid ""
+"Adds an error message to a frame context, replacing the existing message,"
+" if any."
+msgstr ""
+"向帧上下文添加错误消息，如果存在则替换现有消息。"
+
+#: ../../api/vapoursynth4.h.rst:2824
+msgid ""
+"This is the way to report errors in a filter's \"getframe\" function. "
+"Such errors are not necessarily fatal, i.e. the caller can try to request"
+" the same frame again."
+msgstr ""
+"这是在过滤器的 \"getframe\" 函数中报告错误的方式。此类错误不一定是致命的，"
+"即调用者可以尝试再次请求相同的帧。"
+
+#: ../../api/vapoursynth4.h.rst:2829 ../../api/vshelper4.h.rst:135
+
+#: ../../api/vapoursynth4.h.rst:2833
+msgid "const VSAPI_\\* getVapourSynthAPI(int version)"
+msgstr "const VSAPI_\\* getVapourSynthAPI(int version)"
+
+#: ../../api/vapoursynth4.h.rst:2835
+msgid "Returns a pointer to the global VSAPI instance."
+msgstr "返回指向全局 VSAPI 实例的指针。"
+
+#: ../../api/vapoursynth4.h.rst:2837
+msgid ""
+"Returns NULL if the requested API version is not supported or if the "
+"system does not meet the minimum requirements to run VapourSynth. It is "
+"recommended to pass VAPOURSYNTH_API_VERSION_."
+msgstr ""
+"如果请求的API版本不受支持或系统不满足运行VapourSynth的最低要求，则返回NULL。"
+"建议传递 VAPOURSYNTH_API_VERSION_。"
+
+#: ../../api/vapoursynth4.h.rst:2843
+msgid "Writing plugins"
+msgstr "编写插件"
+
+#: ../../api/vapoursynth4.h.rst:2846
+msgid ""
+"A simple VapourSynth plugin which exports one filter will contain five "
+"functions: an entry point (called ``VapourSynthPluginInit2``), a function"
+" tasked with creating a filter instance (often called ``fooCreate``), an "
+"\"init\" function (often called ``fooInit``), a \"getframe\" function "
+"(often called ``fooGetframe``), and a \"free\" function (often called "
+"``fooFree``). These functions are described below."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2853
+msgid ""
+"Another thing a filter requires is an object for storing a filter "
+"instance's private data. This object will usually contain the filter's "
+"input nodes (if it has any) and a VSVideoInfo_ struct describing the "
+"video the filter wants to return."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2858
+msgid ""
+"The `sdk <https://github.com/vapoursynth/vapoursynth/tree/master/sdk>`_ "
+"folder in the VapourSynth source contains some examples."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2865
+msgid ""
+"typedef void (VS_CC \\*VSInitPlugin)(VSPlugin_ \\*plugin, const "
+"VSPLUGINAPI_ \\*vspapi)"
+msgstr ""
+"typedef void (VS_CC \\*VSInitPlugin)(VSPlugin_ \\*plugin, const "
+"VSPLUGINAPI_ \\*vspapi)"
+
+#: ../../api/vapoursynth4.h.rst:2867
+msgid ""
+"A plugin's entry point. It must be called ``VapourSynthPluginInit2``. "
+"This function is called after the core loads the shared library. Its "
+"purpose is to configure the plugin and to register the filters the plugin"
+" wants to export."
+msgstr ""
+"插件的入口点。必须命名为 ``VapourSynthPluginInit2``。"
+"此函数在核心加载共享库后被调用。其目的是配置插件并注册插件要导出的过滤器。"
+
+#: ../../api/vapoursynth4.h.rst:2873
+msgid "A pointer to the plugin object to be initialized."
+msgstr "指向要初始化的插件对象的指针。"
+
+#: ../../api/vapoursynth4.h.rst:2875
+msgid "*vspapi*"
+msgstr "*vspapi*"
+
+#: ../../api/vapoursynth4.h.rst:2876
+msgid ""
+"A pointer to a VSPLUGINAPI_ struct with a subset of the VapourSynth API "
+"used for initializing plugins. The proper way to do things is to call "
+"configPlugin_ and then registerFunction_ for each function to export."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2883
+msgid ""
+"typedef const VSFrame_ \\*(VS_CC \\*VSFilterGetFrame)(int n, int "
+"activationReason, void \\*instanceData, void \\**frameData, "
+"VSFrameContext_ \\*frameCtx, VSCore_ \\*core, const VSAPI_ \\*vsapi)"
+msgstr ""
+"typedef const VSFrame_ \\*(VS_CC \\*VSFilterGetFrame)(int n, int "
+"activationReason, void \\*instanceData, void \\**frameData, "
+"VSFrameContext_ \\*frameCtx, VSCore_ \\*core, const VSAPI_ \\*vsapi)"
+
+#: ../../api/vapoursynth4.h.rst:2885
+msgid ""
+"A filter's \"getframe\" function. It is called by the core when it needs "
+"the filter to generate a frame."
+msgstr ""
+"过滤器的"getframe"函数。当核心需要过滤器生成帧时会调用此函数。"
+
+#: ../../api/vapoursynth4.h.rst:2888
+msgid ""
+"It is possible to allocate local data, persistent during the multiple "
+"calls requesting the output frame."
+msgstr ""
+"可以分配本地数据，在请求输出帧的多次调用期间保持持久性。"
+
+#: ../../api/vapoursynth4.h.rst:2891
+msgid ""
+"In case of error, call setFilterError_\\ (), free \\*frameData if "
+"required, and return NULL."
+msgstr ""
+"在出现错误的情况下，调用 setFilterError_\\()，如果需要释放 \\*frameData，"
+"并返回 NULL。"
+
+#: ../../api/vapoursynth4.h.rst:2894
+msgid ""
+"Depending on the VSFilterMode_ set for the filter, multiple output frames"
+" could be requested concurrently."
+msgstr ""
+"根据为过滤器设置的 VSFilterMode_，可以并发请求多个输出帧。"
+
+#: ../../api/vapoursynth4.h.rst:2897
+msgid "It is never called concurrently for the same frame number."
+msgstr "对于相同的帧号永远不会并发调用。"
+
+#: ../../api/vapoursynth4.h.rst:2900
+msgid "Requested frame number."
+msgstr "请求的帧号。"
+
+#: ../../api/vapoursynth4.h.rst:2902
+msgid "*activationReason*"
+msgstr "*activationReason*"
+
+#: ../../api/vapoursynth4.h.rst:2903
+msgid "One of VSActivationReason_."
+msgstr "VSActivationReason_ 中的一个。"
+
+#: ../../api/vapoursynth4.h.rst:2905
+msgid ""
+"This function is first called with *activationReason* arInitial. At this "
+"point the function should request the input frames it needs and return "
+"NULL. When one or all of the requested frames are ready, this function is"
+" called again with arAllFramesReady. The function should only return a "
+"frame when called with *activationReason* arAllFramesReady."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2912
+msgid ""
+"If a the function is called with arError all processing has to be aborted"
+" and any."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2916 ../../api/vapoursynth4.h.rst:2941
+msgid "The filter's private instance data."
+msgstr "过滤器的私有实例数据。"
+
+#: ../../api/vapoursynth4.h.rst:2918
+msgid "*frameData*"
+msgstr "*frameData*"
+
+#: ../../api/vapoursynth4.h.rst:2919
+msgid ""
+"Optional private data associated with output frame number *n*. It must be"
+" deallocated before the last call for the given frame (arAllFramesReady "
+"or error)."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2923
+msgid ""
+"It points to a void \\*[4] array of memory that may be used freely. See "
+"filters like Splice and Trim for examples."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2926
+msgid ""
+"Return a reference to the output frame number *n* when it is ready, or "
+"NULL. The ownership of the frame is transferred to the caller."
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2933
+msgid ""
+"typedef void (VS_CC \\*VSFilterFree)(void \\*instanceData, VSCore_ "
+"\\*core, const VSAPI_ \\*vsapi)"
+msgstr ""
+
+#: ../../api/vapoursynth4.h.rst:2935
+msgid "A filter's \"free\" function."
+msgstr "过滤器的"free"函数。"
+
+#: ../../api/vapoursynth4.h.rst:2937
+msgid ""
+"This is where the filter should free everything it allocated, including "
+"its instance data."
+msgstr ""
+"这是过滤器应该释放其分配的所有内容的地方，包括其实例数据。"
+

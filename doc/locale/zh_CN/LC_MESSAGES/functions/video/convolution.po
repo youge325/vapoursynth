@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/convolution.rst:18
+#: ../../functions/video/convolution.rst:19
+#: ../../functions/video/convolution.rst:59
+#: ../../functions/video/convolution.rst:60
+#: ../../functions/video/convolution.rst:2
+msgid "Convolution"
+msgstr "Convolution（卷积）"
+
+#: ../../functions/video/convolution.rst:7
+msgid "Performs a spatial convolution."
+msgstr "执行空间卷积。"
+
+#: ../../functions/video/convolution.rst:9
+msgid ""
+"Here is how a 3x3 convolution is done. Each pixel in the 3x3 "
+"neighbourhood is multiplied by the corresponding coefficient in *matrix*."
+" The results of the nine multiplications are added together, then this "
+"sum is divided by *divisor*. Next, *bias* is added, and the result is "
+"rounded to the nearest larger integer. If this integer result is negative"
+" and the *saturate* parameter is False, it is multiplied by -1. Finally, "
+"the result is clamped to the format's range of valid values."
+msgstr ""
+"以下是 3x3 卷积的执行方式。3x3 邻域中的每个像素都与 *matrix* 中相应的系数相乘。九次乘法的结果被相加，然后这个和被 *divisor* 除。接下来，添加 *bias*，结果四舍五入到最接近的较大整数。如果这个整数结果为负且 *saturate* 参数为 False，则乘以 -1。最后，结果被钳制到格式的有效值范围内。"
+
+#: ../../functions/video/convolution.rst:24
+msgid "*matrix*"
+msgstr "*matrix* （矩阵）"
+
+#: ../../functions/video/convolution.rst:25
+msgid "Coefficients for the convolution."
+msgstr "卷积的系数。"
+
+#: ../../functions/video/convolution.rst:27
+msgid ""
+"When *mode* is \"s\", this must be an array of 9 or 25 numbers, for a 3x3"
+" or 5x5 convolution, respectively."
+msgstr ""
+"当 *mode* 为 \"s\" 时，这必须是一个包含 9 或 25 个数字的数组，分别对应 3x3 或 5x5 卷积。"
+
+#: ../../functions/video/convolution.rst:30
+msgid ""
+"When *mode* is not \"s\", this must be an array of 3 to 25 numbers, with "
+"an odd number of elements."
+msgstr ""
+"当 *mode* 不是 \"s\" 时，这必须是一个包含 3 到 25 个数字的数组，且元素数量为奇数。"
+
+#: ../../functions/video/convolution.rst:33
+msgid ""
+"The values of the coefficients must be between -1023 and 1023 "
+"(inclusive). The coefficients are rounded to integers when the input is "
+"an integer format."
+msgstr ""
+"系数值必须在 -1023 和 1023 之间（含边界值）。当输入为整数格式时，系数会四舍五入为整数。"
+
+#: ../../functions/video/convolution.rst:37
+msgid ""
+"This is how the elements of *matrix* correspond to the pixels in a 3x3 "
+"neighbourhood::"
+msgstr ""
+"这是 *matrix* 元素对应 3x3 邻域像素的方式::"
+
+#: ../../functions/video/convolution.rst:44
+msgid ""
+"It's the same principle for the other types of convolutions. The middle "
+"element of *matrix* always corresponds to the center pixel."
+msgstr ""
+"其他类型的卷积也是相同的原理。*matrix* 的中间元素总是对应中心像素。"
+
+#: ../../functions/video/convolution.rst:47
+msgid "*bias*"
+msgstr "*bias* （偏差）"
+
+#: ../../functions/video/convolution.rst:48
+msgid ""
+"Value to add to the final result of the convolution (before clamping the "
+"result to the format's range of valid values)."
+msgstr ""
+"添加到卷积最终结果的值（在将结果钳制到格式有效值范围之前）。"
+
+#: ../../functions/video/convolution.rst:51
+msgid "*divisor*"
+msgstr "*divisor* （除数）"
+
+#: ../../functions/video/convolution.rst:52
+msgid "Divide the output of the convolution by this value (before adding *bias*)."
+msgstr "将卷积的输出除以此值（在添加 *bias* 之前）。"
+
+#: ../../functions/video/convolution.rst:55
+msgid ""
+"If this parameter is 0.0 (the default), the output of the convolution "
+"will be divided by the sum of the elements of *matrix*, or by 1.0, if the"
+" sum is 0."
+msgstr ""
+"如果此参数为 0.0（默认值），卷积的输出将除以 *matrix* 元素的总和，如果总和为 0，则除以 1.0。"
+
+#: ../../functions/video/convolution.rst:63
+msgid "*saturate*"
+msgstr "*saturate* （饱和）"
+
+#: ../../functions/video/convolution.rst:64
+msgid ""
+"The final result is clamped to the format's range of valid values (0 .. "
+"(2**bitdepth)-1). Therefore, if this parameter is True, negative values "
+"become 0. If this parameter is False, it's instead the absolute value "
+"that is clamped and returned."
+msgstr ""
+"最终结果被钳制到格式的有效值范围（0 .. (2**bitdepth)-1）。因此，如果此参数为 True，负值变为 0。如果此参数为 False，则钳制并返回绝对值。"
+
+#: ../../functions/video/convolution.rst:69
+msgid "*mode*"
+msgstr "*mode* （模式）"
+
+#: ../../functions/video/convolution.rst:70
+msgid ""
+"Selects the type of convolution. Possible values are \"s\", for square, "
+"\"h\" for horizontal, \"v\" for vertical, and \"hv\" or \"vh\" for both "
+"horizontal and vertical."
+msgstr ""
+"选择卷积类型。可能的值有 \"s\"（方形）、\"h\"（水平）、\"v\"（垂直）、\"hv\" 或 \"vh\"（水平和垂直）。"
+
+#: ../../functions/video/convolution.rst:74
+msgid "How to apply a simple blur equivalent to Avisynth's Blur(1):"
+msgstr "如何应用相当于 Avisynth Blur(1) 的简单模糊："
+"如何应用相当于 Avisynth Blur(1) 的简单模糊："
+
+#: ../../functions/video/convolution.rst:80
+msgid "How to apply a stronger blur equivalent to Avisynth's Blur(1.58):"
+msgstr "如何应用相当于 Avisynth Blur(1.58) 的更强模糊："
+"如何应用相当于 Avisynth Blur(1.58) 的更强模糊："

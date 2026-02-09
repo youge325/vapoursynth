@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/audio/audiomix.rst:2
+msgid "AudioMix"
+msgstr "AudioMix"
+
+#: ../../functions/audio/audiomix.rst:7
+msgid ""
+"AudioMix can mix and combine channels from different clips in the most "
+"general way possible."
+msgstr "AudioMix 可以以最通用的方式混合和组合来自不同片段的声道。"
+"AudioMix 可以以最通用的方式混合和组合来自不同片段的声道。"
+
+#: ../../functions/audio/audiomix.rst:10
+#: ../../functions/audio/audiomix.rst:13
+#: ../../functions/audio/audiomix.rst:16
+msgid ""
+"The argument *matrix* applies the coefficients to each channel of each "
+"input clip where the channels are in the numerical order of their channel"
+" constants. For example a stereo clip will have its channels presented in"
+" the order FRONT_LEFT and then FRONT_RIGHT."
+msgstr "参数 *matrix* 将系数应用到每个输入片段的每个声道，其中声道按声道常量的数值顺序排列。例如，立体声片段的声道按 FRONT_LEFT 然后 FRONT_RIGHT 的顺序呈现。"
+"参数 *matrix* 将系数应用到每个输入片段的每个声道，其中声道按声道常量的数值"
+"顺序排列。例如，立体声片段的声道按 FRONT_LEFT 然后 FRONT_RIGHT 的顺序呈现。"
+
+#: ../../functions/audio/audiomix.rst:20
+msgid ""
+"Output channels and order is determined by the *channels_out* array "
+"between input index and output channel happens on the order of lowest "
+"output channel identifier to the highest."
+msgstr "输出声道和顺序由 *channels_out* 数组确定，输入索引和输出声道之间的映射按最低输出声道标识符到最高的顺序进行。"
+"输出声道和顺序由 *channels_out* 数组确定，输入索引和输出声道之间的映射按最"
+"低输出声道标识符到最高的顺序进行。"
+
+#: ../../functions/audio/audiomix.rst:29
+#: ../../functions/audio/audiomix.rst:31
+msgid "Downmix stereo audio to mono::"
+msgstr "将立体声音频降混到单声道::"
+
+#: ../../functions/audio/audiomix.rst:35
+msgid "Downmix 5.1 audio::"
+msgstr "降混 5.1 环绕声音频::"
+
+#: ../../functions/audio/audiomix.rst:39
+msgid "Copy stereo audio to 5.1 and zero the other channels::"
+msgstr "将立体声音频复制到 5.1 并将其他声道置零::"
