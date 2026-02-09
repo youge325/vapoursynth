@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/premultiply.rst:2
+msgid "PreMultiply"
+msgstr "PreMultiply（预乘）"
+
+#: ../../functions/video/premultiply.rst:7
+msgid ""
+"PreMultiply simply multiplies *clip* and *alpha* in order to make it more"
+" suitable for later operations. This will yield much better results when "
+"resizing and a clip with an alpha channel and :doc:`MaskedMerge "
+"<maskedmerge>` can use it as input. The *alpha* clip must be the "
+"grayscale format equivalent of *clip*."
+msgstr ""
+"PreMultiply 简单地将 *clip* 与 *alpha* 相乘，以便更适合后续操作。这在缩放"
+"时会产生更好的结果，带有 Alpha 通道的片段可以将其用作 :doc:`MaskedMerge "
+"<maskedmerge>` 的输入。*alpha* 片段必须是 *clip* 的灰度格式等价物。"
+
+#: ../../functions/video/premultiply.rst:12
+msgid ""
+"Note that limited range pre-multiplied contents excludes the offset. For "
+"example with 8 bit input 60 luma and 128 alpha would be calculated as "
+"((60 - 16) * 128)/255 + 16 and not (60 * 128)/255."
+msgstr ""
+"注意有限范围预乘内容不包括偏移量。例如，对于 8 位输入 60 亮度值和 128 "
+"Alpha 值，计算方式是 ((60 - 16) * 128)/255 + 16，而不是 (60 * 128)/255。"

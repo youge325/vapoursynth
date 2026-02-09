@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/stackvertical_stackhorizontal.rst:2
+msgid "StackVertical/StackHorizontal"
+msgstr "StackVertical/StackHorizontal（垂直堆叠/水平堆叠）"
+
+#: ../../functions/video/stackvertical_stackhorizontal.rst:8
+msgid ""
+"Stacks all given *clips* together. The same format is a requirement. For "
+"StackVertical all clips also need to be the same width and for "
+"StackHorizontal all clips need to be the same height."
+msgstr ""
+"将所有给定的 *clips* 堆叠在一起。要求相同的格式。对于 StackVertical，所有"
+"片段还需要具有相同的宽度，对于 StackHorizontal，所有片段需要具有相同的高度。"
+
+#: ../../functions/video/stackvertical_stackhorizontal.rst:12
+msgid "The frame properties are copied from the first clip."
+msgstr "帧属性从第一个片段复制。"

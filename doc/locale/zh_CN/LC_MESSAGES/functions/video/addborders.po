@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/addborders.rst:2
+msgid "AddBorders"
+msgstr "AddBorders（添加边框）"
+
+#: ../../functions/video/addborders.rst:7
+msgid ""
+"Adds borders to frames. The arguments specify the number of pixels to add"
+" on each side. They must obey the subsampling restrictions. The newly "
+"added borders will be set to *color*."
+msgstr ""
+"为帧添加边框。参数指定在每一边添加的像素数。它们必须遵循子采样限制。新添加的边框将设置为 *color*。"

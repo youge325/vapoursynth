@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/maskedmerge.rst:2
+msgid "MaskedMerge"
+msgstr "MaskedMerge（遮罩合并）"
+
+#: ../../functions/video/maskedmerge.rst:7
+msgid ""
+"MaskedMerge merges *clipa* with *clipb* using the per pixel weights in "
+"the *mask*, where 0 means that *clipa* is returned unchanged. The *mask* "
+"clip is assumed to  be full range for all planes and in the 0-1 interval "
+"for float formats regardless of the colorspace. If *mask* is a grayscale "
+"clip or if *first_plane* is true, the mask's first plane will be used as "
+"the mask for merging all planes. The mask will be bilinearly resized if "
+"necessary."
+msgstr ""
+"MaskedMerge 使用 *mask* 中的每像素权重将 *clipa* 与 *clipb* 合并，其中 0 "
+"表示 *clipa* 保持不变。假设 *mask* 片段对所有平面都是全范围，对于浮点格式"
+"在 0-1 区间内，无论色彩空间如何。如果 *mask* 是灰度片段或者 *first_plane* "
+"为真，遮罩的第一个平面将用作合并所有平面的遮罩。如果需要，遮罩将被双线性缩放。"
+
+#: ../../functions/video/maskedmerge.rst:15
+msgid ""
+"If *premultiplied* is set the blending is performed as if *clipb* has "
+"been pre-multiplied with alpha. In pre-multiplied mode it is an error to "
+"try to merge two frames with mismatched full and limited range since it "
+"will most likely cause horrible unintended color shifts. In the other "
+"mode it's just a very, very bad idea."
+msgstr ""
+"如果设置了 *premultiplied*，则混合会像 *clipb* 已预乘透明度一样执行。在预乘模式下，尝试合并具有不匹配全范围和有限范围的两帧是错误的，因为这很可能导致可怕的意外颜色偏移。在另一种模式下，这只是一个非常非常糟糕的想法。"
+
+#: ../../functions/video/maskedmerge.rst:20
+msgid ""
+"By default all planes will be processed, but it is also possible to "
+"specify a list of the *planes* to merge in the output. The unprocessed "
+"planes will be copied from the first clip."
+msgstr ""
+"默认情况下会处理所有平面，但也可以指定要在输出中合并的 *planes* 列表。未处理的平面将从第一个片段复制。"
+
+#: ../../functions/video/maskedmerge.rst:24
+msgid ""
+"*clipa* and *clipb* must have the same dimensions and format, and the "
+"*mask* must be the same format as the clips or the grayscale equivalent."
+msgstr ""
+"*clipa* 和 *clipb* 必须具有相同的尺寸和格式，*mask* 必须与片段具有相同格式或灰度等效格式。"
+
+#: ../../functions/video/maskedmerge.rst:27
+msgid "How to apply a mask to the first plane::"
+msgstr "如何将遮罩应用到第一个平面::"
+
+#: ../../functions/video/maskedmerge.rst:31
+msgid "How to apply the first plane of a mask to the second and third plane::"
+msgstr "如何将遮罩的第一个平面应用到第二和第三平面::"
+
+#: ../../functions/video/maskedmerge.rst:35 ../../functions/video/merge.rst:29
+msgid "The frame properties are copied from *clipa*."
+msgstr "帧属性从 *clipa* 复制。"

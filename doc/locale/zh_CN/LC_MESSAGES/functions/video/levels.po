@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/levels.rst:26 ../../functions/video/limiter.rst:9
+#: ../../functions/video/levels.rst:27 ../../functions/video/limiter.rst:10
+#: ../../functions/video/levels.rst:37 ../../functions/video/limiter.rst:21
+#: ../../functions/video/levels.rst:38 ../../functions/video/limiter.rst:22
+#: ../../functions/video/levels.rst:2
+msgid "Levels"
+msgstr "Levels（色阶）"
+
+#: ../../functions/video/levels.rst:7
+msgid "Adjusts brightness, contrast, and gamma."
+msgstr "调整亮度、对比度和伽马值。"
+
+#: ../../functions/video/levels.rst:9
+msgid ""
+"The range [*min_in*, *max_in*] is remapped into [*min_out*, *max_out*]. "
+"Note that the range behavior is unintuitive for YUV float formats since "
+"the assumed range will be 0-1 even for the UV-planes."
+msgstr ""
+"范围 [*min_in*, *max_in*] 重新映射为 [*min_out*, *max_out*]。注意对于 YUV 浮点格式，范围行为是不直观的，因为假定的范围是 0-1，即使对于 UV 平面也是如此。"
+
+#: ../../functions/video/levels.rst:13
+msgid "For example, to convert from limited range YUV to full range (8 bit)::"
+msgstr "例如，从有限范围 YUV 转换为全范围（8 位）："
+
+#: ../../functions/video/levels.rst:18
+msgid ""
+"The default value of *max_in* and *max_out* is the format's minimum and "
+"maximum allowed values respectively. Note that all input is clamped to "
+"the input range to prevent out of range output."
+msgstr ""
+"*max_in* 和 *max_out* 的默认值分别是格式的最小值和最大允许值。注意所有输入都会被钳制到输入范围以防止超出范围的输出。"
+
+#: ../../functions/video/levels.rst:23
+msgid ""
+"The default ranges are 0-1 for floating point formats. This may have an "
+"undesired"
+msgstr ""
+"浮点格式的默认范围是 0-1。这可能会产生不良的"
+
+#: ../../functions/video/levels.rst:24
+msgid "effect on YUV formats."
+msgstr "对 YUV 格式的影响。"
+
+#: ../../functions/video/levels.rst:32
+msgid "*gamma*"
+msgstr "*gamma* （伽马）"
+
+#: ../../functions/video/levels.rst:33
+msgid ""
+"Controls the degree of non-linearity of the conversion. Values greater "
+"than 1.0 brighten the output, while values less than 1.0 darken it."
+msgstr ""
+"控制转换的非线性程度。大于 1.0 的值会使输出变亮，小于 1.0 的值会使其变暗。"

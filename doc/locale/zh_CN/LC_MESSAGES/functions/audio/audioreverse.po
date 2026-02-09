@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/audio/audioreverse.rst:2
+msgid "AudioReverse"
+msgstr "AudioReverse"
+
+#: ../../functions/audio/audioreverse.rst:7 ../../functions/video/reverse.rst:7
+msgid ""
+"Returns a clip with the frame or sample order reversed. For example, a "
+"clip with 3 frames would have the frame order 2, 1, 0."
+msgstr "返回一个帧或样本顺序颠倒的片段。例如，有 3 帧的片段的帧顺序会变成 2、1、0。"
+
+#: ../../functions/audio/audioreverse.rst:10
+msgid ""
+"In Python, std.AudioReverse can also be invoked by :ref:`slicing a clip "
+"<pythonreference>`."
+msgstr "在 Python 中，std.AudioReverse 也可以通过 :ref:`切片片段 <pythonreference>` 调用。"

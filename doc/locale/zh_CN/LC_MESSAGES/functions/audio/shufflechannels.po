@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/audio/shufflechannels.rst:10
+msgid ""
+"Most of the returned clip's properties are implicitly determined from the"
+" first clip given to *clips*."
+msgstr "返回的片段的大多数属性都是从 *clips* 中给出的第一个片段隐式确定的。"
+"返回的片段的大多数属性都是从 *clips* 中给出的第一个片段隐式确定的。"
+
+#: ../../functions/audio/shufflechannels.rst:13
+msgid ""
+"The *clips* parameter takes one or more clips with the same format. If "
+"the clips are different lengths they'll be zero extended to that of the "
+"longest."
+msgstr "*clips* 参数接受一个或多个具有相同格式的片段。如果片段长度不同，则会用零填充扩展到最长片段的长度。"
+"*clips* 参数接受一个或多个具有相同格式的片段。如果片段长度不同，则会用零扩"
+"展到最长片段的长度。"
+
+#: ../../functions/audio/shufflechannels.rst:28
+#: ../../functions/audio/shufflechannels.rst:2
+msgid "ShuffleChannels"
+msgstr "ShuffleChannels"
+
+#: ../../functions/audio/shufflechannels.rst:7
+msgid ""
+"ShuffleChannels can extract and combine channels from different clips in "
+"the most general way possible."
+msgstr "ShuffleChannels 可以以最通用的方式从不同片段中提取和组合声道。"
+"ShuffleChannels 可以以最通用的方式从不同片段中提取和组合声道。"
+
+#: ../../functions/audio/shufflechannels.rst:16
+msgid ""
+"The argument *channels_in* controls which of the input clips' channels to"
+" use and takes a channel constants as its argument. Specifying a non-"
+"existent channel is an error. If more *channels_in* than *clips* values "
+"are specified then the last clip in the *clips* list is reused as a "
+"source. In addition to the channel constant it's also possible to specify"
+" the nth channel by using negative numbers."
+msgstr "参数 *channels_in* 控制使用输入片段的哪些声道，并以声道常量作为其参数。指定不存在的声道是错误的。如果指定的 *channels_in* 比 *clips* 值更多，则 *clips* 列表中的最后一个片段会被重复用作源。除了声道常量，还可以通过使用负数来指定第 n 个声道。"
+"参数 *channels_in* 控制使用输入片段的哪些声道，并以声道常量作为其参数。指定"
+"不存在的声道是错误的。如果指定的 *channels_in* 比 *clips* 值更多，则 "
+"*clips* 列表中的最后一个片段会被重复用作源。除了声道常量，还可以通过使用负"
+"数来指定第 n 个声道。"
+
+#: ../../functions/audio/shufflechannels.rst:22
+msgid ""
+"The output channel mapping is determined by *channels_out* and "
+"corresponds to the input channel order. The number of *channels_out* "
+"entries must be the same as the number of *channels_in* entries. "
+"Specifying the same output channel twice is an error."
+msgstr "输出声道映射由 *channels_out* 确定，对应于输入声道顺序。*channels_out* 条目的数量必须与 *channels_in* 条目的数量相同。指定同一输出声道两次是错误的。"
+"输出声道映射由 *channels_out* 确定，对应于输入声道顺序。*channels_out* 条"
+"目的数量必须与 *channels_in* 条目的数量相同。指定同一输出声道两次是错误的。"
+
+#: ../../functions/audio/shufflechannels.rst:30
+msgid "Extract the left channel (assuming it exists)::"
+msgstr "提取左声道（假设它存在）::"
+
+#: ../../functions/audio/shufflechannels.rst:34
+msgid "Swap left and right audio channels in a stereo clip::"
+msgstr "在立体声片段中交换左右声道::"
+
+#: ../../functions/audio/shufflechannels.rst:38
+msgid ""
+"Swap left and right audio channels in a stereo clip (alternate ordering "
+"of arguments)::"
+msgstr "在立体声片段中交换左右声道（参数的备选排序）::"
+"在立体声片段中交换左右声道（参数的备选排序）::"
+
+#: ../../functions/audio/shufflechannels.rst:42
+msgid "Swap left and right audio channels in a stereo clip (alternate indexing)::"
+msgstr "在立体声片段中交换左右声道（备选索引）::"
+
+#: ../../functions/audio/shufflechannels.rst:46
+msgid "Merge 2 mono audio clips into a single stereo clip::"
+msgstr "将 2 个单声道音频片段合并为单个立体声片段::"

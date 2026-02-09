@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/deleteframes.rst:2
+msgid "DeleteFrames"
+msgstr "DeleteFrames（删除帧）"
+
+#: ../../functions/video/deleteframes.rst:7
+msgid "Deletes the specified frames."
+msgstr "删除指定的帧。"
+
+#: ../../functions/video/deleteframes.rst:9
+#: ../../functions/video/deleteframes.rst:11
+msgid ""
+"Returns an error if the same frame is deleted twice or if all frames in a"
+" clip are deleted."
+msgstr ""
+"如果同一帧被删除两次或片段中的所有帧都被删除，则返回错误。"

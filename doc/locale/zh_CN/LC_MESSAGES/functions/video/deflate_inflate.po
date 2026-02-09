@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/deflate_inflate.rst:10
+#: ../../functions/video/deflate_inflate.rst:32
+#: ../../functions/video/deflate_inflate.rst:11
+#: ../../functions/video/deflate_inflate.rst:33
+#: ../../functions/video/deflate_inflate.rst:20
+#: ../../functions/video/deflate_inflate.rst:42
+#: ../../functions/video/deflate_inflate.rst:16
+#: ../../functions/video/deflate_inflate.rst:38
+#: ../../functions/video/deflate_inflate.rst:17
+#: ../../functions/video/deflate_inflate.rst:39
+#: ../../functions/video/deflate_inflate.rst:2
+msgid "Deflate/Inflate"
+msgstr "Deflate/Inflate（收缩/膨胀）"
+
+#: ../../functions/video/deflate_inflate.rst:7
+msgid ""
+"Replaces each pixel with the average of the eight pixels in its 3x3 "
+"neighbourhood, but only if that average is less than the center pixel."
+msgstr ""
+"将每个像素替换为其 3x3 邻域内八个像素的平均值，但仅当该平均值小于中心像素时。"
+
+#: ../../functions/video/deflate_inflate.rst:21
+#: ../../functions/video/deflate_inflate.rst:28
+msgid ""
+"Replaces each pixel with the average of the eight pixels in its 3x3 "
+"neighbourhood, but only if that average is greater than the center pixel."
+msgstr ""
+"将每个像素替换为其 3x3 邻域中八个像素的平均值，但仅当该平均值大于中心像素时。"
+
+#: ../../functions/video/deflate_inflate.rst:43
+msgid ""
+"Allows to limit how much pixels are changed. Output pixels will not "
+"become greater than ``input + threshold``. The default is no limit."
+msgstr ""
+"允许限制像素变化的程度。输出像素不会大于 ``input + threshold``。默认为无限制。"
+"允许限制像素改变的程度。输出像素不会大于 ``input + threshold``。默认没有限制。"

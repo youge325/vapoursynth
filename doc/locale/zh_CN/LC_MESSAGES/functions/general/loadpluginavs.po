@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/general/loadpluginavs.rst:36
+msgid "Beware of Python's escape character, this will fail::"
+msgstr "注意 Python 的转义字符，这会失败::"
+
+#: ../../functions/general/loadpluginavs.rst:40
+msgid "Correct ways::"
+msgstr "正确方式::"
+
+#: ../../functions/general/loadpluginavs.rst:2
+msgid "LoadPlugin (Avisynth Compatibility)"
+msgstr "LoadPlugin（Avisynth 兼容性）"
+
+#: ../../functions/general/loadpluginavs.rst:7
+msgid ""
+"Load an Avisynth 2.5 (32 bit only), 2.6 (32 and 64 bit) or Avisynth+ (32 "
+"and 64 bit) plugin. If successful, the loaded plugin's functions will end"
+" up in the avs namespace. Note that in the case of Avisynth+ there's no "
+"way to use the formats combined with alpha or higher bitdepth packed RGB."
+" Coincidentally there are no plugins that use this in a meaningful way "
+"yet."
+msgstr ""
+"加载 Avisynth 2.5（仅32位）、2.6（32位和64位）或 Avisynth+（32位和64位）"
+"插件。如果成功，加载的插件函数将位于 avs 命名空间中。注意，在 Avisynth+ 的"
+"情况下，没有办法使用与透明度或更高位深度打包 RGB 结合的格式。巧合的是，还"
+"没有以有意义的方式使用这些格式的插件。"
+
+#: ../../functions/general/loadpluginavs.rst:13
+msgid ""
+"The compatibility module can work with a large number of Avisynth's "
+"plugins. However, the wrapping is not complete, so the following things "
+"will cause problems:"
+msgstr ""
+"兼容性模块可以与大量的 Avisynth 插件配合工作。但是，包装不完整，因此以下事"
+"项会导致问题："
+
+#: ../../functions/general/loadpluginavs.rst:17
+msgid ""
+"The plugin expects YUY2 or RGB32 input. In this case provide input in "
+"either YUV422P8 or RGB24 format pass compatpack=True as an argument to "
+"the Avisynth function."
+msgstr ""
+"插件期望 YUY2 或 RGB32 输入。在这种情况下，请提供 YUV422P8 或 RGB24 格式"
+"的输入，并将 compatpack=True 作为参数传递给 Avisynth 函数。"
+
+#: ../../functions/general/loadpluginavs.rst:20
+msgid ""
+"The plugin tries to call env->invoke(). These calls are ignored when it "
+"is safe to do so, but otherwise they will most likely trigger a fatal "
+"error."
+msgstr ""
+"插件尝试调用 env->invoke()。当安全时会忽略这些调用，否则很可能会触发致命"
+"错误。"
+
+#: ../../functions/general/loadpluginavs.rst:23
+msgid "Plugins trying to read global variables. There are no global variables."
+msgstr "插件尝试读取全局变量。没有全局变量。"
+
+#: ../../functions/general/loadpluginavs.rst:26
+msgid ""
+"If there are function name collisions functions will have a number "
+"appended to them to make them distinct. For example if three functions "
+"are named *func* then they will be named *func*, *func_2* and *func_3*. "
+"This means that Avisynth functions that have multiple overloads (rare) "
+"will give each overload a different name."
+msgstr ""
+"如果发生函数名冲突，函数将追加数字以使其区分。例如，如果三个函数都命名为 "
+"*func*，则它们将被命名为 *func*、*func_2* 和 *func_3*。这意味着具有多个"
+"重载（罕见）的 Avisynth 函数将为每个重载提供不同的名称。"
+
+#: ../../functions/general/loadpluginavs.rst:32
+msgid ""
+"Note that if you are really insane you can load Avisynth's VirtualDub "
+"plugin loader and use VirtualDub plugins as well. Function overloads are "
+"very common when dealing with VirtualDub."
+msgstr ""
+"注意，如果您真的疯狂，可以加载 Avisynth 的 VirtualDub 插件加载器并也使用 "
+"VirtualDub 插件。在处理 VirtualDub 时函数重载非常常见。"

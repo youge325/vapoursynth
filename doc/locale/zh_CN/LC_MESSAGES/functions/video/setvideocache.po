@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/setvideocache.rst:2
+msgid "SetVideoCache"
+msgstr "SetVideoCache（设置视频缓存）"
+
+#: ../../functions/video/setvideocache.rst:7
+msgid ""
+"Every filter node has a cache associated with it that may or may not be "
+"enabled depending on the dependencies and request patterns. This function"
+" allows all automatic behavior to be overridden."
+msgstr ""
+"每个滤镜节点都有一个与其关联的缓存，根据依赖关系和请求模式可能启用也可能不启用。此函数允许覆盖所有自动行为。"
+
+#: ../../functions/video/setvideocache.rst:12
+msgid ""
+"The *mode* option has 3 possible options where 0 always disables caching,"
+" 1 always enables the cache and -1 uses the automatically calculated "
+"settings. Note that setting *mode* to -1 will reset the other values to "
+"their defaults as well."
+msgstr ""
+"*mode* 选项有 3 个可能的选择，其中 0 始终禁用缓存，1 始终启用缓存，-1 使"
+"用自动计算的设置。注意将 *mode* 设置为 -1 也会将其他值重置为默认值。"
+
+#: ../../functions/video/setvideocache.rst:18
+msgid ""
+"The other options are fairly self-explanatory where setting *fixedsize* "
+"prevents the cache from over time altering its *maxsize* based on request"
+" history. The final *historysize* argument controls how many previous and"
+" no longer cached requests should be considered when adjusting *maxsize*,"
+" generally this value should not be touched at all."
+msgstr ""
+"其他选项相当不言自明，设置 *fixedsize* 可防止缓存根据请求历史随时间改变其 "
+"*maxsize*。最后的 *historysize* 参数控制在调整 *maxsize* 时应考虑多少个"
+"以前且不再缓存的请求，通常根本不应该触碰这个值。"
+
+#: ../../functions/video/setvideocache.rst:26
+msgid "Note that setting *mode* will reset all other options to their defaults."
+msgstr "注意，设置 *mode* 会将所有其他选项重置为默认值。"

@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/cliptoprop.rst:2
+msgid "ClipToProp"
+msgstr "ClipToProp"
+
+#: ../../functions/video/cliptoprop.rst:7
+msgid ""
+"Stores each frame of *mclip* as a frame property named *prop* in *clip*. "
+"This is primarily intended to attach mask/alpha clips to another clip so "
+"that editing operations will apply to both. Unlike most other filters the"
+" output length is derived from the second argument named *mclip*."
+msgstr ""
+"将 *mclip* 的每一帧存储为 *clip* 中名为 *prop* 的帧属性。这主要用于将遮罩/"
+"透明度片段附加到另一个片段，以便编辑操作同时应用到两者。与大多数其他滤镜不"
+"同，输出长度来自名为 *mclip* 的第二个参数。"
+
+#: ../../functions/video/cliptoprop.rst:12
+msgid ""
+"If the attached *mclip* does not represent the alpha channel, you should "
+"set *prop* to something else."
+msgstr ""
+"如果附加的 *mclip* 不代表透明度通道，您应该将 *prop* 设置为其他值。"
+
+#: ../../functions/video/cliptoprop.rst:15
+msgid "It is the inverse of PropToClip()."
+msgstr "它是 PropToClip() 的逆函数。"

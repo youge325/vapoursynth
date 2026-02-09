@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/averageframes.rst:2
+msgid "AverageFrames"
+msgstr "AverageFrames（平均帧）"
+
+#: ../../functions/video/averageframes.rst:7
+msgid ""
+"AverageFrames has two main modes depending on whether one or multiple "
+"*clips* are supplied. The filter is named AverageFrames since using ones "
+"for weights is an easy way to average many frames together but it can "
+"also be seen as a temporal or multiple frame convolution."
+msgstr ""
+"AverageFrames 根据提供一个或多个 *clips* 有两种主要模式。该滤镜被称为 "
+"AverageFrames，因为使用权重为 1 是将许多帧平均在一起的简单方法，但它也可以"
+"被视为时间卷积或多帧卷积。"
+
+#: ../../functions/video/averageframes.rst:11
+msgid ""
+"If multiple *clips* are supplied then the frames from each of the *clips*"
+" are multiplied by the respective *weights*, summed together and divided "
+"by *scale* before being output. Note that only integer *weights* and "
+"*scale* are allowed for integer input formats."
+msgstr ""
+"如果提供多个 *clips*，则每个 *clips* 的帧都会乘以相应的 *weights*，然后求和并在输出前除以 *scale*。注意，整数输入格式只允许整数 *weights* 和 *scale*。"
+
+#: ../../functions/video/averageframes.rst:15
+msgid ""
+"If a single *clip* is supplied then an odd number of *weights* are needed"
+" and they will instead be temporally centered on the current frame of the"
+" *clip*. The rest works as multiple *clip* mode with the only difference "
+"being that *scenechange* can be set to avoid averaging frames over scene "
+"changes. If this happens then all the weights beyond a scene change are "
+"instead applied to the frame right before it."
+msgstr ""
+"如果提供单个 *clip*，则需要奇数个 *weights*，它们将以 *clip* 的当前帧为时间中心。其余工作方式与多个 *clip* 模式相同，唯一区别是可以设置 *scenechange* 以避免在场景切换中平均帧。如果发生这种情况，场景切换之外的所有权重都会应用到其之前的帧。"
+
+#: ../../functions/video/averageframes.rst:21
+msgid "At most 31 *weights* can be supplied."
+msgstr "最多可以提供 31 个 *weights*。"

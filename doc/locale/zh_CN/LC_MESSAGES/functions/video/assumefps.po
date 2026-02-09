@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/video/assumefps.rst:2
+msgid "AssumeFPS"
+msgstr "AssumeFPS（假定帧率）"
+
+#: ../../functions/video/assumefps.rst:7
+msgid ""
+"Returns a clip with the framerate changed. This does not in any way "
+"modify the frames, only their metadata."
+msgstr ""
+"返回帧率已更改的片段。这不会以任何方式修改帧，只修改它们的元数据。"
+
+#: ../../functions/video/assumefps.rst:10
+msgid ""
+"The framerate to assign can either be read from another clip, *src*, or "
+"given as a rational number with *fpsnum* and *fpsden*."
+msgstr ""
+"要分配的帧率可以从另一个片段 *src* 读取，也可以通过有理数 *fpsnum* 和 *fpsden* 给出。"
+
+#: ../../functions/video/assumefps.rst:13
+msgid "It is an error to specify both *src* and *fpsnum*."
+msgstr "同时指定 *src* 和 *fpsnum* 是错误的。"
+
+#: ../../functions/video/assumefps.rst:15
+msgid ""
+"AssumeFPS overwrites the frame properties ``_DurationNum`` and "
+"``_DurationDen`` with the frame duration computed from the new frame "
+"rate."
+msgstr ""
+"AssumeFPS 用从新帧率计算出的帧持续时间覆写帧属性 ``_DurationNum`` 和 "
+"``_DurationDen``。"

@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R73\\n"
+"Report-Msgid-Bugs-To: \\n"
+"POT-Creation-Date: 2025-09-11 10:34+0800\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language: zh_CN\\n"
+"Language-Team: zh_CN <LL@li.org>\\n"
+"Plural-Forms: nplurals=1; plural=0;\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=utf-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"Generated-By: Babel 2.16.0\\n"
+
+#: ../../functions/audio/blankaudio.rst:2
+msgid "BlankAudio"
+msgstr "BlankAudio（空白音频）"
+
+#: ../../functions/audio/blankaudio.rst:7
+msgid ""
+"Generates a new empty clip. This can be useful to have when editing audio"
+" or for testing. The default is a 10 second long 44.1kHz 16 bit stereo "
+"clip. Instead of specifying every property individually, BlankAudio can "
+"also copy the properties from *clip*. If both an argument such as "
+"*sampletype*, and *clip* are set, then *sampletype* will take precedence."
+msgstr "生成一个新的空音频片段。这在编辑音频或测试时很有用。默认是 10 秒长 44.1kHz 16 位立体声片段。除了单独指定每个属性外，BlankAudio 还可以从 *clip* 复制属性。如果同时设置了参数（如 *sampletype*）和 *clip*，则 *sampletype* 优先。"
+"生成一个新的空音频片段。这在编辑音频或测试时很有用。默认是 10 秒长 44.1kHz "
+"16 位立体声片段。除了单独指定每个属性外，BlankAudio 还可以从 *clip* 复制"
+"属性。如果同时设置了参数（如 *sampletype*）和 *clip*，则 *sampletype* 优先。"
+
+#: ../../functions/audio/blankaudio.rst:13
+msgid ""
+"The *channels* argument is a list of channel constants. Specifying the "
+"same channel twice is not allowed."
+msgstr "*channels* 参数是声道常量的列表。不允许指定同一声道两次。"
+"*channels* 参数是声道常量的列表。不允许指定同一声道两次。"
+
+#: ../../functions/audio/blankaudio.rst:16
+msgid "The possible *sampletype* values are currently INTEGER (0) and FLOAT (1)."
+msgstr "可能的 *sampletype* 值目前是 INTEGER（0）和 FLOAT（1）。"
+
+#: ../../functions/audio/blankaudio.rst:18
