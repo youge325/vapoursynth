@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R74\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 21:20+0800\n"
+"PO-Revision-Date: 2026-02-20 21:45+0800\n"
+"Last-Translator: VapourSynth Translation Team\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../applications.rst:2
+msgid "Applications and Libraries"
+msgstr "应用程序和库"
+
+#: ../../applications.rst:5
+msgid "Applications"
+msgstr "应用程序"
+
+#: ../../applications.rst:7
+msgid ""
+"`D2V Witch <https://github.com/dubhater/D2VWitch>`_ -- creates indexes that "
+"can be opened by d2vsource"
+msgstr ""
+"`D2V Witch <https://github.com/dubhater/D2VWitch>`_ -- 创建可由 d2vsource 打开的索引"
+
+#: ../../applications.rst:8
+msgid ""
+"`Hybrid <https://www.selur.de/>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=153035>`__ -- encoding GUI with "
+"VapourSynth support"
+msgstr ""
+"`Hybrid <https://www.selur.de/>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=153035>`__ -- 支持 VapourSynth "
+"的编码图形界面"
+
+#: ../../applications.rst:9
+msgid ""
+"`mpv.net <https://github.com/stax76/mpv.net>`_ -- a media player with "
+"VapourSynth built-in"
+msgstr ""
+"`mpv.net <https://github.com/stax76/mpv.net>`_ -- 内置 VapourSynth 的媒体播放器"
+
+#: ../../applications.rst:10
+msgid ""
+"`SmoothVideo Project <https://www.svp-team.com/wiki/Main_Page>`_ -- a "
+"plugin/video player component for realtime frame interpolation"
+msgstr ""
+"`SmoothVideo Project <https://www.svp-team.com/wiki/Main_Page>`_ -- "
+"用于实时帧插值的插件/视频播放器组件"
+
+#: ../../applications.rst:11
+msgid ""
+"`StaxRip <https://github.com/staxrip/staxrip>`_ -- encoding GUI with "
+"extended VapourSynth scripting support"
+msgstr ""
+"`StaxRip <https://github.com/staxrip/staxrip>`_ -- 提供增强 VapourSynth "
+"脚本支持的编码图形界面"
+
+#: ../../applications.rst:12
+msgid ""
+"`VapourSynth Editor <https://github.com/YomikoR/VapourSynth-Editor>`_ "
+"`(Doom9) <https://forum.doom9.org/showthread.php?t=170965>`__ -- an editor "
+"with syntax completion and fast preview support"
+msgstr ""
+"`VapourSynth Editor <https://github.com/YomikoR/VapourSynth-Editor>`_ "
+"`(Doom9) <https://forum.doom9.org/showthread.php?t=170965>`__ -- "
+"支持语法补全和快速预览的编辑器"
+
+#: ../../applications.rst:13
+msgid ""
+"`VapourSynth Editor 2 <https://bitbucket.org/gundamftw/vapoursynth-"
+"editor-2/>`_ `(Doom9) <https://forum.doom9.org/showthread.php?t=181708>`__ "
+"-- a spiritual successor to VapourSynth Editor"
+msgstr ""
+"`VapourSynth Editor 2 <https://bitbucket.org/gundamftw/vapoursynth-"
+"editor-2/>`_ `(Doom9) <https://forum.doom9.org/showthread.php?t=181708>`__ "
+"-- VapourSynth Editor 的精神续作"
+
+#: ../../applications.rst:14
+msgid ""
+"`VirtualDub2 <https://sourceforge.net/projects/vdfiltermod/>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=172021>`__ -- VirtualDub with "
+"added support for high bitdepth colorspaces, useful for previewing"
+msgstr ""
+"`VirtualDub2 <https://sourceforge.net/projects/vdfiltermod/>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=172021>`__ -- 增加了高位深色彩空间支持的 "
+"VirtualDub，可用于预览"
+
+#: ../../applications.rst:15
+msgid ""
+"`vsmkv <https://github.com/fluxamp/vsmkv>`_ -- a FUSE-based virtual "
+"filesystem for exporting VapourSynth scripts as uncompressed videos in the "
+"Matroska (MKV) file format"
+msgstr ""
+"`vsmkv <https://github.com/fluxamp/vsmkv>`_ -- 基于 FUSE 的虚拟文件系统，用于将 "
+"VapourSynth 脚本导出为 Matroska (MKV) 格式的未压缩视频"
+
+#: ../../applications.rst:16
+msgid ""
+"`vspreview <https://github.com/Irrational-Encoding-Wizardry/vs-preview>`_ --"
+" an advanced standalone previewer written in python with too many features "
+"to list"
+msgstr ""
+"`vspreview <https://github.com/Irrational-Encoding-Wizardry/vs-preview>`_ --"
+" 使用 Python 编写的高级独立预览器，功能丰富"
+
+#: ../../applications.rst:17
+msgid ""
+"`vspreview-rs <https://github.com/quietvoid/vspreview-rs>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=183903>`__ -- minimal VapourSynth "
+"script previewer"
+msgstr ""
+"`vspreview-rs <https://github.com/quietvoid/vspreview-rs>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=183903>`__ -- 极简 VapourSynth 脚本预览器"
+
+#: ../../applications.rst:18
+msgid ""
+"`Wobbly <https://github.com/dubhater/Wobbly>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=172496>`__ -- IVTC assistant "
+"similar to YATTA"
+msgstr ""
+"`Wobbly <https://github.com/dubhater/Wobbly>`_ `(Doom9) "
+"<https://forum.doom9.org/showthread.php?t=172496>`__ -- 类似 YATTA 的 IVTC 辅助工具"
+
+#: ../../applications.rst:19
+msgid ""
+"`Yuuno <https://git.encode.moe/irrational-encoding-wizardry/yuuno>`_ -- "
+"incorporates VapourSynth into Jupyter"
+msgstr ""
+"`Yuuno <https://git.encode.moe/irrational-encoding-wizardry/yuuno>`_ -- 将 "
+"VapourSynth 集成到 Jupyter 中"
+
+#: ../../applications.rst:22
+msgid "Libraries"
+msgstr "库"
+
+#: ../../applications.rst:24
+msgid ""
+"`VapourSynth.nim <https://forum.doom9.org/showthread.php?p=1905351>`_ -- "
+"Bindings for the Nim programming language"
+msgstr ""
+"`VapourSynth.nim <https://forum.doom9.org/showthread.php?p=1905351>`_ -- Nim"
+" 编程语言绑定"
+
+#: ../../applications.rst:25
+msgid ""
+"`vapoursynth-rs <https://crates.io/crates/vapoursynth>`_ -- VapourSynth Rust"
+" wrapper"
+msgstr ""
+"`vapoursynth-rs <https://crates.io/crates/vapoursynth>`_ -- VapourSynth Rust"
+" 封装"
+
+#: ../../applications.rst:26
+msgid ""
+"`vsxx <https://github.com/sekrit-twc/vsxx>`_ -- VapourSynth C++ API wrapper"
+msgstr ""
+"`vsxx <https://github.com/sekrit-twc/vsxx>`_ -- VapourSynth C++ API 封装"
+
+#: ../../applications.rst:29
+msgid "Tools"
+msgstr "工具"
+
+#: ../../applications.rst:31
+msgid ""
+"GitHub Action `install-vapoursynth "
+"<https://github.com/marketplace/actions/install-vapoursynth>`_ -- Installs "
+"vapoursynth in your GitHub Action."
+msgstr ""
+"GitHub Action `install-vapoursynth "
+"<https://github.com/marketplace/actions/install-vapoursynth>`_ -- 在 GitHub "
+"Action 中安装 VapourSynth。"

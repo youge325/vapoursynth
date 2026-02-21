@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R74\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 21:20+0800\n"
+"PO-Revision-Date: 2026-02-20 21:45+0800\n"
+"Last-Translator: VapourSynth Translation Team\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../gettingstarted.rst:2
+msgid "Getting Started"
+msgstr "快速入门"
+
+#: ../../gettingstarted.rst:4
+msgid "So you managed to install VapourSynth. Now what?"
+msgstr "那么你已经成功安装了 VapourSynth。接下来做什么？"
+
+#: ../../gettingstarted.rst:6
+msgid ""
+"If you don't know the basics of Python, you may want to check out a "
+"`tutorial <https://learnxinyminutes.com/docs/python3/>`_."
+msgstr ""
+"如果你不了解 Python 基础，可以先看看这个 `教程 <https://learnxinyminutes.com/docs/python3/>`_。"
+
+#: ../../gettingstarted.rst:9
+msgid ""
+"You can \"play around\" in the python interpreter if you want, but that's "
+"not how most scripts are created."
+msgstr "你可以在 Python 解释器中\"随意尝试\"，但大多数脚本并不是这样创建的。"
+
+#: ../../gettingstarted.rst:13
+msgid "Example Script"
+msgstr "示例脚本"
+
+#: ../../gettingstarted.rst:15
+msgid ""
+"It all starts with a *.vpy* script. Here's a sample script to be inspired "
+"by, it assumes that `BestSource "
+"<https://github.com/vapoursynth/bestsource>`_ is installed and :doc:`auto-"
+"loaded <installation>`."
+msgstr ""
+"一切从 *.vpy* 脚本开始。以下是一个可供参考的示例脚本，假设已安装 `BestSource "
+"<https://github.com/vapoursynth/bestsource>`_ 并已 :doc:`自动加载 <installation>`。"
+
+#: ../../gettingstarted.rst:26
+msgid ""
+"Audio is also supported, use `BestSource "
+"<https://github.com/vapoursynth/bestsource>`_ to load your audio file."
+msgstr ""
+"同样支持音频，使用 `BestSource <https://github.com/vapoursynth/bestsource>`_ 来加载音频文件。"
+
+#: ../../gettingstarted.rst:35
+msgid "You can combine 2 operations in one script."
+msgstr "你可以在一个脚本中组合 2 个操作。"
+
+#: ../../gettingstarted.rst:47
+msgid ""
+"Remember that most VapourSynth objects have a quite nice string "
+"representation in Python, so if you want to know more about an instance just"
+" call ``print()``."
+msgstr ""
+"请记住，大多数 VapourSynth 对象在 Python 中都有很好的字符串表示，如果想了解某个实例的更多信息，只需调用 ``print()``。"
+
+#: ../../gettingstarted.rst:51
+msgid "Preview"
+msgstr "预览"
+
+#: ../../gettingstarted.rst:53
+msgid ""
+"It's possible to directly open the script in `VapourSynth Editor "
+"<https://github.com/YomikoR/VapourSynth-Editor>`_ or `VirtualDub FilterMod "
+"<https://sourceforge.net/projects/vdfiltermod/>`_ for previewing."
+msgstr ""
+"可以在 `VapourSynth Editor <https://github.com/YomikoR/VapourSynth-Editor>`_ 或 "
+"`VirtualDub FilterMod <https://sourceforge.net/projects/vdfiltermod/>`_ "
+"中直接打开脚本进行预览。"
+
+#: ../../gettingstarted.rst:57
+msgid "Output with VSPipe"
+msgstr "使用 VSPipe 输出"
+
+#: ../../gettingstarted.rst:59
+msgid ""
+"VSPipe is very useful to pipe the output to various applications, for "
+"example x264 and flac for encoding."
+msgstr "VSPipe 非常适合将输出管道传输到各种应用程序，例如 x264 和 flac 用于编码。"
+
+#: ../../gettingstarted.rst:61
+msgid ""
+"Here are some examples of command lines that automatically pass on most "
+"video and audio attributes."
+msgstr "以下是一些自动传递大多数视频和音频属性的命令行示例。"
+
+#: ../../gettingstarted.rst:63
+msgid "For x264::"
+msgstr "用于 x264::"
+
+#: ../../gettingstarted.rst:67
+msgid "For flac::"
+msgstr "用于 flac::"
+
+#: ../../gettingstarted.rst:71
+msgid "For FFmpeg::"
+msgstr "用于 FFmpeg::"
+
+#: ../../gettingstarted.rst:75
+msgid "For mpv::"
+msgstr "用于 mpv::"

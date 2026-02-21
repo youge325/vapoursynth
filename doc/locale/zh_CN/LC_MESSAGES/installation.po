@@ -1,0 +1,762 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R74\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 21:20+0800\n"
+"PO-Revision-Date: 2026-02-20 21:45+0800\n"
+"Last-Translator: VapourSynth Translation Team\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../installation.rst:2 ../../installation.rst:38
+msgid "Installation"
+msgstr "安装"
+
+#: ../../installation.rst:5
+msgid "Basic Program"
+msgstr "基本程序"
+
+#: ../../installation.rst:7
+msgid "The installation contains two main steps:"
+msgstr "安装包含两个主要步骤："
+
+#: ../../installation.rst:9
+msgid "Install VapourSynth core library."
+msgstr "安装 VapourSynth 核心库。"
+
+#: ../../installation.rst:10
+msgid "Install the Python wrapper of VapourSynth."
+msgstr "安装 VapourSynth 的 Python 封装。"
+
+#: ../../installation.rst:12
+msgid ""
+"After you completed the second step, you can test it by opening a Python "
+"command line and type this::"
+msgstr "完成第二步后，你可以打开 Python 命令行并输入以下内容来测试："
+
+#: ../../installation.rst:18
+msgid ""
+"After pressing return at the final line, you should see the version printed "
+"along with a few other lines describing the options used when instantiating "
+"the Core object. In fact, these lines should be the same as the output "
+"result of ``vspipe --version``."
+msgstr ""
+"在最后一行按回车后，你应该看到版本号以及描述实例化 Core 对象时所用选项的几行信息。实际上，这些行应该与 ``vspipe --version`` "
+"的输出结果相同。"
+
+#: ../../installation.rst:23
+msgid "Windows Installation"
+msgstr "Windows 安装"
+
+#: ../../installation.rst:26
+msgid "Prerequisites"
+msgstr "前提条件"
+
+#: ../../installation.rst:28 ../../installation.rst:65
+#: ../../installation.rst:175
+msgid "First download and install the prerequisites:"
+msgstr "首先下载并安装前提条件："
+
+#: ../../installation.rst:29
+msgid ""
+"`Python 64 bit version <http://www.python.org/>`_ -- There is support for "
+"Python 3.12 and all later versions, including 3.13 and 3.14."
+msgstr ""
+"`Python 64 位版本 <http://www.python.org/>`_ -- 支持 Python 3.12 及所有更高版本，包括 3.13 "
+"和 3.14。"
+
+#: ../../installation.rst:31
+msgid ""
+"Note that VapourSynth and Python have to be matched so both are either "
+"installed for all users or for only for the current user."
+msgstr "请注意 VapourSynth 和 Python 必须匹配，两者要么都为所有用户安装，要么都只为当前用户安装。"
+
+#: ../../installation.rst:34
+msgid ""
+"Also note that per user installs will not install the required Visual Studio"
+" 2026 runtimes."
+msgstr "还请注意，按用户安装不会安装所需的 Visual Studio 2026 运行时。"
+
+#: ../../installation.rst:40
+msgid ""
+"Simply run the `VapourSynth installer "
+"<https://github.com/vapoursynth/vapoursynth/releases>`_. It should "
+"automatically detect and install everything, including the Python wrapper."
+msgstr ""
+"只需运行 `VapourSynth 安装程序 "
+"<https://github.com/vapoursynth/vapoursynth/releases>`_。它应该会自动检测并安装所有内容，包括 "
+"Python 封装。"
+
+#: ../../installation.rst:43
+msgid ""
+"If the tests mentioned at the beginning fails, there may be a bug in the "
+"installer or there are old copies of vapoursynth.pyd and vapoursynth.dll "
+"lying around."
+msgstr "如果开头提到的测试失败，可能是安装程序中的错误，或者存在旧版本的 vapoursynth.pyd 和 vapoursynth.dll。"
+
+#: ../../installation.rst:47
+msgid "Windows Installation (Portable)"
+msgstr "Windows 便携式安装"
+
+#: ../../installation.rst:49
+msgid ""
+"By far the easiest way is to download and run the automatic script called "
+"*Install-Portable-VapourSynth-RXX.ps1*. It will then automatically download "
+"and set up embedded Python, pip and VapourSynth in a subdirectorey called "
+"*vapoursynth-portable* by default. It's possible to pass arguments to it to "
+"specify the installed Python version in addition to an option to run it in "
+"unattended mode."
+msgstr ""
+"目前最简单的方法是下载并运行名为 *Install-Portable-VapourSynth-RXX.ps1* 的自动脚本。它会自动下载并在名为 "
+"*vapoursynth-portable* 的子目录中设置嵌入式 Python、pip 和 VapourSynth。还可以传递参数来指定要安装的 "
+"Python 版本，并支持无人值守模式。"
+
+#: ../../installation.rst:52
+msgid ""
+"Or if you want to do it the manual and not recommended way follow these "
+"steps:"
+msgstr "或者如果你想手动操作（不推荐），请按以下步骤进行："
+
+#: ../../installation.rst:53
+msgid ""
+"Download and decompress `Python 3.14 or newer <http://www.python.org/>`_ -- "
+"64 bit embeddable version (note that all versions from 3.12 are supported)"
+msgstr ""
+"下载并解压 `Python 3.14 或更新版本 <http://www.python.org/>`_ -- 64 位嵌入式版本（注意支持 3.12 "
+"及以上的所有版本）"
+
+#: ../../installation.rst:54
+msgid ""
+"Decompress the `portable VapourSynth archive "
+"<https://github.com/vapoursynth/vapoursynth/releases>`_ into the Python dir "
+"and overwrite all existing files."
+msgstr ""
+"将 `VapourSynth 便携式归档 <https://github.com/vapoursynth/vapoursynth/releases>`_"
+" 解压到 Python 目录中并覆盖所有现有文件。"
+
+#: ../../installation.rst:55
+msgid ""
+"Install pip using `get-pip.py <https://bootstrap.pypa.io/get-pip.py>`_ or "
+"any other method."
+msgstr "使用 `get-pip.py <https://bootstrap.pypa.io/get-pip.py>`_ 或其他方法安装 pip。"
+
+#: ../../installation.rst:56
+msgid ""
+"Install the wheel from the *wheel* directory for the chosen Python version."
+msgstr "从 *wheel* 目录安装对应 Python 版本的 wheel 包。"
+
+#: ../../installation.rst:59
+msgid "OS X Installation"
+msgstr "OS X 安装"
+
+#: ../../installation.rst:61
+msgid ""
+"Homebrew has VapourSynth packages maintained by other people that are "
+"generally kept up to date."
+msgstr "Homebrew 上有由其他人维护的 VapourSynth 软件包，通常保持更新。"
+
+#: ../../installation.rst:63 ../../installation.rst:78
+msgid ""
+"REPORT ALL PACKAGING ISSUES TO THE RESPECTIVE MAINTAINERS AND NOT ON THE "
+"VAPOURSYNTH BUG TRACKER!"
+msgstr "请将所有打包问题报告给相应的维护者，不要在 VAPOURSYNTH 的缺陷跟踪器上报告！"
+
+#: ../../installation.rst:66 ../../installation.rst:176
+msgid "Xcode -- Available from the AppStore"
+msgstr "Xcode -- 可从 AppStore 获取"
+
+#: ../../installation.rst:67 ../../installation.rst:177
+msgid "`Homebrew <http://brew.sh/>`_ -- A package manager"
+msgstr "`Homebrew <http://brew.sh/>`_ -- 包管理器"
+
+#: ../../installation.rst:69
+msgid ""
+"Simply run these commands in a terminal and wait for them to complete::"
+msgstr "只需在终端中运行以下命令并等待完成："
+
+#: ../../installation.rst:74
+msgid "Linux installation"
+msgstr "Linux 安装"
+
+#: ../../installation.rst:76
+msgid ""
+"Several Linux distributions have VapourSynth packages maintained by other "
+"people. The ones listed here are generally kept up to date with fairly "
+"recent versions."
+msgstr "多个 Linux 发行版都有由其他人维护的 VapourSynth 软件包。此处列出的通常都保持较新的版本。"
+
+#: ../../installation.rst:81
+msgid "Debian"
+msgstr "Debian"
+
+#: ../../installation.rst:82
+msgid ""
+"The VapourSynth packages are provided by `deb-multimedia repository "
+"<https://www.deb-multimedia.org/>`_. You need to add the repository first "
+"following the guide on the official website."
+msgstr ""
+"VapourSynth 软件包由 `deb-multimedia 仓库 <https://www.deb-multimedia.org/>`_ "
+"提供。你需要先按照官方网站上的指南添加仓库。"
+
+#: ../../installation.rst:86
+msgid "Fedora, CentOS and RHEL"
+msgstr "Fedora、CentOS 和 RHEL"
+
+#: ../../installation.rst:87
+msgid ""
+"For Fedora, the VapourSynth packages can be downloaded from official "
+"repository directly. For CentOS and RHEL, you should install EPEL (Extra "
+"Packages for Enterprise Linux) repository first."
+msgstr ""
+"对于 Fedora，可以直接从官方仓库下载 VapourSynth 软件包。对于 CentOS 和 RHEL，应先安装 EPEL（Enterprise "
+"Linux 额外软件包）仓库。"
+
+#: ../../installation.rst:91
+msgid "Gentoo"
+msgstr "Gentoo"
+
+#: ../../installation.rst:92
+msgid ""
+"There is an `unofficial Portage tree <https://github.com/4re/vapoursynth-"
+"portage>`_ with all VapourSynth related ebuilds. Check the Github link for "
+"more information and instructions."
+msgstr ""
+"有一个包含所有 VapourSynth 相关 ebuild 的 `非官方 Portage 树 "
+"<https://github.com/4re/vapoursynth-portage>`_。请查看 Github 链接了解更多信息和说明。"
+
+#: ../../installation.rst:96
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+#: ../../installation.rst:97
+msgid ""
+"`VapourSynth-related packages "
+"<https://www.archlinux.org/packages/?q=vapoursynth>`_ are provided by the "
+"Community repository."
+msgstr ""
+"`VapourSynth 相关软件包 <https://www.archlinux.org/packages/?q=vapoursynth>`_ 由 "
+"Community 仓库提供。"
+
+#: ../../installation.rst:100
+msgid "Nix and NixOS"
+msgstr "Nix 和 NixOS"
+
+#: ../../installation.rst:101
+msgid ""
+"``vapoursynth`` is available on nixpkgs, either via ``nixpkgs#vapoursynth`` "
+"or via ``nixpkgs#python3Packages.vapoursynth`` (currently on unstable only)."
+" Be aware that the derivation is broken on MacOS."
+msgstr ""
+"``vapoursynth`` 在 nixpkgs 上可用，可通过 ``nixpkgs#vapoursynth`` 或 "
+"``nixpkgs#python3Packages.vapoursynth``（目前仅在 unstable 分支上）。请注意该 derivation 在"
+" MacOS 上无法正常使用。"
+
+#: ../../installation.rst:104
+msgid ""
+"VapourSynth releases are not backported to the current stable branch. To get"
+" the newest version use the unstable branch."
+msgstr "VapourSynth 的发布版本不会回移到当前稳定分支。要获取最新版本请使用 unstable 分支。"
+
+#: ../../installation.rst:108
+msgid "Windows Compilation"
+msgstr "Windows 编译"
+
+#: ../../installation.rst:111
+msgid "Preparing the Build Environment on Windows"
+msgstr "在 Windows 上准备构建环境"
+
+#: ../../installation.rst:113
+msgid ""
+"Default install paths are assumed in all projects and scripts, be prepared "
+"to adjust many things if you changed them"
+msgstr "所有项目和脚本都假设使用默认安装路径，如果你更改了路径，请准备好调整许多设置"
+
+#: ../../installation.rst:115
+msgid "Required languages and applications:"
+msgstr "所需语言和应用程序："
+
+#: ../../installation.rst:117
+msgid ""
+"Needs `Visual Studio 2026 <https://visualstudio.microsoft.com/de/vs/>`_"
+msgstr "需要 `Visual Studio 2026 <https://visualstudio.microsoft.com/de/vs/>`_"
+
+#: ../../installation.rst:118
+msgid ""
+"It also needs `64bit <https://www.python.org/>`_ Python 3.14.x (the msvc "
+"project assumes that you installed python for all users.)"
+msgstr ""
+"还需要 `64 位 <https://www.python.org/>`_ Python 3.14.x（msvc 项目假设你为所有用户安装了 "
+"Python。）"
+
+#: ../../installation.rst:119
+msgid ""
+"`InnoSetup <http://www.jrsoftware.org/isdl.php>`_ is needed to create the "
+"installer (default installation path assumed)"
+msgstr ""
+"需要 `InnoSetup <http://www.jrsoftware.org/isdl.php>`_ 来创建安装程序（假设使用默认安装路径）"
+
+#: ../../installation.rst:120
+msgid ""
+"`7-zip <https://www.7-zip.org/>`_ is needed to compress the portable version"
+" (default installation path assumed)"
+msgstr "需要 `7-zip <https://www.7-zip.org/>`_ 来压缩便携式版本（假设使用默认安装路径）"
+
+#: ../../installation.rst:123
+msgid "Preparing things"
+msgstr "准备工作"
+
+#: ../../installation.rst:125
+msgid "Clone VapourSynth"
+msgstr "克隆 VapourSynth"
+
+#: ../../installation.rst:126
+msgid "Run ``install_deps.bat``"
+msgstr "运行 ``install_deps.bat``"
+
+#: ../../installation.rst:128
+msgid ""
+"This will put everything in the correct location assuming you have "
+"VapourSynth installed. Or alternatively you can do every step manually:"
+msgstr "假设你已安装 VapourSynth，这会将所有内容放置在正确的位置。或者你也可以手动执行每个步骤："
+
+#: ../../installation.rst:130
+msgid "Clone VapourSynth repository"
+msgstr "克隆 VapourSynth 仓库"
+
+#: ../../installation.rst:131
+msgid ""
+"Clone VSRepo into the VapourSynth dir (``git clone "
+"https://github.com/vapoursynth/vsrepo``)"
+msgstr ""
+"将 VSRepo 克隆到 VapourSynth 目录 (``git clone "
+"https://github.com/vapoursynth/vsrepo``)"
+
+#: ../../installation.rst:132
+msgid ""
+"Clone zimg into the VapourSynth dir (``git clone https://github.com/sekrit-"
+"twc/zimg --recurse-submodules``)"
+msgstr ""
+"将 zimg 克隆到 VapourSynth 目录 (``git clone https://github.com/sekrit-twc/zimg "
+"--recurse-submodules``)"
+
+#: ../../installation.rst:133
+msgid ""
+"Clone avs+ into the VapourSynth dir (``git clone "
+"https://github.com/AviSynth/AviSynthPlus``)"
+msgstr ""
+"将 avs+ 克隆到 VapourSynth 目录 (``git clone "
+"https://github.com/AviSynth/AviSynthPlus``)"
+
+#: ../../installation.rst:134
+msgid ""
+"Clone libp2p into the VapourSynth dir (``git clone "
+"https://github.com/sekrit-twc/libp2p``)"
+msgstr ""
+"将 libp2p 克隆到 VapourSynth 目录 (``git clone https://github.com/sekrit-"
+"twc/libp2p``)"
+
+#: ../../installation.rst:135
+msgid ""
+"Place 7z.exe and 7z.dll from `7-zip <https://www.7-zip.org/>`_ into the "
+"``installer`` dir"
+msgstr ""
+"将 `7-zip <https://www.7-zip.org/>`_ 的 7z.exe 和 7z.dll 放入 ``installer`` 目录"
+
+#: ../../installation.rst:136
+msgid ""
+"Place ``pfm-192-vapoursynth-win.exe`` into the ``installer`` dir. You can "
+"get this file from the embedded zip or an existing VapourSynth install."
+msgstr ""
+"将 ``pfm-192-vapoursynth-win.exe`` 放入 ``installer`` 目录。你可以从嵌入式 zip 或现有 "
+"VapourSynth 安装中获取此文件。"
+
+#: ../../installation.rst:139 ../../installation.rst:192
+msgid "Compilation"
+msgstr "编译"
+
+#: ../../installation.rst:141
+msgid "Run ``compile_all.bat`` for 64bit."
+msgstr "运行 ``compile_all.bat`` 进行 64 位编译。"
+
+#: ../../installation.rst:143
+msgid ""
+"Note that the Avisynth side of AVFS won't work properly in debug builds"
+msgstr "请注意 AVFS 的 Avisynth 部分在调试构建中无法正常工作"
+
+#: ../../installation.rst:147
+msgid "Linux and OS X Compilation"
+msgstr "Linux 和 OS X 编译"
+
+#: ../../installation.rst:149
+msgid "These are the requirements:"
+msgstr "以下是所需条件："
+
+#: ../../installation.rst:150
+msgid "with Meson:"
+msgstr "使用 Meson："
+
+#: ../../installation.rst:151
+msgid "Meson 0.63.0 or later"
+msgstr "Meson 0.63.0 或更高版本"
+
+#: ../../installation.rst:152
+msgid "ninja-build"
+msgstr "ninja-build"
+
+#: ../../installation.rst:154
+msgid "with Autotools: (deprecated, will be removed in future releases)"
+msgstr "使用 Autotools：（已弃用，将在未来版本中移除）"
+
+#: ../../installation.rst:155
+msgid "Autoconf, Automake, and Libtool"
+msgstr "Autoconf、Automake 和 Libtool"
+
+#: ../../installation.rst:157
+msgid "pkg-config"
+msgstr "pkg-config"
+
+#: ../../installation.rst:159
+msgid "GCC or Clang, with a version supporting C++17"
+msgstr "GCC 或 Clang，版本需支持 C++17"
+
+#: ../../installation.rst:161
+msgid "`zimg <https://github.com/sekrit-twc/zimg>`_"
+msgstr "`zimg <https://github.com/sekrit-twc/zimg>`_"
+
+#: ../../installation.rst:163
+msgid ""
+"Python 3.8 or later (may work on earlier versions but these are never fully "
+"tested)"
+msgstr "Python 3.8 或更高版本（可能在更早的版本上工作，但从未完全测试）"
+
+#: ../../installation.rst:165
+msgid "Cython 3.x or later installed in your Python 3 environment"
+msgstr "在 Python 3 环境中安装 Cython 3.x 或更高版本"
+
+#: ../../installation.rst:167
+msgid "Sphinx for the documentation (optional)"
+msgstr "用于文档的 Sphinx（可选）"
+
+#: ../../installation.rst:169
+msgid ""
+"Note: **any version of Python 3 will do.** A specific version is only "
+"required when using the official Windows binaries."
+msgstr "注意：**任何版本的 Python 3 都可以。** 仅在使用官方 Windows 二进制文件时才需要特定版本。"
+
+#: ../../installation.rst:173
+msgid "Required packages (OS X)"
+msgstr "所需软件包（OS X）"
+
+#: ../../installation.rst:179
+msgid ""
+"Installation of the required packages is very easy. Simply run these "
+"commands in a terminal and wait for them to complete::"
+msgstr "安装所需软件包非常简单。只需在终端中运行以下命令并等待完成："
+
+#: ../../installation.rst:185
+msgid ""
+"If you've already installed all the required packages and instead want to "
+"update them, simply run::"
+msgstr "如果你已经安装了所有所需的软件包，想要更新它们，只需运行："
+
+#: ../../installation.rst:194
+msgid "If you haven't checked out the source code before, use git to do so::"
+msgstr "如果你之前没有签出源代码，请使用 git："
+
+#: ../../installation.rst:198
+msgid "Or if you already have a copy of the source, update it with::"
+msgstr "或者如果你已经有源代码的副本，使用以下命令更新："
+
+#: ../../installation.rst:202
+msgid ""
+"Enter the VapourSynth directory and run these commands to compile and "
+"install::"
+msgstr "进入 VapourSynth 目录并运行以下命令来编译和安装："
+
+#: ../../installation.rst:206
+msgid "meson setup build ninja -C build ninja -C build install"
+msgstr "meson setup build ninja -C build ninja -C build install"
+
+#: ../../installation.rst:210
+msgid "with Autotools:"
+msgstr "使用 Autotools："
+
+#: ../../installation.rst:212
+msgid "./autogen.sh ./configure make make install"
+msgstr "./autogen.sh ./configure make make install"
+
+#: ../../installation.rst:217
+msgid ""
+"Depending on your operating system's configuration, VapourSynth may not work"
+" out of the box with the default prefix of /usr/local. Two errors may pop up"
+" when running ``vspipe --version``:"
+msgstr ""
+"根据操作系统的配置不同，VapourSynth 在使用默认前缀 /usr/local 时可能无法直接工作。运行 ``vspipe --version``"
+" 时可能会出现两个错误："
+
+#: ../../installation.rst:221
+msgid ""
+"\"vspipe: error while loading shared libraries: libvapoursynth-script.so.0: "
+"cannot open shared object file: No such file or directory\""
+msgstr ""
+"\"vspipe: error while loading shared libraries: libvapoursynth-script.so.0: "
+"cannot open shared object file: No such file or directory\""
+
+#: ../../installation.rst:224
+msgid ""
+"This is caused by the non-standard location of libvapoursynth-script.so.0. "
+"Your dynamic loader is not configured to look in /usr/local/lib. One way to "
+"work around this error is to use the LD_LIBRARY_PATH environment variable "
+"(or DYLD_LIBRARY_PATH on macOS)::"
+msgstr ""
+"这是因为 libvapoursynth-script.so.0 的位置不标准。你的动态加载器未配置为查找 "
+"/usr/local/lib。解决此错误的一种方法是使用 LD_LIBRARY_PATH 环境变量（macOS 上使用 "
+"DYLD_LIBRARY_PATH）："
+
+#: ../../installation.rst:231
+msgid "\"Failed to initialize VapourSynth environment\""
+msgstr "\"Failed to initialize VapourSynth environment\""
+
+#: ../../installation.rst:233
+msgid ""
+"This is caused by the non-standard location of the Python module, "
+"vapoursynth.so. Your Python is not configured to look in "
+"/usr/local/lib/python3.x/site-packages. One way to work around this error is"
+" to use the PYTHONPATH environment variable::"
+msgstr ""
+"这是因为 Python 模块 vapoursynth.so 的位置不标准。你的 Python 未配置为查找 "
+"/usr/local/lib/python3.x/site-packages。解决此错误的一种方法是使用 PYTHONPATH 环境变量："
+
+#: ../../installation.rst:240
+msgid "Replace \"x\" with the correct number."
+msgstr "将 \"x\" 替换为正确的数字。"
+
+#: ../../installation.rst:243
+msgid "The documentation can be built using its own Makefile::"
+msgstr "可以使用其自带的 Makefile 构建文档："
+
+#: ../../installation.rst:247
+msgid "The documentation can be installed using the standard program ``cp``."
+msgstr "可以使用标准程序 ``cp`` 安装文档。"
+
+#: ../../installation.rst:250
+msgid "Plugins and Scripts"
+msgstr "插件和脚本"
+
+#: ../../installation.rst:252
+msgid ""
+"If you're looking for plugins and scripts then one of the most complete "
+"lists available can be found at `vsdb.top <http://vsdb.top/>`_."
+msgstr "如果你在寻找插件和脚本，最完整的列表之一可以在 `vsdb.top <http://vsdb.top/>`_ 找到。"
+
+#: ../../installation.rst:256
+msgid "Installing with VSRepo"
+msgstr "使用 VSRepo 安装"
+
+#: ../../installation.rst:258
+msgid ""
+"On windows you can use the included vsrepo.py to install and upgrade plugins"
+" and scripts."
+msgstr "在 Windows 上，你可以使用自带的 vsrepo.py 来安装和升级插件和脚本。"
+
+#: ../../installation.rst:260
+msgid ""
+"Simply run ``vsrepo.py install <namespace or identifier>`` to install them."
+msgstr "只需运行 ``vsrepo.py install <命名空间或标识符>`` 即可安装。"
+
+#: ../../installation.rst:262
+msgid ""
+"If you need a list of known plugins and scripts you can run ``vsrepo.py "
+"available`` or visit `vsdb.top <http://vsdb.top/>`_."
+msgstr ""
+"如果你需要已知插件和脚本的列表，可以运行 ``vsrepo.py available`` 或访问 `vsdb.top "
+"<http://vsdb.top/>`_。"
+
+#: ../../installation.rst:264
+msgid ""
+"For more reference, visit `vsrepo's repository "
+"<https://github.com/vapoursynth/vsrepo>`_"
+msgstr "更多参考信息，请访问 `vsrepo 的仓库 <https://github.com/vapoursynth/vsrepo>`_"
+
+#: ../../installation.rst:267
+msgid "Installing Manually"
+msgstr "手动安装"
+
+#: ../../installation.rst:269
+msgid ""
+"You can put your plugin (``.dll``) and script (``.py``) to where you think "
+"it is convenient."
+msgstr "你可以将插件 (``.dll``) 和脚本 (``.py``) 放在你认为方便的位置。"
+
+#: ../../installation.rst:271
+msgid ""
+"For plugins, you can use ``std.LoadPlugin`` function to load it. there is "
+"also a plugin autoloading mechanism to save your time, see blow."
+msgstr "对于插件，你可以使用 ``std.LoadPlugin`` 函数加载。还有一个插件自动加载机制来节省时间，详见下方。"
+
+#: ../../installation.rst:273
+msgid ""
+"For scripts, you should add a relative path to "
+"``python<your_python_version>._pth``, then you can import it in your script."
+msgstr "对于脚本，你应该在 ``python<你的python版本>._pth`` 中添加相对路径，然后就可以在脚本中导入。"
+
+#: ../../installation.rst:276
+msgid "Plugin Autoloading"
+msgstr "插件自动加载"
+
+#: ../../installation.rst:278
+msgid ""
+"VapourSynth automatically loads all the native plugins located in certain "
+"folders. Autoloading works just like manual loading, with the exception that"
+" any errors encountered while loading a plugin are silently ignored."
+msgstr ""
+"VapourSynth 会自动加载位于特定文件夹中的所有原生插件。自动加载与手动加载的工作方式相同，唯一的区别是加载插件时遇到的任何错误都会被静默忽略。"
+
+#: ../../installation.rst:284
+msgid ""
+"Avoid autoloading from folders that other applications might also use, such "
+"as /usr/lib or /usr/local/lib in a Linux system. Several users reported "
+"crashes when VapourSynth attempted to load some random libraries "
+"(\\*cough\\*wxgtk\\*cough\\*)."
+msgstr ""
+"避免从其他应用程序也可能使用的文件夹自动加载，例如 Linux 系统中的 /usr/lib 或 /usr/local/lib。多位用户报告了 "
+"VapourSynth 尝试加载某些随机库时崩溃的情况（\\*咳咳\\*wxgtk\\*咳咳\\*）。"
+
+#: ../../installation.rst:290
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../installation.rst:292
+msgid ""
+"Windows has in total 3 different autoloading directories: user plugins, core"
+" plugins and global plugins. They are searched in that order. User plugins "
+"are always loaded first so that the current user can always decide which "
+"exact version of a plugin is used. Core plugins follow. Global plugins are "
+"placed last to prevent them from overriding any of the included plugins by "
+"accident."
+msgstr ""
+"Windows 共有 3 "
+"个不同的自动加载目录：用户插件、核心插件和全局插件。它们按此顺序搜索。用户插件始终最先加载，这样当前用户可以始终决定使用插件的确切版本。核心插件其次。全局插件排在最后，以防止它们意外覆盖任何内置插件。"
+
+#: ../../installation.rst:296 ../../installation.rst:314
+msgid "The searched paths are:"
+msgstr "搜索路径为："
+
+#: ../../installation.rst:298
+msgid "*<AppData>*\\\\VapourSynth\\\\plugins32 or *<AppData>*\\\\VapourSynth\\\\plugins64"
+msgstr "*<AppData>*\\\\VapourSynth\\\\plugins32 或 *<AppData>*\\\\VapourSynth\\\\plugins64"
+
+#: ../../installation.rst:299
+msgid "*<VapourSynth path>*\\\\core\\\\plugins"
+msgstr "*<VapourSynth 路径>*\\\\core\\\\plugins"
+
+#: ../../installation.rst:300
+msgid "*<VapourSynth path>*\\\\plugins"
+msgstr "*<VapourSynth 路径>*\\\\plugins"
+
+#: ../../installation.rst:302
+msgid ""
+"Note that the per user path is not created by default. On modern Windows "
+"versions the *AppData* directory is located in "
+"*<user>*\\\\AppData\\\\Roaming by default."
+msgstr ""
+"请注意，每用户路径不会默认创建。在现代 Windows 版本中，*AppData* 目录默认位于 "
+"*<用户>*\\\\AppData\\\\Roaming。"
+
+#: ../../installation.rst:305
+msgid ""
+"Shortcuts to the global autoload directory are located in the start menu."
+msgstr "全局自动加载目录的快捷方式位于开始菜单中。"
+
+#: ../../installation.rst:307
+msgid ""
+"Avisynth plugins are never autoloaded. Support for this may be added in the "
+"future."
+msgstr "Avisynth 插件从不自动加载。将来可能会添加此支持。"
+
+#: ../../installation.rst:309
+msgid "User plugins should never be put into the *core\\\\plugins* directory."
+msgstr "用户插件不应放入 *core\\\\plugins* 目录。"
+
+#: ../../installation.rst:312
+msgid "Windows Portable"
+msgstr "Windows 便携版"
+
+#: ../../installation.rst:316
+msgid "*<base path (portable.vs location)>*\\\\vs-plugins"
+msgstr "*<基础路径 (portable.vs 位置)>*\\\\vs-plugins"
+
+#: ../../installation.rst:318
+msgid "User plugins should never be put into the *vs-coreplugins* directory."
+msgstr "用户插件不应放入 *vs-coreplugins* 目录。"
+
+#: ../../installation.rst:321
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../installation.rst:323
+msgid ""
+"Autoloading can be configured using the file "
+"$XDG_CONFIG_HOME/vapoursynth/vapoursynth.conf, or "
+"$HOME/.config/vapoursynth/vapoursynth.conf if XDG_CONFIG_HOME is not "
+"defined."
+msgstr ""
+"可以使用文件 $XDG_CONFIG_HOME/vapoursynth/vapoursynth.conf 配置自动加载，如果未定义 "
+"XDG_CONFIG_HOME 则使用 $HOME/.config/vapoursynth/vapoursynth.conf。"
+
+#: ../../installation.rst:328
+msgid ""
+"To provide your own path to the config file, you can use "
+"$VAPOURSYNTH_CONF_PATH."
+msgstr "要提供自定义配置文件路径，可以使用 $VAPOURSYNTH_CONF_PATH。"
+
+#: ../../installation.rst:330
+msgid ""
+"Two configuration options may be used: **UserPluginDir**, empty by default, "
+"and **SystemPluginDir**, whose default value is set at compile time to "
+"``$libdir/vapoursynth``, or to the location passed to either the "
+"``plugindir`` argument to ``meson`` or the ``--with-plugindir`` argument to "
+"``configure``."
+msgstr ""
+"可以使用两个配置选项：**UserPluginDir**，默认为空；**SystemPluginDir**，其默认值在编译时设置为 "
+"``$libdir/vapoursynth``，或者设置为传递给 ``meson`` 的 ``plugindir`` 参数或 ``configure``"
+" 的 ``--with-plugindir`` 参数的路径。"
+
+#: ../../installation.rst:335
+msgid "UserPluginDir is tried first, then SystemPluginDir."
+msgstr "首先尝试 UserPluginDir，然后是 SystemPluginDir。"
+
+#: ../../installation.rst:337
+msgid "Example vapoursynth.conf::"
+msgstr "vapoursynth.conf 示例："
+
+#: ../../installation.rst:344
+msgid "OS X"
+msgstr "OS X"
+
+#: ../../installation.rst:346
+msgid ""
+"Autoloading can be configured using the file $HOME/Library/Application "
+"Support/VapourSynth/vapoursynth.conf. Everything else is the same as in "
+"Linux."
+msgstr ""
+"可以使用文件 $HOME/Library/Application Support/VapourSynth/vapoursynth.conf "
+"配置自动加载。其他与 Linux 相同。"
+
+#: ../../installation.rst:350
+msgid ""
+"Like on linux, you can use $VAPOURSYNTH_CONF_PATH to provide your own "
+"configuration."
+msgstr "与 Linux 相同，你可以使用 $VAPOURSYNTH_CONF_PATH 提供自定义配置。"

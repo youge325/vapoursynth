@@ -1,0 +1,29 @@
+{# Override layout to add language switcher #}
+{% extends "!layout.html" %}
+
+{% block sidebartitle %}
+{{ super() }}
+
+{# Language switcher - use JavaScript to detect current language from URL #}
+<div class="lang-switcher" style="padding: 10px 0; margin-top: 8px; border-top: 1px solid #4e4a4a; text-align: center;">
+  <span style="color: #999; font-size: 0.85em;">Language: </span>
+  <span id="lang-en" style="font-size: 0.85em;"></span>
+  <span style="color: #999; font-size: 0.85em;"> | </span>
+  <span id="lang-zh" style="font-size: 0.85em;"></span>
+</div>
+<script>
+(function() {
+  var path = window.location.pathname;
+  var enSpan = document.getElementById('lang-en');
+  var zhSpan = document.getElementById('lang-zh');
+  var isZh = path.indexOf('/zh_CN/') !== -1;
+  if (isZh) {
+    enSpan.innerHTML = '<a href="' + path.replace('/zh_CN/', '/en/') + '" style="color: #55a5d9;">English</a>';
+    zhSpan.innerHTML = '<span style="color: #fcfcfc; font-weight: bold;">中文</span>';
+  } else {
+    enSpan.innerHTML = '<span style="color: #fcfcfc; font-weight: bold;">English</span>';
+    zhSpan.innerHTML = '<a href="' + path.replace('/en/', '/zh_CN/') + '" style="color: #55a5d9;">中文</a>';
+  }
+})();
+</script>
+{% endblock %}

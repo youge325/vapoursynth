@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R74\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 21:20+0800\n"
+"PO-Revision-Date: 2026-02-20 21:45+0800\n"
+"Last-Translator: VapourSynth Translation Team\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../output.rst:2
+msgid "Output"
+msgstr "输出"
+
+#: ../../output.rst:5
+msgid "VSPipe"
+msgstr "VSPipe"
+
+#: ../../output.rst:8
+msgid "Synopsis"
+msgstr "概要"
+
+#: ../../output.rst:10
+msgid "**vspipe** <script> <outfile> [options]"
+msgstr "**vspipe** <脚本> <输出文件> [选项]"
+
+#: ../../output.rst:12
+msgid ""
+"vspipe's main purpose is to evaluate VapourSynth scripts and output the "
+"frames to a file."
+msgstr "vspipe 的主要用途是执行 VapourSynth 脚本并将帧输出到文件。"
+
+#: ../../output.rst:15
+msgid ""
+"If *outfile* is a hyphen (``-``), vspipe will write to the standard output."
+msgstr "如果 *outfile* 是连字符 (``-``)，vspipe 将写入标准输出。"
+
+#: ../../output.rst:17
+msgid ""
+"If *outfile* is a double hyphen (``--``), vspipe will do everything as "
+"usual, except it will not write the video frames anywhere."
+msgstr "如果 *outfile* 是双连字符 (``--``)，vspipe 将照常执行所有操作，但不会将视频帧写入任何地方。"
+
+#: ../../output.rst:22
+msgid "Options"
+msgstr "选项"
+
+#: ../../output.rst:24
+msgid "``-a, --arg key=value``"
+msgstr "``-a, --arg key=value``"
+
+#: ../../output.rst:25
+msgid ""
+"Argument to pass to the script environment, it a key with this name and "
+"value (str typed) will be set in the globals dict"
+msgstr "传递给脚本环境的参数，将在全局字典中设置一个具有该名称和值（字符串类型）的键"
+
+#: ../../output.rst:27
+msgid "``-s, --start N``"
+msgstr "``-s, --start N``"
+
+#: ../../output.rst:28
+msgid "Set output frame range (first frame)"
+msgstr "设置输出帧范围（第一帧）"
+
+#: ../../output.rst:30
+msgid "``-e, --end N``"
+msgstr "``-e, --end N``"
+
+#: ../../output.rst:31
+msgid "Set output frame range (last frame)"
+msgstr "设置输出帧范围（最后一帧）"
+
+#: ../../output.rst:33
+msgid "``-o, --outputindex N``"
+msgstr "``-o, --outputindex N``"
+
+#: ../../output.rst:34
+msgid "Select output index"
+msgstr "选择输出索引"
+
+#: ../../output.rst:36
+msgid "``-r, --requests N``"
+msgstr "``-r, --requests N``"
+
+#: ../../output.rst:37
+msgid "Set number of concurrent frame requests"
+msgstr "设置并发帧请求数"
+
+#: ../../output.rst:39
+msgid "``-c, --container <y4m/wav/w64>``"
+msgstr "``-c, --container <y4m/wav/w64>``"
+
+#: ../../output.rst:40
+msgid "Add headers for the specified format to the output"
+msgstr "为输出添加指定格式的头信息"
+
+#: ../../output.rst:42
+msgid "``-t, --timecodes FILE``"
+msgstr "``-t, --timecodes FILE``"
+
+#: ../../output.rst:43
+msgid "Write timecodes v2 file"
+msgstr "写入时间码 v2 文件"
+
+#: ../../output.rst:45
+msgid "``-p, --progress``"
+msgstr "``-p, --progress``"
+
+#: ../../output.rst:46
+msgid "Print progress to stderr"
+msgstr "将进度打印到 stderr"
+
+#: ../../output.rst:48
+msgid "``--filter-time``"
+msgstr "``--filter-time``"
+
+#: ../../output.rst:49
+msgid ""
+"Records the time spent in each filter and prints it out at the end of "
+"processing."
+msgstr "记录每个滤镜的耗时，并在处理结束时打印。"
+
+#: ../../output.rst:51
+msgid "``-i, --info``"
+msgstr "``-i, --info``"
+
+#: ../../output.rst:52
+msgid "Show video info and exit"
+msgstr "显示视频信息并退出"
+
+#: ../../output.rst:54
+msgid "``-g, --graph <simple/full>``"
+msgstr "``-g, --graph <simple/full>``"
+
+#: ../../output.rst:55
+msgid "Print output node filter graph in dot format to outfile and exit"
+msgstr "将输出节点的滤镜图以 dot 格式打印到输出文件并退出"
+
+#: ../../output.rst:57
+msgid "``-v, --version``"
+msgstr "``-v, --version``"
+
+#: ../../output.rst:58
+msgid "Show version info and exit"
+msgstr "显示版本信息并退出"
+
+#: ../../output.rst:62
+msgid "Examples"
+msgstr "示例"
+
+#: ../../output.rst:64
+msgid "Show script info:"
+msgstr "显示脚本信息："
+
+#: ../../output.rst:65
+msgid "``vspipe --info script.vpy -``"
+msgstr "``vspipe --info script.vpy -``"
+
+#: ../../output.rst:67
+msgid "Write to stdout:"
+msgstr "写入标准输出："
+
+#: ../../output.rst:68
+msgid "``vspipe [options] script.vpy -``"
+msgstr "``vspipe [options] script.vpy -``"
+
+#: ../../output.rst:70
+msgid "Write to a named pipe (Windows only):"
+msgstr "写入命名管道（仅限 Windows）："
+
+#: ../../output.rst:71
+msgid "``vspipe [options] script.vpy \"\\\\\\\\.\\\\pipe\\\\<pipename>\"``"
+msgstr "``vspipe [options] script.vpy \"\\\\\\\\.\\\\pipe\\\\<pipename>\"``"
+
+#: ../../output.rst:73
+msgid "Request all frames but don't output them:"
+msgstr "请求所有帧但不输出："
+
+#: ../../output.rst:74
+msgid "``vspipe [options] script.vpy --``"
+msgstr "``vspipe [options] script.vpy --``"
+
+#: ../../output.rst:76
+msgid "Write frames 5-100 to file:"
+msgstr "将第 5-100 帧写入文件："
+
+#: ../../output.rst:77
+msgid "``vspipe --start 5 --end 100 script.vpy output.raw``"
+msgstr "``vspipe --start 5 --end 100 script.vpy output.raw``"
+
+#: ../../output.rst:79
+msgid "Pipe to x264 and write timecodes file:"
+msgstr "管道传输到 x264 并写入时间码文件："
+
+#: ../../output.rst:80
+msgid ""
+"``vspipe script.vpy - -c y4m --timecodes timecodes.txt | x264 --demuxer y4m "
+"-o script.mkv -``"
+msgstr ""
+"``vspipe script.vpy - -c y4m --timecodes timecodes.txt | x264 --demuxer y4m "
+"-o script.mkv -``"
+
+#: ../../output.rst:82
+msgid "Pass values to a script:"
+msgstr "向脚本传递值："
+
+#: ../../output.rst:83
+msgid ""
+"``vspipe --arg deinterlace=yes --arg \"message=fluffy kittens\" script.vpy "
+"output.raw``"
+msgstr ""
+"``vspipe --arg deinterlace=yes --arg \"message=fluffy kittens\" script.vpy "
+"output.raw``"
+
+#: ../../output.rst:86
+msgid "AVFS"
+msgstr "AVFS"
+
+#: ../../output.rst:88
+msgid ""
+"AV FileSystem is based on `AVFS <https://turtlewar.org/avfs/>`_ and shares "
+"most of its source code and functionality. This package has several uses. It"
+" can easily make a script file openable by any application, as it appears "
+"like a real, uncompressed avi file. It can also be used to bridge the 32/64 "
+"bit gap, since a plain file can always be read."
+msgstr ""
+"AV FileSystem 基于 `AVFS "
+"<https://turtlewar.org/avfs/>`_，共享大部分源代码和功能。这个软件包有多种用途。它可以让脚本文件看起来像一个真实的未压缩 "
+"avi 文件，从而使任何应用程序都能打开。它还可以用于弥合 32/64 位差距，因为普通文件总是可以被读取。"
+
+#: ../../output.rst:94
+msgid ""
+"To use it simply run ``avfs`` in the ``core32`` or ``core64`` directories "
+"with the script name as argument. This will create a virtual file in "
+"``C:\\\\Volumes``."
+msgstr ""
+"使用方法很简单，只需在 ``core32`` 或 ``core64`` 目录中运行 ``avfs``，以脚本名作为参数。这将在 "
+"``C:\\\\Volumes`` 中创建一个虚拟文件。"
+
+#: ../../output.rst:97
+msgid ""
+"The *alt_output* argument of *set_output* is respected and can be used to "
+"get additional compatibility with professional applications."
+msgstr "*set_output* 的 *alt_output* 参数会被尊重，可用于获得与专业应用程序的额外兼容性。"
+
+#: ../../output.rst:101
+msgid "Avisynth Support"
+msgstr "Avisynth 支持"
+
+#: ../../output.rst:103
+msgid ""
+"Note that this AVFS version is also compatible with Avisynth 2.6 and "
+"Avisynth+. When using Avisynth+ higher bitdepth output is also supported. "
+"The easiest way to obtain a recent version is to extract ``avfs.exe`` from "
+"the portable VapourSynth archives."
+msgstr ""
+"请注意，此 AVFS 版本也与 Avisynth 2.6 和 Avisynth+ 兼容。使用 Avisynth+ "
+"时还支持更高位深的输出。获取最新版本的最简单方法是从 VapourSynth 便携式归档中提取 ``avfs.exe``。"
+
+#: ../../output.rst:108
+msgid "VFW"
+msgstr "VFW"
+
+#: ../../output.rst:110
+msgid "On windows, you can output video to VFW based programs."
+msgstr "在 Windows 上，您可以将视频输出到基于 VFW 的程序。"
+
+#: ../../output.rst:112
+msgid ""
+"If you install VapourSynth by installer, the VSVFW.dll is registered already"
+msgstr "如果通过安装程序安装 VapourSynth，VSVFW.dll 已经注册"
+
+#: ../../output.rst:114
+msgid ""
+"Else, you could register it manually, use register file below or use "
+"`theChaosCoder's batch <https://github.com/theChaosCoder/vapoursynth-"
+"portable-"
+"FATPACK/blob/master/VapourSynth64Portable/extras/enable_vfw_support.bat>`_."
+msgstr ""
+"否则，您可以手动注册，使用下面的注册文件或使用 `theChaosCoder 的批处理脚本 "
+"<https://github.com/theChaosCoder/vapoursynth-portable-"
+"FATPACK/blob/master/VapourSynth64Portable/extras/enable_vfw_support.bat>`_。"

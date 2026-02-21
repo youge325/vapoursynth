@@ -1,0 +1,1504 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2025, Fredrik Mellbin
+# This file is distributed under the same license as the VapourSynth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VapourSynth R74\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 21:20+0800\n"
+"PO-Revision-Date: 2026-02-20 21:45+0800\n"
+"Last-Translator: VapourSynth Translation Team\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../pythonreference.rst:4
+msgid "Python Reference"
+msgstr "Python 参考"
+
+#: ../../pythonreference.rst:6
+msgid ""
+"VapourSynth is separated into a core library and a Python module. This "
+"section explains how the core library is exposed through Python and some of "
+"the special things unique to Python scripting, such as slicing and output."
+msgstr ""
+"VapourSynth 分为核心库和 Python 模块。本节解释核心库如何通过 Python 暴露，以及 Python "
+"脚本特有的一些特殊功能，如切片和输出。"
+
+#: ../../pythonreference.rst:12
+msgid ""
+"Any script executed through the vsscript api (that means vspipe, avfs, vsvfw"
+" or other API users) will have __name__ set to \"__vapoursynth__\" unlike "
+"normal Python scripts where it usually is \"__main__\"."
+msgstr ""
+"通过 vsscript API 执行的任何脚本（即 vspipe、avfs、vsvfw 或其他 API 用户）的 __name__ 将设置为 "
+"\"__vapoursynth__\"，不同于通常为 \"__main__\" 的普通 Python 脚本。"
+
+#: ../../pythonreference.rst:17
+msgid "VapourSynth Structure"
+msgstr "VapourSynth 结构"
+
+#: ../../pythonreference.rst:19
+msgid ""
+"Most operations in the VapourSynth library are performed through the "
+"singleton core object. This core may load plugins, which all end up in their"
+" own unit, or namespace, so to say, to avoid naming conflicts in the "
+"contained functions. For this reason you call a plugin function with "
+"*core.unit.Function()*."
+msgstr ""
+"VapourSynth "
+"库中的大多数操作都通过单例核心对象执行。此核心可以加载插件，每个插件都有自己的单元或命名空间，以避免所含函数的命名冲突。因此你可以通过 "
+"*core.unit.Function()* 调用插件函数。"
+
+#: ../../pythonreference.rst:24
+msgid ""
+"All arguments to functions have names that are lowercase and all function "
+"names are CamelCase. Unit names are also lowercase and usually short. This "
+"is good to remember as a general rule."
+msgstr "所有函数参数名都是小写的，所有函数名都是驼峰命名。单元名也是小写的且通常较短。作为一般规则，记住这一点很有用。"
+
+#: ../../pythonreference.rst:29
+msgid "Grammar"
+msgstr "语法"
+
+#: ../../pythonreference.rst:32
+msgid "Slicing and Other Syntactic Sugar"
+msgstr "切片和其他语法糖"
+
+#: ../../pythonreference.rst:34
+msgid ""
+"The VideoNode and AudioNode class (always called \"clip\" in practice) "
+"supports the full range of indexing and slicing operations in Python. If you"
+" do perform a slicing operation on a clip, you will get a new clip back with"
+" the desired frames. Here are a few examples."
+msgstr ""
+"VideoNode 和 AudioNode 类（实践中总称为\"片段\"）支持 Python "
+"中完整的索引和切片操作。如果对片段执行切片操作，你将得到一个含有所需帧的新片段。以下是一些示例。"
+
+#: ../../pythonreference.rst:40
+msgid "Operation"
+msgstr "操作"
+
+#: ../../pythonreference.rst:40
+msgid "Description"
+msgstr "描述"
+
+#: ../../pythonreference.rst:40
+msgid "Equivalent"
+msgstr "等价形式"
+
+#: ../../pythonreference.rst:42
+msgid "clip = clip[5]"
+msgstr "clip = clip[5]"
+
+#: ../../pythonreference.rst:42
+msgid "Make a single frame clip containing frame number 5"
+msgstr "创建一个包含第 5 帧的单帧片段"
+
+#: ../../pythonreference.rst:42
+msgid "clip = core.std.Trim(clip, first=5, last=5)"
+msgstr "clip = core.std.Trim(clip, first=5, last=5)"
+
+#: ../../pythonreference.rst:44
+msgid "clip = clip[5:11]"
+msgstr "clip = clip[5:11]"
+
+#: ../../pythonreference.rst:44
+msgid "Make a clip containing frames 5 to 10 [#f1]_"
+msgstr "创建一个包含第 5 到第 10 帧的片段 [#f1]_"
+
+#: ../../pythonreference.rst:44
+msgid "clip = core.std.Trim(clip, first=5, last=10)"
+msgstr "clip = core.std.Trim(clip, first=5, last=10)"
+
+#: ../../pythonreference.rst:46
+msgid "clip = core.std.AudioTrim(clip, first=5, last=10)"
+msgstr "clip = core.std.AudioTrim(clip, first=5, last=10)"
+
+#: ../../pythonreference.rst:48
+msgid "clip = clip[::2]"
+msgstr "clip = clip[::2]"
+
+#: ../../pythonreference.rst:48
+msgid "Select even numbered frames"
+msgstr "选择偶数帧"
+
+#: ../../pythonreference.rst:48
+msgid "clip = core.std.SelectEvery(clip, cycle=2, offsets=0)"
+msgstr "clip = core.std.SelectEvery(clip, cycle=2, offsets=0)"
+
+#: ../../pythonreference.rst:50
+msgid "clip = clip[1::2]"
+msgstr "clip = clip[1::2]"
+
+#: ../../pythonreference.rst:50
+msgid "Select odd numbered frames"
+msgstr "选择奇数帧"
+
+#: ../../pythonreference.rst:50
+msgid "clip = core.std.SelectEvery(clip, cycle=2, offsets=1)"
+msgstr "clip = core.std.SelectEvery(clip, cycle=2, offsets=1)"
+
+#: ../../pythonreference.rst:52
+msgid "clip = clip[::-1]"
+msgstr "clip = clip[::-1]"
+
+#: ../../pythonreference.rst:52
+msgid "Reverses a clip"
+msgstr "反转片段"
+
+#: ../../pythonreference.rst:52
+msgid "clip = core.std.Reverse(clip)"
+msgstr "clip = core.std.Reverse(clip)"
+
+#: ../../pythonreference.rst:54
+msgid "clip = core.std.AudioReverse(clip)"
+msgstr "clip = core.std.AudioReverse(clip)"
+
+#: ../../pythonreference.rst:56
+msgid "clip = clip1 + clip2"
+msgstr "clip = clip1 + clip2"
+
+#: ../../pythonreference.rst:56
+msgid "The addition operator can be used to splice clips together"
+msgstr "加法运算符可用于拼接片段"
+
+#: ../../pythonreference.rst:56
+msgid "clip = core.std.Splice([clip1, clip2], mismatch=False)"
+msgstr "clip = core.std.Splice([clip1, clip2], mismatch=False)"
+
+#: ../../pythonreference.rst:58
+msgid "clip = core.std.AudioSplice([clip1, clip2])"
+msgstr "clip = core.std.AudioSplice([clip1, clip2])"
+
+#: ../../pythonreference.rst:60
+msgid "clip = clip * 10"
+msgstr "clip = clip * 10"
+
+#: ../../pythonreference.rst:60
+msgid "The multiplication operator can be used to loop a clip [#f2]_"
+msgstr "乘法运算符可用于循环片段 [#f2]_"
+
+#: ../../pythonreference.rst:60
+msgid "clip = core.std.Loop(clip, times=10)"
+msgstr "clip = core.std.Loop(clip, times=10)"
+
+#: ../../pythonreference.rst:62
+msgid "clip = core.std.AudioLoop(clip, times=10)"
+msgstr "clip = core.std.AudioLoop(clip, times=10)"
+
+#: ../../pythonreference.rst:65
+msgid ""
+"Note that frame numbers, like python arrays, start counting at 0 and the end"
+" value of slicing is not inclusive"
+msgstr "请注意，帧号与 Python 数组一样从 0 开始计数，切片的结束值不包含在内"
+
+#: ../../pythonreference.rst:67
+msgid ""
+"Note that multiplication by 0 is a special case that will repeat the clip up"
+" to the maximum frame count"
+msgstr "请注意，乘以 0 是一个特殊情况，它将重复片段直到达到最大帧数"
+
+#: ../../pythonreference.rst:70
+msgid "Filters can be chained with a dot::"
+msgstr "滤镜可以使用点号链式调用："
+
+#: ../../pythonreference.rst:74
+msgid "Which is equivalent to::"
+msgstr "等价于："
+
+#: ../../pythonreference.rst:79
+msgid "Function Arguments, Return Types and Property Type Deduction in Python"
+msgstr "Python 中的函数参数、返回类型和属性类型推断"
+
+#: ../../pythonreference.rst:81
+msgid ""
+"VapourSynth internally uses a very simple map of key-value pairs to pass "
+"values to and from functions. As a result of this every key is actually a "
+"one dimensional array of values of a single type. The Python bindings try to"
+" hide this as best as possible to make things less annoying. For example a "
+"function returning only a single key will have the only the array itself "
+"returned and an array with a single value will in turn only have the single "
+"value returned."
+msgstr ""
+"VapourSynth 内部使用一个非常简单的键值对映射来向函数传递和从函数接收值。因此，每个键实际上是一个单一类型值的一维数组。Python "
+"绑定尽可能地隐藏这一点以减少不便。例如，仅返回单个键的函数将只返回数组本身，而只包含单个值的数组将只返回该单个值。"
+
+#: ../../pythonreference.rst:86
+msgid ""
+"Similarly function arguments are first converted to the appropriate type "
+"specified by the function's argument string or fails if this isn't possible."
+" There is however one quirk where the data type's type hint (utf-8/non-"
+"printable raw data) is set based on whether a *str* or a *bytes*/*bytearray*"
+" object is passed. Likewise a *str* object will be returned for all utf-8 "
+"hinted data and a bytes object for all other types."
+msgstr ""
+"类似地，函数参数首先被转换为函数参数字符串指定的适当类型，如果无法转换则失败。然而有一个特殊之处，数据类型的类型提示（utf-8/不可打印的原始数据）是根据传递的是"
+" *str* 还是 *bytes*/*bytearray* 对象来设置的。同样，所有 utf-8 提示的数据将返回 *str* 对象，所有其他类型返回 "
+"bytes 对象。"
+
+#: ../../pythonreference.rst:90
+msgid ""
+"Frame properties and \"anything goes\" function arguments have much stricter"
+" type requirements since the underlying type has to be possible to deduce "
+"from them. When using this type of functions, such as SetFrameProps, or "
+"property assignment it may be necessary to convert to int, float, str or "
+"bytes explicitly to make things works."
+msgstr ""
+"帧属性和「任意」类型的函数参数有更严格的类型要求，因为底层类型必须能够从中推断出来。当使用此类函数（如 "
+"SetFrameProps）或属性赋值时，可能需要显式转换为 int、float、str 或 bytes 才能正常工作。"
+
+#: ../../pythonreference.rst:95
+msgid "Python Keywords as Filter Arguments"
+msgstr "Python 关键字作为滤镜参数"
+
+#: ../../pythonreference.rst:97
+msgid ""
+"If a filter's argument happens to be a Python keyword, you may append an "
+"underscore to the argument's name when invoking the filter. The Python "
+"module will strip one trailing underscore (if present) from all filter "
+"arguments before passing them to the filters."
+msgstr ""
+"如果滤镜的参数恰好是 Python 关键字，你可以在调用滤镜时在参数名称后附加下划线。Python "
+"模块会在将所有滤镜参数传递给滤镜之前去除一个尾部下划线（如果存在）。"
+
+#: ../../pythonreference.rst:106
+msgid ""
+"Another way to deal with such arguments is to place them in a dictionary::"
+msgstr "另一种处理此类参数的方法是将它们放入字典中："
+
+#: ../../pythonreference.rst:111
+msgid ""
+"VapourSynth will also support the PEP8 convention of using a single trailing"
+" underscore to prevent collisions with python keywords."
+msgstr "VapourSynth 也将支持 PEP8 中使用单个尾部下划线来防止与 Python 关键字冲突的惯例。"
+
+#: ../../pythonreference.rst:115
+msgid "Windows File Paths"
+msgstr "Windows 文件路径"
+
+#: ../../pythonreference.rst:117
+msgid ""
+"If you have a string containing backslashes, you must either prefix the "
+"string with \"r\", or duplicate every single backslash. The reason is that "
+"the backslash is an escape character in Python."
+msgstr "如果字符串包含反斜杠，必须在字符串前加 \"r\" 前缀，或将每个反斜杠重复一次。原因是反斜杠在 Python 中是转义字符。"
+
+#: ../../pythonreference.rst:121
+msgid ""
+"Use `os.path.normcase(path) "
+"<https://docs.python.org/3/library/os.path.html#os.path.normcase>`_ to fix "
+"Incorrect path string."
+msgstr ""
+"使用 `os.path.normcase(path) "
+"<https://docs.python.org/3/library/os.path.html#os.path.normcase>`_ "
+"修正不正确的路径字符串。"
+
+#: ../../pythonreference.rst:124
+msgid "Correct example::"
+msgstr "正确示例："
+
+#: ../../pythonreference.rst:131
+msgid "Output"
+msgstr "输出"
+
+#: ../../pythonreference.rst:133
+msgid ""
+"The normal way of specifying the clip(s) to output is to call "
+"*clip.set_output()*. All standard VapourSynth components only use output "
+"index 0, except for vspipe where it's configurable but defaults to 0. There "
+"are also other variables that can be set to control how a format is output. "
+"For example, setting *alt_output=1* changes the packing of the YUV422P10 "
+"format to one that is common in professional software (like Adobe products)."
+" Note that currently *alt_output* modes only has an effect with YUV420P8 "
+"(I420, IYUV), YUV422P8 (YUY2, UYVY) and YUV422P10 (v210)."
+msgstr ""
+"指定要输出的剪辑的标准方式是调用 *clip.set_output()*。所有标准 VapourSynth 组件仅使用输出索引 0，vspipe "
+"除外（可配置但默认为 0）。还有其他变量可以设置来控制格式的输出方式。例如，设置 *alt_output=1* 会将 YUV422P10 "
+"格式的打包方式更改为专业软件（如 Adobe 产品）中常见的方式。注意目前 *alt_output* 模式仅对 YUV420P8 (I420, "
+"IYUV)、YUV422P8 (YUY2, UYVY) 和 YUV422P10 (v210) 有效。"
+
+#: ../../pythonreference.rst:142
+msgid "An example on how to get v210 output::"
+msgstr "如何获取 v210 输出的示例："
+
+#: ../../pythonreference.rst:147
+msgid "An example on how to get UYVY output::"
+msgstr "如何获取 UYVY 输出的示例："
+
+#: ../../pythonreference.rst:153
+msgid "Raw Access to Frame Data"
+msgstr "原始帧数据访问"
+
+#: ../../pythonreference.rst:155
+msgid ""
+"The VideoFrame and AudioFrame classes contains one picture/audio chunk and "
+"all the metadata associated with it. It is possible to access the raw data "
+"using either *get_read_ptr(plane)* or *get_write_ptr(plane)* and "
+"*get_stride(plane)* with ctypes."
+msgstr ""
+"VideoFrame 和 AudioFrame 类包含一个图片/音频块及其所有关联的元数据。可以使用 *get_read_ptr(plane)* 或 "
+"*get_write_ptr(plane)* 和 *get_stride(plane)* 配合 ctypes 访问原始数据。"
+
+#: ../../pythonreference.rst:159
+msgid ""
+"A more Python friendly wrapping is also available where each plane/channel "
+"can be accessed as a Python array using *frame[plane/channel]*."
+msgstr ""
+"还提供了更 Python 友好的封装，可以使用 *frame[plane/channel]* 将每个平面/通道作为 Python 数组访问。"
+
+#: ../../pythonreference.rst:162
+msgid ""
+"To get a frame simply call *get_frame(n)* on a clip. Should you desire to "
+"get all frames in a clip, use this code::"
+msgstr "要获取帧，只需在片段上调用 *get_frame(n)*。如果你想获取片段中的所有帧，使用以下代码："
+
+#: ../../pythonreference.rst:170
+msgid "Classes and Functions"
+msgstr "类和函数"
+
+#: ../../pythonreference.rst:174
+msgid ""
+"Gets the singleton Core object. If it is the first time the function is "
+"called, the Core will be instantiated with the default options. This is the "
+"preferred way to reference the core."
+msgstr "获取单例 Core 对象。如果是首次调用此函数，将使用默认选项实例化 Core。这是引用核心的推荐方式。"
+
+#: ../../pythonreference.rst:180
+msgid ""
+"Return a read-only mapping of all outputs registered on the current node."
+msgstr "返回当前节点上所有已注册输出的只读映射。"
+
+#: ../../pythonreference.rst:182
+msgid "The mapping will automatically update when a new output is registered."
+msgstr "当注册新输出时，映射将自动更新。"
+
+#: ../../pythonreference.rst:186
+msgid ""
+"Get a previously set output node. Throws an error if the index hasn't been "
+"set. Will return a VideoOutputTuple containing *alpha* and the *alt_output* "
+"setting for video output and an AudioNode for audio."
+msgstr ""
+"获取先前设置的输出节点。如果索引未设置则抛出错误。对于视频输出将返回包含 *alpha* 和 *alt_output* 设置的 "
+"VideoOutputTuple，对于音频返回 AudioNode。"
+
+#: ../../pythonreference.rst:191
+msgid "Clears a clip previously set for output."
+msgstr "清除先前设置的输出片段。"
+
+#: ../../pythonreference.rst:195
+msgid "Clears all clips set for output in the current environment."
+msgstr "清除当前环境中所有设置的输出片段。"
+
+#: ../../pythonreference.rst:199
+msgid ""
+"Creates a *inspect.Signature* object for the given registration signature."
+msgstr "根据给定的注册签名创建 *inspect.Signature* 对象。"
+
+#: ../../pythonreference.rst:201
+msgid ""
+"If *injected* is not None, the default of the first argument of the "
+"signature will be replaced with the value supplied with injected."
+msgstr "如果 *injected* 不为 None，签名的第一个参数的默认值将被 injected 提供的值替换。"
+
+#: ../../pythonreference.rst:206
+msgid ""
+"Registers a callback that is called when the script is being finalized. This"
+" allows you to release resources at the end of a script."
+msgstr "注册一个在脚本结束时调用的回调。这允许你在脚本结束时释放资源。"
+
+#: ../../pythonreference.rst:209
+msgid ""
+"A callback must be registered with every script that is run, even if the "
+"code is being reused in multiple script runs."
+msgstr "每次运行脚本时都必须注册回调，即使代码在多次脚本运行中被重用。"
+
+#: ../../pythonreference.rst:212
+msgid ""
+"No new callbacks can be registered when the script is already being "
+"finalized."
+msgstr "当脚本已经在完成过程中时，不能注册新的回调。"
+
+#: ../../pythonreference.rst:216
+msgid "Unregisters a previously added callback."
+msgstr "取消注册先前添加的回调。"
+
+#: ../../pythonreference.rst:220
+msgid ""
+"The *Core* class uses a singleton pattern. Use the *core* attribute to "
+"obtain an instance. All loaded plugins are exposed as attributes of the core"
+" object. These attributes in turn hold the functions contained in the "
+"plugin. Use *plugins()* to obtain a full list of all currently loaded "
+"plugins you may call this way."
+msgstr ""
+"*Core* 类使用单例模式。使用 *core* 属性获取实例。所有已加载的插件都作为核心对象的属性公开。这些属性又包含插件中的函数。使用 "
+"*plugins()* 获取你可以通过这种方式调用的所有当前已加载插件的完整列表。"
+
+#: ../../pythonreference.rst:228
+msgid ""
+"The number of concurrent threads used by the core. Can be set to change the "
+"number. Setting to a value less than one makes it default to the number of "
+"hardware threads."
+msgstr "核心使用的并发线程数。可以设置以更改数目。设置为小于 1 的值将默认为硬件线程数。"
+
+#: ../../pythonreference.rst:232
+msgid ""
+"Set the upper framebuffer cache size after which memory is aggressively "
+"freed. The value is in megabytes."
+msgstr "设置帧缓冲缓存的上限大小，超过此大小后内存将被主动释放。值以兆字节为单位。"
+
+#: ../../pythonreference.rst:237
+msgid "The size of the core's current cache. The value is in bytes."
+msgstr "核心当前缓存的大小。值以字节为单位。"
+
+#: ../../pythonreference.rst:241
+msgid ""
+"Frees all memory used by internal caches. Useful when suspending or "
+"switching between multiple core instances."
+msgstr "释放内部缓存使用的所有内存。在暂停或在多个核心实例之间切换时很有用。"
+
+#: ../../pythonreference.rst:245
+msgid "Returns the core version as VapourSynthVersion tuple."
+msgstr "以 VapourSynthVersion 元组形式返回核心版本。"
+
+#: ../../pythonreference.rst:249
+msgid ""
+"If you are writing a library, and are not retrieving this from the proxy, "
+"you should consider using *vapoursynth.__version__* instead not to have to "
+"unnecessarily fetch the core and lock inside an environment."
+msgstr ""
+"如果你正在编写库，并且不是从代理获取此信息，你应该考虑使用 *vapoursynth.__version__*，以避免不必要地获取核心和锁定环境。"
+
+#: ../../pythonreference.rst:255
+msgid "Returns the api version as VapourSynthAPIVersion tuple."
+msgstr "以 VapourSynthAPIVersion 元组形式返回 API 版本。"
+
+#: ../../pythonreference.rst:259
+msgid ""
+"If you are writing a library, and are not retrieving this from the proxy, "
+"you should consider using *vapoursynth.__api_version__* instead not to have "
+"to unnecessarily fetch the core and lock inside an environment."
+msgstr ""
+"如果你正在编写库，并且不是从代理获取此信息，你应该考虑使用 "
+"*vapoursynth.__api_version__*，以避免不必要地获取核心和锁定环境。"
+
+#: ../../pythonreference.rst:265
+msgid "Containing all loaded plugins."
+msgstr "包含所有已加载的插件。"
+
+#: ../../pythonreference.rst:269
+msgid ""
+"Retrieve a Format object corresponding to the specified id. Returns None if "
+"the *id* is invalid."
+msgstr "检索与指定 id 对应的 Format 对象。如果 *id* 无效则返回 None。"
+
+#: ../../pythonreference.rst:273
+msgid ""
+"Retrieve a Format object corresponding to the format information, Invalid "
+"formats throw an exception."
+msgstr "检索与格式信息对应的 Format 对象。无效的格式将引发异常。"
+
+#: ../../pythonreference.rst:277
+msgid ""
+"Creates a new frame with uninitialized planes with the given dimensions and "
+"format. This function is safe to call within a frame callback."
+msgstr "创建一个具有给定尺寸和格式的未初始化平面的新帧。此函数可以在帧回调内安全调用。"
+
+#: ../../pythonreference.rst:282
+msgid ""
+"Installs a custom handler for the various error messages VapourSynth emits. "
+"The message handler is currently global, i.e. per process, not per VSCore "
+"instance. Returns a LogHandle object. *handler_func* is a callback function "
+"of the form *func(MessageType, message)*."
+msgstr ""
+"安装一个自定义处理程序来处理 VapourSynth 发出的各种错误消息。消息处理程序目前是全局的，即按进程而非每个 VSCore 实例。返回一个 "
+"LogHandle 对象。*handler_func* 是形如 *func(MessageType, message)* 的回调函数。"
+
+#: ../../pythonreference.rst:289
+msgid "Removes a custom handler."
+msgstr "删除自定义处理器。"
+
+#: ../../pythonreference.rst:293
+msgid "Send a message through VapourSynth’s logging framework."
+msgstr "通过 VapourSynth 的日志框架发送消息。"
+
+#: ../../pythonreference.rst:297
+msgid "Illegal behavior detection."
+msgstr "非法行为检测。"
+
+#: ../../pythonreference.rst:301
+msgid ""
+"Internally, there can be more than one core. This is usually the case in "
+"previewer-applications. Use this class to store variables that depend on the"
+" currently active core."
+msgstr "在内部，可以有多个核心。这通常是预览器应用程序的情况。使用此类来存储依赖于当前活动核心的变量。"
+
+#: ../../pythonreference.rst:312
+msgid ""
+"Represents a video clip. The class itself supports indexing and slicing to "
+"perform trim, reverse and selectevery operations. Several operators are also"
+" defined for the VideoNode class: addition appends clips and multiplication "
+"repeats them. Note that slicing and indexing always return a new VideoNode "
+"object and not a VideoFrame."
+msgstr ""
+"表示一个视频剪辑。该类本身支持索引和切片操作来执行裁剪、反转和 selectevery 操作。VideoNode "
+"类还定义了多个运算符：加法追加剪辑，乘法重复剪辑。注意切片和索引始终返回一个新的 VideoNode 对象，而不是 VideoFrame。"
+
+#: ../../pythonreference.rst:320
+msgid ""
+"A Format object describing the frame data. If the format can change between "
+"frames, this value is None."
+msgstr "描述帧数据的 Format 对象。如果格式可以在帧之间变化，此值为 None。"
+
+#: ../../pythonreference.rst:325
+msgid ""
+"The width of the video. This value will be 0 if the width and height can "
+"change between frames."
+msgstr "视频的宽度。如果宽度和高度可以在帧之间变化，此值为 0。"
+
+#: ../../pythonreference.rst:330
+msgid ""
+"The height of the video. This value will be 0 if the width and height can "
+"change between frames."
+msgstr "视频的高度。如果宽度和高度可以在帧之间变化，此值为 0。"
+
+#: ../../pythonreference.rst:335
+msgid "The number of frames in the clip."
+msgstr "片段中的帧数。"
+
+#: ../../pythonreference.rst:339
+msgid ""
+"The framerate represented as a *Fraction*. It is 0/1 when the clip has a "
+"variable framerate."
+msgstr "以 *Fraction* 表示的帧率。当片段具有可变帧率时为 0/1。"
+
+#: ../../pythonreference.rst:344
+msgid ""
+"The numerator of the framerate. If the clip has variable framerate, the "
+"value will be 0."
+msgstr "帧率的分子。如果片段具有可变帧率，值为 0。"
+
+#: ../../pythonreference.rst:348
+msgid ""
+"The denominator of the framerate. If the clip has variable framerate, the "
+"value will be 0."
+msgstr "帧率的分母。如果片段具有可变帧率，值为 0。"
+
+#: ../../pythonreference.rst:352
+msgid "Deprecated, use *fps.numerator* instead"
+msgstr "已弃用，请使用 *fps.numerator* 代替"
+
+#: ../../pythonreference.rst:356
+msgid "Deprecated, use *fps.denominator* instead"
+msgstr "已弃用，请使用 *fps.denominator* 代替"
+
+#: ../../pythonreference.rst:360
+msgid ""
+"Special flags set for this clip. This attribute should normally be ignored."
+msgstr "为此片段设置的特殊标志。通常应忽略此属性。"
+
+#: ../../pythonreference.rst:365
+msgid "Returns a VideoFrame from position *n*."
+msgstr "从位置 *n* 返回一个 VideoFrame。"
+
+#: ../../pythonreference.rst:369
+msgid ""
+"Returns a concurrent.futures.Future-object which result will be a VideoFrame"
+" instance or sets the exception thrown when rendering the frame."
+msgstr "返回一个 concurrent.futures.Future 对象，其结果将是一个 VideoFrame 实例，或设置渲染帧时抛出的异常。"
+
+#: ../../pythonreference.rst:372 ../../pythonreference.rst:640
+msgid "*The future will always be in the running or completed state*"
+msgstr "*future 将始终处于运行中或已完成状态*"
+
+#: ../../pythonreference.rst:377
+msgid ""
+"Renders a frame in another thread. When the frame is rendered, it will "
+"either call `cb(Frame, None)` on success or `cb(None, Exception)` if "
+"something fails."
+msgstr ""
+"在另一个线程中渲染帧。当帧渲染完成时，成功时调用 `cb(Frame, None)`，失败时调用 `cb(None, Exception)`。"
+
+#: ../../pythonreference.rst:380 ../../pythonreference.rst:435
+#: ../../pythonreference.rst:691 ../../pythonreference.rst:992
+msgid "Added: R58"
+msgstr "新增：R58"
+
+#: ../../pythonreference.rst:384
+msgid ""
+"Set the clip to be accessible for output. This is the standard way to "
+"specify which clip(s) to output. All VapourSynth tools (vsvfw, vsfs, vspipe)"
+" use the clip in *index* 0. It's possible to specify an additional "
+"containing the *alpha* to output at the same time. Currently only vspipe "
+"takes *alpha* into consideration when outputting. The *alt_output* argument "
+"is for optional alternate output modes. Currently it controls the FOURCCs "
+"used for VFW-style output with certain formats."
+msgstr ""
+"设置剪辑可供输出访问。这是指定要输出的剪辑的标准方式。所有 VapourSynth 工具（vsvfw、vsfs、vspipe）使用索引 *index* "
+"0 的剪辑。可以同时指定一个额外的包含 *alpha* 的剪辑用于输出。目前只有 vspipe 在输出时考虑 *alpha*。*alt_output* "
+"参数用于可选的替代输出模式。目前它控制某些格式在 VFW 风格输出时使用的 FOURCC。"
+
+#: ../../pythonreference.rst:394
+msgid ""
+"Write the whole clip to the specified file handle. It is possible to pipe to"
+" stdout by specifying *sys.stdout* as the file. YUV4MPEG2 headers will be "
+"added when *y4m* is true. The current progress can be reported by passing a "
+"callback function of the form *func(current_frame, total_frames)* to "
+"*progress_update*. The *prefetch* argument is only for debugging purposes "
+"and should never need to be changed. The *backlog* argument is only for "
+"debugging purposes and should never need to be changed."
+msgstr ""
+"将整个剪辑写入指定的文件句柄。可以通过指定 *sys.stdout* 作为文件来管道输出到标准输出。当 *y4m* 为 true 时会添加 "
+"YUV4MPEG2 头。可以通过将形如 *func(current_frame, total_frames)* 的回调函数传递给 "
+"*progress_update* 来报告当前进度。*prefetch* 参数仅用于调试目的，不应更改。*backlog* "
+"参数仅用于调试目的，不应更改。"
+
+#: ../../pythonreference.rst:402
+msgid ""
+"Returns a generator iterator of all VideoFrames in the clip. It will render "
+"multiple frames concurrently."
+msgstr "返回片段中所有 VideoFrame 的生成器迭代器。它将并发渲染多个帧。"
+
+#: ../../pythonreference.rst:404 ../../pythonreference.rst:660
+msgid ""
+"The *prefetch* argument defines how many frames are rendered concurrently. "
+"Is only there for debugging purposes and should never need to be changed. "
+"The *backlog* argument defines how many unconsumed frames (including those "
+"that did not finish rendering yet) vapoursynth buffers at most before it "
+"stops rendering additional frames. This argument is there to limit the "
+"memory this function uses storing frames. The *close* argument determines if"
+" the frame should be closed after each iteration step. It defaults to false "
+"to remain backward compatible."
+msgstr ""
+"*prefetch* 参数定义并发渲染的帧数。仅用于调试目的，不应更改。*backlog* 参数定义 VapourSynth "
+"在停止渲染额外帧之前最多缓冲多少未消费的帧（包括尚未完成渲染的帧）。此参数用于限制此函数存储帧的内存使用。*close* "
+"参数决定每次迭代步骤后是否关闭帧。默认为 false 以保持向后兼容。"
+
+#: ../../pythonreference.rst:410 ../../pythonreference.rst:666
+msgid "Frees all memory used by this node's internal cache."
+msgstr "释放此节点内部缓存使用的所有内存。"
+
+#: ../../pythonreference.rst:414 ../../pythonreference.rst:670
+msgid ""
+"Returns a truthy value if you can use the node inspection API with a given "
+"version. The python inspection-api is versioned, as the underlying API is "
+"unstable at the time of writing. The version number will be incremented "
+"every time the python API changes. There will be no attempt to maintain "
+"backwards compatibility as long as the API is marked as unstable."
+msgstr ""
+"如果你可以使用给定版本的节点检查 API，则返回真值。Python 检查 API 是有版本控制的，因为在撰写本文时底层 API 不稳定。每次 "
+"Python API 更改时版本号都会递增。只要 API 被标记为不稳定，就不会尝试保持向后兼容。"
+
+#: ../../pythonreference.rst:419 ../../pythonreference.rst:675
+msgid "This method may never return a truthy value."
+msgstr "此方法可能永远不返回真值。"
+
+#: ../../pythonreference.rst:421 ../../pythonreference.rst:677
+msgid ""
+"This is the only stable function in the current inspection api-"
+"implementation."
+msgstr "这是当前检查 API 实现中唯一稳定的函数。"
+
+#: ../../pythonreference.rst:425 ../../pythonreference.rst:681
+msgid ""
+"Be aware that introspection features must be enabled manually by the backing"
+" environment. Standalone Python-Scripts, not running inside vspipe or other "
+"editors, have introspection enabled automatically."
+msgstr "请注意，内省功能必须由后端环境手动启用。不在 vspipe 或其他编辑器内运行的独立 Python 脚本会自动启用内省功能。"
+
+#: ../../pythonreference.rst:430 ../../pythonreference.rst:686
+msgid ""
+"The graph-inspection-api is unstable. Omitting the version-argument will "
+"therefore always return None."
+msgstr "图检查 API 是不稳定的。因此省略版本参数将始终返回 None。"
+
+#: ../../pythonreference.rst:433 ../../pythonreference.rst:689
+msgid "The current version of the unstable python graph-inspection API is 0."
+msgstr "当前不稳定的 Python 图检查 API 版本为 0。"
+
+#: ../../pythonreference.rst
+msgid "Parameters"
+msgstr "参数"
+
+#: ../../pythonreference.rst:437 ../../pythonreference.rst:693
+msgid "If None, it will use the version number of the last stable API."
+msgstr "如果为 None，将使用最后一个稳定 API 的版本号。"
+
+#: ../../pythonreference.rst:441
+msgid "This class is returned by get_output if the output is video."
+msgstr "如果输出是视频，get_output 将返回此类。"
+
+#: ../../pythonreference.rst:445
+msgid "A VideoNode-instance containing the color planes."
+msgstr "包含颜色平面的 VideoNode 实例。"
+
+#: ../../pythonreference.rst:449
+msgid "A VideoNode-instance containing the alpha planes."
+msgstr "包含 alpha 平面的 VideoNode 实例。"
+
+#: ../../pythonreference.rst:453
+msgid ""
+"An integer with the alternate output mode to be used. May be ignored if no "
+"meaningful mapping exists."
+msgstr "要使用的替代输出模式的整数。如果没有有意义的映射可能会被忽略。"
+
+#: ../../pythonreference.rst:457
+msgid "This class represents a video frame and all metadata attached to it."
+msgstr "此类表示一个视频帧及其所有附加的元数据。"
+
+#: ../../pythonreference.rst:461
+msgid "A Format object describing the frame data."
+msgstr "描述帧数据的 Format 对象。"
+
+#: ../../pythonreference.rst:465
+msgid "The width of the frame."
+msgstr "帧的宽度。"
+
+#: ../../pythonreference.rst:469
+msgid "The height of the frame."
+msgstr "帧的高度。"
+
+#: ../../pythonreference.rst:473 ../../pythonreference.rst:722
+msgid ""
+"If *readonly* is True, the frame data and properties cannot be modified."
+msgstr "如果 *readonly* 为 True，帧数据和属性不能被修改。"
+
+#: ../../pythonreference.rst:477
+msgid ""
+"This attribute holds all the frame's properties as a dict. They are also "
+"mapped as sub-attributes for compatibility with older scripts. For more "
+"information, see: `API Reference <apireference.html#reserved-frame-"
+"properties>`_ Note: This includes the data for matrix, transfer and "
+"primaries. (_Matrix, _Transfer, _Primaries) See `Resize "
+"<functions/resize.html>`_ for more information."
+msgstr ""
+"此属性以字典形式保存帧的所有属性。它们也映射为子属性以兼容旧脚本。有关更多信息，请参阅：`API Reference "
+"<apireference.html#reserved-frame-properties>`_ 注意：这包括矩阵、传输和原色的数据。(_Matrix, "
+"_Transfer, _Primaries) 有关更多信息，请参阅 `Resize <functions/resize.html>`_。"
+
+#: ../../pythonreference.rst:485 ../../pythonreference.rst:731
+msgid "Returns a writable copy of the frame."
+msgstr "返回帧的可写副本。"
+
+#: ../../pythonreference.rst:489
+msgid ""
+"Forcefully releases the frame. Once freed, the you cannot call any function "
+"on the frame, nor use the associated FrameProps."
+msgstr "强制释放帧。释放后，你不能在帧上调用任何函数，也不能使用关联的 FrameProps。"
+
+#: ../../pythonreference.rst:492
+msgid ""
+"To make sure you don't forget to close the frame, the frame is now a "
+"context-manager that automatically calls this method for you:"
+msgstr "为了确保你不会忘记关闭帧，帧现在是一个上下文管理器，会自动为你调用此方法："
+
+#: ../../pythonreference.rst:502
+msgid ""
+"Tells you if the frame has been closed. It will be False if the "
+"close()-method has not been called yet."
+msgstr "告诉你帧是否已关闭。如果尚未调用 close() 方法，它将为 False。"
+
+#: ../../pythonreference.rst:506
+msgid ""
+"Returns a pointer to the raw frame data. The data may not be modified. Note "
+"that this is a thin wrapper for the underlying C-api and as such calls to "
+"*get_write_ptr*, including the ones made internally by other functions in "
+"the Python bindings, may invalidate any pointers previously gotten to the "
+"frame with *get_read_ptr* when called."
+msgstr ""
+"返回指向原始帧数据的指针。数据不可修改。注意这是底层 C API 的薄封装，因此调用 *get_write_ptr*（包括 Python "
+"绑定中其他函数内部进行的调用）可能会使之前通过 *get_read_ptr* 获取的帧指针失效。"
+
+#: ../../pythonreference.rst:514
+msgid ""
+"Returns a pointer to the raw frame data. It may be modified using ctypes or "
+"some other similar python package.  Note that this is a thin wrapper for the"
+" underlying C-api and as such calls to *get_write_ptr*, including the ones "
+"made internally by other functions in the Python bindings, may invalidate "
+"any pointers previously gotten to the frame with *get_read_ptr* when called."
+msgstr ""
+"返回指向原始帧数据的指针。可以使用 ctypes 或其他类似的 Python 包进行修改。注意这是底层 C API 的薄封装，因此调用 "
+"*get_write_ptr*（包括 Python 绑定中其他函数内部进行的调用）可能会使之前通过 *get_read_ptr* 获取的帧指针失效。"
+
+#: ../../pythonreference.rst:522 ../../pythonreference.rst:744
+msgid "Returns the stride between lines in a *plane*."
+msgstr "返回 *plane* 中每行之间的跨度。"
+
+#: ../../pythonreference.rst:526
+msgid ""
+"This method is usually used to dump the contents of a VideoFrame to disk. "
+"The returned generator yields contiguous chunks of the VideoFrame memory."
+msgstr "此方法通常用于将 VideoFrame 的内容转储到磁盘。返回的生成器产生 VideoFrame 内存的连续块。"
+
+#: ../../pythonreference.rst:537
+msgid ""
+"Usually, the frame contents will be held in a contiguous array, and this "
+"method will yield *n_planes* of data chunks each holding the entire plane. "
+"Don't, however, take this for granted, as it can't be the case, and you will"
+" iterate over lines of plane data instead, which are assured to be "
+"contiguous."
+msgstr ""
+"通常，帧内容将保存在连续数组中，此方法将产生 *n_planes* "
+"个数据块，每个包含整个平面。但不要将此视为理所当然，因为这可能不是这种情况，你将改为迭代平面数据的行，这些行保证是连续的。"
+
+#: ../../pythonreference.rst:542
+msgid ""
+"If you want to safely read the whole plane, use frame[plane_idx] to get the "
+"plane memoryview."
+msgstr "如果你想安全地读取整个平面，请使用 frame[plane_idx] 获取平面的 memoryview。"
+
+#: ../../pythonreference.rst:546
+msgid ""
+"This class represents all information needed to describe a frame format. It "
+"holds the general color type, subsampling, number of planes and so on. The "
+"names map directly to the C API so consult it for more detailed information."
+msgstr ""
+"此类表示描述帧格式所需的所有信息。它保存通用颜色类型、子采样、平面数量等。名称直接映射到 C API，因此请查阅 C API 以获取更详细的信息。"
+
+#: ../../pythonreference.rst:553
+msgid "A unique *id* identifying the format."
+msgstr "标识格式的唯一 *id*。"
+
+#: ../../pythonreference.rst:557
+msgid "A human readable name of the format."
+msgstr "格式的人类可读名称。"
+
+#: ../../pythonreference.rst:561
+msgid "Which group of colorspaces the format describes."
+msgstr "格式描述的色彩空间组。"
+
+#: ../../pythonreference.rst:565 ../../pythonreference.rst:609
+#: ../../pythonreference.rst:702
+msgid "If the format is integer or floating point based."
+msgstr "格式是基于整数还是浮点数。"
+
+#: ../../pythonreference.rst:569 ../../pythonreference.rst:613
+#: ../../pythonreference.rst:706
+msgid "How many bits are used to store one sample in one plane."
+msgstr "一个平面中存储一个采样使用多少位。"
+
+#: ../../pythonreference.rst:573 ../../pythonreference.rst:617
+#: ../../pythonreference.rst:710
+msgid "The actual storage is padded up to 2^n bytes for efficiency."
+msgstr "为了效率，实际存储被填充到 2^n 字节。"
+
+#: ../../pythonreference.rst:577
+msgid ""
+"The subsampling for the second and third plane in the horizontal direction."
+msgstr "第二和第三平面在水平方向上的子采样。"
+
+#: ../../pythonreference.rst:582
+msgid ""
+"The subsampling for the second and third plane in the vertical direction."
+msgstr "第二和第三平面在垂直方向上的子采样。"
+
+#: ../../pythonreference.rst:586
+msgid "The number of planes the format has."
+msgstr "格式的平面数。"
+
+#: ../../pythonreference.rst:590
+msgid "Returns a new format with the given modifications."
+msgstr "返回应用给定修改后的新格式。"
+
+#: ../../pythonreference.rst:592
+msgid ""
+"The only supported attributes that can be replaced are `color_family`, "
+"`sample_type`, `bits_per_sample`, `subsampling_w`, `subsampling_h`."
+msgstr ""
+"唯一支持替换的属性是 "
+"`color_family`、`sample_type`、`bits_per_sample`、`subsampling_w`、`subsampling_h`。"
+
+#: ../../pythonreference.rst:595
+msgid ""
+"The optional `core`-parameter defines on which core the new format should be"
+" registered. This is usually not needed and defaults to the core of the "
+"current environment."
+msgstr "可选的 `core` 参数定义新格式应在哪个核心上注册。这通常不需要，默认为当前环境的核心。"
+
+#: ../../pythonreference.rst:601
+msgid ""
+"Represents an audio clip. The class itself supports indexing and slicing to "
+"perform trim, reverse and selectevery operations. Several operators are also"
+" defined for the AudioNode class: addition appends clips and multiplication "
+"repeats them. Note that slicing and indexing always return a new AudioNode "
+"object and not a AudioFrame."
+msgstr ""
+"表示一个音频剪辑。该类本身支持索引和切片操作来执行裁剪、反转和 selectevery 操作。AudioNode "
+"类还定义了多个运算符：加法追加剪辑，乘法重复剪辑。注意切片和索引始终返回一个新的 AudioNode 对象，而不是 AudioFrame。"
+
+#: ../../pythonreference.rst:621 ../../pythonreference.rst:714
+msgid "A mask of used channels."
+msgstr "已使用通道的掩码。"
+
+#: ../../pythonreference.rst:625 ../../pythonreference.rst:718
+msgid "The number of channels the format has."
+msgstr "格式的通道数。"
+
+#: ../../pythonreference.rst:629
+msgid "Playback sample rate."
+msgstr "播放采样率。"
+
+#: ../../pythonreference.rst:633
+msgid "Returns an AudioFrame from position *n*."
+msgstr "从位置 *n* 返回一个 AudioFrame。"
+
+#: ../../pythonreference.rst:637
+msgid ""
+"Returns a concurrent.futures.Future-object which result will be an "
+"AudioFrame instance or sets the exception thrown when rendering the frame."
+msgstr "返回一个 concurrent.futures.Future 对象，其结果将是一个 AudioFrame 实例，或设置渲染帧时抛出的异常。"
+
+#: ../../pythonreference.rst:644
+msgid "Set the clip to be accessible for output."
+msgstr "设置片段以供输出。"
+
+#: ../../pythonreference.rst:648
+msgid ""
+"Write the whole audio to the specified file handle. It is possible to pipe "
+"to stdout by specifying *sys.stdout* as the file. A WAV or WAVE64 header can"
+" be written by enabling *wav* or *w64* respectively; these options are "
+"mutually exclusive. The current progress can be reported by passing a "
+"callback function of the form *func(current_frame, total_frames)* to "
+"*progress_update*. The *prefetch* argument is only for debugging purposes "
+"and should never need to be changed. The *backlog* argument is only for "
+"debugging purposes and should never need to be changed."
+msgstr ""
+"将整个音频写入指定的文件句柄。可以通过指定 *sys.stdout* 作为文件来管道输出到标准输出。可以通过分别启用 *wav* 或 *w64* 来写入"
+" WAV 或 WAVE64 头；这些选项互斥。可以通过将形如 *func(current_frame, total_frames)* 的回调函数传递给 "
+"*progress_update* 来报告当前进度。*prefetch* 参数仅用于调试目的，不应更改。*backlog* "
+"参数仅用于调试目的，不应更改。"
+
+#: ../../pythonreference.rst:654
+msgid "Added: R74"
+msgstr "新增：R74"
+
+#: ../../pythonreference.rst:658
+msgid ""
+"Returns a generator iterator of all AudioFrames in the clip. It will render "
+"multiple frames concurrently."
+msgstr "返回片段中所有 AudioFrame 的生成器迭代器。它将并发渲染多个帧。"
+
+#: ../../pythonreference.rst:698
+msgid "This class represents an audio frame and all metadata attached to it."
+msgstr "此类表示一个音频帧及其所有附加的元数据。"
+
+#: ../../pythonreference.rst:726
+msgid ""
+"This attribute holds all the frame's properties as a dict. Note that audio "
+"frame properties are fairly non-sensical as a concept for audio due to an "
+"arbitrary number of samples being lumped together and rarely used."
+msgstr "此属性以字典形式保存帧的所有属性。注意音频帧属性作为音频的概念相当不合理，因为任意数量的采样被混在一起且很少使用。"
+
+#: ../../pythonreference.rst:735
+msgid "Returns a pointer to the raw frame data. The data may not be modified."
+msgstr "返回指向原始帧数据的指针。数据不可修改。"
+
+#: ../../pythonreference.rst:739
+msgid ""
+"Returns a pointer to the raw frame data. It may be modified using ctypes or "
+"some other similar python package."
+msgstr "返回指向原始帧数据的指针。可以使用 ctypes 或其他类似的 Python 包进行修改。"
+
+#: ../../pythonreference.rst:748
+msgid "Plugin is a class that represents a loaded plugin and its namespace."
+msgstr "Plugin 是表示已加载插件及其命名空间的类。"
+
+#: ../../pythonreference.rst:752
+msgid "The namespace of the plugin."
+msgstr "插件的命名空间。"
+
+#: ../../pythonreference.rst:756
+msgid "The name string of the plugin."
+msgstr "插件的名称字符串。"
+
+#: ../../pythonreference.rst:760
+msgid "The version of the plugin returned as a PluginVersion tuple."
+msgstr "以 PluginVersion 元组形式返回的插件版本。"
+
+#: ../../pythonreference.rst:764
+msgid ""
+"The main library location of the plugin. Note that internal functions don't "
+"have a plugin path and instead return None."
+msgstr "插件的主库位置。请注意，内部函数没有插件路径，返回 None。"
+
+#: ../../pythonreference.rst:770
+msgid ""
+"Containing all the functions in the plugin, You can access it by calling "
+"*core.<namespace>.functions()*."
+msgstr "包含插件中的所有函数，你可以通过调用 *core.<命名空间>.functions()* 访问。"
+
+#: ../../pythonreference.rst:774
+msgid ""
+"Function is a simple wrapper class for a function provided by a VapourSynth "
+"plugin. Its main purpose is to be called and nothing else."
+msgstr "Function 是 VapourSynth 插件提供的函数的简单封装类。其主要用途就是被调用，仅此而已。"
+
+#: ../../pythonreference.rst:779
+msgid ""
+"The function name. Identical to the string used to register the function."
+msgstr "函数名称。与注册函数时使用的字符串相同。"
+
+#: ../../pythonreference.rst:783
+msgid "The *Plugin* object the function belongs to."
+msgstr "函数所属的 *Plugin* 对象。"
+
+#: ../../pythonreference.rst:787
+msgid ""
+"Raw function signature string. Identical to the string used to register the "
+"function."
+msgstr "原始函数签名字符串。与注册函数时使用的字符串相同。"
+
+#: ../../pythonreference.rst:791
+msgid ""
+"Raw function signature string. Identical to the return type string used "
+"register the function."
+msgstr "原始函数签名字符串。与注册函数时使用的返回类型字符串相同。"
+
+#: ../../pythonreference.rst:795
+msgid "This class represents an environment."
+msgstr "此类表示一个环境。"
+
+#: ../../pythonreference.rst:797
+msgid ""
+"Some editors allow multiple vapoursynth-scripts to run in the same process, "
+"each of them comes with a different Core-instance and their own set of "
+"outputs. Each core-instance with their associated outputs represent their "
+"own environment."
+msgstr ""
+"一些编辑器允许多个 VapourSynth 脚本在同一进程中运行，每个脚本都有不同的 Core 实例和自己的输出集合。每个 Core "
+"实例及其关联的输出代表各自的环境。"
+
+#: ../../pythonreference.rst:800
+msgid ""
+"At any given time, only one environment can be active (in the same context)."
+" This class allows introspection about environments and allows to switch to "
+"them at will."
+msgstr "在任何给定时间，同一上下文中只能有一个环境处于活动状态。此类允许对环境进行内省并允许随意切换。"
+
+#: ../../pythonreference.rst:812
+msgid ""
+"Returns True if the script is _not_ running inside a vsscript-Environment. "
+"If it is running inside a vsscript-Environment, it returns False."
+msgstr "如果脚本不在 vsscript 环境中运行则返回 True。如果在 vsscript 环境中运行则返回 False。"
+
+#: ../../pythonreference.rst:817
+msgid ""
+"Return -1 if the script is not running inside a vsscript-Environment. "
+"Otherwise, it will return the current environment-id."
+msgstr "如果脚本不在 vsscript 环境中运行，返回 -1。否则返回当前环境 ID。"
+
+#: ../../pythonreference.rst:822
+msgid "See is_single()"
+msgstr "参见 is_single()"
+
+#: ../../pythonreference.rst:826
+msgid "Has the environment been destroyed by the underlying application?"
+msgstr "环境是否已被底层应用程序销毁？"
+
+#: ../../pythonreference.rst:830
+msgid "Creates a copy of the environment-object."
+msgstr "创建环境对象的副本。"
+
+#: ../../pythonreference.rst:832 ../../pythonreference.rst:846
+#: ../../pythonreference.rst:855 ../../pythonreference.rst:874
+#: ../../pythonreference.rst:915
+msgid "Added: R51"
+msgstr "新增：R51"
+
+#: ../../pythonreference.rst:836
+msgid ""
+"Returns a context-manager that enables the given environment in the block "
+"enclosed in the with-statement and restores the environment to the one "
+"defined before the with-block has been encountered."
+msgstr "返回一个上下文管理器，在 with 语句包围的代码块中启用给定环境，并在 with 代码块结束后恢复到之前定义的环境。"
+
+#: ../../pythonreference.rst:850
+msgid ""
+"Returns an Environment-object representing the environment the script is "
+"currently running in. It will raise an error if we are currently not inside "
+"any script-environment while vsscript is being used."
+msgstr "返回一个表示脚本当前运行环境的 Environment 对象。如果在使用 vsscript 时当前不在任何脚本环境中，将抛出错误。"
+
+#: ../../pythonreference.rst:853
+msgid "This function is intended for Python-based editors using vsscript."
+msgstr "此函数适用于使用 vsscript 的基于 Python 的编辑器。"
+
+#: ../../pythonreference.rst:859
+msgid ""
+"This class is intended for subclassing by custom Script-Runners and Editors."
+" Normal users don't need this class. Most methods implemented here have "
+"corresponding APIs in other parts of this module."
+msgstr "此类旨在由自定义脚本运行器和编辑器进行子类化。普通用户不需要此类。这里实现的大多数方法在此模块的其他部分都有对应的 API。"
+
+#: ../../pythonreference.rst:862
+msgid ""
+"An instance of this class controls which environment is activated in the "
+"current context. The exact meaning of \"context\" is defined by the concrete"
+" EnvironmentPolicy. A environment is represented by a "
+":class:`EnvironmentData`-object."
+msgstr ""
+"此类的实例控制在当前上下文中激活哪个环境。「上下文」的确切含义由具体的 EnvironmentPolicy 定义。环境由 "
+":class:`EnvironmentData` 对象表示。"
+
+#: ../../pythonreference.rst:865
+msgid ""
+"To use this class, first create a subclass and then use "
+":func:`register_policy` to get VapourSynth to use your policy. This must "
+"happen before vapoursynth is first used. VapourSynth will automatically "
+"register an internal policy if it needs one. The subclass must be weak-"
+"referenciable!"
+msgstr ""
+"要使用此类，首先创建一个子类，然后使用 :func:`register_policy` 让 VapourSynth 使用你的策略。这必须在首次使用 "
+"VapourSynth 之前完成。如果需要，VapourSynth 会自动注册一个内部策略。子类必须是可弱引用的！"
+
+#: ../../pythonreference.rst:868
+msgid ""
+"Once the method :meth:`on_policy_registered` has been called, the policy is "
+"responsible for creating and managing environments."
+msgstr "一旦调用了 :meth:`on_policy_registered` 方法，策略就负责创建和管理环境。"
+
+#: ../../pythonreference.rst:870
+msgid ""
+"Special considerations have been made to ensure the functions of class "
+"cannot be abused. You cannot retrieve the current running policy yourself. "
+"The additional API exposed by \"on_policy_registered\" is only valid if the "
+"policy has been registered. Once the policy is unregistered, all calls to "
+"the additional API will fail with a RuntimeError."
+msgstr ""
+"已做出特殊考虑以确保类的函数不会被滥用。你无法自行获取当前运行的策略。\"on_policy_registered\" 暴露的额外 API "
+"仅在策略已注册时有效。一旦策略被注销，所有对额外 API 的调用都将失败并抛出 RuntimeError。"
+
+#: ../../pythonreference.rst:878
+msgid ""
+"This method is called when the policy has successfully been registered. It "
+"proivdes additional internal methods that are hidden as they are useless and"
+" or harmful unless you implement your own policy."
+msgstr "此方法在策略成功注册后调用。它提供了额外的内部方法，这些方法是隐藏的，因为除非你实现自己的策略，否则它们是无用的甚至有害的。"
+
+#: ../../pythonreference.rst:881
+msgid ""
+"This is a :class:`EnvironmentPolicyAPI`-object that exposes additional API"
+msgstr "这是一个暴露额外 API 的 :class:`EnvironmentPolicyAPI` 对象"
+
+#: ../../pythonreference.rst:885
+msgid ""
+"This method is called once the python-process exits or when "
+"unregister_policy is called by the environment-policy. This allows the "
+"policy to free the resources used by the policy."
+msgstr "此方法在 Python 进程退出或环境策略调用 unregister_policy 时调用。这允许策略释放所使用的资源。"
+
+#: ../../pythonreference.rst:890
+msgid ""
+"This method is called by the module to detect which environment is currently"
+" running in the current context. If None is returned, it means that no "
+"environment is currently active."
+msgstr "此方法由模块调用以检测当前上下文中正在运行的环境。如果返回 None，表示当前没有活动的环境。"
+
+#: ../../pythonreference.rst
+msgid "Returns"
+msgstr "返回"
+
+#: ../../pythonreference.rst:892
+msgid ""
+"An :class:`EnvironmentData`-object representing the currently active "
+"environment in the current context."
+msgstr "表示当前上下文中当前活动环境的 :class:`EnvironmentData` 对象。"
+
+#: ../../pythonreference.rst:896
+msgid ""
+"This method is called by the module to change the currently active "
+"environment. If None is passed to this function the policy may switch to "
+"another environment of its choosing."
+msgstr "此方法由模块调用以更改当前活动的环境。如果向此函数传递 None，策略可以切换到它选择的另一个环境。"
+
+#: ../../pythonreference.rst:898
+msgid ""
+"Note: The function is responsible to check whether or not the environment is"
+" alive. If a dead environment is passed, it should act like None has been "
+"passed instead of the dead environment but must never error."
+msgstr "注意：该函数负责检查环境是否存活。如果传递了一个已死亡的环境，它应该表现得像传递了 None 而不是已死亡的环境，但绝不能报错。"
+
+#: ../../pythonreference.rst:900
+msgid "The :class:`EnvironmentData` to enable in the current context."
+msgstr "要在当前上下文中启用的 :class:`EnvironmentData`。"
+
+#: ../../pythonreference.rst:901
+msgid "The environment that was enabled previously."
+msgstr "之前启用的环境。"
+
+#: ../../pythonreference.rst:905
+msgid "Is the current environment still active and managed by the policy."
+msgstr "当前环境是否仍由策略管理并处于活动状态。"
+
+#: ../../pythonreference.rst:907
+msgid ""
+"The default implementation checks if "
+"`EnvironmentPolicyAPI.destroy_environment` has been called on the "
+"environment."
+msgstr "默认实现检查是否已在环境上调用 `EnvironmentPolicyAPI.destroy_environment`。"
+
+#: ../../pythonreference.rst:912
+msgid ""
+"This class is intended to be used by custom Script-Runners and Editors. An "
+"instance of this class exposes an additional API. The methods are bound to a"
+" specific :class:`EnvironmentPolicy`-instance and will only work if the "
+"policy is currently registered."
+msgstr ""
+"此类旨在由自定义脚本运行器和编辑器使用。此类的实例公开了额外的 API。方法绑定到特定的 :class:`EnvironmentPolicy` "
+"实例，仅在策略当前已注册时有效。"
+
+#: ../../pythonreference.rst:919
+msgid ""
+"Creates a new :class:`Environment`-object bound to the passed environment-"
+"id."
+msgstr "创建绑定到传入环境 ID 的新 :class:`Environment` 对象。"
+
+#: ../../pythonreference.rst:923
+msgid ""
+"This function does not check if the id corresponds to a live environment as "
+"the caller is expected to know which environments are active."
+msgstr "此函数不检查 id 是否对应于活动环境，因为调用者应该知道哪些环境是活动的。"
+
+#: ../../pythonreference.rst:927
+msgid ""
+"Returns a :class:`Environment` that is used by the wrapper for context "
+"sensitive data used by VapourSynth. For example it holds the currently "
+"active core object as well as the currently registered outputs."
+msgstr ""
+"返回一个 :class:`Environment`，用于 VapourSynth "
+"使用的上下文敏感数据的封装。例如，它保存当前活动的核心对象以及当前注册的输出。"
+
+#: ../../pythonreference.rst:932
+msgid "This function sets the logger for the given environment."
+msgstr "此函数为给定环境设置日志记录器。"
+
+#: ../../pythonreference.rst:934
+msgid ""
+"This logger is a callback function that accepts two parameters: Level, which"
+" is an instance of vs.MessageType and a string containing the log message."
+msgstr "此日志记录器是一个回调函数，接受两个参数：Level（vs.MessageType 的实例）和包含日志消息的字符串。"
+
+#: ../../pythonreference.rst:938
+msgid ""
+"Marks an environment as destroyed. Older environment-policy implementations "
+"that don't use this function still work."
+msgstr "将环境标记为已销毁。不使用此函数的旧环境策略实现仍然有效。"
+
+#: ../../pythonreference.rst:940
+msgid ""
+"Either EnvironmentPolicy.is_alive must be overridden or this method be used "
+"to mark the environment as destroyed."
+msgstr "必须覆盖 EnvironmentPolicy.is_alive 或使用此方法将环境标记为已销毁。"
+
+#: ../../pythonreference.rst:942
+msgid "Added: R52"
+msgstr "新增：R52"
+
+#: ../../pythonreference.rst:946
+msgid ""
+"Unregisters the policy it is bound to and allows another policy to be "
+"registered."
+msgstr "取消注册绑定的策略，并允许注册另一个策略。"
+
+#: ../../pythonreference.rst:950
+msgid "Exposes getVapoursynthAPI to python. Returns a ctypes.c_void_p."
+msgstr "将 getVapoursynthAPI 暴露给 Python。返回 ctypes.c_void_p。"
+
+#: ../../pythonreference.rst:952 ../../pythonreference.rst:960
+msgid ""
+"Access to this function is provisional and might be removed if it is abused "
+"too much."
+msgstr "此函数的访问权限是临时的，如果滥用可能会被移除。"
+
+#: ../../pythonreference.rst:954 ../../pythonreference.rst:962
+msgid "Added: R62"
+msgstr "新增：R62"
+
+#: ../../pythonreference.rst:958
+msgid ""
+"Returns a ctypes.c_void_p pointing to the `Core*`-object that powers the "
+"environment."
+msgstr "返回指向驱动环境的 `Core*` 对象的 ctypes.c_void_p。"
+
+#: ../../pythonreference.rst:966
+msgid ""
+"This function is intended for use by custom Script-Runners and Editors. It "
+"installs your custom :class:`EnvironmentPolicy`. This function only works if"
+" no other policy has been installed."
+msgstr ""
+"此函数旨在由自定义脚本运行器和编辑器使用。它安装你的自定义 :class:`EnvironmentPolicy`。此函数仅在没有安装其他策略时有效。"
+
+#: ../../pythonreference.rst:969
+msgid ""
+"If no policy is installed, the first environment-sensitive call will "
+"automatically register an internal policy."
+msgstr "如果未安装策略，第一个环境敏感的调用将自动注册一个内部策略。"
+
+#: ../../pythonreference.rst:971 ../../pythonreference.rst:998
+#: ../../pythonreference.rst:1009
+msgid "Added: R50"
+msgstr "新增：R50"
+
+#: ../../pythonreference.rst:975
+msgid ""
+"This must be done before VapourSynth is used in any way. Here is a non-"
+"exhaustive list that automatically register a policy:"
+msgstr "这必须在以任何方式使用 VapourSynth 之前完成。以下是自动注册策略的非详尽列表："
+
+#: ../../pythonreference.rst:977
+msgid "Using \"vsscript_init\" in \"VSScript.h\""
+msgstr "使用 \"VSScript.h\" 中的 \"vsscript_init\""
+
+#: ../../pythonreference.rst:978
+msgid "Using :func:`get_outputs`"
+msgstr "使用 :func:`get_outputs`"
+
+#: ../../pythonreference.rst:979
+msgid "Using :func:`get_output`"
+msgstr "使用 :func:`get_output`"
+
+#: ../../pythonreference.rst:980
+msgid "Using :func:`clear_output`"
+msgstr "使用 :func:`clear_output`"
+
+#: ../../pythonreference.rst:981
+msgid "Using :func:`clear_outputs`"
+msgstr "使用 :func:`clear_outputs`"
+
+#: ../../pythonreference.rst:982
+msgid "Using :func:`get_current_environment`"
+msgstr "使用 :func:`get_current_environment`"
+
+#: ../../pythonreference.rst:983
+msgid "Accessing any attribute of :attr:`core`"
+msgstr "访问 :attr:`core` 的任何属性"
+
+#: ../../pythonreference.rst:988
+msgid "Tries to enable introspection. Returns true if it succeeds."
+msgstr "尝试启用内省。成功则返回 true。"
+
+#: ../../pythonreference.rst:990
+msgid "If not passed it will use the newest stable introspection-api."
+msgstr "如果不传入将使用最新的稳定内省 API。"
+
+#: ../../pythonreference.rst:996
+msgid ""
+"This function is intended for subclassing by custom Script-Runners and "
+"Editors. This function checks if a :class:`EnvironmentPolicy` has been "
+"installed."
+msgstr "此函数旨在由自定义脚本运行器和编辑器使用。此函数检查是否已安装 :class:`EnvironmentPolicy`。"
+
+#: ../../pythonreference.rst:1002
+msgid ""
+"Internal class that stores the context sensitive data that VapourSynth "
+"needs. It is an opaque object whose attributes you cannot access directly."
+msgstr "存储 VapourSynth 所需的上下文敏感数据的内部类。它是一个不透明对象，你无法直接访问其属性。"
+
+#: ../../pythonreference.rst:1004
+msgid ""
+"A normal user has no way of getting an instance of this object. You can only"
+" encounter EnvironmentData-objects if you work with EnvironmentPolicies."
+msgstr "普通用户无法获取此对象的实例。只有在使用 EnvironmentPolicy 时才会遇到 EnvironmentData 对象。"
+
+#: ../../pythonreference.rst:1006
+msgid ""
+"This object is weak-referenciable meaning you can get a callback if the "
+"environment-data object is actually being freed (i.e. no other object holds "
+"an instance to the environment data.)"
+msgstr "此对象是可弱引用的，这意味着你可以在环境数据对象实际被释放时获得回调（即没有其他对象持有环境数据的实例）。"
+
+#: ../../pythonreference.rst:1013
+msgid ""
+"Func is a simple wrapper class for VapourSynth VSFunc objects. Its main "
+"purpose is to be called and manage reference counting."
+msgstr "Func 是 VapourSynth VSFunc 对象的简单包装类。其主要目的是被调用和管理引用计数。"
+
+#: ../../pythonreference.rst:1018
+msgid ""
+"The standard exception class. This exception is thrown on most errors "
+"encountered in VapourSynth."
+msgstr "标准异常类。VapourSynth 中遇到的大多数错误都会抛出此异常。"
+
+#: ../../pythonreference.rst:1022
+msgid "Constants"
+msgstr "常量"
+
+#: ../../pythonreference.rst:1025
+msgid "Video"
+msgstr "视频"
+
+#: ../../pythonreference.rst:1028
+msgid "Color Family"
+msgstr "色彩族"
+
+#: ../../pythonreference.rst:1030
+msgid ""
+"The color family constants describe groups of formats and the basic way "
+"their color information is stored. You should be familiar with all of them "
+"apart from maybe *YCOCG* and *COMPAT*. The latter is a special junk category"
+" for non-planar formats. These are the declared constants in the module::"
+msgstr ""
+"色彩族常量描述了格式组以及其颜色信息存储的基本方式。你应该熟悉所有这些，也许 *YCOCG* 和 *COMPAT* "
+"除外。后者是非平面格式的特殊杂项类别。以下是模块中声明的常量::"
+
+#: ../../pythonreference.rst:1041
+msgid "Format"
+msgstr "格式"
+
+#: ../../pythonreference.rst:1043
+msgid ""
+"Format constants exactly describe a format. All common and even more "
+"uncommon formats have handy constants predefined so in practice no one "
+"should really need to register one of their own. These values are mostly "
+"used by the resizers to specify which format to convert to. The naming "
+"system is quite simple. First the color family, then the subsampling (only "
+"YUV has it) and after that how many bits per sample in one plane. The "
+"exception to this rule is RGB, which has the bits for all 3 planes added "
+"together. The long list of values::"
+msgstr ""
+"格式常量精确描述一种格式。所有常见甚至更不常见的格式都有预定义的便捷常量，因此实际上没有人真正需要注册自己的格式。这些值主要由缩放器用于指定要转换到的格式。命名系统非常简单：首先是色彩族，然后是子采样（只有"
+" YUV 有），最后是一个平面中每个采样的位数。此规则的例外是 RGB，它将所有 3 个平面的位数加在一起。完整的值列表::"
+
+#: ../../pythonreference.rst:1094
+msgid "Chroma Location"
+msgstr "色度位置"
+
+#: ../../pythonreference.rst:1106
+msgid "Field Based"
+msgstr "场模式"
+
+#: ../../pythonreference.rst:1115
+msgid "Range"
+msgstr "范围"
+
+#: ../../pythonreference.rst:1123
+msgid "Matrix Coefficients"
+msgstr "矩阵系数"
+
+#: ../../pythonreference.rst:1142
+msgid "TransferCharacteristics"
+msgstr "传输特性"
+
+#: ../../pythonreference.rst:1164
+msgid "Color Primaries"
+msgstr "色域原色"
+
+#: ../../pythonreference.rst:1182
+msgid "Audio"
+msgstr "音频"
+
+#: ../../pythonreference.rst:1185
+msgid "Channels"
+msgstr "通道"
+
+#: ../../pythonreference.rst:1216
+msgid "Sample Type"
+msgstr "采样类型"
