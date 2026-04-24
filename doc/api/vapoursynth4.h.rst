@@ -889,15 +889,15 @@ struct VSVideoFormat
 
       See VSColorFamily_.
 
-   .. c:member:: int sampleType
+   .. c:member:: int VSVideoFormat.sampleType
 
       See VSSampleType_.
 
-   .. c:member:: int bitsPerSample
+   .. c:member:: int VSVideoFormat.bitsPerSample
 
       Number of significant bits.
 
-   .. c:member:: int bytesPerSample
+   .. c:member:: int VSVideoFormat.bytesPerSample
 
       Number of bytes needed for a sample. This is always a power of 2 and the
       smallest possible that can fit the number of bits used per sample.
@@ -990,7 +990,7 @@ struct VSAudioInfo
 
    Contains information about a clip.
 
-   .. c:member:: VSAudioFormat format
+   .. c:member:: VSAudioFormat VSAudioInfo.format
 
       Format of the clip. Unlike video the audio format can never change.
 
@@ -1002,7 +1002,7 @@ struct VSAudioInfo
 
       Length of the clip in audio samples.   
 
-   .. c:member:: int numFrames
+   .. c:member:: int VSAudioInfo.numFrames
 
       Length of the clip in audio frames.   
       
@@ -1014,7 +1014,7 @@ struct VSCoreInfo
 
    Contains information about a VSCore_ instance.
 
-   .. c:member:: const char* versionString
+   .. c:member:: const char* VSCoreInfo.versionString
 
       Printable string containing the name of the library, copyright notice,
       core and API versions.
@@ -1027,15 +1027,15 @@ struct VSCoreInfo
 
       Version of the API.
 
-   .. c:member:: int numThreads
+   .. c:member:: int VSCoreInfo.numThreads
 
       Number of worker threads.
 
-   .. c:member:: int64_t maxFramebufferSize
+   .. c:member:: int64_t VSCoreInfo.maxFramebufferSize
 
       The framebuffer cache will be allowed to grow up to this size (bytes) before memory is aggressively reclaimed.
 
-   .. c:member:: int64_t usedFramebufferSize
+   .. c:member:: int64_t VSCoreInfo.usedFramebufferSize
 
       Current size of the framebuffer cache, in bytes.
 
