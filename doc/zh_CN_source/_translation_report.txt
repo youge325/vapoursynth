@@ -1,0 +1,110 @@
+# zh_CN_source generation report
+source_root: D:\Lenovo\vapoursynth\doc
+target_root: D:\Lenovo\vapoursynth\doc\zh_CN_source
+po_root: D:\Lenovo\vapoursynth\doc\locale\zh_CN\LC_MESSAGES
+source_rst_files: 88
+incremental_mode: False
+auto_translate_enabled: True
+auto_translate_backend: deep-translator:GoogleTranslator
+
+## file stats
+file	mode	po_entries	exact_hits	fuzzy_hits	unmatched_entries	auto_translated_lines	remaining_english_lines
+api/vapoursynth4.h.rst	rebuilt	450	341	186	0	442	304
+api/vshelper4.h.rst	rebuilt	33	24	11	0	25	31
+api/vsscript4.h.rst	rebuilt	58	59	2	2	65	9
+apireference.rst	rebuilt	35	28	8	0	18	12
+applications.rst	rebuilt	21	16	0	5	6	0
+functions.rst	rebuilt	5	5	0	0	0	0
+functions/audio/assumesamplerate.rst	rebuilt	0	0	0	0	1	0
+functions/audio/audiogain.rst	rebuilt	3	0	3	0	4	0
+functions/audio/audioloop.rst	rebuilt	2	1	1	0	3	0
+functions/audio/audiomix.rst	rebuilt	10	4	6	0	6	0
+functions/audio/audioreverse.rst	rebuilt	2	1	1	0	2	0
+functions/audio/audiosplice.rst	rebuilt	3	2	1	0	3	0
+functions/audio/audiotrim.rst	rebuilt	2	1	1	0	3	0
+functions/audio/blankaudio.rst	rebuilt	4	1	3	0	3	0
+functions/audio/setaudiocache.rst	rebuilt	1	1	0	0	2	0
+functions/audio/shufflechannels.rst	rebuilt	11	6	5	0	6	0
+functions/audio/splitchannels.rst	rebuilt	1	0	1	0	1	0
+functions/general/loadallplugins.rst	rebuilt	3	2	1	0	3	0
+functions/general/loadplugin.rst	rebuilt	5	2	3	0	3	0
+functions/general/loadpluginavs.rst	rebuilt	10	3	7	0	6	0
+functions/general/setmaxcpu.rst	rebuilt	4	3	1	0	3	0
+functions/video/addborders.rst	rebuilt	1	0	1	0	2	0
+functions/video/assumefps.rst	rebuilt	4	1	3	0	3	0
+functions/video/averageframes.rst	rebuilt	4	1	3	0	5	0
+functions/video/binarize_binarizemask.rst	rebuilt	6	0	6	0	5	0
+functions/video/blankclip.rst	rebuilt	5	1	4	0	5	0
+functions/video/boxblur.rst	rebuilt	1	0	1	0	2	0
+functions/video/cliptoprop.rst	rebuilt	3	1	2	0	3	0
+functions/video/convolution.rst	rebuilt	17	4	13	0	19	0
+functions/video/copyframeprops.rst	rebuilt	2	0	2	0	1	0
+functions/video/crop_cropabs.rst	rebuilt	4	1	3	0	3	0
+functions/video/deflate_inflate.rst	rebuilt	6	0	6	0	13	0
+functions/video/deleteframes.rst	rebuilt	3	3	0	0	1	0
+functions/video/doubleweave.rst	rebuilt	4	2	2	0	2	0
+functions/video/duplicateframes.rst	rebuilt	3	3	0	0	1	0
+functions/video/expr.rst	rebuilt	22	9	13	0	18	1
+functions/video/flipvertical_fliphorizontal.rst	rebuilt	1	1	0	0	2	0
+functions/video/frameeval.rst	rebuilt	7	0	7	0	7	2
+functions/video/freezeframes.rst	rebuilt	4	2	2	0	2	0
+functions/video/interleave.rst	rebuilt	4	0	4	0	4	0
+functions/video/invert_invertmask.rst	rebuilt	3	0	3	0	4	0
+functions/video/levels.rst	rebuilt	9	4	5	0	6	0
+functions/video/limiter.rst	rebuilt	5	3	2	0	5	0
+functions/video/loop.rst	rebuilt	2	1	1	0	3	0
+functions/video/lut.rst	rebuilt	4	2	2	0	4	0
+functions/video/lut2.rst	rebuilt	5	2	3	0	3	0
+functions/video/makediff.rst	rebuilt	2	1	1	0	2	0
+functions/video/makefulldiff.rst	rebuilt	2	1	1	0	2	0
+functions/video/maskedmerge.rst	rebuilt	7	3	4	0	4	0
+functions/video/median.rst	rebuilt	3	0	3	0	3	0
+functions/video/merge.rst	rebuilt	6	4	2	0	2	0
+functions/video/mergediff.rst	rebuilt	2	1	1	0	2	0
+functions/video/mergefulldiff.rst	rebuilt	2	1	1	0	2	0
+functions/video/minimum_maximum.rst	rebuilt	8	0	8	0	18	0
+functions/video/modifyframe.rst	rebuilt	6	2	4	0	7	2
+functions/video/pemverifier.rst	rebuilt	2	0	2	0	3	0
+functions/video/planestats.rst	rebuilt	3	0	3	0	2	0
+functions/video/premultiply.rst	rebuilt	2	0	2	0	2	0
+functions/video/prewitt_sobel.rst	rebuilt	5	2	3	0	5	0
+functions/video/proptoclip.rst	rebuilt	2	1	1	0	3	0
+functions/video/removeframeprops.rst	rebuilt	2	0	2	0	2	0
+functions/video/resize.rst	rebuilt	51	35	16	0	128	27
+functions/video/reverse.rst	rebuilt	2	1	1	0	2	0
+functions/video/selectevery.rst	rebuilt	8	6	2	0	3	0
+functions/video/separatefields.rst	rebuilt	5	1	4	0	3	0
+functions/video/setfieldbased.rst	rebuilt	6	3	3	0	3	0
+functions/video/setframeprop.rst	rebuilt	4	2	2	0	3	0
+functions/video/setframeprops.rst	rebuilt	2	1	1	0	2	0
+functions/video/setvideocache.rst	rebuilt	4	0	4	0	3	0
+functions/video/shuffleplanes.rst	rebuilt	11	4	7	0	8	0
+functions/video/splice.rst	rebuilt	3	2	1	0	3	0
+functions/video/splitplanes.rst	rebuilt	1	0	1	0	2	0
+functions/video/stackvertical_stackhorizontal.rst	rebuilt	2	1	1	0	2	0
+functions/video/text/clipinfo.rst	rebuilt	2	2	0	0	2	0
+functions/video/text/coreinfo.rst	rebuilt	2	1	1	0	1	0
+functions/video/text/framenum.rst	rebuilt	2	2	0	0	1	0
+functions/video/text/frameprops.rst	rebuilt	2	1	1	0	2	0
+functions/video/text/text.rst	rebuilt	6	5	4	0	5	0
+functions/video/transpose.rst	rebuilt	2	1	1	0	3	0
+functions/video/trim.rst	rebuilt	3	1	2	0	4	0
+functions/video/turn180.rst	rebuilt	1	1	0	0	1	0
+gettingstarted.rst	rebuilt	18	13	5	0	6	0
+index.rst	rebuilt	3	3	0	0	0	2
+installation.rst	rebuilt	117	46	6	72	70	2
+introduction.rst	rebuilt	12	6	6	0	6	0
+output.rst	rebuilt	35	29	6	0	11	1
+packaging.rst	rebuilt	0	0	0	0	48	8
+pythonreference.rst	rebuilt	238	229	77	2	98	5
+
+## summary
+generated_files: 0
+rebuilt_files: 88
+updated_files: 0
+preserved_files: 0
+total_exact_replacement_hits: 953
+total_fuzzy_replacement_hits: 519
+total_unmatched_entries: 81
+total_auto_translated_lines: 1207
+total_remaining_english_lines: 406

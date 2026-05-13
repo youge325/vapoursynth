@@ -13,6 +13,7 @@
 # serve to show the default.
 
 from pathlib import Path
+import os
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -80,7 +81,8 @@ language = "en"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ["_build"]
+# Exclude generated output and translated source tree from root-source builds.
+exclude_patterns = ["_build", "zh_CN_source"]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 # default_role = None
@@ -264,5 +266,9 @@ texinfo_documents = [
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 # texinfo_show_urls = 'footnote'
 
-locale_dirs = ["locale/"]
+# Disable locale catalog loading for direct-rst Chinese build.
+if os.environ.get("VAPOURSYNTH_DISABLE_LOCALE") == "1":
+    locale_dirs = []
+else:
+    locale_dirs = ["locale/"]
 gettext_compact = True
